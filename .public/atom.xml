@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[Gary B. Genett]]></title>
+  <subtitle><![CDATA[welcome to my mind]]></subtitle>
+  <link href="//atom.xml" rel="self"/>
+  <link href="http://www.garybgenett.net//"/>
+  <updated>2015-07-24T19:17:47.000Z</updated>
+  <id>http://www.garybgenett.net//</id>
+  
+  <author>
+    <name><![CDATA[Gary B. Genett]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Organizations]]></title>
+    <link href="http://www.garybgenett.net/2015/07/24/2015-07-24T12-16-11-0700/"/>
+    <id>http://www.garybgenett.net/2015/07/24/2015-07-24T12-16-11-0700/</id>
+    <published>2015-07-24T07:00:00.000Z</published>
+    <updated>2015-07-24T19:17:47.000Z</updated>
+    <content type="html"><![CDATA[<p>“Any organization of people of sufficient size will become disorganized.”</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>“Any organization of people of sufficient size will become disorganized.”</p>
+]]>
+    </summary>
+    
+      <category term="Gary B. Genett" scheme="http://www.garybgenett.net/tags/Gary-B-Genett/"/>
+    
+      <category term="Quotes" scheme="http://www.garybgenett.net/categories/Quotes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Imagination]]></title>
+    <link href="http://www.garybgenett.net/2015/04/16/2015-05-15T08-20-46-0700/"/>
+    <id>http://www.garybgenett.net/2015/04/16/2015-05-15T08-20-46-0700/</id>
+    <published>2015-04-16T07:00:00.000Z</published>
+    <updated>2015-07-24T17:14:34.000Z</updated>
+    <content type="html"><![CDATA[<p>“We can try to imagine all the things we can imagine, but we can’t imagine the things we can’t imagine.”</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>“We can try to imagine all the things we can imagine, but we can’t imagine the things we can’t imagine.”</p>
+]]>
+    </summary>
+    
+      <category term="Gary B. Genett" scheme="http://www.garybgenett.net/tags/Gary-B-Genett/"/>
+    
+      <category term="Quotes" scheme="http://www.garybgenett.net/categories/Quotes/"/>
+    
+  </entry>
+  
+</feed>
