@@ -9,7 +9,7 @@ GARY B. GENETT
 +=================+==========================================================+
 |  []             | -   GNU/Linux (Funtoo/Gentoo, Debian)                    |
 |                 | -   Scripting & automation (shell, Make, Perl)           |
-| February, 2015  | -   Performance & functional testing, development        |
+| July, 2015      | -   Performance & functional testing, development        |
 |                 |     processes                                            |
 |                 | -   TCP/IP protocols & web applications, scalable        |
 |                 |     architectures & virtualization                       |
@@ -31,7 +31,24 @@ GARY B. GENETT
 
 F5 Networks, Seattle WA
 
-New Product Introduction Engineer, 2009-Present
+Senior Product Management Engineer, 2015-Present
+
+-   Business and technical interface between market / customers and rest
+    of company, particularly product development
+-   Assess market and customer needs, define and prioritize product
+    requirements, articulate business cases and drivers to executive
+    audience, strong ownership and advocacy for assigned areas of
+    product portfolio
+-   First member of new, dedicated cloud / programmability team;
+    responsible for rapidly bringing team members up-to-speed on company
+    processes and internals in addition to product capabilities
+-   Lead role in defining integrated future for complete programmability
+    suite, identifying opportunities and gaps, prioritizing investments
+    and evangelization at executive level
+-   Acting “face of programmability” for company, both internally and
+    externally
+
+New Product Introduction Engineer, 2009-2015
 
 -   Business and technical interface between product management /
     product development and entire global services organization
