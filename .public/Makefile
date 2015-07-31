@@ -83,8 +83,8 @@ override SITE_WIDGETS			:= \
 override SITE_MENU			:= \
 	Home| \
 	Resume|resume.html \
-	Writing|writing \
 	Projects|projects \
+	Writing|writing \
 	$(SITE_WIDGETS_ARCHIVES)|archives
 
 override SITE_SKIPS			:= \
