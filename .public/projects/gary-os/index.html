@@ -95,7 +95,7 @@ ga('send', 'pageview');
         <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <script>function search_submit(){ document.search_form.q.value = "site:http://www.garybgenett.net " + document.search_form.q.value; return true; }</script><form onsubmit="search_submit();" name="search_form" action="https://duckduckgo.com/" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="kp"	value="-1"> <input type="hidden" name="kz"	value="-1"> <input type="hidden" name="kv"	value="1"> <input type="hidden" name="kae"	value="d"> <input type="hidden" name="ko"	value="1"></form>
+        <script>function search_submit() { window.location.href = "https://duckduckgo.com?kp=-1&kz=-1&kv=1&kae=d&ko=1&q=site:http://www.garybgenett.net " + document.search_form.q.value; }</script><form action="javascript:search_submit();" name="search_form" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button></form>
       </div>
     </div>
   </div>
@@ -104,7 +104,7 @@ ga('send', 'pageview');
         <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/projects/gary-os/index.html" class="article-date">
-  <time datetime="2015-07-24T20:03:52.090Z" itemprop="datePublished">2015-07-24</time>
+  <time datetime="2015-07-31T06:01:45.321Z" itemprop="datePublished">2015-07-30</time>
 </a>
     
   </div>
@@ -670,7 +670,7 @@ ga('send', 'pageview');
 <p>Wireless networks can then be scanned and configured:</p>
 <ul>
 <li><p>e.g. …</p>
-<figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">nmcli <span class="literal">device</span> wifi rescan</span><br><span class="line">nmcli <span class="literal">device</span> wifi list</span><br><span class="line">nmcli <span class="literal">device</span> wifi connect [ssid] <span class="literal">password</span> [<span class="literal">password</span>]</span><br><span class="line">nmcli <span class="literal">device</span> <span class="literal">status</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">nmcli</span> <span class="tag">device</span> <span class="tag">wifi</span> <span class="tag">rescan</span></span><br><span class="line"><span class="tag">nmcli</span> <span class="tag">device</span> <span class="tag">wifi</span> <span class="tag">list</span></span><br><span class="line"><span class="tag">nmcli</span> <span class="tag">device</span> <span class="tag">wifi</span> <span class="tag">connect</span> <span class="attr_selector">[ssid]</span> <span class="tag">password</span> <span class="attr_selector">[password]</span></span><br><span class="line"><span class="tag">nmcli</span> <span class="tag">device</span> <span class="tag">status</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>The Funtoo OpenRC scripts have all sorts of advanced networking features<br>and options, covered in depth:<br><a href="http://www.funtoo.org/Networking" target="_blank" rel="external">http://www.funtoo.org/Networking</a></p>
@@ -943,7 +943,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.garybgenett.net/projects/gary-os/index.html" data-id="cici2315s000echj5j15g4qr2" class="article-share-link">Share</a>
+      <a data-url="http://www.garybgenett.net/projects/gary-os/index.html" data-id="cicr8315r000ez3j51a5em690" class="article-share-link">Share</a>
       
       
     </footer>

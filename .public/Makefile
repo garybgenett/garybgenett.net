@@ -21,7 +21,7 @@ override LOG_COUNT			:= 10
 ########################################
 
 override SITE_SOURCE			:= $(COMPOSER_FULLDIR)
-override SITE_PUBLIC			:= $(COMPOSER_FULLDIR)/.public
+override SITE_PUBLIC			:= $(SITE_SOURCE)/.public
 override SITE_SEARCH			:= 1
 
 override SITE_TITLE			:= "Gary B. Genett"

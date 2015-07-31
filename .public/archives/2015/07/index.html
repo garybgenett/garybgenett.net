@@ -76,7 +76,7 @@ ga('send', 'pageview');
         <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <script>function search_submit(){ document.search_form.q.value = "site:http://www.garybgenett.net " + document.search_form.q.value; return true; }</script><form onsubmit="search_submit();" name="search_form" action="https://duckduckgo.com/" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="kp"	value="-1"> <input type="hidden" name="kz"	value="-1"> <input type="hidden" name="kv"	value="1"> <input type="hidden" name="kae"	value="d"> <input type="hidden" name="ko"	value="1"></form>
+        <script>function search_submit() { window.location.href = "https://duckduckgo.com?kp=-1&kz=-1&kv=1&kae=d&ko=1&q=site:http://www.garybgenett.net " + document.search_form.q.value; }</script><form action="javascript:search_submit();" name="search_form" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button></form>
       </div>
     </div>
   </div>
