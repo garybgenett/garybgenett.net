@@ -6,7 +6,7 @@ override COMPOSER_TEACHER := $(abspath $(COMPOSER_ABSPATH)/../Makefile)
 override COMPOSER_FULLDIR := $(COMPOSER_ABSPATH)
 
 override COMPOSER_TARGETS ?=
-override COMPOSER_SUBDIRS ?= resume
+override COMPOSER_SUBDIRS ?= resume projects
 override COMPOSER_DEPENDS ?=
 
 ########################################
@@ -26,7 +26,7 @@ override SITE_SEARCH			:= 1
 
 override SITE_TITLE			:= "Gary B. Genett"
 override SITE_SUBTITLE			:= welcome to my mind
-override SITE_DESCRIPTION		:= A collection of a things Gary B. Genett
+override SITE_DESCRIPTION		:= A collection of all things Gary B. Genett
 override SITE_EXCERPT			:= Please expand on that...
 override SITE_AUTHOR			:= Gary B. Genett
 override SITE_LANGUAGE			:= en
@@ -90,16 +90,8 @@ override SITE_MENU			:= \
 override SITE_SKIPS			:= \
 	CNAME \
 	\
-	resume.docx \
-	resume.html \
-	resume.pdf \
-	resume.txt \
-	resume/index.html \
-	resume/resume.docx \
-	resume/resume.html \
-	resume/resume.md \
-	resume/resume.pdf \
-	resume/resume.txt
+	resume.** \
+	resume/**
 
 ########################################
 
@@ -107,7 +99,7 @@ include $(COMPOSER_TEACHER)
 .DEFAULT_GOAL := generate
 
 .PHONY: read fire
-read: generate serve
+read: generate server
 fire: publish deploy
 
 ################################################################################
@@ -129,8 +121,8 @@ endef
 generate: subdirs
 generate: HEXO_WORK_DONE
 
-.PHONY: serve
-serve: HEXO_WORK_serve
+.PHONY: server
+server: HEXO_WORK_server
 
 .PHONY: publish
 publish:

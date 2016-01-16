@@ -9,6 +9,7 @@ override COMPOSER_DEPENDS ?=
 
 # >> VARIABLES
 override LVL ?=
+override MGN ?= 1.0in
 
 # >> INCLUDE
 include $(COMPOSER_TEACHER)
