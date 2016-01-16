@@ -1,1 +1,0 @@
-../../../../coding/composer/LICENSE.md

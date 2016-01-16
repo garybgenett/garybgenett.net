@@ -6,7 +6,7 @@ override COMPOSER_TEACHER := $(abspath $(COMPOSER_ABSPATH)/../Makefile)
 override COMPOSER_FULLDIR := $(COMPOSER_ABSPATH)
 
 override COMPOSER_TARGETS ?=
-override COMPOSER_SUBDIRS ?= resume
+override COMPOSER_SUBDIRS ?= resume projects
 override COMPOSER_DEPENDS ?=
 
 ########################################

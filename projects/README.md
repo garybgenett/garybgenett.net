@@ -1,7 +1,7 @@
-[Resume]: ../resume.html
+[Resume]: resume.html
 [Tresobis]: http://www.tresobis.org
-[Composer]: ./composer
-[GaryOS]: ./gary-os
+[Composer]: projects/composer
+[GaryOS]: projects/gary-os
 [Tasks]: https://github.com/garybgenett/tasks
 [DWM multimon]: http://dwm.suckless.org/patches/multimon
 
