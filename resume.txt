@@ -3,166 +3,170 @@
 GARY B. GENETT
 
 
-+-----------------+----------------------------------------------------------+
-| Seattle WA, USA | http://www.garybgenett.net/resume.pdf |                  |
-|                 | me@garybgenett.net | 206-391-6606                        |
-+=================+==========================================================+
-|  []             | -   GNU/Linux (Funtoo/Gentoo, Debian)                    |
-|                 | -   Scripting & automation (shell, Make, Perl)           |
-| July, 2015      | -   Performance & functional testing, development        |
-|                 |     processes                                            |
-|                 | -   TCP/IP protocols & web applications, scalable        |
-|                 |     architectures & virtualization                       |
-|                 | -   F5 BIG-IP design, configuration & programming (TMSH, |
-|                 |     iControl, iRules)                                    |
-|                 | -   Systems integration & business requirements          |
-|                 |     implementation                                       |
-|                 | -   Documentation: process, methodology, briefs &        |
-|                 |     training                                             |
-|                 | -   Open source projects:                                |
-|                 |     -   Composer – simple but powerful CMS based on      |
-|                 |         Pandoc and Make[1]                               |
-|                 |     -   GaryOS – an entire GNU/Linux system in a single  |
-|                 |         bootable file[2]                                 |
-|                 |     -   DWM multimon – contributed multi-monitor patches |
-|                 |         to DWM[3]                                        |
-+-----------------+----------------------------------------------------------+
++--------------------------------------------------------------------------+
+| me@garybgenett.net | 206-391-6606 | Seattle WA, USA                      |
++==========================================================================+
+| SENIOR TECHNOLOGIST WITH 18 YEARS CROSS-FUNCTIONAL EXPERIENCE SOLVING    |
+| COMPLEX CHALLENGES.                                                      |
+|                                                                          |
+| -   Build and manage all aspects of GNU/Linux                            |
+|     -   Intimate familiarity with Funtoo/Gentoo and Debian               |
+|     -   Grub/Linux kernel booting and package tuning in optimized or     |
+|         constrained environments                                         |
+| -   General-purpose programming/scripting and automation                 |
+|     -   Expertise in Shell (particularly Bash), Make and Perl            |
+|     -   Demonstrated ability to rapidly learn new languages as needed    |
+| -   TCP/IP protocols and web applications, scalable architectures and    |
+|     virtualization                                                       |
+|     -   Fundamental understanding of OSI L1-L7 model, and several major  |
+|         application protocols                                            |
+|     -   Design and implement high-performance application and network    |
+|         environments                                                     |
+| -   Systems integration and business requirements implementation         |
+|     -   High-fidelity translation of challenges into real-world          |
+|         solutions                                                        |
+|     -   Proven history of return on investment from process and system   |
+|         optimization                                                     |
+| -   Performance and functional testing and development processes         |
+|     -   Fluency in all major development models, and modern testing      |
+|         methodologies                                                    |
+|     -   Development team leadership and guidance, including accurate     |
+|         resourcing and timelines                                         |
+| -   Knowledge transfer to both business and technical audiences          |
+|     -   Documentation types: processes, methodology, briefs, etc.        |
+|     -   Training forums: stand-up presentations, video-based, labs, etc. |
+|     -   Company representative to partner and customer audiences, and at |
+|         industry events                                                  |
++--------------------------------------------------------------------------+
 
 
 F5 Networks, Seattle WA
 
 Senior Product Management Engineer, 2015-Present
 
--   Business and technical interface between market / customers and rest
-    of company, particularly product development
--   Assess market and customer needs, define and prioritize product
-    requirements, articulate business cases and drivers to executive
-    audience, strong ownership and advocacy for assigned areas of
-    product portfolio
--   First member of new, dedicated cloud / programmability team;
-    responsible for rapidly bringing team members up-to-speed on company
-    processes and internals in addition to product capabilities
+Demonstrated product leadership as primary interface between customers
+and rest of company, particularly product development. Assessed market
+and customer needs, defined and prioritized product requirements,
+articulated business cases and drivers to executive audience, and
+ultimately owned and advocated for all responsible areas of product
+portfolio.
+
+-   First member of new, dedicated cloud/orchestration team; brought
+    team to full speed in under a year, amid changing company
+    organizational dynamics and labyrinthine product history and
+    capabilities
 -   Lead role in defining integrated future for complete programmability
-    suite, identifying opportunities and gaps, prioritizing investments
-    and evangelization at executive level
--   Acting “face of programmability” for company, both internally and
-    externally
+    suite; identified opportunities and gaps, prioritized investments
+    and evangelized at executive level
+-   Acted as “face of programmability” for company, both externally and
+    internally
 
 New Product Introduction Engineer, 2009-2015
 
--   Business and technical interface between product management /
-    product development and entire global services organization
-    (consulting, training, knowledge and support teams)
--   Responsible for readiness of sales and services organizations with
-    all new releases of products or services
+Demonstrated organizational leadership as primary interface between
+product management, product development and global services organization
+(knowledge, training, consulting and support teams). Ensured readiness
+of sales and services organizations before all new releases of products
+or services, through functional testing, documentation and training.
+
 -   Co-focal on one of F5s most significant BIG-IP releases (v11.0.0);
-    focal for DSC/CMI, Plugins 2.0, vCMP, TMSH & iApps
--   Guided internal heuristics engine through initial stages to a
-    maintainable and publicly available tool (iHealth)
--   Special projects go-to, including first two cross-departmental,
-    cross-functional “think tank” projects: upgrades enhancement &
+    responsible for successful release of DSC/CMI, Plugins 2.0, vCMP,
+    TMSH & iApps
+-   Guided heuristics engine through initial stages to a maintainable
+    and publicly available tool (iHealth)
+-   Special projects “go-to”, including first two cross-departmental,
+    cross-functional “think tank” projects: upgrades enhancement and
     operations guide
+-   In particular, contributed “External APIs” and “Deployment and
+    Response Methodologies” sections to the Operations Guide, while
+    collaborating on several sections throughout the document
 -   Pioneered video-based training format, decreasing cost and
-    increasing value (higher retention in less time)
--   Consistent creator/presenter of scalability/internals sessions at
-    both sales and services international conferences
--   On-site customer visits with account teams, acting as a corporate
+    increasing value (higher retention, less time)
+-   Created and presented scalability/internals sessions at both sales
+    and services international conferences
+-   Conducted customer visits with account teams as a corporate
     representative to close or keep business
 
 Field Systems Engineer (Technical Sales), 2007-2009
 
--   Assist with network architecture, planning, provisioning and
-    operations through consultation, training, documentation, custom
-    configurations and iRule development
--   Lead technical resource dedicated to Microsoft, directly supporting
-    thousands of BIG-IPs and one of the world’s largest application
-    environments (MSN)
--   Facilitated triple in customer BIG-IP device count and quadruple in
-    revenue with a double in account team
--   Delivered first two production deployments of revolutionary BIG-IP
-    VIPRION chassis-based architecture: Xbox Live & BOSD
--   Wrote comprehensive BIG-IP monitoring integration documentation and
-    training materials for 3rd party development team
--   Reverse-engineered and automated BIG-IP product installer to provide
-    rapid provisioning
--   Ensured publicly acknowledged success with BIG-IP at MSNBC[4]
+Increased recurring product and services revenue as engineering
+representative on account team. Removed barriers to customer adoption
+with network architecture, planning, provisioning and operations
+recommendations through training, documentation, consultation, custom
+configurations and solution development.
+
+-   Lead technical resource dedicated to Microsoft, supporting thousands
+    of devices in one of the world’s largest application environments
+    (MSN/GNS)
+-   Achieved 3x in customer device count and 4x in revenue with 2x in
+    account team
+-   Delivered first two production deployments of VIPRION chassis-based
+    architecture: Xbox Live & BOSD
+-   Authored comprehensive monitoring integration documentation and
+    training for 3rd party development
+-   Reverse-engineered and automated product installer to provide rapid
+    provisioning
+-   Secured publicly acknowledged success in MSNBC case study
 
 Product Management Engineer, 2004-2006
 
--   Expert-level knowledge of BIG-IP design, architecture and internals
-    through hands-on testing and constant interaction with all levels of
-    product development
--   Provide consultation and guidance to the executive team, product
-    management, product development, services and sales in regards to
-    company vision, product direction and inter-departmental processes,
-    based on business and technical analysis of the marketplace
--   Competitive analysis, both business and technical, spanning the full
-    range of market-awareness to specific feature differentiation,
-    across competitors and products; maintain detailed briefing
-    materials for use by executive team, product management and sales
--   First non-management member of team, helped define role and
-    responsibilities
--   Initial performance testing, competitive analysis and development
-    guidance integrating three acquisition products (FirePass SSL VPN,
-    WebAccelerator and WANJet Optimization)
--   Authored performance testing guide, which remains the foundation for
-    most comprehensive L4-L7 performance testing report in the
-    industry[5]
+Developed expert-level knowledge of product design, architecture and
+internals through hands-on testing and constant interaction with all
+levels of product development. Provided market-based consultation and
+guidance to the executive team and other departments regarding company
+vision, product direction and internal processes. Delivered competitive
+analysis expertise and documentation, spanning the full range of
+market-level drivers to specific feature differentiation across
+competitors and products. Wrote and maintained detailed briefing
+materials for executive team, product management and sales.
+
+-   One of the first members of newly established team; collaborated to
+    define role and responsibilities
+-   Created initial performance testing, competitive analysis and
+    development guidance for the integration of three successive
+    acquisition products (FirePass SSL VPN, WebAccelerator and WANJet
+    Optimization)
+-   Authored performance testing guide, which remained the foundation
+    for most comprehensive L4-L7 performance testing report in the
+    industry
+-   Released public-facing version of internal Perl script to SSL VPN
+    from UNIX-like systems, along with a video demonstration of the SSL
+    VPN process
 
 Network Support Engineer, 2004
 
--   Expert-level consultation and support for BIG-IP as single point of
-    contact for internal and external customers
--   Utilize knowledge and industry-standard tools to rapidly familiarize
-    with new environments and resolve incidents logically and
-    efficiently
--   Diffuse heated situations and provide guidance; earn customer trust
-    and ensure confidence in product/services
--   Identification of product defects and escalation to development in
-    the form of actionable documentation
--   Built first shared lab environment and created web-based checkout
+Delivered expert-level consultation and support for F5 products as
+single point of contact for external and internal customers. Rapidly
+became familiar with new environments and resolved incidents logically
+and efficiently. Diffused heated situations and provided guidance;
+earned customer trust and ensured confidence in products. Identified
+product defects and created actionable documentation for product
+development.
+
+-   Built first shared lab environment and wrote web-based checkout
     system for global accessibility
--   Management go-to for situations requiring heightened attentiveness
+-   Management “go-to” for situations requiring heightened attentiveness
 
 
 MICROS Systems, Seattle WA
 
 Implementation Specialist, 2001-2004
 
--   Design and support mission-critical financial systems in a 24/7
-    environment
--   Hands-on management of customer expectations and experience from
-    pre-sales to ongoing support
--   Directly responsible for largest deployments in Washington state;
-    sole technician for UNIX-based systems
--   Increased revenue and customer loyalty by developing custom
-    solutions using shell scripting, Perl, SQL and a proprietary
-    scripting language
+Designed and supported mission-critical financial systems in 24/7
+customer environments. Managed customer expectations and experience from
+pre-sales to ongoing support.
+
+-   Directly developed and supported largest point-of-sale deployments
+    in Washington state; sole technician for UNIX-based systems
+    processing millions of dollars in transactions daily
+-   Increased revenue and customer loyalty by building custom solutions
+    using Shell, Perl, SQL and a proprietary scripting language
+
+
+Open Source Contributions
+
+-   GaryOS – an entire GNU/Linux system in a single bootable file
+-   Composer – simple but powerful CMS based on Pandoc and Make
+-   DWM multimon – contributed multi-monitor patches to DWM
 
 exit(0);
-
-[1] Composer on GitHub: https://github.com/garybgenett/composer
-
-[2] GaryOS on SourceForge: http://sourceforge.net/projects/gary-os
-
-Source code on GitHub: https://github.com/garybgenett/gary-os
-
-[3] DWM multimon patches: http://dwm.suckless.org/patches/multimon
-
-[4] F5 MSNBC Case Study:
-http://www.f5.com/pdf/case-studies/msnbc-election-day-cs.pdf
-
-Archived for posterity:
-http://www.garybgenett.net/resume/msnbc-election-day-cs.pdf
-
-[5] F5 Performance Testing Guide:
-http://devcentral.f5.com/downloads/f5/creating-performance-test-methodology.pdf
-
-Archived for posterity:
-http://www.garybgenett.net/resume/creating-performance-test-methodology.pdf
-
-Comprehensive testing report (original):
-http://www.garybgenett.net/resume/f5-performance-report-UPDATED.pdf
-
-Comprehensive testing report (current):
-http://www.f5.com/pdf/reports/F5-comparative-performance-report-ADC-2013.pdf
