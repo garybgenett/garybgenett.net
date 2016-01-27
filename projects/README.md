@@ -1,4 +1,4 @@
-[Resume]: resume.html
+[Resume]: Gary_B_Genett-Senior_Technologist-Resume.html
 [Tresobis]: http://www.tresobis.org
 [Composer]: projects/composer
 [GaryOS]: projects/gary-os
