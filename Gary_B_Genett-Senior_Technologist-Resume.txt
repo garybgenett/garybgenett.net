@@ -1,44 +1,49 @@
 
+
 GARY B. GENETT
 
-me@garybgenett.net | 206-391-6606 | Seattle WA, USA
+
++--------------------------------------------------------------------------+
+| me@garybgenett.net | 206-391-6606 | Seattle WA, USA                      |
+|                                                                          |
+| http://www.garybgenett.net/Gary_B_Genett-Senior_Technologist-Resume.pdf  |
++==========================================================================+
+| SENIOR TECHNOLOGIST WITH 15+ YEARS CROSS-FUNCTIONAL EXPERIENCE           |
+|                                                                          |
+| -   TCP/IP protocols and web applications, scalable cloud architectures  |
+|     and virtualization                                                   |
+|     -   Fundamental understanding of OSI L1-L7 model, and several major  |
+|         application protocols                                            |
+|     -   Design and implement high-performance application and network    |
+|         environments                                                     |
+| -   Build and manage all aspects of GNU/Linux                            |
+|     -   Intimate familiarity with Funtoo/Gentoo and Debian               |
+|     -   Grub/Linux kernel booting and package tuning in optimized or     |
+|         constrained environments                                         |
+| -   General-purpose programming/scripting and automation                 |
+|     -   Expertise in Shell (particularly Bash), Make and Perl            |
+|     -   Rapid acquisition of new languages                               |
+| -   Systems integration and business requirements implementation         |
+|     -   High-fidelity translation of challenges into real-world          |
+|         solutions                                                        |
+|     -   Proven history of return on investment from process and system   |
+|         optimization                                                     |
+| -   Performance and functional testing and development processes         |
+|     -   Fluency in all major development models, and modern testing      |
+|         methodologies                                                    |
+|     -   Development team leadership and guidance, including accurate     |
+|         resourcing and timelines                                         |
+| -   Knowledge transfer to both business and technical audiences          |
+|     -   Documentation types: processes, methodology, briefs, etc.        |
+|     -   Training forums: stand-up presentations, video-based, labs, etc. |
+|     -   Company representative to partner and customer audiences, and at |
+|         industry events                                                  |
++--------------------------------------------------------------------------+
 
 
-SENIOR TECHNOLOGIST WITH 15+ YEARS CROSS-FUNCTIONAL EXPERIENCE
+F5 Networks, Seattle WA – 2004-Present
 
--   TCP/IP protocols and web applications, scalable cloud architectures
-    and virtualization
-    -   Fundamental understanding of OSI L1-L7 model, and several major
-        application protocols
-    -   Design and implement high-performance application and network
-        environments
--   Build and manage all aspects of GNU/Linux
-    -   Intimate familiarity with Funtoo/Gentoo and Debian
-    -   Grub/Linux kernel booting and package tuning in optimized or
-        constrained environments
--   General-purpose programming/scripting and automation
-    -   Expertise in Shell (particularly Bash), Make and Perl
-    -   Rapid acquisition of new languages
--   Systems integration and business requirements implementation
-    -   High-fidelity translation of challenges into real-world
-        solutions
-    -   Proven history of return on investment from process and system
-        optimization
--   Performance and functional testing and development processes
-    -   Fluency in all major development models, and modern testing
-        methodologies
-    -   Development team leadership and guidance, including accurate
-        resourcing and timelines
--   Knowledge transfer to both business and technical audiences
-    -   Documentation types: processes, methodology, briefs, etc.
-    -   Training forums: stand-up presentations, video-based, labs, etc.
-    -   Company representative to partner and customer audiences, and at
-      industry events
-
-
-F5 Networks, Seattle WA
-
-Senior Product Management Engineer, 2015-Present
+Senior Product Management Engineer – 2015-Present
 
 Primary interface between customers and rest of company, particularly
 product development. Assessed market and customer needs to define and
@@ -56,7 +61,7 @@ market drivers and business cases to executive audience.
     relationships, influence and expertise, both externally and
     internally
 
-New Product Introduction Engineer, 2009-2015
+New Product Introduction Engineer – 2009-2015
 
 Primary interface between product management, product development and
 global services organization (knowledge, training, consulting and
@@ -78,7 +83,7 @@ testing, documentation and training.
 -   Conducted customer visits with account teams as a corporate
     representative to close or keep business
 
-Field Systems Engineer (Technical Sales), 2007-2009
+Field Systems Engineer (Technical Sales) – 2007-2009
 
 Increased recurring product and services revenue as engineering
 representative on account team. Removed barriers to customer adoption by
@@ -97,7 +102,7 @@ operations recommendations, solution development and training.
     provisioning
 -   Successful relationship and technical work led to MSNBC case study
 
-Product Management Engineer, 2004-2006
+Product Management Engineer – 2004-2006
 
 Developed expert-level knowledge of product design, architecture and
 internals through hands-on testing and close collaboration with all
@@ -123,7 +128,7 @@ management and sales.
     from UNIX-like systems, along with a video demonstration of the SSL
     VPN process
 
-Network Support Engineer, 2004
+Network Support Engineer – 2004
 
 Served as single point of contact for external and internal customers,
 providing both guidance and support while building ongoing
@@ -135,9 +140,9 @@ relationships.
     documentation for product development
 
 
-MICROS Systems, Seattle WA
+MICROS Systems, Seattle WA – 2001-2004
 
-Implementation Specialist, 2001-2004
+Implementation Specialist – 2001-2004
 
 Designed and supported mission-critical financial systems in 24/7
 customer environments. Managed customer expectations and experience from

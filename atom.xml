@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[Gary B. Genett]]></title>
-  <subtitle><![CDATA[welcome to my mind]]></subtitle>
+  
   <link href="//atom.xml" rel="self"/>
   <link href="http://www.garybgenett.net/"/>
-  <updated>2015-08-29T16:14:44.049Z</updated>
+  <updated>2016-01-27T17:56:52.448Z</updated>
   <id>http://www.garybgenett.net/</id>
   
   <author>
@@ -15,58 +15,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Fortitude]]></title>
-    <link href="http://www.garybgenett.net/2015/08/27/2015-08-29T08-59-37-0700/"/>
-    <id>http://www.garybgenett.net/2015/08/27/2015-08-29T08-59-37-0700/</id>
-    <published>2015-08-27T07:00:00.000Z</published>
-    <updated>2015-08-29T16:14:44.049Z</updated>
-    <content type="html"><![CDATA[<p>“To a degree, you can make up for a lack of physical robustness with mental endourance; but you can’t make up for a lack of mental fortitude with any amount of physical prowess.”</p>
+    <title></title>
+    <link href="http://www.garybgenett.net/2016/01/27/README/"/>
+    <id>http://www.garybgenett.net/2016/01/27/README/</id>
+    <published>2016-01-27T18:55:21.959Z</published>
+    <updated>2016-01-27T17:56:52.448Z</updated>
+    <content type="html"><![CDATA[<p>Writing projects:</p>
+<ul>
+<li><a href="http://www.tresobis.org" target="_blank" rel="external">Tresobis</a> – a writing collective, with the writers closest to me</li>
+</ul>
+<p>Active open source projects:</p>
+<ul>
+<li><a href="/projects/gary-os">GaryOS</a> – an entire GNU/Linux system in a single bootable file</li>
+<li><a href="/projects/composer">Composer</a> – simple but powerful CMS based on Pandoc and Make</li>
+</ul>
+<p>External or in-progress projects:</p>
+<ul>
+<li><a href="https://github.com/garybgenett/tasks" target="_blank" rel="external">Tasks</a> – Taskwarrior &amp; Google Tasks: configuration, automation &amp; reporting</li>
+<li><a href="http://dwm.suckless.org/patches/multimon" target="_blank" rel="external">DWM multimon</a> – contributed multi-monitor patches to DWM</li>
+</ul>
+<p>For my professional experience, see my <a href="/Gary_B_Genett-Senior_Technologist-Resume.html">Resume</a>.</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>“To a degree, you can make up for a lack of physical robustness with mental endourance; but you can’t make up for a lack of mental fortit]]>
+    <![CDATA[<p>Writing projects:</p>
+<ul>
+<li><a href="http://www.tresobis.org" target="_blank" rel="external">Tresobis</a> – a writing collective, with]]>
     </summary>
-    
-      <category term="Gary B. Genett" scheme="http://www.garybgenett.net/tags/Gary-B-Genett/"/>
-    
-      <category term="Quotes" scheme="http://www.garybgenett.net/categories/Quotes/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Organizations]]></title>
-    <link href="http://www.garybgenett.net/2015/07/24/2015-07-24T12-16-11-0700/"/>
-    <id>http://www.garybgenett.net/2015/07/24/2015-07-24T12-16-11-0700/</id>
-    <published>2015-07-24T07:00:00.000Z</published>
-    <updated>2015-07-24T19:17:47.809Z</updated>
-    <content type="html"><![CDATA[<p>“Any organization of people of sufficient size will become disorganized.”</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>“Any organization of people of sufficient size will become disorganized.”</p>
-]]>
-    </summary>
-    
-      <category term="Gary B. Genett" scheme="http://www.garybgenett.net/tags/Gary-B-Genett/"/>
-    
-      <category term="Quotes" scheme="http://www.garybgenett.net/categories/Quotes/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Imagination]]></title>
-    <link href="http://www.garybgenett.net/2015/04/16/2015-05-15T08-20-46-0700/"/>
-    <id>http://www.garybgenett.net/2015/04/16/2015-05-15T08-20-46-0700/</id>
-    <published>2015-04-16T07:00:00.000Z</published>
-    <updated>2015-07-24T17:14:34.026Z</updated>
-    <content type="html"><![CDATA[<p>“We can try to imagine all the things we can imagine, but we can’t imagine the things we can’t imagine.”</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>“We can try to imagine all the things we can imagine, but we can’t imagine the things we can’t imagine.”</p>
-]]>
-    </summary>
-    
-      <category term="Gary B. Genett" scheme="http://www.garybgenett.net/tags/Gary-B-Genett/"/>
-    
-      <category term="Quotes" scheme="http://www.garybgenett.net/categories/Quotes/"/>
     
   </entry>
   
