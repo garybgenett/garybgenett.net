@@ -25,7 +25,8 @@ override SITE_PUBLIC			:= $(SITE_SOURCE)/.public
 override SITE_SEARCH			:= 1
 
 override SITE_TITLE			:= "Gary B. Genett"
-override SITE_SUBTITLE			:= welcome to my mind
+#>>>override SITE_SUBTITLE			:= welcome to my mind
+override SITE_SUBTITLE			:=
 override SITE_DESCRIPTION		:= A collection of all things Gary B. Genett
 override SITE_EXCERPT			:= Please expand on that...
 override SITE_AUTHOR			:= Gary B. Genett
