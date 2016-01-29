@@ -29,7 +29,7 @@ GARY B. GENETT
 |     -   Proven history of return on investment from process and system   |
 |         optimization                                                     |
 | -   Performance and functional testing and development processes         |
-|     -   Fluency in all major development models, and modern testing      |
+|     -   Fluency in many major development models, and modern testing     |
 |         methodologies                                                    |
 |     -   Development team leadership and guidance, including accurate     |
 |         resourcing and timelines                                         |
@@ -53,7 +53,7 @@ market drivers and business cases to executive audience.
 
 -   Developed new, dedicated cloud/orchestration team, and brought to
     full speed in under a year amid changing company organizational
-    dynamics and labyrinthine product history and capabilities
+    dynamics and significant product history and capabilities
 -   Lead role in defining integrated future for complete programmability
     suite; identified opportunities and gaps, prioritized investments
     and evangelized at executive level
@@ -118,8 +118,8 @@ management and sales.
     responsibilities and creation of templates for all deliverables and
     reports
 -   Created initial performance testing, competitive analysis and
-    development guidance for the integration of three successive
-    acquisition products (FirePass SSL VPN, WebAccelerator and WANJet
+    development guidance for the integration of three successive company
+    acquisitions (FirePass SSL VPN, WebAccelerator and WANJet
     Optimization)
 -   Authored performance testing guide, which remained the foundation
     for most comprehensive L4-L7 performance testing report in the
