@@ -10,6 +10,23 @@ GARY B. GENETT
 +==========================================================================+
 | SENIOR TECHNOLOGIST WITH 15+ YEARS CROSS-FUNCTIONAL EXPERIENCE           |
 |                                                                          |
+| -   Systems integration and business requirements implementation         |
+|     -   High-fidelity translation of challenges into real-world          |
+|         solutions                                                        |
+|     -   Proven history of return on investment from process and system   |
+|         optimization                                                     |
+| -   Performance and functional testing and development processes         |
+|     -   Development team leadership and guidance, including accurate     |
+|         resourcing and timelines                                         |
+|     -   Fluency in many major development models (particularly Agile and |
+|         Waterfall)                                                       |
+|     -   Design and implement performance and functional testing          |
+|         methodologies                                                    |
+| -   Knowledge transfer to both business and technical audiences          |
+|     -   Documentation types: processes, methodology, briefs, etc.        |
+|     -   Training forums: stand-up presentations, video-based, labs, etc. |
+|     -   Company representative to partner and customer audiences, and at |
+|         industry events                                                  |
 | -   TCP/IP protocols and web applications, scalable cloud architectures  |
 |     and virtualization                                                   |
 |     -   Fundamental understanding of OSI L1-L7 model, and several major  |
@@ -23,21 +40,6 @@ GARY B. GENETT
 | -   General-purpose programming/scripting and automation                 |
 |     -   Expertise in Shell (particularly Bash), Make and Perl            |
 |     -   Rapid acquisition of new languages                               |
-| -   Systems integration and business requirements implementation         |
-|     -   High-fidelity translation of challenges into real-world          |
-|         solutions                                                        |
-|     -   Proven history of return on investment from process and system   |
-|         optimization                                                     |
-| -   Performance and functional testing and development processes         |
-|     -   Fluency in many major development models, and modern testing     |
-|         methodologies                                                    |
-|     -   Development team leadership and guidance, including accurate     |
-|         resourcing and timelines                                         |
-| -   Knowledge transfer to both business and technical audiences          |
-|     -   Documentation types: processes, methodology, briefs, etc.        |
-|     -   Training forums: stand-up presentations, video-based, labs, etc. |
-|     -   Company representative to partner and customer audiences, and at |
-|         industry events                                                  |
 +--------------------------------------------------------------------------+
 
 
@@ -57,7 +59,7 @@ market drivers and business cases to executive audience.
 -   Lead role in defining integrated future for complete programmability
     suite; identified opportunities and gaps, prioritized investments
     and evangelized at executive level
--   Established face of programmability for company through
+-   Established programmability vision for company through
     relationships, influence and expertise, both externally and
     internally
 
