@@ -18,6 +18,7 @@
 |
 | * Systems integration and business requirements implementation
 |     * High-fidelity translation of challenges into real-world solutions
+|     * Data-driven approach, correlating all available sources of information
 |     * Proven history of return on investment from process and system optimization
 | * Performance and functional testing and development processes
 |     * Development team leadership and guidance, including accurate resourcing and timelines
