@@ -30,6 +30,14 @@ Reminders
     * Homepage performance using HTTPArchive.org and SpeedCurve
     * Splunk user group hosting
 
+Program Management
+----------------------------------------
+
+  * What does PGM mean to you, and what skills are critical to the role?
+  * What value does PGM provide, and how is that accomplished?
+  * How can someone go wrong in PGM?
+  * How does one get from my background into PGM?  What challenges do you perceive?  What gaps would you expect to be addressed?
+
 Environment
 ----------------------------------------
 
