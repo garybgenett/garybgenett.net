@@ -1,4 +1,25 @@
-Reminders
+Business Opportunity
+----------------------------------------
+
+  * Pillars
+    1. Low capital requirement
+    2. Recession-resistant
+    3. Minimum competition
+    4. Will never be outdated by technology
+    5. Residual income
+    6. Equity appreciation
+    7. Not seasonal
+  * What are your expectations of a franchisee?  What do you expect them to bring to the table?
+  * What type of person would be the best fit for this business?  Who would not be a good fit?
+  * Any specific goals for the Seattle area?  How close would the nearest territory ever be?
+    * Who is the competition, and how to you beat them?
+  * What things are mandatory for the franchisee?  What areas are completely up to them?
+  * How many locations do you already have open?  How many are profitable?  Any closures or failures?  What went wrong?
+    * Has the company ever been sued by a franchisee?  What for, and what was the result?
+  * Do you provide a liability insurance umbrella?  Medical?  Dental?  Which companies?
+  * How long, typically, before a franchise is profitable?
+
+Reminders: Zillow
 ----------------------------------------
 
   * Mission: Build the world's largest, most trusted and vibrant home-related marketplace.
@@ -44,7 +65,7 @@ Environment
   * What do you like most about working here?
   * What is one thing you wish was different, and what would you like to see done about it?
   * How do you describe the environement here?
-  * WHat type of person is going to be most successful at this company?  In this role?
+  * What type of person is going to be most successful at this company?  In this role?
   * How does the comapny encourage employees to lead healthy, balanced lives?
   * When was your last vacation, and where did you go?  Were you able to unplug completely?
   * What are the collaboration tools that the company uses?  Calendar?  Email?  IM?  Remote access?
