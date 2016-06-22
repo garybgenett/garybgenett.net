@@ -9,15 +9,30 @@ Business Opportunity
     5. Residual income
     6. Equity appreciation
     7. Not seasonal
-  * What are your expectations of a franchisee?  What do you expect them to bring to the table?
-  * What type of person would be the best fit for this business?  Who would not be a good fit?
-  * Any specific goals for the Seattle area?  How close would the nearest territory ever be?
-    * Who is the competition, and how to you beat them?
-  * What things are mandatory for the franchisee?  What areas are completely up to them?
-  * How many locations do you already have open?  How many are profitable?  Any closures or failures?  What went wrong?
-    * Has the company ever been sued by a franchisee?  What for, and what was the result?
-  * Do you provide a liability insurance umbrella?  Medical?  Dental?  Which companies?
-  * How long, typically, before a franchise is profitable?
+  * Franchisor
+    * What are your expectations of a franchisee?  What do you expect them to bring to the table?
+    * What type of person would be the best fit for this business?  Who would not be a good fit?
+    * Any specific goals for the Seattle area?  How close would the nearest territory ever be?
+        * Who is the competition, and how to you beat them?
+    * What things are mandatory for the franchisee?  What areas are completely up to them?
+    * How many locations do you already have open?  How many are profitable?  Any closures or failures?  What went wrong?
+        * Has the company ever been sued by a franchisee?  What for, and what was the result?
+    * Do you provide a liability insurance umbrella?  Medical?  Dental?  Which companies?
+    * How long, typically, before a franchise is profitable?
+  * Franchisee
+    * How did you structure your business?  Why did you decide that way?
+        * What was the scaling process like?  How many visits per day, and what percentage converted?
+        * How big is your team?  How was the on-boarding process?
+    * How much support have you gotten from upstream?  Too much?  Too little?
+        * What do you have control over that you wish you didn't?  What don't you have control over that you wish you did?
+    * How long before you were profitable?  How did you define that landmark?
+        * How have you handled the cost-of-living difference between here and there?
+        * How have you been paying your bills in the meantime?
+  * CPA
+    * What are the different ways to structure my business?  LLC vs. S Corp. vs. C Corp.?
+        * Any way I can umbrella my investments, with an investment company at the top?  Asset protection?
+        * Best to pay myself and take a loss on the business, or to live off savings until profitable?
+    * Franchising support?  Legal review of Franchise Agreement?
 
 Reminders: Zillow
 ----------------------------------------
