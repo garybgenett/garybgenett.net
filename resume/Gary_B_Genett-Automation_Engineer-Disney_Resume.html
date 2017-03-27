@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="data:text/css,%2F%2A%0A%09%2A%20Modified%20and%20lightened%20version%20of%20Twitter%20Bootstrap%2C%20by%20Thiht%0A%09%2A%20Originally%20licensed%20under%20the%20Apache%20License%20v2%2E0%0A%09%2A%20http%3A%2F%2Fwww%2Eapache%2Eorg%2Flicenses%2FLICENSE%2D2%2E0%0A%2A%2F%0A%0Abody%20%7B%0A%09color%3A%20%23333%3B%0A%09font%2Dfamily%3A%20%22Helvetica%20Neue%22%2C%20Helvetica%2C%20Arial%2C%20sans%2Dserif%3B%0A%09font%2Dsize%3A%2014px%3B%0A%09line%2Dheight%3A%2020px%3B%0A%09margin%3A%200%20auto%3B%0A%09padding%2Dtop%3A%2030px%3B%0A%09width%3A%20940px%3B%0A%7D%0A%0Ah1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%20%7B%0A%09color%3A%20inherit%3B%0A%09font%2Dfamily%3A%20inherit%3B%0A%09line%2Dheight%3A%201%3B%0A%09margin%3A%2010px%200%3B%0A%09text%2Drendering%3A%20optimizelegibility%3B%0A%7D%0A%0Ah1%2C%20h2%2C%20h3%20%7B%0A%09line%2Dheight%3A%2040px%3B%0A%7D%0A%0Ah4%2C%20h5%2C%20h6%20%7B%0A%09line%2Dheight%3A%2020px%3B%0A%7D%0A%0Ah1%20%7B%0A%09font%2Dsize%3A%2036px%3B%0A%7D%0A%0Ah2%20%7B%0A%09font%2Dsize%3A%2030px%3B%0A%7D%0A%0Ah3%20%7B%0A%09font%2Dsize%3A%2024px%3B%0A%7D%0A%0Ah4%20%7B%0A%09font%2Dsize%3A%2018px%3B%0A%7D%0A%0Ah5%20%7B%0A%09font%2Dsize%3A%2014px%3B%0A%7D%0A%0Ah6%20%7B%0A%09font%2Dsize%3A%2012px%3B%0A%7D%0A%0Ap%20%7B%0A%09margin%3A%200%200%2010px%3B%0A%7D%0A%0Aa%20%7B%0A%09color%3A%20%2308c%3B%0A%09text%2Ddecoration%3A%20none%3B%0A%7D%0A%0Aa%3Ahover%20%7B%0A%09color%3A%20%23005580%3B%0A%09text%2Ddecoration%3A%20underline%3B%0A%7D%0A%0Ablockquote%20%7B%0A%09border%2Dleft%3A%205px%20solid%20%23ccc%3B%0A%09margin%3A%200%200%2020px%3B%0A%09padding%3A%200%200%200%2015px%3B%0A%7D%0A%0Ablockquote%20p%20%7B%0A%09font%2Dsize%3A%2016px%3B%0A%09font%2Dweight%3A%20300%3B%0A%09line%2Dheight%3A%2025px%3B%0A%09margin%2Dbottom%3A%200%3B%0A%7D%0A%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%20%7B%0A%09content%3A%20%22%22%3B%0A%7D%0A%0Ali%20%7B%0A%09line%2Dheight%3A%2020px%3B%0A%7D%0A%0Acode%2C%20pre%20%7B%0A%09border%2Dradius%3A%203px%3B%0A%09color%3A%20%23333%3B%0A%09font%2Dfamily%3A%20Monaco%2C%20Menlo%2C%20Consolas%2C%20%22Courier%20New%22%2C%20monospace%3B%0A%09font%2Dsize%3A%2012px%3B%0A%09padding%3A%200%203px%202px%3B%0A%7D%0A%0Acode%20%7B%0A%09background%2Dcolor%3A%20%23f7f7f9%3B%0A%09border%3A%201px%20solid%20%23e1e1e8%3B%0A%09color%3A%20%23444%3B%0A%09padding%3A%202px%204px%3B%0A%7D%0A%0Apre%20%7B%0A%09background%2Dcolor%3A%20%23f5f5f5%3B%0A%09border%3A%201px%20solid%20rgba%280%2C0%2C0%2C0%2E15%29%3B%0A%09border%2Dradius%3A%204px%3B%0A%09display%3A%20block%3B%0A%09font%2Dsize%3A%2013px%3B%0A%09line%2Dheight%3A%2020px%3B%0A%09margin%3A%200%200%2010px%3B%0A%09padding%3A%209%2E5px%3B%0A%09white%2Dspace%3A%20pre%2Dwrap%3B%0A%09word%2Dbreak%3A%20break%2Dall%3B%0A%09word%2Dwrap%3A%20break%2Dword%3B%0A%7D%0A%0Apre%20code%20%7B%0A%09background%2Dcolor%3A%20transparent%3B%0A%09border%3A%200%3B%0A%09color%3A%20inherit%3B%0A%09padding%3A%200%3B%0A%7D%0A%0Ahr%20%7B%0A%09border%3A%200%3B%0A%09border%2Dbottom%3A%201px%20solid%20%23eee%3B%0A%09border%2Dtop%3A%201px%20solid%20%23ddd%3B%0A%09margin%3A%2020px%200%3B%0A%7D%0A%0Aabbr%5Btitle%5D%20%7B%0A%09border%2Dbottom%3A%201px%20dotted%20%23999%3B%0A%09cursor%3A%20help%3B%0A%7D%0A%0Atable%20%7B%0A%09max%2Dwidth%3A%20100%25%3B%0A%09background%2Dcolor%3A%20transparent%3B%0A%09border%2Dcollapse%3A%20collapse%3B%0A%09border%2Dspacing%3A%200%3B%0A%09width%3A%20100%25%3B%0A%09margin%2Dbottom%3A%2020px%3B%0A%7D%0A%0Atable%20th%2C%0Atable%20td%20%7B%0A%09padding%3A%208px%3B%0A%09line%2Dheight%3A%2020px%3B%0A%09text%2Dalign%3A%20left%3B%0A%09vertical%2Dalign%3A%20top%3B%0A%09border%2Dtop%3A%201px%20solid%20%23ddd%3B%0A%7D%0A%0Atable%20thead%20th%20%7B%0A%09vertical%2Dalign%3A%20bottom%3B%0A%7D%0A%0Atable%20thead%3Afirst%2Dchild%20tr%3Afirst%2Dchild%20th%2C%0Atable%20thead%3Afirst%2Dchild%20tr%3Afirst%2Dchild%20td%20%7B%0A%09border%2Dtop%3A%200%3B%0A%7D%0A%0Atable%20tbody%20%2B%20tbody%20%7B%0A%20%20border%2Dtop%3A%202px%20solid%20%23ddd%3B%0A%7D%0A%0Atable%20table%20%7B%0A%09background%2Dcolor%3A%20%23fff%3B%0A%7D" rel="stylesheet">
+</head>
+<body>
+<!-- % Resume for Gary B. Genett -->
+<!-- % Gary B. Genett -->
+<!-- % v2.6-disney (2017-03-27) -->
+<!-- ############################################################### -->
+<h1 id="gary-b.-genett">Gary B. Genett</h1>
+<table>
+<colgroup>
+<col style="width: 100%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><p><script type="text/javascript">
+<!--
+h='&#x67;&#x61;&#114;&#x79;&#98;&#x67;&#x65;&#110;&#x65;&#116;&#116;&#46;&#110;&#x65;&#116;';a='&#64;';n='&#x6d;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>me at garybgenett dot net</noscript> | 206-391-6606 | Seattle WA, USA</p>
+<a href="http://www.garybgenett.net/resume/Gary_B_Genett-Automation_Engineer-Disney_Resume.pdf" class="uri">http://www.garybgenett.net/resume/Gary_B_Genett-Automation_Engineer-Disney_Resume.pdf</a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><p><a href></a></p>
+<p><strong>Senior engineer with over 17 years cross-functional experience designing and delivering solutions to business problems and guiding executive decisions using deep technical insight</strong></p>
+<ul>
+<li>Systems integration and business requirements implementation
+<ul>
+<li>High-fidelity translation of challenges into real-world solutions</li>
+<li>Data-driven approach, correlating all available sources of information</li>
+<li>Proven history of return on investment from process and system optimization</li>
+</ul></li>
+<li>Data-mining in enterprise environments with multiple disparate database sources
+<ul>
+<li>Extracting meaningful conclusions from a chaos of seemingly unrelated information</li>
+<li>Using API, SQL, data and scripting tools to get at source data wherever it lives</li>
+</ul></li>
+<li>Performance and functional testing and development processes
+<ul>
+<li>Development team leadership and guidance, including accurate resourcing and timelines</li>
+<li>Fluency in many major development models (particularly Agile and Waterfall)</li>
+<li>Design and implement performance and functional testing methodologies</li>
+</ul></li>
+<li>TCP/IP protocols and web applications, scalable cloud architectures and virtualization
+<ul>
+<li>Fundamental understanding of OSI L1-L7 model, and several major application protocols</li>
+<li>Design and implement high-performance application and network environments</li>
+</ul></li>
+<li>General-purpose programming/scripting and automation
+<ul>
+<li>Expertise in Shell (particularly Bash), Make and Perl</li>
+<li>Done work in C, C++, Node.js, Python, TCL, SQL, REST APIs and proprietary languages</li>
+<li>Build and manage all aspects of UNIX-like and GNU/Linux systems</li>
+<li>Rapid acquisition of new languages</li>
+</ul></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<!-- WORK:
+  x Everything in Qualifications is Ideal
+  x not only an engineer but also has the smarts and communication skills to be able to do basic BA type work
+  x would accept people who may not have service now, but do have large-enterprise CMDB experience
+    x using an API to connect to that CMDB and extracting useful information
+
+  - would also accept people who may not know Qualys, but do know some other vulnerability management tool
+  x if they don’t have McAfee EP, but some other endpoint security tool that would work too
+  x would accept someone who doesn’t know HPOO or Cloudslang, but has a ton of good system automation, scripting, etc
+  x if they are a shell-scripting ninja but have never done OO or Cloudslang, we can make it work as well.
+
+  - ServiceNow SNAPI integration is primary
+  x Shell and system scripting for data retrieval and audit testing; if they can get the data out that is all that matters.
+  x Strong SQL query-writing skills- SSIS
+  x 5-10 years system administration, system audit, or system architecture experience
+  x 5 years systems automation experience in a large, multi-platform enterprise you can be an architect who does have automation experience.
+
+  - Information Security-specific Automation Experience including cloud deployments (security scan automation, security control test automation)
+  - Direct experience monitoring, conducting, or interpreting Application Security Testing (e.g. whitehat, Veracode, Accunetix, etc.)
+  x Direct Experience with monitoring, interpreting data from Palo Alto Firewalls, Firemon, Qualys, Symantec DLP, SkyHigh, and/or IPSonar
+  x Direct Experience with testing for PCI, SOX, SAS, SSAE 16, ISO27002, NIST 800-53, with automated tools, scripts, etc.
+
+  x Meeting with controls assurance team and risk automation team- determine requirements/designs/solutions (automation)/ schedule an prioritize work.
+  x Writing flows scripts and queries (sets of automation tasks that are tasks that go in a flow data).
+    x Designing and building automation flows (HPOO in CLOUD sland- string together run this script, run this query and the results against this query)
+  x Testing
+  x Rolling into production
+  x Troubleshooting existing flows to ensure proper functionality
+  x Manual validation of automation results. Go query the results and make sure they bring up these 10 items. .
+-->
+<!-- ############################################################### -->
+<h2 id="enviro-master-of-seattle-south-seattle-wa-2016-present">Enviro-Master of Seattle South, Seattle WA – 2016-Present</h2>
+<h3 id="owner-president-2016-present">Owner &amp; President – 2016-Present</h3>
+<p>Unique opportunity to demonstrate business leadership and organizational growth outside of the information technology industry. Experience owning and managing a business, with all the challenges and rewards that come with it. Phenomenal personal growth experience.</p>
+<ul>
+<li>Started in October, 2016 with the successful acquisition of Swisher Hygiene from EcoLab</li>
+<li>Operation and sales leadership for new franchise covering the entire Greater Seattle Area</li>
+<li>Managing a team of hygiene technicians and growing the business through in-person sales </li>
+</ul>
+<!-- ############################################################### -->
+<h2 id="f5-networks-seattle-wa-2004-2016">F5 Networks, Seattle WA – 2004-2016</h2>
+<h3 id="senior-product-management-engineer-2015-2016">Senior Product Management Engineer – 2015-2016</h3>
+<p>Primary interface between customers and rest of company, particularly product development. Assessed market and customer needs to define and prioritize product requirements. Demonstrated ownership and effective advocacy for key areas of product portfolio, through articulation of market drivers and business cases to executive audience.</p>
+<ul>
+<li>Developed new, dedicated cloud/orchestration team, and brought to full speed in under a year amid changing company organizational dynamics and significant product history and capabilities</li>
+<li>Lead role in defining integrated future for complete programmability suite; identified opportunities and gaps, prioritized investments and evangelized at executive level</li>
+<li>Established programmability vision for company through relationships, influence and expertise, both externally and internally</li>
+</ul>
+<h3 id="new-product-introduction-engineer-2009-2015">New Product Introduction Engineer – 2009-2015</h3>
+<p>Primary interface between product management, product development and global services organization (knowledge, training, consulting and support teams). Ensured readiness of sales and services organizations before all new releases of products or services, through functional testing, documentation and training.</p>
+<ul>
+<li>Co-focal on one of F5s most significant BIG-IP releases (v11.0.0); responsible for successful release of DSC/CMI, Plugins 2.0, vCMP, TMSH &amp; iApps</li>
+<li>Guided heuristics engine through initial stages to a maintainable and publicly available tool (iHealth)</li>
+<li>Consultant for special projects, including cross-departmental, cross-functional upgrades enhancement and <a href="http://www.garybgenett.net/resume/f5-tmos-operations-guide.pdf">Operations Guide</a> projects</li>
+<li>Pioneered video-based training format, drastically decreasing production time while increasing retention</li>
+<li>Created and presented in-depth scalability and product internals sessions at both sales and services international conferences</li>
+<li>Conducted customer visits with account teams as a corporate representative to close or keep business</li>
+</ul>
+<!-- [Operations Guide]: https://support.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/f5-tmos-operations-guide.html -->
+<!-- [Operations Guide]: https://support.f5.com/content/kb/en-us/products/big-ip_ltm/manuals/product/f5-tmos-operations-guide/_jcr_content/pdfAttach/download/file.res/f5-tmos-operations-guide.pdf -->
+<h3 id="field-systems-engineer-technical-sales-2007-2009">Field Systems Engineer (Technical Sales) – 2007-2009</h3>
+<p>Increased recurring product and services revenue as engineering representative on account team. Removed barriers to customer adoption by partnering with key decision makers and delivering architecture and operations recommendations, solution development and training.</p>
+<ul>
+<li>Lead technical resource dedicated to Microsoft, supporting thousands of devices in MSN/GNS during the development of Azure</li>
+<li>Achieved triple in customer device count and quadruple in revenue with only two additions to team</li>
+<li>Delivered first two production deployments of VIPRION chassis-based architecture: Xbox Live &amp; BOSD</li>
+<li>Authored comprehensive monitoring integration documentation and training for 3rd party development</li>
+<li>Assisted customer teams in implementation of automated compliance validation suites for PCI and SOX</li>
+<li>Reverse-engineered and automated product installer to provide rapid provisioning</li>
+<li>Successful relationship and technical work led to <a href="http://www.garybgenett.net/resume/msnbc-election-day-cs.pdf">MSNBC case study</a></li>
+</ul>
+<!-- [MSNBC case study]: http://www.f5.com/pdf/case-studies/msnbc-election-day-cs.pdf -->
+<p></p>
+<h3 id="product-management-engineer-2004-2006">Product Management Engineer – 2004-2006</h3>
+<p>Developed expert-level knowledge of product design, architecture and internals through hands-on testing and close collaboration with all levels of product development. Provided market-based consultation and guidance to the executive team and other departments regarding company vision, product direction and internal processes. Delivered competitive analysis expertise spanning the range from high-level market overview to specific feature differentiation across competitors and products. Wrote and maintained detailed briefing materials for executive team, product management and sales.</p>
+<ul>
+<li>Established new team, engaged in definition of role and responsibilities and creation of templates for all deliverables and reports</li>
+<li>Created initial performance testing, competitive analysis and development guidance for the integration of three successive company acquisitions (FirePass SSL VPN, WebAccelerator and WANJet Optimization)</li>
+<li>Defined and documented optimized end-user experience, with end-point security inspection and remediation, which was ultimately implemented in product</li>
+<li>Authored <a href="http://www.garybgenett.net/resume/creating-performance-test-methodology.pdf">performance testing guide</a>, which remained the foundation for most comprehensive <a href="http://www.garybgenett.net/resume/F5-comparative-performance-report-ADC-2013.pdf">L4-L7 performance testing report</a> in the industry</li>
+<li>Released public-facing version of internal <a href="http://www.garybgenett.net/resume/sslvpn.public.pl.txt">Perl script</a> to <a href="http://www.garybgenett.net/resume/Clientless_FirePass_Login_via_the_command_line.html">SSL VPN from UNIX-like systems</a>, along with a <a href="http://www.garybgenett.net/resume/20061024-FPLoginScript-Gary.wmv">video demonstration of the SSL VPN process</a></li>
+</ul>
+<!-- [performance testing guide]: http://devcentral.f5.com/downloads/f5/creating-performance-test-methodology.pdf -->
+<!-- [L4-L7 performance testing report]: http://www.f5.com/pdf/reports/F5-comparative-performance-report-ADC-2013.pdf -->
+<!-- [L4-L7 performance testing report]: http://www.garybgenett.net/resume/f5-performance-report-UPDATED.pdf -->
+<!-- [Perl script]: https://devcentral.f5.com/downloads/icontrol/sdk/sslvpn.public.pl.txt -->
+<!-- [SSL VPN from UNIX-like systems]: https://devcentral.f5.com/articles/clientless-firepass-login-via-the-command-line -->
+<!-- [video demonstration of the SSL VPN process]: https://devcentral.f5.com/weblogs/dctv/archive/2006/10/30/fploginscript.aspx -->
+<h3 id="network-support-engineer-2004">Network Support Engineer – 2004</h3>
+<p>Served as single point of contact for external and internal customers, providing both guidance and support while building ongoing relationships.</p>
+<ul>
+<li>Built first shared lab environment and wrote web-based checkout system for global accessibility</li>
+<li>Identified several product defects and created actionable documentation for product development</li>
+</ul>
+<!-- ############################################################### -->
+<h2 id="micros-systems-seattle-wa-2001-2004">MICROS Systems, Seattle WA – 2001-2004</h2>
+<h3 id="implementation-specialist-2001-2004">Implementation Specialist – 2001-2004</h3>
+<p>Designed and supported mission-critical financial systems in 24/7 customer environments. Managed customer expectations and experience from pre-sales to ongoing support.</p>
+<ul>
+<li>Directly developed and supported largest point-of-sale deployments in Washington state; sole technician for UNIX-based systems processing millions of dollars in transactions daily</li>
+<li>Increased revenue and customer loyalty by building custom solutions using Shell, Perl, SQL and a proprietary scripting language</li>
+</ul>
+<!-- ############################################################### -->
+<h2 id="relevant-experience-2000-2001">Relevant Experience – 2000-2001</h2>
+<ul>
+<li>HostPro: UNIX Tier 3 Support Specialist – 2001</li>
+<li>VoiceStream Wireless: Operations and Systems Production Support – 2000</li>
+</ul>
+<!-- ############################################################### -->
+<h2 id="education-certifications">Education &amp; Certifications</h2>
+<ul>
+<li>University of Washington: Perl Programming – 2003-2004</li>
+<li>Seattle Central Community College: Computer Programming – 2000</li>
+</ul>
+<!-- ############################################################### -->
+<h6 id="exit0">exit(0);</h6>
+<!-- ############################################################### -->
+</body>
+</html>
