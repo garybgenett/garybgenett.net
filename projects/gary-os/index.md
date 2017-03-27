@@ -996,6 +996,8 @@ Overview of the output:
   * `grub.cfg`
     * Grub menu used by "bootstrap" above.  Can be modified as needed to
       boot other OSes/objects.
+  * WORKING : note about `*.efi` files recently added...
+    * WORKING : add use-case for Mac OSX booting with rEFInd
   * `rescue.*`
     * Grub "core.img" rescue environment detailed further in [Grub
       Rescue] section below.
