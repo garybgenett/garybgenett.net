@@ -8,7 +8,9 @@ GARY B. GENETT
 |                                                                          |
 | http://www.garybgenett.net/Gary_B_Genett-Senior_Technologist-Resume.pdf  |
 +==========================================================================+
-| SENIOR TECHNOLOGIST WITH 15+ YEARS CROSS-FUNCTIONAL EXPERIENCE           |
+| SENIOR TECHNOLOGIST WITH OVER 17 YEARS CROSS-FUNCTIONAL EXPERIENCE       |
+| DESIGNING AND DELIVERING SOLUTIONS TO BUSINESS PROBLEMS AND GUIDING      |
+| EXECUTIVE DECISIONS USING DEEP TECHNICAL INSIGHT                         |
 |                                                                          |
 | -   Systems integration and business requirements implementation         |
 |     -   High-fidelity translation of challenges into real-world          |
@@ -17,6 +19,12 @@ GARY B. GENETT
 |         information                                                      |
 |     -   Proven history of return on investment from process and system   |
 |         optimization                                                     |
+| -   Data-mining in enterprise environments with multiple disparate       |
+|     database sources                                                     |
+|     -   Extracting meaningful conclusions from a chaos of seemingly      |
+|         unrelated information                                            |
+|     -   Using API, SQL, data and scripting tools to get at source data   |
+|         wherever it lives                                                |
 | -   Performance and functional testing and development processes         |
 |     -   Development team leadership and guidance, including accurate     |
 |         resourcing and timelines                                         |
@@ -24,30 +32,41 @@ GARY B. GENETT
 |         Waterfall)                                                       |
 |     -   Design and implement performance and functional testing          |
 |         methodologies                                                    |
-| -   Knowledge transfer to both business and technical audiences          |
-|     -   Documentation types: processes, methodology, briefs, etc.        |
-|     -   Training forums: stand-up presentations, video-based, labs, etc. |
-|     -   Company representative to partner and customer audiences, and at |
-|         industry events                                                  |
 | -   TCP/IP protocols and web applications, scalable cloud architectures  |
 |     and virtualization                                                   |
 |     -   Fundamental understanding of OSI L1-L7 model, and several major  |
 |         application protocols                                            |
 |     -   Design and implement high-performance application and network    |
 |         environments                                                     |
-| -   Build and manage all aspects of GNU/Linux                            |
-|     -   Intimate familiarity with Funtoo/Gentoo and Debian               |
-|     -   Grub/Linux kernel booting and package tuning in optimized or     |
-|         constrained environments                                         |
 | -   General-purpose programming/scripting and automation                 |
 |     -   Expertise in Shell (particularly Bash), Make and Perl            |
+|     -   Done work in C, C++, Node.js, Python, TCL, SQL, REST APIs and    |
+|         proprietary languages                                            |
+|     -   Build and manage all aspects of UNIX-like and GNU/Linux systems  |
 |     -   Rapid acquisition of new languages                               |
 +--------------------------------------------------------------------------+
 
 
-F5 Networks, Seattle WA – 2004-Present
+Enviro-Master of Seattle South, Seattle WA – 2016-Present
 
-Senior Product Management Engineer – 2015-Present
+Owner & President – 2016-Present
+
+Unique opportunity to demonstrate business leadership and organizational
+growth outside of the information technology industry. Experience owning
+and managing a business, with all the challenges and rewards that come
+with it. Phenomenal personal growth experience.
+
+-   Started in October, 2016 with the successful acquisition of Swisher
+    Hygiene from EcoLab
+-   Operation and sales leadership for new franchise covering the entire
+    Greater Seattle Area
+-   Managing a team of hygiene technicians and growing the business
+    through in-person sales
+
+
+F5 Networks, Seattle WA – 2004-2016
+
+Senior Product Management Engineer – 2015-2016
 
 Primary interface between customers and rest of company, particularly
 product development. Assessed market and customer needs to define and
@@ -102,6 +121,8 @@ operations recommendations, solution development and training.
     architecture: Xbox Live & BOSD
 -   Authored comprehensive monitoring integration documentation and
     training for 3rd party development
+-   Assisted customer teams in implementation of automated compliance
+    validation suites for PCI and SOX
 -   Reverse-engineered and automated product installer to provide rapid
     provisioning
 -   Successful relationship and technical work led to MSNBC case study
@@ -125,6 +146,9 @@ management and sales.
     development guidance for the integration of three successive company
     acquisitions (FirePass SSL VPN, WebAccelerator and WANJet
     Optimization)
+-   Defined and documented optimized end-user experience, with end-point
+    security inspection and remediation, which was ultimately
+    implemented in product
 -   Authored performance testing guide, which remained the foundation
     for most comprehensive L4-L7 performance testing report in the
     industry
@@ -159,10 +183,16 @@ pre-sales to ongoing support.
     using Shell, Perl, SQL and a proprietary scripting language
 
 
-Open Source Contributions
+Relevant Experience – 2000-2001
 
--   GaryOS – an entire GNU/Linux system in a single bootable file
--   Composer – simple but powerful CMS based on Pandoc and Make
--   DWM multimon – contributed multi-monitor patches to DWM
+-   HostPro: UNIX Tier 3 Support Specialist – 2001
+-   VoiceStream Wireless: Operations and Systems Production Support –
+    2000
+
+
+Education & Certifications
+
+-   University of Washington: Perl Programming – 2003-2004
+-   Seattle Central Community College: Computer Programming – 2000
 
 exit(0);
