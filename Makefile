@@ -83,7 +83,7 @@ override SITE_WIDGETS			:= \
 
 override SITE_MENU			:= \
 	Home| \
-	Resume|Gary_B_Genett-Senior_Technologist-Resume.html \
+	Resume|Gary_B_Genett-Business_Leader-Resume.html \
 	Projects|projects \
 	Writing|writing \
 	$(SITE_WIDGETS_ARCHIVES)|archives
@@ -91,6 +91,7 @@ override SITE_MENU			:= \
 override SITE_SKIPS			:= \
 	CNAME \
 	\
+	Gary_B_Genett-Business_Leader-Resume.** \
 	Gary_B_Genett-Senior_Technologist-Resume.** \
 	resume.** \
 	resume/**

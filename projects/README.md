@@ -1,4 +1,4 @@
-[Resume]: Gary_B_Genett-Senior_Technologist-Resume.html
+[Resume]: Gary_B_Genett-Business_Leader-Resume.html
 [Tresobis]: http://www.tresobis.org
 [Composer]: projects/composer
 [GaryOS]: projects/gary-os
