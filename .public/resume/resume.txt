@@ -6,12 +6,19 @@ GARY B. GENETT
 +--------------------------------------------------------------------------+
 | me@garybgenett.net | 206-391-6606 | Seattle WA, USA                      |
 |                                                                          |
-| http://www.garybgenett.net/Gary_B_Genett-Senior_Technologist-Resume.pdf  |
+| http://www.garybgenett.net/Gary_B_Genett-Business_Leader-Resume.pdf      |
 +==========================================================================+
-| SENIOR TECHNOLOGIST WITH OVER 17 YEARS CROSS-FUNCTIONAL EXPERIENCE       |
-| DESIGNING AND DELIVERING SOLUTIONS TO BUSINESS PROBLEMS AND GUIDING      |
-| EXECUTIVE DECISIONS USING DEEP TECHNICAL INSIGHT                         |
+| BUSINESS LEADER WITH OVER 17 YEARS EXPERIENCE GENERATING PROFITABILITY   |
+| THROUGH MARKETING, SALES, PROJECT MANAGEMENT AND CREATIVE SOLUTIONS TO   |
+| CHALLENGES OF ALL SIZES                                                  |
 |                                                                          |
+| -   Proven leadership and adaptability                                   |
+|     -   Building organizations and teams with existing resources, or     |
+|         from the ground up                                               |
+|     -   Successful use of engineering background to address              |
+|         non-technical, everyday issues                                   |
+|     -   Refocused technology career and skills into an entirely          |
+|         different industry                                               |
 | -   Systems integration and business requirements implementation         |
 |     -   High-fidelity translation of challenges into real-world          |
 |         solutions                                                        |
@@ -19,8 +26,8 @@ GARY B. GENETT
 |         information                                                      |
 |     -   Proven history of return on investment from process and system   |
 |         optimization                                                     |
-| -   Data-mining in enterprise environments with multiple disparate       |
-|     database sources                                                     |
+| -   Data-mining in enterprise environments with multiple disparate data  |
+|     sources                                                              |
 |     -   Extracting meaningful conclusions from a chaos of seemingly      |
 |         unrelated information                                            |
 |     -   Using API, SQL, data and scripting tools to get at source data   |
@@ -32,18 +39,6 @@ GARY B. GENETT
 |         Waterfall)                                                       |
 |     -   Design and implement performance and functional testing          |
 |         methodologies                                                    |
-| -   TCP/IP protocols and web applications, scalable cloud architectures  |
-|     and virtualization                                                   |
-|     -   Fundamental understanding of OSI L1-L7 model, and several major  |
-|         application protocols                                            |
-|     -   Design and implement high-performance application and network    |
-|         environments                                                     |
-| -   General-purpose programming/scripting and automation                 |
-|     -   Expertise in Shell (particularly Bash), Make and Perl            |
-|     -   Done work in C, C++, Node.js, Python, TCL, SQL, REST APIs and    |
-|         proprietary languages                                            |
-|     -   Build and manage all aspects of UNIX-like and GNU/Linux systems  |
-|     -   Rapid acquisition of new languages                               |
 +--------------------------------------------------------------------------+
 
 
@@ -52,16 +47,22 @@ Enviro-Master of Seattle South, Seattle WA – 2016-Present
 Owner & President – 2016-Present
 
 Unique opportunity to demonstrate business leadership and organizational
-growth outside of the information technology industry. Experience owning
-and managing a business, with all the challenges and rewards that come
-with it. Phenomenal personal growth experience.
+growth outside of the technology industry. Experience owning and
+managing a company, with all the challenges and rewards that come with
+it. Phenomenal personal growth experience.
 
 -   Started in October, 2016 with the successful acquisition of Swisher
     Hygiene from EcoLab
--   Operation and sales leadership for new franchise covering the entire
-    Greater Seattle Area
--   Managing a team of hygiene technicians and growing the business
-    through in-person sales
+-   Rebuilt Washington organization from Swisher, and transitioned to
+    Enviro-Master business model, services and products with no loss in
+    customer accounts
+-   Sales and operational leadership for new franchise covering two
+    territories spanning the entire Greater Seattle Area and much of
+    Western Washington
+-   Mentorship and sales coaching for Operations Manager and team of
+    Hygiene Technicians
+-   Consistent month-over-month growth through in-person sales and
+    employee upsells
 
 
 F5 Networks, Seattle WA – 2004-2016
