@@ -3,7 +3,11 @@
 [Composer]: projects/composer
 [GaryOS]: projects/gary-os
 [Tasks]: https://github.com/garybgenett/tasks
+<!--
+2016-07-17 20:57:19 -0800 f3197bf1e7c4e907b7282e30b4f24bb2535ecf53 Move multimon to historical
 [DWM multimon]: http://dwm.suckless.org/patches/multimon
+-->
+[DWM multimon]: http://dwm.suckless.org/patches/historical/multimon
 
 Writing projects:
   * [Tresobis] -- a writing collective, with the writers closest to me
