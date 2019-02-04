@@ -130,6 +130,8 @@ a ready-to-go Funtoo/Gentoo installation.
 ## Version History
 [Version History]: #Version_History
 
+WORK add links pointing to the release tags/commits
+
 [Release Notes]: #Version_History
 [64-bit]: http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel
 [32-bit]: http://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v3.0.kernel
@@ -520,6 +522,8 @@ still fitting in an initramfs.
 
 Both projects are pretty damn awesome.
 
+WORK side note about gentoo family tree; include image into repository
+
 ## Tools
 [Tools]: #Tools
 
@@ -569,6 +573,7 @@ details for the individual components.
         * This file.  All the documentation for GaryOS.
     * [LICENSE.md](https://github.com/garybgenett/gary-os/blob/master/LICENSE.md)
         * The license GaryOS is distributed under.
+WORK add makefile
     * [icon.png](https://github.com/garybgenett/gary-os/blob/master/icon.png)
         * Creative "hack" to have an icon for the project.  Icons make
           it seem like you are "for real", so I had to have one.
@@ -605,6 +610,7 @@ details for the individual components.
         * Contains the entirety of my personal Funtoo/Gentoo
           configuration, including the scripts and files I use to manage
           my Funtoo/Gentoo installations.
+WORK add linux directory
     * [scripts](https://github.com/garybgenett/gary-os/blob/master/scripts)
         * All the code used to create GaryOS lives in here.  Exported
           from my personal scripts directory.
@@ -786,6 +792,16 @@ networking packages are installed to ease on-the-fly setup.
 
 For simple DHCP, the `dhcpcd` command can be run directly on the desired
 interface, such as an Ethernet connection:
+
+WORK
+use only `rc-update add dhcpcd default ; rc`
+
+`wpa_password "<ssid>" "<password>" > /etc/wpa_supplicant/wpa_supplicant.conf`
+Add `ssid_scan=1` to `/etc/wpa_supplicant/wpa_supplicant.conf`
+`rc-update add wpa_supplicant default ; rc`
+
+get rid of "networkmanager" and "nmcli" commands; use "iwconfig/iwlist" instead
+WORK
 
   * `dhcpcd eth0`
 
