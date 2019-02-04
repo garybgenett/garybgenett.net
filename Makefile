@@ -9,6 +9,8 @@ override COMPOSER_TARGETS ?=
 override COMPOSER_SUBDIRS ?= resume projects
 override COMPOSER_DEPENDS ?=
 
+override CSS ?= $(MDVIEWER_DST)/themes/markdown7.css
+
 ########################################
 
 override SUBTREE			:= .public
