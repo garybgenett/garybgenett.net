@@ -1,45 +1,47 @@
 
 
-GARY B. GENETT
+GARY B. GENETT // PATHFINDER & TECHNOLOGIST
 
 
-+--------------------------------------------------------------------------+
-| me@garybgenett.net | 206-391-6606 | Seattle WA, USA                      |
-|                                                                          |
-| http://www.garybgenett.net/Gary_B_Genett-Business_Leader-Resume.pdf      |
-+==========================================================================+
-| BUSINESS LEADER WITH OVER 17 YEARS EXPERIENCE GENERATING PROFITABILITY   |
-| THROUGH MARKETING, SALES, PROJECT MANAGEMENT AND CREATIVE SOLUTIONS TO   |
-| CHALLENGES OF ALL SIZES                                                  |
-|                                                                          |
-| -   Proven leadership and adaptability                                   |
-|     -   Building organizations and teams with existing resources, or     |
-|         from the ground up                                               |
-|     -   Successful use of engineering background to address              |
-|         non-technical, everyday issues                                   |
-|     -   Refocused technology career and skills into an entirely          |
-|         different industry                                               |
-| -   Systems integration and business requirements implementation         |
-|     -   High-fidelity translation of challenges into real-world          |
-|         solutions                                                        |
-|     -   Data-driven approach, correlating all available sources of       |
-|         information                                                      |
-|     -   Proven history of return on investment from process and system   |
-|         optimization                                                     |
-| -   Data-mining in enterprise environments with multiple disparate data  |
-|     sources                                                              |
-|     -   Extracting meaningful conclusions from a chaos of seemingly      |
-|         unrelated information                                            |
-|     -   Using API, SQL, data and scripting tools to get at source data   |
-|         wherever it lives                                                |
-| -   Performance and functional testing and development processes         |
-|     -   Development team leadership and guidance, including accurate     |
-|         resourcing and timelines                                         |
-|     -   Fluency in many major development models (particularly Agile and |
-|         Waterfall)                                                       |
-|     -   Design and implement performance and functional testing          |
-|         methodologies                                                    |
-+--------------------------------------------------------------------------+
+Seattle WA, USA | 206-391-6606 | me@garybgenett.net
+http://www.garybgenett.net/Gary_B_Genett-Pathfinder_and_Technologist.pdf
+
++-------------------------------------------------------------------------+
+| Guides organizations and individuals toward identifying their goals and |
+| achieving their missions                                                |
+| Steps into chaotic and uncertain situations, gains an understanding,    |
+| and finds the way forward                                               |
+| Multi-disciplinary information technology specialist, develops          |
+| expertise as needed                                                     |
++=========================================================================+
+| -   Proven leadership and adaptability                                  |
+|     -   Building organizations and teams with existing resources, or    |
+|         from the ground up                                              |
+|     -   Successful use of engineering background to address             |
+|         non-technical, everyday issues                                  |
+|     -   Refocused technology career and skills into an entirely         |
+|         different industry                                              |
+| -   Systems integration and business requirements implementation        |
+|     -   High-fidelity translation of challenges into real-world         |
+|         solutions                                                       |
+|     -   Data-driven approach, correlating all available sources of      |
+|         information                                                     |
+|     -   Proven history of return on investment from process and system  |
+|         optimization                                                    |
+| -   Data-mining in enterprise environments with multiple disparate data |
+|     sources                                                             |
+|     -   Extracting meaningful conclusions from a chaos of seemingly     |
+|         unrelated information                                           |
+|     -   Using API, SQL, data and scripting tools to get at source data  |
+|         wherever it lives                                               |
+| -   Performance and functional testing and development processes        |
+|     -   Development team leadership and guidance, including accurate    |
+|         resourcing and timelines                                        |
+|     -   Fluency in many major development models (particularly Agile    |
+|         and Waterfall)                                                  |
+|     -   Design and implement performance and functional testing         |
+|         methodologies                                                   |
++-------------------------------------------------------------------------+
 
 
 Enviro-Master of Seattle South, Seattle WA – 2016-Present

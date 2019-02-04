@@ -4,7 +4,7 @@
   
   <link href="//atom.xml" rel="self"/>
   <link href="http://www.garybgenett.net/"/>
-  <updated>2017-09-26T23:24:32.000Z</updated>
+  <updated>2019-02-04T23:33:55.002Z</updated>
   <id>http://www.garybgenett.net/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title></title>
-    <link href="http://www.garybgenett.net/2017/09/26/README/"/>
-    <id>http://www.garybgenett.net/2017/09/26/README/</id>
-    <published>2017-09-26T23:26:24.657Z</published>
-    <updated>2017-09-26T23:24:32.000Z</updated>
+    <link href="http://www.garybgenett.net/2019/02/04/README/"/>
+    <id>http://www.garybgenett.net/2019/02/04/README/</id>
+    <published>2019-02-04T23:34:40.579Z</published>
+    <updated>2019-02-04T23:33:55.002Z</updated>
     <content type="html"><![CDATA[<!--
 2016-07-17 20:57:19 -0800 f3197bf1e7c4e907b7282e30b4f24bb2535ecf53 Move multimon to historical
 [DWM multimon]: http://dwm.suckless.org/patches/multimon
@@ -38,7 +38,7 @@
 <li><a href="https://github.com/garybgenett/tasks" target="_blank" rel="external">Tasks</a> – Taskwarrior &amp; Google Tasks: configuration, automation &amp; reporting</li>
 <li><a href="http://dwm.suckless.org/patches/historical/multimon" target="_blank" rel="external">DWM multimon</a> – contributed multi-monitor patches to DWM</li>
 </ul>
-<p>For my professional experience, see my <a href="/Gary_B_Genett-Business_Leader-Resume.html">Resume</a>.</p>
+<p>For my professional experience, see my <a href="/Gary_B_Genett-Pathfinder_and_Technologist.html">Resume</a>.</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<!--
