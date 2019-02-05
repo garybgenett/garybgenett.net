@@ -1,7 +1,7 @@
 ﻿<!--
 % Gary B. Genett
 % Pathfinder & Technologist
-% v4.1 (2019-02-05)
+% v4.2 (2019-02-05)
 <!-- ############################################################### -->
 <!-- docx: moderate margins, reduce all font size by one -->
 <!-- ############################################################### -->
@@ -81,7 +81,6 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
   * Delivered first two production deployments of revolutionary chassis architecture \
     *(VIPRION: Xbox Live & BOSD)*
   * Authored comprehensive [Integration Guide] and training for 3rd party development
-  * Assisted customer teams in implementation of automated compliance validation suites *(PCI & SOX)*
   * Reverse-engineered and automated product installer to provide rapid provisioning
   * Cultivated relationship and technical work led to [MSNBC Case Study]
 
@@ -100,8 +99,6 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
   * Created initial analysis, guidance and testing for three successive company acquisitions \
     *(FirePass SSL VPN, WebAccelerator Web Optimization & WANJet WAN Optimization)*
   * Authored [Performance Testing Guide], setting the industry standard for comprehensive evaluation
-  * Released [SSL VPN for UNIX-like Systems], as a [Perl Script] and [Video Demonstration of the Process]
-  * Maintained expertise in product design, architecture and internals, nurtured knowledge culture
 
 <!-- [Performance Testing Guide]: http://devcentral.f5.com/downloads/f5/creating-performance-test-methodology.pdf -->
 [Performance Testing Guide]: http://www.garybgenett.net/resume/creating-performance-test-methodology.pdf
@@ -122,11 +119,8 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
     * Built first shared lab environment and wrote web-based checkout system for global accessibility
   * Implementation Specialist: MICROS Systems, 2001-2004
     * Designed and supported mission-critical financial systems in 24/7 customer environments
-    * Implemented and supported all the largest point-of-sale deployments in Washington state
     * Operated as sole technician for UNIX-based systems, which processed millions of dollars daily
-    * Managed customer expectations and experience from presales to ongoing support
-    * Increased revenue and customer loyalty by selling and building custom solutions \
-      *(Shell, Perl, SQL and a proprietary scripting language)*
+    * Increased revenue and customer loyalty by selling and building custom solutions
   * UNIX Tier 3 Support Specialist: HostPro, 2001
   * Operations and Systems Production Support: VoiceStream Wireless, 2000
 
