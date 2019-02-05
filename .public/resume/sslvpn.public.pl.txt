@@ -19,10 +19,10 @@ use strict;
 # Default values for the FQDN or IP of the FirePass we wish to connect to, the
 # name of our Network Access favorite, and our username/pasword.  All of these
 # can be passed as arguments, if desired.
-my $host = $ARGV[0] || 'vpn.example.com';
-my $name = $ARGV[1] || 'VPN';
-my $user = $ARGV[2] || 'foo';
-my $pass = $ARGV[3] || '';
+my $host = $ARGV[0] || 'firepass.example.com';
+my $name = $ARGV[1] || 'SSL VPN';
+my $user = $ARGV[2] || 'user';
+my $pass = $ARGV[3] || 'p@ssw0rd';
 
 # Declare variables used throughout the rest of the script.
 my($request, $response, $sessionid, $favorite);
@@ -70,7 +70,7 @@ $response = qx(echo "${request}" | ${openssl} 2>/dev/null);
 # The response is XML, so we can safely grab what we are looking for using some
 # regular expression magic.  Same with the SessionID, we're printing out the
 # final value to make sure we're on the right track.
-$response =~ /${name}[^\n]+\n[^Z]+Z=\d+,(\d+)/;
+$response =~ /<name>${name}<\/name>\r\n<params>Z=\d+,(\d+).*<\/params>/;
 $favorite = $1;
 print "Favorite: ${favorite}\n";
 

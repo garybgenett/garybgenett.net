@@ -7,186 +7,142 @@ Seattle, WA | 206-391-6606 | me@garybgenett.net
 http://www.garybgenett.net/Gary_B_Genett-Pathfinder_and_Technologist.pdf
 
 +-------------------------------------------------------------------------+
-| Guides organizations and individuals toward identifying their goals and |
-| achieving their missions                                                |
-| Steps into chaotic and uncertain situations, gains an understanding,    |
-| and finds the way forward                                               |
-| Multi-disciplinary information technology specialist, develops          |
-| expertise as needed                                                     |
-+=========================================================================+
-| -   Proven leadership and adaptability                                  |
-|     -   Building organizations and teams with existing resources, or    |
-|         from the ground up                                              |
-|     -   Successful use of engineering background to address             |
-|         non-technical, everyday issues                                  |
-|     -   Refocused technology career and skills into an entirely         |
-|         different industry                                              |
-| -   Systems integration and business requirements implementation        |
-|     -   High-fidelity translation of challenges into real-world         |
-|         solutions                                                       |
-|     -   Data-driven approach, correlating all available sources of      |
-|         information                                                     |
-|     -   Proven history of return on investment from process and system  |
-|         optimization                                                    |
-| -   Data-mining in enterprise environments with multiple disparate data |
-|     sources                                                             |
-|     -   Extracting meaningful conclusions from a chaos of seemingly     |
-|         unrelated information                                           |
-|     -   Using API, SQL, data and scripting tools to get at source data  |
-|         wherever it lives                                               |
-| -   Performance and functional testing and development processes        |
-|     -   Development team leadership and guidance, including accurate    |
-|         resourcing and timelines                                        |
-|     -   Fluency in many major development models (particularly Agile    |
-|         and Waterfall)                                                  |
-|     -   Design and implement performance and functional testing         |
-|         methodologies                                                   |
+| WHAT I DO                                                               |
+|                                                                         |
+| -   Guide organizations toward establishing a direction that achieves   |
+|     their mission and goals                                             |
+| -   Step into chaotic and uncertain situations, gain an understanding,  |
+|     and find the way forward                                            |
+| -   Provide multi-disciplinary technology expertise and perspective     |
+|                                                                         |
+| HOW I DO IT                                                             |
+|                                                                         |
+| -   Adaptability: create teams from diverse groups and disciplines, and |
+|     serve in multiple capacities                                        |
+| -   Holism: discover unseen relationships and patterns across disparate |
+|     organizations and systems                                           |
+| -   Foresight: predict opportunities and innovate solutions, often      |
+|     unintuitive or unconventional                                       |
+| -   Presentation: articulate new or complex topics in an approachable   |
+|     and understandable way                                              |
+| -   Passion: advocate with contagious enthusiasm, and galvanize people  |
+|     into purposeful action                                              |
+| -   Practicality: apply engineering mentality to resolve large          |
+|     challenges with incremental efforts                                 |
+| -   Optimization: develop and refine processes to accomplish objectives |
+|     efficiently and repeatably                                          |
 +-------------------------------------------------------------------------+
 
 Owner & President
  Enviro-Master of Seattle, 2016-2019
 
-Unique opportunity to demonstrate business leadership and organizational
-growth outside of the technology industry. Experience owning and
-managing a company, with all the challenges and rewards that come with
-it. Phenomenal personal growth experience.
-
--   Started in October, 2016 with the successful acquisition of Swisher
-    Hygiene from EcoLab
--   Rebuilt Washington organization from Swisher, and transitioned to
-    Enviro-Master business model, services and products with no loss in
-    customer accounts
--   Sales and operational leadership for new franchise covering two
-    territories spanning the entire Greater Seattle Area and much of
-    Western Washington
--   Mentorship and sales coaching for Operations Manager and team of
-    Hygiene Technicians
--   Consistent month-over-month growth through in-person sales and
-    employee upsells
+-   Owned and operated a small company with several employees,
+    organizational leadership and growth
+-   Managed almost a hundred sites throughout the entire Puget Sound
+    region, high customer retention
+-   Successfully acquired languishing operation, converted to improved
+    model _(Swisher Hygiene of EcoLab)_
+-   Consistent growth through in-person sales and employee upsells,
+    mentorship and coaching
+-   Improved overall health of the business, increased revenue and
+    improved margins
 
 Senior Product Management Engineer
  F5 Networks, 2014-2016
 
-Primary interface between customers and rest of company, particularly
-product development. Assessed market and customer needs to define and
-prioritize product requirements. Demonstrated ownership and effective
-advocacy for key areas of product portfolio, through articulation of
-market drivers and business cases to executive audience.
-
--   Developed new, dedicated cloud/orchestration team, and brought to
-    full speed in under a year amid changing company organizational
-    dynamics and significant product history and capabilities
--   Lead role in defining integrated future for complete programmability
-    suite; identified opportunities and gaps, prioritized investments
-    and evangelized at executive level
--   Established programmability vision for company through
-    relationships, influence and expertise, both externally and
-    internally
+-   Created new, dedicated cloud/orchestration team amid evolving
+    company organizational dynamics
+-   Defined new vision for automation, integrating all existing
+    technologies into a unified suite
+-   Assessed emerging market trends and anticipated customer needs to
+    develop the needed direction
+-   Demonstrated ownership and effective advocacy to executive team to
+    achieve budget and support
+-   Ensured delivery through relationships, influence and expertise,
+    both externally and internally
 
 New Product Introduction Engineer
  F5 Networks, 2009-2014
 
-Primary interface between product management, product development and
-global services organization (knowledge, training, consulting and
-support teams). Ensured readiness of sales and services organizations
-before all new releases of products or services, through functional
-testing, documentation and training.
-
--   Co-focal on one of F5s most significant BIG-IP releases (v11.0.0);
-    responsible for successful release of DSC/CMI, Plugins 2.0, vCMP,
-    TMSH & iApps
--   Guided heuristics engine through initial stages to a maintainable
-    and publicly available tool (iHealth)
--   Consultant for special projects, including cross-departmental,
-    cross-functional upgrades enhancement and Operations Guide projects
+-   Served as liaison between the major arms of the company: marketing,
+    development, services and sales
+-   Ensured readiness of sales and services organizations before all new
+    releases of products and services
+-   Performed lead role in milestone release, delivered five innovative
+    technologies and deep product rewrite
+    _(BIG-IP v11.0.0: DSC/CMI, Plugins 2.0, vCMP, TMSH & iApps)_
+-   Guided internal homegrown tool through the initial stages to a
+    customer-facing product _(iHealth)_
 -   Pioneered video-based training format, drastically decreasing
     production time while increasing retention
--   Created and presented in-depth scalability and product internals
-    sessions at both sales and services international conferences
+-   Created and presented in-depth product internals sessions at
+    international sales and services conferences
 -   Conducted customer visits with account teams as a corporate
     representative to close or keep business
 
 Field Systems Engineer (Technical Sales)
  F5 Networks, 2006-2009
 
-Increased recurring product and services revenue as engineering
-representative on account team. Removed barriers to customer adoption by
-partnering with key decision makers and delivering architecture and
-operations recommendations, solution development and training.
-
--   Lead technical resource dedicated to Microsoft, supporting thousands
-    of devices in MSN/GNS during the development of Azure
--   Achieved triple in customer device count and quadruple in revenue
-    with only two additions to team
--   Delivered first two production deployments of VIPRION chassis-based
-    architecture: Xbox Live & BOSD
--   Authored comprehensive monitoring integration documentation and
-    training for 3rd party development
+-   Increased customer adoption as primary engineering representative on
+    account team _(Microsoft)_
+-   Developed influence through mutual trust, thought leadership,
+    solution development and training
+-   Tripled the customer device count and quadrupled revenue with only
+    two additional team members
+-   Supported thousands of devices during the development of public
+    cloud _(GNS/MSN: Azure)_
+-   Delivered first two production deployments of revolutionary chassis
+    architecture
+    _(VIPRION: Xbox Live & BOSD)_
+-   Authored comprehensive Integration Guide and training for 3rd party
+    development
 -   Assisted customer teams in implementation of automated compliance
-    validation suites for PCI and SOX
+    validation suites _(PCI & SOX)_
 -   Reverse-engineered and automated product installer to provide rapid
     provisioning
--   Successful relationship and technical work led to MSNBC case study
+-   Cultivated relationship and technical work led to MSNBC Case Study
 
 Product Management Engineer
  F5 Networks, 2004-2006
 
-Developed expert-level knowledge of product design, architecture and
-internals through hands-on testing and close collaboration with all
-levels of product development. Provided market-based consultation and
-guidance to the executive team and other departments regarding company
-vision, product direction and internal processes. Delivered competitive
-analysis expertise spanning the range from high-level market overview to
-specific feature differentiation across competitors and products. Wrote
-and maintained detailed briefing materials for executive team, product
-management and sales.
+-   Provided company vision, product direction and execution guidance to
+    executive team, market research
+-   Established new team, defined role and responsibilities, created
+    templates for deliverables and reports
+-   Delivered competitive analysis ranging from high-level market
+    overview to technical differentiation
+-   Wrote and maintained detailed briefing materials for executive team,
+    product management and sales
+-   Created initial analysis, guidance and testing for three successive
+    company acquisitions
+    _(FirePass SSL VPN, WebAccelerator Web Optimization & WANJet WAN
+    Optimization)_
+-   Authored Performance Testing Guide, setting the industry standard
+    for comprehensive evaluation
+-   Released SSL VPN for UNIX-like Systems, as a Perl Script and Video
+    Demonstration of the Process
+-   Maintained expertise in product design, architecture and internals,
+    nurtured knowledge culture
 
--   Established new team, engaged in definition of role and
-    responsibilities and creation of templates for all deliverables and
-    reports
--   Created initial performance testing, competitive analysis and
-    development guidance for the integration of three successive company
-    acquisitions (FirePass SSL VPN, WebAccelerator and WANJet
-    Optimization)
--   Defined and documented optimized end-user experience, with end-point
-    security inspection and remediation, which was ultimately
-    implemented in product
--   Authored performance testing guide, which remained the foundation
-    for most comprehensive L4-L7 performance testing report in the
-    industry
--   Released public-facing version of internal Perl script to SSL VPN
-    from UNIX-like systems, along with a video demonstration of the SSL
-    VPN process
+Additional Experience
 
-Network Support Engineer
- F5 Networks, 2004
-
-Served as single point of contact for external and internal customers,
-providing both guidance and support while building ongoing
-relationships.
-
--   Built first shared lab environment and wrote web-based checkout
-    system for global accessibility
--   Identified several product defects and created actionable
-    documentation for product development
-
-Implementation Specialist
- MICROS Systems, 2001-2004
-
-Designed and supported mission-critical financial systems in 24/7
-customer environments. Managed customer expectations and experience from
-pre-sales to ongoing support.
-
--   Directly developed and supported largest point-of-sale deployments
-    in Washington state; sole technician for UNIX-based systems
-    processing millions of dollars in transactions daily
--   Increased revenue and customer loyalty by building custom solutions
-    using Shell, Perl, SQL and a proprietary scripting language
-
-Relevant Experience
-
--   HostPro: UNIX Tier 3 Support Specialist, 2001
--   VoiceStream Wireless: Operations and Systems Production Support,
+-   Network Support Engineer: F5 Networks, 2004
+    -   Built first shared lab environment and wrote web-based checkout
+        system for global accessibility
+-   Implementation Specialist: MICROS Systems, 2001-2004
+    -   Designed and supported mission-critical financial systems in
+        24/7 customer environments
+    -   Implemented and supported all the largest point-of-sale
+        deployments in Washington state
+    -   Operated as sole technician for UNIX-based systems, which
+        processed millions of dollars daily
+    -   Managed customer expectations and experience from presales to
+        ongoing support
+    -   Increased revenue and customer loyalty by selling and building
+        custom solutions
+         _(Shell, Perl, SQL and a proprietary scripting language)_
+-   UNIX Tier 3 Support Specialist: HostPro, 2001
+-   Operations and Systems Production Support: VoiceStream Wireless,
     2000
 
 Education & Certifications
@@ -194,4 +150,9 @@ Education & Certifications
 -   University of Washington: Perl Programming, 2003-2004
 -   Seattle Central Community College: Computer Programming, 2000
 
-exit(0);
+Volunteering
+
+-   Youth Facilitator: WILS (Wisconsin Leadership Seminars), 2004-2014
+-   Youth Ambassador: WILS (Wisconsin Leadership Seminars), 1994-1997
+-   Secretary: WILS (Wisconsin Leadership Seminars) Alumni Board,
+    1994-1995
