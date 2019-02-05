@@ -1,12 +1,12 @@
 ﻿<!--
 % Gary B. Genett
 % Pathfinder & Technologist
-% v4.0 (2019-02-04)
+% v4.1 (2019-02-04)
 <!-- ############################################################### -->
 
 # Gary B. Genett // Pathfinder & Technologist
 
-Seattle WA, USA \| 206-391-6606 \| <me@garybgenett.net> \
+Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 <http://www.garybgenett.net/Gary_B_Genett-Pathfinder_and_Technologist.pdf>
 
 +----------------------------------------------------------------------+
@@ -32,9 +32,8 @@ Seattle WA, USA \| 206-391-6606 \| <me@garybgenett.net> \
 +---+
 
 <!-- ############################################################### -->
-## Enviro-Master of Seattle South, Seattle WA -- 2016-Present
-
-### Owner & President -- 2016-Present
+### Owner & President \
+    Enviro-Master of Seattle, 2016-2019
 
 Unique opportunity to demonstrate business leadership and organizational growth outside of the technology industry.  Experience owning and managing a company, with all the challenges and rewards that come with it.  Phenomenal personal growth experience.
 
@@ -46,9 +45,8 @@ Unique opportunity to demonstrate business leadership and organizational growth 
 \pagebreak
 
 <!-- ############################################################### -->
-## F5 Networks, Seattle WA -- 2004-2016
-
-### Senior Product Management Engineer -- 2015-2016
+### Senior Product Management Engineer \
+    F5 Networks, 2014-2016
 
 Primary interface between customers and rest of company, particularly product development.  Assessed market and customer needs to define and prioritize product requirements.  Demonstrated ownership and effective advocacy for key areas of product portfolio, through articulation of market drivers and business cases to executive audience.
 
@@ -56,7 +54,9 @@ Primary interface between customers and rest of company, particularly product de
   * Lead role in defining integrated future for complete programmability suite; identified opportunities and gaps, prioritized investments and evangelized at executive level
   * Established programmability vision for company through relationships, influence and expertise, both externally and internally
 
-### New Product Introduction Engineer -- 2009-2015
+<!-- ############################################################### -->
+### New Product Introduction Engineer \
+    F5 Networks, 2009-2014
 
 Primary interface between product management, product development and global services organization (knowledge, training, consulting and support teams).  Ensured readiness of sales and services organizations before all new releases of products or services, through functional testing, documentation and training.
 
@@ -71,7 +71,9 @@ Primary interface between product management, product development and global ser
 <!-- [Operations Guide]: https://support.f5.com/content/kb/en-us/products/big-ip_ltm/manuals/product/f5-tmos-operations-guide/_jcr_content/pdfAttach/download/file.res/f5-tmos-operations-guide.pdf -->
 [Operations Guide]: http://www.garybgenett.net/resume/f5-tmos-operations-guide.pdf
 
-### Field Systems Engineer (Technical Sales) -- 2007-2009
+<!-- ############################################################### -->
+### Field Systems Engineer (Technical Sales) \
+    F5 Networks, 2006-2009
 
 Increased recurring product and services revenue as engineering representative on account team.  Removed barriers to customer adoption by partnering with key decision makers and delivering architecture and operations recommendations, solution development and training.
 
@@ -87,7 +89,9 @@ Increased recurring product and services revenue as engineering representative o
 [MSNBC case study]: http://www.garybgenett.net/resume/msnbc-election-day-cs.pdf
 \pagebreak
 
-### Product Management Engineer -- 2004-2006
+<!-- ############################################################### -->
+### Product Management Engineer \
+    F5 Networks, 2004-2006
 
 Developed expert-level knowledge of product design, architecture and internals through hands-on testing and close collaboration with all levels of product development.  Provided market-based consultation and guidance to the executive team and other departments regarding company vision, product direction and internal processes.  Delivered competitive analysis expertise spanning the range from high-level market overview to specific feature differentiation across competitors and products.  Wrote and maintained detailed briefing materials for executive team, product management and sales.
 
@@ -109,7 +113,9 @@ Developed expert-level knowledge of product design, architecture and internals t
 <!-- [video demonstration of the SSL VPN process]: https://devcentral.f5.com/weblogs/dctv/archive/2006/10/30/fploginscript.aspx -->
 [video demonstration of the SSL VPN process]: http://www.garybgenett.net/resume/20061024-FPLoginScript-Gary.wmv
 
-### Network Support Engineer -- 2004
+<!-- ############################################################### -->
+### Network Support Engineer \
+    F5 Networks, 2004
 
 Served as single point of contact for external and internal customers, providing both guidance and support while building ongoing relationships.
 
@@ -117,9 +123,8 @@ Served as single point of contact for external and internal customers, providing
   * Identified several product defects and created actionable documentation for product development
 
 <!-- ############################################################### -->
-## MICROS Systems, Seattle WA -- 2001-2004
-
-### Implementation Specialist -- 2001-2004
+### Implementation Specialist \
+    MICROS Systems, 2001-2004
 
 Designed and supported mission-critical financial systems in 24/7 customer environments.  Managed customer expectations and experience from pre-sales to ongoing support.
 
@@ -127,16 +132,16 @@ Designed and supported mission-critical financial systems in 24/7 customer envir
   * Increased revenue and customer loyalty by building custom solutions using Shell, Perl, SQL and a proprietary scripting language
 
 <!-- ############################################################### -->
-## Relevant Experience -- 2000-2001
+### Relevant Experience
 
-  * HostPro: UNIX Tier 3 Support Specialist -- 2001
-  * VoiceStream Wireless: Operations and Systems Production Support -- 2000
+  * HostPro: UNIX Tier 3 Support Specialist, 2001
+  * VoiceStream Wireless: Operations and Systems Production Support, 2000
 
 <!-- ############################################################### -->
-## Education & Certifications
+### Education & Certifications
 
-  * University of Washington: Perl Programming -- 2003-2004
-  * Seattle Central Community College: Computer Programming -- 2000
+  * University of Washington: Perl Programming, 2003-2004
+  * Seattle Central Community College: Computer Programming, 2000
 
 <!-- ############################################################### -->
 ###### exit(0);
