@@ -98,7 +98,8 @@ Field Systems Engineer (Technical Sales)
     development
 -   Reverse-engineered and automated product installer to provide rapid
     provisioning
--   Cultivated relationship and technical work led to MSNBC Case Study
+-   Cultivated a relationship and supported the technical work which led
+    to a MSNBC Case Study
 
 Product Management Engineer
  F5 Networks, 2004-2006

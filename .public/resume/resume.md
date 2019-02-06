@@ -82,7 +82,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
     *(VIPRION: Xbox Live & BOSD)*
   * Authored comprehensive [Integration Guide] and training for 3rd party development
   * Reverse-engineered and automated product installer to provide rapid provisioning
-  * Cultivated relationship and technical work led to [MSNBC Case Study]
+  * Cultivated a relationship and supported the technical work which led to a [MSNBC Case Study]
 
 [Integration Guide]: http://www.garybgenett.net/resume/BIG-IP_Integration_Guide.docx
 <!-- [MSNBC Case Study]: http://www.f5.com/pdf/case-studies/msnbc-election-day-cs.pdf -->
