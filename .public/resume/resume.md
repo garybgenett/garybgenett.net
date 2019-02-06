@@ -1,7 +1,7 @@
 ﻿<!--
 % Gary B. Genett
 % Pathfinder & Technologist
-% v4.2 (2019-02-05)
+% v4.3 (2019-02-06)
 <!-- ############################################################### -->
 <!-- docx: narrow margins, left margin to 0.75, reduce all font size by one -->
 <!-- ############################################################### -->
@@ -11,7 +11,6 @@
 Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 <http://www.garybgenett.net/Gary_B_Genett-Pathfinder_and_Technologist.pdf>
 
-
 +----------------------------------------------------------------------+
 | **What I Do**
 |
@@ -19,7 +18,6 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 | * Guide organizations toward establishing a direction that achieves their mission and goals
 | * Step into chaotic and uncertain situations, gain an understanding, and find the way forward
 | * Provide multi-disciplinary technology expertise and perspective
-|
 |
 | **How I Do It**
 |
@@ -34,16 +32,18 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 +---+
 
 <!-- ############################################################### -->
+<!-- 2016/10-2019/01 -->
 ### Owner & President \
     Enviro-Master of Seattle, 2016-2019
 
   * Owned and operated a small company with several employees, organizational leadership and growth
   * Managed almost a hundred sites throughout the entire Puget Sound region, high customer retention
-  * Successfully acquired languishing operation, converted to improved model *(Swisher Hygiene of EcoLab)*
+  * Successfully acquired languishing operation, converted to updated model *(Swisher Hygiene of EcoLab)*
   * Consistent growth through in-person sales and employee upsells, mentorship and coaching
-  * Improved overall health of the business, increased revenue and improved margins
+  * Repaired overall health of the business, increased revenue and improved margins
 
 <!-- ############################################################### -->
+<!-- 2015/01-2016/10 -->
 ### Senior Product Management Engineer \
     F5 Networks, 2014-2016
 
@@ -54,6 +54,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
   * Ensured delivery through relationships, influence and expertise, both externally and internally
 
 <!-- ############################################################### -->
+<!-- 2009/09-2014/12 -->
 ### New Product Introduction Engineer \
     F5 Networks, 2009-2014
 
@@ -71,6 +72,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 [Operations Guide]: http://www.garybgenett.net/resume/f5-tmos-operations-guide.pdf
 
 <!-- ############################################################### -->
+<!-- 2007/01-2009/02 -->
 ### Field Systems Engineer (Technical Sales) \
     F5 Networks, 2006-2009
 
@@ -89,6 +91,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 [MSNBC Case Study]: http://www.garybgenett.net/resume/msnbc-election-day-cs.pdf
 
 <!-- ############################################################### -->
+<!-- 2005/01-2006/12 -->
 ### Product Management Engineer \
     F5 Networks, 2004-2006
 
@@ -115,6 +118,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 <!-- ############################################################### -->
 ### Additional Experience
 
+<!-- 2004/02-2004/12 -->
   * Network Support Engineer: F5 Networks, 2004
     * Built first shared lab environment and wrote web-based checkout system for global accessibility
   * Implementation Specialist: MICROS Systems, 2001-2004
