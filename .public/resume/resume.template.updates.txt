@@ -1,0 +1,10 @@
+* word instructions
+  * reduce all font size by two (h3=11, text=10)
+  * increase h1 font size by one (h1=14)
+  * delete all text
+  * save as template: resume.template.docx
+* vim instructions
+  * rsync [...]/pandoc/data/reference.docx resume.template.docx
+  * view resume.template.docx
+  * modify: [...]/word/styles.xml
+  * diff resume.template.styles.old.xml resume.template.styles.new.xml

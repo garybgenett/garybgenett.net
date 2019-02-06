@@ -10,6 +10,7 @@ override COMPOSER_DEPENDS ?=
 # >> VARIABLES
 override LVL ?=
 override MGN ?= 1.0in
+override OPT ?= --reference-docx="./resume.template.docx"
 
 # >> INCLUDE
 include $(COMPOSER_TEACHER)

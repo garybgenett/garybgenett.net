@@ -98,8 +98,8 @@ Field Systems Engineer (Technical Sales)
     development
 -   Reverse-engineered and automated product installer to provide rapid
     provisioning
--   Cultivated a relationship and supported the technical work which led
-    to a MSNBC Case Study
+-   Cultivated the relationship and supported the technical work
+    resulting in MSNBC Case Study
 
 Product Management Engineer
  F5 Networks, 2004-2006
@@ -122,18 +122,11 @@ Product Management Engineer
 Additional Experience
 
 -   Network Support Engineer: F5 Networks, 2004
-    -   Built first shared lab environment and wrote web-based checkout
-        system for global accessibility
 -   Implementation Specialist: MICROS Systems, 2001-2004
-    -   Designed and supported mission-critical financial systems in
-        24/7 customer environments
-    -   Operated as sole technician for UNIX-based systems, which
-        processed millions of dollars daily
-    -   Increased revenue and customer loyalty by selling and building
-        custom solutions
 -   UNIX Tier 3 Support Specialist: HostPro, 2001
 -   Operations and Systems Production Support: VoiceStream Wireless,
     2000
+-   Hospitality Industry: Various Roles at Several Companies, 1993-2001
 
 Education & Certifications
 
@@ -142,7 +135,8 @@ Education & Certifications
 
 Volunteering
 
--   Youth Facilitator: WILS (Wisconsin Leadership Seminars), 2004-2014
--   Youth Ambassador: WILS (Wisconsin Leadership Seminars), 1994-1997
--   Secretary: WILS (Wisconsin Leadership Seminars) Alumni Board,
-    1994-1995
+-   UWKC (United Way of King County), 2009-2010
+-   Nature Consortium, 2009
+-   Circus Contraption, 2009
+-   WILS (Wisconsin Leadership Seminars), 1993-2014 _(Public accolades
+    in 2017 Facebook post)_
