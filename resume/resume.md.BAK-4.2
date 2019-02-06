@@ -3,7 +3,7 @@
 % Pathfinder & Technologist
 % v4.2 (2019-02-05)
 <!-- ############################################################### -->
-<!-- docx: narrow margins, reduce all font size by one -->
+<!-- docx: narrow margins, left margin to 0.75, reduce all font size by one -->
 <!-- ############################################################### -->
 
 # Gary B. Genett // Pathfinder & Technologist
