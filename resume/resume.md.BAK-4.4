@@ -171,7 +171,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 ### Education & Certifications
 
   * University of Washington: Perl Programming, 2003-2004
-  * Seattle Central Community College: Computer Programming, 2000
+  * Seattle Central College: Computer Programming, 2000
 
 <!-- ############################################################### -->
 ### Volunteering
