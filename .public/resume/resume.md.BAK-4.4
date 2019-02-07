@@ -182,7 +182,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
     * Received public accolades in 2017 [Facebook post]
     * Youth Facilitator, 2004-2014
     * Junior Staff Member, 1994-1997
-    * Alumni Board Secretary, 1994-1995
+    * Alumni Board Secretary, 1994-1995 *(Authored constitution and bylaws for new organization)*
     * Seminar Ambassador, 1993
 -->
   * [UWKC (United Way of King County)], 2009-2010
