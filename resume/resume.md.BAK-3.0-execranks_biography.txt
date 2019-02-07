@@ -1,3 +1,33 @@
+BIOGRAPHY
+
 Gary Genett is an accomplished Senior Executive and Thought Leader with more than 18 years of success across the technology, hospitality, and facilities industries.  Leveraging extensive experience in determining corporate revenue and marketing strategy, cost structure, market analysis, and research, he is a valuable advisor for an organization going through technology restructuring, estimating cost, and value.  His broad areas of expertise include sales, information technology, networking, the point of sale, cloud computing, visionary leadership, and presenting.
 
 Throughout his executive career, Gary has held leadership positions with Enviro-Master of Seattle South and F5 Networks.
+
+ACHIEVEMENTS
+
+Franchise Owner - Enviro-Master of Seattle South
+2016/10 - Present
+
+* Successfully acquired and rebuilt the existing company and transitioned to Enviro-Master business model, services and products with no loss in customer accounts
+* Sales and operational leadership for new franchise covering two territories spanning the entire Greater Seattle Area
+* Mentorship and sales coaching for Operations Manager and team of Hygiene Technicians
+* Consistent month-over-month growth through in-person sales and employee upsells
+
+Senior Product Management Engineer, Programmability - F5 Networks
+2004/02 - 2016/10
+
+* Established cloud/ orchestration vision for company through relationships, influence and expertise, both externally and internally, to make it easier from a technology standpoint
+* Developed new, dedicated cloud/orchestration team, and brought to full speed in under a year amid changing company organizational dynamics and significant product history and capabilities
+* Lead role in defining integrated future for complete cloud/ orchestration suite; identified opportunities and gaps, prioritized investments and evangelized at executive level
+* Responsible for four development team to make sure they stayed on track
+* Part of the member virtual leadership team responsible for building and releasing of DSC/CMI, Plugins 2.0, vCMP, TMSH & iApps
+* Evolved an internal home grown tool into a customer base tool for customer to do their own evaluations
+* Conducted several internal reviews of both product and organizational issues for the executive of the service organization
+
+THOUGHT LEADERSHIP
+
+Member of The ExecRanks
+October 2018 - Present
+
+Performance Testing Guide, which remained the foundation for the most comprehensive L4-L7 performance testing report in the industry, Author
