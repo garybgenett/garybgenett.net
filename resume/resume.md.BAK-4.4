@@ -176,9 +176,6 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 <!-- ############################################################### -->
 ### Volunteering
 
-  * [UWKC (United Way of King County)], 2009-2010
-  * [Nature Consortium], 2009
-  * [Circus Contraption], 2009
   * [WILS (Wisconsin Leadership Seminars)], 1993-2014 *(Public accolades in 2017 [Facebook post])*
 <!--
   * [WILS (Wisconsin Leadership Seminars)]
@@ -188,6 +185,9 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
     * Alumni Board Secretary, 1994-1995
     * Seminar Ambassador, 1993
 -->
+  * [UWKC (United Way of King County)], 2009-2010
+  * [Nature Consortium], 2009
+  * [Circus Contraption], 2009
 
 [WILS (Wisconsin Leadership Seminars)]: https://wils.us
 [Facebook post]: https://www.facebook.com/WILeadS/posts/10155511390964644
