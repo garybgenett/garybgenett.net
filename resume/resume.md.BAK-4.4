@@ -180,9 +180,10 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 <!--
   * [WILS (Wisconsin Leadership Seminars)]
     * Received public accolades in 2017 [Facebook post]
+    * Authored constitution and bylaws for new organization as first Alumni Board Secretary
     * Youth Facilitator, 2004-2014
     * Junior Staff Member, 1994-1997
-    * Alumni Board Secretary, 1994-1995 *(Authored constitution and bylaws for new organization)*
+    * Alumni Board Secretary, 1994-1995
     * Seminar Ambassador, 1993
 -->
   * [UWKC (United Way of King County)], 2009-2010
