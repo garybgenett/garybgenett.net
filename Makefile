@@ -9,13 +9,15 @@ override COMPOSER_TARGETS ?=
 override COMPOSER_SUBDIRS ?= resume projects
 override COMPOSER_DEPENDS ?=
 
-override CSS ?= $(MDVIEWER_DST)/themes/markdown7.css
+override CSS ?= $(MDVIEWER_CSS_ALT)
 
 ########################################
 
+override CNAME				:= garybgenett.net
+
 override SUBTREE			:= .public
 override BRANCH				:= gh-pages
-override MIRROR				:= ssh://git@github.com/garybgenett/garybgenett.net.git
+override MIRROR				:= ssh://git@github.com/garybgenett/$(CNAME).git
 
 override LOG_FORMAT			:= %ai %H %s %d
 override LOG_COUNT			:= 10
@@ -23,7 +25,7 @@ override LOG_COUNT			:= 10
 ########################################
 
 override SITE_SOURCE			:= $(COMPOSER_FULLDIR)
-override SITE_PUBLIC			:= $(SITE_SOURCE)/.public
+override SITE_PUBLIC			:= $(SITE_SOURCE)/$(SUBTREE)
 override SITE_SEARCH			:= 1
 
 override SITE_TITLE			:= "Gary B. Genett"
@@ -41,9 +43,9 @@ override SITE_LINKEDIN			:= https://www.linkedin.com/pub/gary-b-genett/a5/a87/17
 override SITE_TWITTER			:=
 override SITE_GITHUB			:= https://github.com/garybgenett
 
-override SITE_GIT_REPO			:= git@github.com:garybgenett/garybgenett.net.git
+override SITE_GIT_REPO			:= git@github.com:garybgenett/$(CNAME).git
 override SITE_ANALYTICS_ID		:=
-override SITE_URL			:= http://www.garybgenett.net
+override SITE_URL			:= http://www.$(CNAME)
 override SITE_ROOT			:=
 override SITE_SIDEBAR			:= right
 override SITE_PERMALINK			:= :year/:month/:day/:title/
