@@ -1,0 +1,12 @@
+.textimage .float-right.image-container {
+  max-width: 47%;
+  margin: 0 0 3% 3%;
+}
+.textimage .float-left.image-container {
+  max-width: 47%;
+  margin: 0 3% 3% 0;
+}
+.textimage figcaption {
+	font-style: italic;
+	font-size: 80%;
+}
