@@ -1,9 +1,9 @@
-To: Andrea Wenet <aewenet@gmail.com>, Peter Miller <peterlmiller@earthlink.net> \
+To: Andrea Wenet \<<aewenet@gmail.com>\>, Peter Miller \<<peterlmiller@earthlink.net>\> \
 Subject: Genett, Gary B. -- General Manager Position
 
-\ 
-\ 
-\ 
+\ \
+\ \
+\ \
 
 Andrea & Peter,
 
@@ -21,9 +21,9 @@ Our world needs quite a bit right now, to create a truly global community that s
 
 -- Gary B. Genett
 
-\ 
-\ 
-\ 
+\ \
+\ \
+\ \
 
 206-391-6606 \
 <me@garybgenett.net> \
