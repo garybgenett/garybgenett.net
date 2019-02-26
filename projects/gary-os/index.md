@@ -800,7 +800,9 @@ use only `rc-update add dhcpcd default ; rc`
 Add `ssid_scan=1` to `/etc/wpa_supplicant/wpa_supplicant.conf`
 `rc-update add wpa_supplicant default ; rc`
 
-get rid of "networkmanager" and "nmcli" commands; use "iwconfig/iwlist" instead
+get rid of "networkmanager" and "nmcli" commands; use "iwconfig/iwlist" instead... nmtui?
+
+(ha! all the below text is actually starting to look pretty good... maybe just test it once more...)
 WORK
 
   * `dhcpcd eth0`
