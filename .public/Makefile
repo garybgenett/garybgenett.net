@@ -87,7 +87,7 @@ override SITE_WIDGETS			:= \
 
 override SITE_MENU			:= \
 	Home| \
-	Resume|Gary_B_Genett-Pathfinder_and_Technologist.html \
+	Resume|resume.html \
 	Projects|projects \
 	Writing|writing \
 	$(SITE_WIDGETS_ARCHIVES)|archives
@@ -97,6 +97,7 @@ override SITE_SKIPS			:= \
 	\
 	Gary_B_Genett-Business_Leader-Resume.** \
 	Gary_B_Genett-Pathfinder_and_Technologist.** \
+	Gary_B_Genett-Resume.** \
 	Gary_B_Genett-Senior_Technologist-Resume.** \
 	resume.** \
 	resume/**
