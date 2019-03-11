@@ -119,37 +119,34 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 [MSNBC Case Study]: http://www.garybgenett.net/resume/msnbc-election-day-cs.pdf
 
 <!-- ############################################################### -->
-<!-- 2005/01-2006/12 -->
-### Product Management Engineer \
-    F5 Networks, 2004-2006
-
-  * Provided company vision, product direction and execution guidance to executive team, market research
-  * Established new team, defined role and responsibilities, created templates for deliverables and reports
-  * Delivered competitive analysis ranging from high-level market overview to technical differentiation
-  * Wrote and maintained detailed briefing materials for executive team, product management and sales
-  * Created initial analysis, guidance and testing for three successive company acquisitions \
-    *(FirePass SSL VPN, WebAccelerator Web Optimization & WANJet WAN Optimization)*
-  * Authored [Performance Testing Guide], setting the industry standard for comprehensive evaluation
-<!--
-  * Released [SSL VPN for UNIX-like Systems], as a [Perl Script] and [Video Demonstration of the Process]
-  * Maintained expertise in product design, architecture and internals, nurtured knowledge culture
--->
-
-<!-- [Performance Testing Guide]: http://devcentral.f5.com/downloads/f5/creating-performance-test-methodology.pdf -->
-[Performance Testing Guide]: http://www.garybgenett.net/resume/creating-performance-test-methodology.pdf
-<!-- [L4-L7 Performance Testing Report]: http://www.f5.com/pdf/reports/F5-comparative-performance-report-ADC-2013.pdf -->
-[L4-L7 Performance Testing Report]: http://www.garybgenett.net/resume/F5-comparative-performance-report-ADC-2013.pdf
-<!-- [L4-L7 Performance Testing Report]: http://www.garybgenett.net/resume/f5-performance-report-UPDATED.pdf -->
-<!-- [SSL VPN for UNIX-like Systems]: https://devcentral.f5.com/articles/clientless-firepass-login-via-the-command-line -->
-[SSL VPN for UNIX-like Systems]: http://www.garybgenett.net/resume/Clientless_FirePass_Login_via_the_command_line.html
-<!-- [Perl Script]: https://devcentral.f5.com/downloads/icontrol/sdk/sslvpn.public.pl.txt -->
-[Perl Script]: http://www.garybgenett.net/resume/sslvpn.public.pl.txt
-<!-- [Video Demonstration of the Process]: https://devcentral.f5.com/weblogs/dctv/archive/2006/10/30/fploginscript.aspx -->
-[Video Demonstration of the Process]: http://www.garybgenett.net/resume/20061024-FPLoginScript-Gary.wmv
-
-<!-- ############################################################### -->
 ### Additional Experience
 
+  * Product Management Engineer: F5 Networks, 2004-2006 <!-- 2005/01-2006/12 -->
+<!--
+    * Provided company vision, product direction and execution guidance to executive team, market research
+    * Established new team, defined role and responsibilities, created templates for deliverables and reports
+    * Delivered competitive analysis ranging from high-level market overview to technical differentiation
+    * Wrote and maintained detailed briefing materials for executive team, product management and sales
+    * Created initial analysis, guidance and testing for three successive company acquisitions \
+      *(FirePass SSL VPN, WebAccelerator Web Optimization & WANJet WAN Optimization)*
+    * Authored [Performance Testing Guide], setting the industry standard for comprehensive evaluation
+<!--
+    * Released [SSL VPN for UNIX-like Systems], as a [Perl Script] and [Video Demonstration of the Process]
+    * Maintained expertise in product design, architecture and internals, nurtured knowledge culture
+<!--
+
+<!-- [Performance Testing Guide]: http://devcentral.f5.com/downloads/f5/creating-performance-test-methodology.pdf
+[Performance Testing Guide]: http://www.garybgenett.net/resume/creating-performance-test-methodology.pdf
+<!-- [L4-L7 Performance Testing Report]: http://www.f5.com/pdf/reports/F5-comparative-performance-report-ADC-2013.pdf
+[L4-L7 Performance Testing Report]: http://www.garybgenett.net/resume/F5-comparative-performance-report-ADC-2013.pdf
+<!-- [L4-L7 Performance Testing Report]: http://www.garybgenett.net/resume/f5-performance-report-UPDATED.pdf
+<!-- [SSL VPN for UNIX-like Systems]: https://devcentral.f5.com/articles/clientless-firepass-login-via-the-command-line
+[SSL VPN for UNIX-like Systems]: http://www.garybgenett.net/resume/Clientless_FirePass_Login_via_the_command_line.html
+<!-- [Perl Script]: https://devcentral.f5.com/downloads/icontrol/sdk/sslvpn.public.pl.txt
+[Perl Script]: http://www.garybgenett.net/resume/sslvpn.public.pl.txt
+<!-- [Video Demonstration of the Process]: https://devcentral.f5.com/weblogs/dctv/archive/2006/10/30/fploginscript.aspx
+[Video Demonstration of the Process]: http://www.garybgenett.net/resume/20061024-FPLoginScript-Gary.wmv
+-->
   * Network Support Engineer: F5 Networks, 2004 <!-- 2004/02-2004/12 -->
 <!--
     * Built first shared lab environment and wrote web-based checkout system for global accessibility
@@ -165,7 +162,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 -->
   * UNIX Tier 3 Support Specialist: HostPro, 2001
   * Operations and Systems Production Support: VoiceStream Wireless, 2000
-  * Hospitality Industry: Various Roles at Several Companies, 1993-2001
+  * Hospitality Industry: Various roles at several companies, 1993-2001
 
 <!-- ############################################################### -->
 ### Education & Certifications

@@ -101,32 +101,15 @@ Field Systems Engineer (Technical Sales)
 -   Cultivated the relationship and supported the technical work
     resulting in MSNBC Case Study
 
-Product Management Engineer
- F5 Networks, 2004-2006
-
--   Provided company vision, product direction and execution guidance to
-    executive team, market research
--   Established new team, defined role and responsibilities, created
-    templates for deliverables and reports
--   Delivered competitive analysis ranging from high-level market
-    overview to technical differentiation
--   Wrote and maintained detailed briefing materials for executive team,
-    product management and sales
--   Created initial analysis, guidance and testing for three successive
-    company acquisitions
-    _(FirePass SSL VPN, WebAccelerator Web Optimization & WANJet WAN
-    Optimization)_
--   Authored Performance Testing Guide, setting the industry standard
-    for comprehensive evaluation
-
 Additional Experience
 
+-   Product Management Engineer: F5 Networks, 2004-2006
 -   Network Support Engineer: F5 Networks, 2004
 -   Implementation Specialist: MICROS Systems, 2001-2004
 -   UNIX Tier 3 Support Specialist: HostPro, 2001
 -   Operations and Systems Production Support: VoiceStream Wireless,
     2000
--   Hospitality Industry: Various Roles at Several Companies, 1993-2001
+-   Hospitality Industry: Various roles at several companies, 1993-2001
 
 Education & Certifications
 
