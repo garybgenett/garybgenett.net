@@ -10,14 +10,14 @@
 [DWM multimon]: http://dwm.suckless.org/patches/historical/multimon
 
 Writing projects:
-  * [Tresobis] -- a writing collective, with the writers closest to me
+  * [Tresobis] -- A writing collective, with the writers closest to me
 
 Active open source projects:
-  * [GaryOS] -- an entire GNU/Linux system in a single bootable file
-  * [Composer] -- simple but powerful CMS based on Pandoc and Make
+  * [GaryOS] -- An entire GNU/Linux system in a single bootable file
+  * [Composer] -- Simple but powerful CMS based on Pandoc and Make
 
 External or in-progress projects:
   * [Tasks] -- Taskwarrior & Google Tasks: configuration, automation & reporting
-  * [DWM multimon] -- contributed multi-monitor patches to DWM
+  * [DWM multimon] -- Contributed multi-monitor patches to DWM
 
 For my professional experience, see my [Resume].
