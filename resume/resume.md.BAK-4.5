@@ -180,11 +180,10 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
 <!-- ############################################################### -->
 ### Volunteering
 
-  * [WILS (Wisconsin Leadership Seminars)], 1993-2014 *(Public accolades in 2017 [Facebook post])*
-<!--
-  * [WILS (Wisconsin Leadership Seminars)]
+  * [WILS (Wisconsin Leadership Seminars)], 1993-2014
     * Received public accolades in 2017 [Facebook post]
     * Authored constitution and bylaws for new organization as first Alumni Board Secretary
+<!--
     * Youth Facilitator, 2004-2014
     * Junior Staff Member, 1994-1997
     * Alumni Board Secretary, 1994-1995
