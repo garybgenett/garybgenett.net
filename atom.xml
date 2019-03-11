@@ -4,7 +4,7 @@
   
   <link href="//atom.xml" rel="self"/>
   <link href="http://www.garybgenett.net/"/>
-  <updated>2019-03-11T22:02:05.850Z</updated>
+  <updated>2019-03-11T22:13:33.537Z</updated>
   <id>http://www.garybgenett.net/</id>
   
   <author>
@@ -18,25 +18,25 @@
     <title></title>
     <link href="http://www.garybgenett.net/2019/03/11/README/"/>
     <id>http://www.garybgenett.net/2019/03/11/README/</id>
-    <published>2019-03-11T22:02:10.491Z</published>
-    <updated>2019-03-11T22:02:05.850Z</updated>
+    <published>2019-03-11T22:13:38.017Z</published>
+    <updated>2019-03-11T22:13:33.537Z</updated>
     <content type="html"><![CDATA[<!--
 2016-07-17 20:57:19 -0800 f3197bf1e7c4e907b7282e30b4f24bb2535ecf53 Move multimon to historical
 [DWM multimon]: http://dwm.suckless.org/patches/multimon
 -->
 <p>Writing projects:</p>
 <ul>
-<li><a href="http://www.tresobis.org" target="_blank" rel="external">Tresobis</a> – a writing collective, with the writers closest to me</li>
+<li><a href="http://www.tresobis.org" target="_blank" rel="external">Tresobis</a> – A writing collective, with the writers closest to me</li>
 </ul>
 <p>Active open source projects:</p>
 <ul>
-<li><a href="/projects/gary-os">GaryOS</a> – an entire GNU/Linux system in a single bootable file</li>
-<li><a href="/projects/composer">Composer</a> – simple but powerful CMS based on Pandoc and Make</li>
+<li><a href="/projects/gary-os">GaryOS</a> – An entire GNU/Linux system in a single bootable file</li>
+<li><a href="/projects/composer">Composer</a> – Simple but powerful CMS based on Pandoc and Make</li>
 </ul>
 <p>External or in-progress projects:</p>
 <ul>
 <li><a href="https://github.com/garybgenett/tasks" target="_blank" rel="external">Tasks</a> – Taskwarrior &amp; Google Tasks: configuration, automation &amp; reporting</li>
-<li><a href="http://dwm.suckless.org/patches/historical/multimon" target="_blank" rel="external">DWM multimon</a> – contributed multi-monitor patches to DWM</li>
+<li><a href="http://dwm.suckless.org/patches/historical/multimon" target="_blank" rel="external">DWM multimon</a> – Contributed multi-monitor patches to DWM</li>
 </ul>
 <p>For my professional experience, see my <a href="/resume.html">Resume</a>.</p>
 ]]></content>
