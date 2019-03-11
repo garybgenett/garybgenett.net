@@ -1,4 +1,4 @@
-[Resume]: Gary_B_Genett-Pathfinder_and_Technologist.html
+[Resume]: Gary_B_Genett-Resume.html
 [Tresobis]: http://www.tresobis.org
 [Composer]: projects/composer
 [GaryOS]: projects/gary-os
