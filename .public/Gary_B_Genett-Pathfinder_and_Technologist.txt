@@ -133,6 +133,13 @@ Education & Certifications
 -   University of Washington: Perl Programming, 2003-2004
 -   Seattle Central College: Computer Programming, 2000
 
+Open Source Projets
+
+-   GaryOS – An entire GNU/Linux system in a single bootable file
+-   Composer – Simple but powerful CMS based on Pandoc and Make
+-   Tasks – Taskwarrior & Google Tasks: configuration, automation &
+    reporting
+
 Volunteering
 
 -   WILS (Wisconsin Leadership Seminars), 1993-2014 _(Public accolades

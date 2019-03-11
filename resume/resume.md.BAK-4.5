@@ -174,6 +174,13 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
   * Seattle Central College: Computer Programming, 2000
 
 <!-- ############################################################### -->
+### Open Source Projets
+
+  * [GaryOS](https://github.com/garybgenett/gary-os) -- An entire GNU/Linux system in a single bootable file
+  * [Composer](https://github.com/garybgenett/composer) -- Simple but powerful CMS based on Pandoc and Make
+  * [Tasks](https://github.com/garybgenett/tasks) -- Taskwarrior & Google Tasks: configuration, automation & reporting
+
+<!-- ############################################################### -->
 ### Volunteering
 
   * [WILS (Wisconsin Leadership Seminars)], 1993-2014 *(Public accolades in 2017 [Facebook post])*
