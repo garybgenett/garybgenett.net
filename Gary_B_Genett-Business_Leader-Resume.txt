@@ -1,6 +1,6 @@
 
 
-GARY B. GENETT // PATHFINDER & TECHNOLOGIST
+GARY B. GENETT // SENIOR PRODUCT, PROGRAM & PROJECT MANAGER
 
 
 Seattle, WA | 206-391-6606 | me@garybgenett.net
@@ -85,8 +85,6 @@ Field Systems Engineer (Technical Sales)
 
 -   Increased customer adoption as primary engineering representative on
     account team _(Microsoft)_
--   Developed influence through mutual trust, thought leadership,
-    solution development and training
 -   Tripled the customer device count and quadrupled revenue with only
     two additional team members
 -   Supported thousands of devices during the development of public
@@ -96,14 +94,25 @@ Field Systems Engineer (Technical Sales)
     _(VIPRION: Xbox Live & BOSD)_
 -   Authored comprehensive Integration Guide and training for 3rd party
     development
--   Reverse-engineered and automated product installer to provide rapid
-    provisioning
 -   Cultivated the relationship and supported the technical work
     resulting in MSNBC Case Study
 
+Product Management Engineer
+ F5 Networks, 2004-2006
+
+-   Established new team, defined role and responsibilities, created
+    templates for deliverables and reports
+-   Created initial analysis, guidance and testing for three successive
+    company acquisitions
+    _(FirePass SSL VPN, WebAccelerator Web Optimization & WANJet WAN
+    Optimization)_
+-   Authored Performance Testing Guide, setting the industry standard
+    for comprehensive evaluation
+-   Released SSL VPN for UNIX-like Systems, as a Perl Script and Video
+    Demonstration of the Process
+
 Additional Experience
 
--   Product Management Engineer: F5 Networks, 2004-2006
 -   Network Support Engineer: F5 Networks, 2004
 -   Implementation Specialist: MICROS Systems, 2001-2004
 -   UNIX Tier 3 Support Specialist: HostPro, 2001
@@ -130,5 +139,3 @@ Volunteering
     -   Authored constitution and bylaws for new organization as first
         Alumni Board Secretary
 -   UWKC (United Way of King County), 2009-2010
--   Nature Consortium, 2009
--   Circus Contraption, 2009
