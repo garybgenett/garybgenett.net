@@ -1,13 +1,13 @@
 <!--
 % Gary B. Genett
-% Technologist & Product/Program/Project Manager
+% Technologist & Senior Product Manager
 % v4.6 (2019-03-13)
 <!-- ############################################################### -->
 
-# Gary B. Genett // Technologist & Product/Program/Project Manager
+# Gary B. Genett // Technologist & Senior Product Manager
 
 Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \
-<http://www.garybgenett.net/Gary_B_Genett-Resume.pdf>
+<http://www.garybgenett.net/Gary_B_Genett-Product_Manager.pdf>
 
 +----------------------------------------------------------------------+
 | **What I Do**
