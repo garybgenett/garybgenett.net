@@ -1,0 +1,50 @@
+GitHub was the inspiration and vehicle which allowed me to release a personal pet project as an open source contribution to an international audience overnight.  It was an empowering experience, to share something and contribute with a single command.
+
+For the last two years I've been running my own company, because I wanted to contribute and have the ability to empower those less fortunate than me by providing job opportunities, training and livable wages.  It was a rewarding experience, but one which was costing me my health as a one-man small business in the extreme economics of the Seattle area.
+
+I'm moving back into the technology industry, which I have enjoyed working in for almost 20 years.  The innovation, collaboration and feeling of participation in the advancement of the human race have called to me during my time investing in another endeavor.  I'm looking to join a company with a focus on giving back as much or more than it receives.
+
+I believe GitHub exceeds this bar, and I would love the opportunity to serve as a member of the team.  I feel that your company can fully utilize the range of skills I have developed throughout my technology and business career.
+
+I enjoy innovating and problem solving immensely, and environments where I am able to bring the whole of what I have to offer is where I thrive.  GitHub seems to be genuinely invested in a culture of cooperation and mutual exchange, not just internally among the team, but with the world of open source developers and nonprofit organizations it engages as well.  Those values resonate deeply with me.  The way forward is together, if we really want to get the job done.
+
+Our world needs quite a bit right now, to create a truly global community that supports and nourishes everyone, and GitHub is working hard towards that vision on all the fronts it can.  It would be wonderful to contribute to that effort, and I'd like to explore if I can step in to do that with you.
+
+-- Gary B. Genett
+
+==========
+
+Are you currently authorized to work in the United States?  Yes
+Will you now or in the future require visa sponsorship for employment?  No
+If you answered yes please provide more information.
+* I am a citizen, and authorized to work in the United States.
+
+Why do you want to work at GitHub?
+* It is a technology company that delivers on the promise of giving back
+* You take care of your people, and they take care of each other
+* Pride in serving at a company which does these things
+
+(Senior Product Manager - Payments) Why do you feel you would be a fit for this role?
+* In my last position I developed the strategy for completely changing our approach to cloud and automation, collaborating with customers and internal stakeholders to refine the vision, and then evangelizing and advocating with senior and executive management to obtain sponsorship and funding
+* This endeavor was the culmination of almost 10 years of experience innovating, validating, designing and delivering new products to an extremely competitive market
+* My responsibilities have spanned a wide range of positions and products, with 5 years within the services organization supporting customer-focused initiatives which included creating the first partner, subscription and on-demand revenue models for the company
+
+(Senior Technical Project Manager) Why do you feel you would be a fit for this role?
+* In my last position I developed the strategy for completely changing our approach to cloud and automation, developing and maintaining the roadmap, and then managing and unifying 5 separate development teams with disparate technology focus areas in order to deliver the vision
+* I have 10 years of experience defining and delivering complex process and technical projects, including working with development teams that I do and do not manage, ensuring stakeholder comprehension and realistic expectations, making tough calls between what we desire and our ability to cost-effectively deliver it on time, and generally doing whatever it takes to make it all happen
+* My responsibilities have spanned a wide range of positions and products, all of them requiring simultaneous engagement with multiple development teams, often having responsibility without authority, and achieving success through unified efforts based on consensus and mutual enthusiasm
+
+(Program Manager, Open Source for Good) Why do you feel you would be a fit for this role?
+* Inspiring, motivating and coaching others is a passion; I've been very fortunate and was born into privileged circumstances that most do not share, and it is my responsibility to give back as much as I can wherever I can
+* I am an expert generalist, proficient in multiple technologies and development philosophies, capable of understanding not only the engineering intimacies of projects but their spirit and applications beyond their original design as well
+* A writer by nature, I enjoy telling stories and galvanizing others to action through the art of the written word, which has become a generally immortal expression in the age of information technology, able to maintain impact long after it was crafted
+* I spent the last two years of my life committed to running my own business, one of the primary motivations of which was to provide opportunities for others that otherwise would not exist; I embarked on and continued that endeavor at great expense to myself, ushering everyone who worked for me into better personal and professional situations than they arrived in
+* I believe unequivocally in the power of science and technology to universally advance the entire human race; they are the primary tools that will get us from here to there, and open source embodies this through an inherent culture of sharing and inclusion where everyone is equal and regarded on their ideas and skills over all other attributes
+
+What do you suppose are the challenges of working remotely, and how would you address them?
+* All my positions since 2005 included increasing amounts of remote work as I gained more seniority, the company globalized, travel became more common, and the transportation issues in the Seattle area became more pronounced
+* The biggest challenges I've seen and experienced are having an appropriate workspace, staying focused, keeping a distributed and diverse group of individuals engaged and moving in the same direction, inefficiencies and loss of human element when communicating without non-verbal expressions and cues, and maintaining a proper work and life balance due to the immediate availability of the workplace and around the clock wakefulness of global team members
+* Having a consistent routine and a dedicated place to focus on work are essential, along with isolated blocks of time to manage communications aside from strategic work, a concerted effort to nurture interpersonal relationships, investment in occasional audio and video communication, taking time to constantly improve written communication skills, and the ability to mutually isolate work and personal life from one another
+
+How did you hear about this job?
+* GitHub has a very handy and functional careers page.
