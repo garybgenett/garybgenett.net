@@ -95,13 +95,8 @@ override SITE_MENU			:= \
 override SITE_SKIPS			:= \
 	CNAME \
 	\
-	Gary_B_Genett-Business_Leader-Resume.** \
-	Gary_B_Genett-Pathfinder_and_Technologist.** \
-	Gary_B_Genett-Resume-Manager.** \
-	Gary_B_Genett-Resume.** \
-	Gary_B_Genett-Senior_Technologist-Resume.** \
-	resume-manager.** \
-	resume.** \
+	Gary_B_Genett** \
+	resume** \
 	resume/**
 
 ########################################
