@@ -1,0 +1,48 @@
+[resume.md.BAK-2.4]
+* 2006-XX-XX Google-Technical_Program_Manager-Cloud_Architect-Cloud_Platform-2016-01-19.html
+
+[resume.md.BAK-2.4 / resume.md.BAK-2.6]
+* 2006-XX-XX Zillow-Senior_Program_Manager-Property_Data.html
+
+[resume.md.BAK-4.4]
+* 2019-02-26 Impact_Hub-General_Manager-2019-01-17.pdf
+
+[resume.md.BAK-4.6]
+* 2019-03-12 GitHub_-_Senior_Product_Manager_-_Payments-1201581.html
+* 2019-03-12 GitHub_-_Senior_Technical_Project_Manager-1555070.html
+* 2019-03-13 GitHub_-_Program_Manager_-_Open_Source_for_Good-1526635.html
+* 2019-03-13 Indeed_-_Indeed_-_Senior_Product_Manager_-_Data_Science-619a216b728a58b8.html
+* 2019-03-13 Projectline_-_Business_Manager-oiwt9fwa.html
+* 2019-03-13 Projectline_-_Consultant-onUn6fwu.html
+* 2019-03-13 Projectline_-_Learning_and_Development-oPfl9fwi.html
+* 2019-03-17 (Holly Willey, Email): ServiceNow_-_Senior_Customer_Engagement_Manager-21434-oo3k9fwE.html
+* 2019-03-17 (Holly Willey, Email): ServiceNow_-_Senior_Training_and_Adoption_Lead-19242-otlw8fwc.html
+* 2019-03-17 (TEKsystems, Email): Lululemon, Starbucks (x2)
+* 2019-03-18 Robert_Half_-_DevOps_Engineer-04410-0010900195.html
+* 2019-03-18 Robert_Half_-_Senior_Business_Analyst-04410-0010883058.html
+* 2019-03-18 Robert_Half_-_Technical_Project_Manager-04410-9501837809.html
+* 2019-03-19 Community_Brands-Indeed_External_-_Director_Product_Management-orst9fwf.html
+* 2019-03-19 Crossover-Indeed_External_-_EVP_of_Technical_Product_Management.html
+* 2019-03-19 Crossover-Indeed_External_-_SVP_of_Technical_Product_Management.html
+* 2019-03-19 Crossover-Indeed_External_-_Technical_Product_Manager.html
+* 2019-03-19 Crossover-Indeed_External_-_VP_of_Technical_Product_Management.html
+* 2019-03-19 Indeed_-_Fresh_Consulting_-_Product_Manager-1123f6038d098412.html (Cover Letter == I am an industry veteran with over a decade of experience defining and delivering solutions, from initial customer requirements to market delivery, often requiring hands-on work.  I enjoy reading the data and spotting the hidden messages that others might miss.  I've performed cross-functionally, and with customers from a vast array of market verticals.  I thrive in dynamic environments, where there is a consistent stream of evolving challenges to be overcome.  I recently started and operated my own company, providing me with valuable leadership skills above and beyond what I achieved in my previous roles.  I will bring a wide range of experience and a unique perspective to whatever company can fully utilize what I have to offer.) (In 150 characters or fewer, tell us what makes you unique.  Try to be creative and say something that will catch our eye! == I own a crystal ball that helps me make accurate predictions about the future.)
+* 2019-03-19 Indeed_-_G2_Web_Services_-_Senior_Product_Manager-d8538b57556d4fab.html
+* 2019-03-19 Indeed_-_Indeed_-_Senior_Product_Manager-ae5a56defdefacb0.html
+* 2019-03-19 Indeed_-_MedBridge_-_Technical_Product_Manager-b821d542d855e9f6.html (In 150 characters or fewer, tell us what makes you unique.  Try to be creative and say something that will catch our eye! == I own a crystal ball that helps me make accurate predictions about the future.)
+* 2019-03-19 Indeed_-_OfferUp_-_Engineering_Technical_Product_Manager-9db5b3747b0b62a5.html
+* 2019-03-19 Indeed_-_Qumulo_-_Technical_Product_Manager-5be2c0739d2670a4.html
+* 2019-03-19 Indeed_-_Ripl_-_Product_Manager_-_Partnerships_and_Integrations-9b687e86cd095e4d.html
+* 2019-03-19 Indeed_-_Rubicon_Project_-_Lead_Technical_Product_Manager-238dfcba7404acbf.html
+* 2019-03-19 Indeed_-_Sift_-_Senior_Product_Manager-425cf7c94dda2351.html
+* 2019-03-19 Indeed_-_Smartsheet_-_Senior_Product_Manager_-_Enterprise-f8e424b33222cdf6.html
+* 2019-03-19 Indeed_External-Crossover_-_SVP_of_Technical_Product_Management-a0eca45f42cd69f2.html
+* 2019-03-19 Indeed_External-Crossover_-_VP_of_Technical_Product_Management-80bd6989e35d816d.html
+* 2019-03-19 Indeed_External-Community_Brands_-_Director_Product_Management-b910695268dfeeaf.html
+
+* 2019-03-21 Indeed_External_-_WORK_-_WORK-WORK.html
+* 2019-03-21 Indeed_External_-_WORK_-_WORK-WORK.html
+* 2019-03-21 Indeed_External_-_WORK_-_WORK-WORK.html
+* 2019-03-21 Indeed_External_-_WORK_-_WORK-WORK.html
+* 2019-03-21 Indeed_External_-_WORK_-_WORK-WORK.html
+* 2019-03-21 Indeed_External_-_WORK_-_WORK-WORK.html

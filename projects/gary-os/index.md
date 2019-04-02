@@ -131,6 +131,7 @@ a ready-to-go Funtoo/Gentoo installation.
 [Version History]: #Version_History
 
 WORK add links pointing to the release tags/commits
+WORK holy crap!  stuff is getting big... gcc=x2 python=x3 linux-firmware=x5!=removed (removed surf/wireshark/gvim/gtk...)... no added packages, and still 100mb bigger... rootfs about the same?
 
 [Release Notes]: #Version_History
 [64-bit]: http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel
@@ -522,7 +523,12 @@ still fitting in an initramfs.
 
 Both projects are pretty damn awesome.
 
-WORK side note about gentoo family tree; include image into repository
+WORK side note about gentoo family tree; include image into repository (accolates section with sourceforge stats)
+WORK	https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly
+WORK	consistent worldwide downloads through lifetime of the project, with peaks at 1.9k+ in 2018-03 and 500+ in 2019-01
+WORK softpedia review: https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml
+WORK softpedia local: \_IMPORT/.old.2017-09-28/GaryOS_v3.0-Softpedia_103629.html
+WORK link to gentoo family graph
 
 ## Tools
 [Tools]: #Tools
@@ -779,6 +785,8 @@ and interrogation.
 
 It is a stated goal that forensics mode continue being the default.
 
+WORK suspend to ram capability
+
 ## Networking Configuration
 [Networking Configuration]: #Networking_Configuration
 
@@ -838,6 +846,8 @@ and options, covered in depth:
 ## Minimal X.Org GUI
 [Minimal X.Org GUI]: #Minimal_X-Org_GUI
 
+WORK is just a simple "startx" now
+
   * Definition:
     * Start up and use the X.Org GUI environment
   * Last tested with:
@@ -870,11 +880,16 @@ More information:
   * Read `man urxvt` for help on the terminal emulator.
   * Read `man surf` for help on the web browser.
 
+WORK: not all suckless now!  kudos to the "links" browser...
+
 Thanks to the [Suckless](http://suckless.org) team for creating such
 lightweight and useful software.
 
 ## Live Update
 [Live Update]: #Live_Update
+
+WORK: ramfs size kernel option
+WORK: see "gary-os" sets file
 
   * Definition:
     * Update/install packages using Funtoo/Gentoo tools.
@@ -963,6 +978,7 @@ Instructions for installing to disk:
   4. Add necessary partition information to `/etc/fstab`, remembering an
      entry for `/boot` if using a separate partition from #2 above.
      * e.g. `vi /mnt/etc/fstab`
+WORK need "grub" when "boot-update" here?
   5. Update and install Grub, to make the new installation bootable.
      * e.g. `for FILE in dev proc sys ; do mount --bind /${FILE} /mnt/${FILE} ; done`
      * e.g. `chroot /mnt grub-install /dev/sda`
@@ -1105,6 +1121,9 @@ Instructions for Grub "rescue" image installation to hard disk:
 
 ## PXE Boot
 [PXE Boot]: #PXE_Boot
+
+#WORK: efi boot?
+#WORK: http://www.ondatechnology.org/wiki/index.php?title=Booting_the_Linux_Kernel_without_a_bootloader
 
   * Definition:
     * Boot from a PXE environment.

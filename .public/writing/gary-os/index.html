@@ -24,7 +24,7 @@ Download: https://sourcef">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/icon.png">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/screenshot_cli.png">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/screenshot_gui.png">
-<meta property="og:updated_time" content="2019-03-13T19:08:30.920Z">
+<meta property="og:updated_time" content="2019-04-02T18:06:00.601Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Gary B. Genett">
 <meta name="twitter:description" content="Welcome to GaryOS (gary-os)
@@ -103,7 +103,7 @@ ga('send', 'pageview');
         <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/writing/gary-os/index.html" class="article-date">
-  <time datetime="2019-03-13T19:08:31.732Z" itemprop="datePublished">2019-03-13</time>
+  <time datetime="2019-04-02T18:06:02.729Z" itemprop="datePublished">2019-04-02</time>
 </a>
     
   </div>
@@ -194,7 +194,7 @@ ga('send', 'pageview');
 </ul>
 <p>From there, whatever rescue/administrative work that needs to be done<br>can be accomplished, including using <code>emerge</code> to install or upgrade<br>packages.</p>
 <p>The in-memory filesystem is a complete Funtoo/Gentoo installation, and<br>can be copied to a partition just like a standard <code>stage3</code> file.  GaryOS<br>goes one step further, however, since a Linux kernel has already been<br>prepared.  Simply configuring and installing Grub will result in<br>a ready-to-go Funtoo/Gentoo installation.</p>
-<h2 id="Version_History"><a href="#Version_History" class="headerlink" title="Version History"></a>Version History</h2><p>WORK add links pointing to the release tags/commits</p>
+<h2 id="Version_History"><a href="#Version_History" class="headerlink" title="Version History"></a>Version History</h2><p>WORK add links pointing to the release tags/commits<br>WORK holy crap!  stuff is getting big… gcc=x2 python=x3 linux-firmware=x5!=removed (removed surf/wireshark/gvim/gtk…)… no added packages, and still 100mb bigger… rootfs about the same?</p>
 <h5 id="2015-03-16_v3-0_21811b59a8484b2a6b73e0c5277f23c50a0141dc-0"><a href="#2015-03-16_v3-0_21811b59a8484b2a6b73e0c5277f23c50a0141dc-0" class="headerlink" title="2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0"></a>2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0</h5><ul>
 <li>64-bit: <a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel" target="_blank" rel="external">gary-os-generic_64-funtoo-stable-v3.0.kernel</a></li>
 <li>32-bit: <a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v3.0.kernel" target="_blank" rel="external">gary-os-generic_32-funtoo-stable-v3.0.kernel</a></li>
@@ -428,7 +428,7 @@ ga('send', 'pageview');
 </ul>
 <p>GaryOS shares many of the same goals and attributes/features as these<br>projects.  The primary difference being that both these projects strive<br>to be minimalist and/or otherwise purely rescue/development focused.<br>GaryOS instead tries to be as complete an environment as possible while<br>still fitting in an initramfs.</p>
 <p>Both projects are pretty damn awesome.</p>
-<p>WORK side note about gentoo family tree; include image into repository</p>
+<p>WORK side note about gentoo family tree; include image into repository (accolates section with sourceforge stats)<br>WORK    <a href="https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly" target="_blank" rel="external">https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly</a><br>WORK    consistent worldwide downloads through lifetime of the project, with peaks at 1.9k+ in 2018-03 and 500+ in 2019-01<br>WORK softpedia review: <a href="https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml" target="_blank" rel="external">https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml</a><br>WORK softpedia local: _IMPORT/.old.2017-09-28/GaryOS_v3.0-Softpedia_103629.html<br>WORK link to gentoo family graph</p>
 <h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><p>All the real heavy-lifting is accomplished using these tools/projects:</p>
 <ul>
 <li>Metro: <a href="http://www.funtoo.org/Metro_Quick_Start_Tutorial" target="_blank" rel="external">http://www.funtoo.org/Metro_Quick_Start_Tutorial</a></li>
@@ -645,6 +645,7 @@ ga('send', 'pageview');
 <p>GaryOS is in a forensics mode by default.  Hardware scanning is<br>performed, but the hard drives are not mounted or otherwise touched.<br>All entries in <code>/etc/fstab</code> have been commented out.  As a result, swap<br>is also disabled.</p>
 <p>Linux kernel options can further be used to disable hardware scanning<br>and interrogation.</p>
 <p>It is a stated goal that forensics mode continue being the default.</p>
+<p>WORK suspend to ram capability</p>
 <h2 id="Networking_Configuration"><a href="#Networking_Configuration" class="headerlink" title="Networking Configuration"></a>Networking Configuration</h2><ul>
 <li>Definition:<ul>
 <li>Configure networking, either wired or wireless</li>
@@ -680,7 +681,8 @@ ga('send', 'pageview');
 </ul>
 <p>For a more user-friendly interface, the <code>nmtui</code> utility can also be<br>used.  It is part of the NetworkManager package, and “has a very nice<br>console-based interface” according to the Funtoo documentation.</p>
 <p>The Funtoo OpenRC scripts have all sorts of advanced networking features<br>and options, covered in depth:<br><a href="http://www.funtoo.org/Networking" target="_blank" rel="external">http://www.funtoo.org/Networking</a></p>
-<h2 id="Minimal_X-Org_GUI"><a href="#Minimal_X-Org_GUI" class="headerlink" title="Minimal X.Org GUI"></a>Minimal X.Org GUI</h2><ul>
+<h2 id="Minimal_X-Org_GUI"><a href="#Minimal_X-Org_GUI" class="headerlink" title="Minimal X.Org GUI"></a>Minimal X.Org GUI</h2><p>WORK is just a simple “startx” now</p>
+<ul>
 <li>Definition:<ul>
 <li>Start up and use the X.Org GUI environment</li>
 </ul>
@@ -705,8 +707,10 @@ ga('send', 'pageview');
 <li>Read <code>man urxvt</code> for help on the terminal emulator.</li>
 <li>Read <code>man surf</code> for help on the web browser.</li>
 </ul>
+<p>WORK: not all suckless now!  kudos to the “links” browser…</p>
 <p>Thanks to the <a href="http://suckless.org" target="_blank" rel="external">Suckless</a> team for creating such<br>lightweight and useful software.</p>
-<h2 id="Live_Update"><a href="#Live_Update" class="headerlink" title="Live Update"></a>Live Update</h2><ul>
+<h2 id="Live_Update"><a href="#Live_Update" class="headerlink" title="Live Update"></a>Live Update</h2><p>WORK: ramfs size kernel option<br>WORK: see “gary-os” sets file</p>
+<ul>
 <li>Definition:<ul>
 <li>Update/install packages using Funtoo/Gentoo tools.</li>
 </ul>
@@ -785,7 +789,7 @@ ga('send', 'pageview');
 </li>
 <li><p>Add necessary partition information to <code>/etc/fstab</code>, remembering an<br>entry for <code>/boot</code> if using a separate partition from #2 above.</p>
 <ul>
-<li>e.g. <code>vi /mnt/etc/fstab</code></li>
+<li>e.g. <code>vi /mnt/etc/fstab</code><br>WORK need “grub” when “boot-update” here?</li>
 </ul>
 </li>
 <li>Update and install Grub, to make the new installation bootable.<ul>
@@ -926,7 +930,9 @@ ga('send', 'pageview');
 </li>
 <li>To remove, simply re-install Grub using <code>grub-install</code> as usual, or<br>install another bootloader.</li>
 </ol>
-<h2 id="PXE_Boot"><a href="#PXE_Boot" class="headerlink" title="PXE Boot"></a>PXE Boot</h2><ul>
+<h2 id="PXE_Boot"><a href="#PXE_Boot" class="headerlink" title="PXE Boot"></a>PXE Boot</h2><p>#WORK: efi boot?</p>
+<p>#WORK: <a href="http://www.ondatechnology.org/wiki/index.php?title=Booting_the_Linux_Kernel_without_a_bootloader" target="_blank" rel="external">http://www.ondatechnology.org/wiki/index.php?title=Booting_the_Linux_Kernel_without_a_bootloader</a></p>
+<ul>
 <li>Definition:<ul>
 <li>Boot from a PXE environment.</li>
 <li>With some modification of the Funtoo/Gentoo configuration and<br>package list, this Metro automation can be used to create a lab<br>workstation or other automated environment where a reboot<br>completely resets each machine involved.</li>
@@ -953,7 +959,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.garybgenett.net/writing/gary-os/index.html" data-id="cjt7kv4ql000akgj58pqovclu" class="article-share-link">Share</a>
+      <a data-url="http://www.garybgenett.net/writing/gary-os/index.html" data-id="cju03g0q7000a9qj51lb6u7d7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -974,7 +980,7 @@ ga('send', 'pageview');
       <ul>
         
           <li>
-            <a href="/2019/03/11/README/">(no title)</a>
+            <a href="/2019/04/02/README/">(no title)</a>
           </li>
         
       </ul>
@@ -994,7 +1000,7 @@ ga('send', 'pageview');
   <div class="widget-wrap">
     <h3 class="widget-title">History</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a></li></ul>
     </div>
   </div>
 

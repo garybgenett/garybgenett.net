@@ -12,7 +12,7 @@ override COMPOSER_DEPENDS ?=
 
 # >> VARIABLES
 override LVL ?=
-override MGN ?= 1.0in
+override MGN ?= 0.8in
 override OPT ?= --reference-docx="./resume.template.docx"
 
 # >> INCLUDE
