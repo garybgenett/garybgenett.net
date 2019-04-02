@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Technologist & Senior Product Manager
-% v5.0 (2019-04-02)
+% v5.1 (2019-04-02)
 <!-- ############################################################### -->
 
 # Gary B. Genett // Solution Engineer & Product Owner
@@ -83,6 +83,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 
   * Served as liaison between the major arms of the company: marketing, development, services and sales
   * Ensured readiness of sales and services organizations before all new releases of products and services
+  * Developed and delivered in-person and web-based training curriculums for each release and new technologies
   * Performed lead role in milestone release, delivered five innovative technologies and deep product rewrite
 <!-- \ -->
 <!--    *(BIG-IP v11.0.0: DSC/CMI, Plugins 2.0, vCMP, TMSH & iApps)* -->
