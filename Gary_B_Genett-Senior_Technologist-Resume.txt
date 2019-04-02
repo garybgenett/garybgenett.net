@@ -1,37 +1,39 @@
 
 
-GARY B. GENETT // PATHFINDER & TECHNOLOGIST
+GARY B. GENETT // SOLUTION ENGINEER & PRODUCT OWNER
 
 
-Seattle, WA | 206-391-6606 | me@garybgenett.net
-http://www.garybgenett.net/Gary_B_Genett-Resume.pdf
+Seattle, WA | 206-391-6606 | me@garybgenett.net |
+http://garybgenett.net/Gary_B_Genett-Resume.pdf
 
-+-------------------------------------------------------------------------+
-| WHAT I DO                                                               |
-|                                                                         |
-| -   Guide organizations toward establishing a direction that achieves   |
-|     their mission and goals                                             |
-| -   Step into chaotic and uncertain situations, gain an understanding,  |
-|     and find the way forward                                            |
-| -   Provide multi-disciplinary technology expertise and perspective     |
-|                                                                         |
-| HOW I DO IT                                                             |
-|                                                                         |
-| -   Adaptability: create teams from diverse groups and disciplines, and |
-|     serve in multiple capacities                                        |
-| -   Holism: discover unseen relationships and patterns across disparate |
-|     organizations and systems                                           |
-| -   Foresight: predict opportunities and innovate solutions, often      |
-|     unintuitive or unconventional                                       |
-| -   Presentation: articulate new or complex topics in an approachable   |
-|     and understandable way                                              |
-| -   Passion: advocate with contagious enthusiasm, and galvanize people  |
-|     into purposeful action                                              |
-| -   Practicality: apply engineering mentality to resolve large          |
-|     challenges with incremental efforts                                 |
-| -   Optimization: develop and refine processes to accomplish objectives |
-|     efficiently and repeatably                                          |
-+-------------------------------------------------------------------------+
++------------------------------------------+---------------------------------+
+| TWO DECADES OF TECHNOLOGY EXPERTISE      | PROGRAMMING POLYGLOT            |
+| – Cross-functional                       | – Experience with Node.js,      |
+| requirements-to-release specialist       | Python, C                       |
+| – High-fidelity translation of           | – Expert in Bash, Perl, TCL     |
+| challenges into solutions                | – Basic web development,        |
+| – Data-driven, correlating multiple      | HTML/CSS/Javascript             |
+| information sources                      | – Web/system APIs,              |
+| – GNU/Linux expert, cloud architecture   | REST/JSON/XML, SQL              |
+| and automation                           | – History of learning new       |
+| – Coding, scripting, prototyping, light  | languages on the fly            |
+| development                              |                                 |
++------------------------------------------+---------------------------------+
+| CONSUMMATE ENGINEER WITH SOLID BUSINESS  | PRODUCT DEVELOPMENT LIFECYCLE   |
+| ACUMEN                                   | – Program and schedule          |
+| – Roles in product management,           | management, budget              |
+| development, sales, support              | – Performance and functional    |
+| – Excellent written communication,       | testing                         |
+| produces publishable work                | – Requirements, design, release |
+| – Proven leadership and adaptability,    | and maintenance                 |
+| sales and marketing                      | – Source tree management, Git,  |
+| – Operational and process definition and | SVN                             |
+| implementation                           | – DevOps, Agile, Waterfall      |
+| – Return on investment, process and      | – Scrum familiarity             |
+| system optimization                      |                                 |
+| – Applies scientific method to everyday  |                                 |
+| challenges                               |                                 |
++------------------------------------------+---------------------------------+
 
 Owner & President
  Enviro-Master of Seattle, 2016-2019
@@ -40,12 +42,6 @@ Owner & President
     organizational leadership and growth
 -   Managed almost a hundred sites throughout the entire Puget Sound
     region, high customer retention
--   Successfully acquired languishing operation, converted to updated
-    model _(Swisher Hygiene of EcoLab)_
--   Consistent growth through in-person sales and employee upsells,
-    mentorship and coaching
--   Repaired overall health of the business, increased revenue and
-    improved margins
 
 Senior Product Management Engineer
  F5 Networks, 2014-2016
@@ -70,7 +66,6 @@ New Product Introduction Engineer
     releases of products and services
 -   Performed lead role in milestone release, delivered five innovative
     technologies and deep product rewrite
-    _(BIG-IP v11.0.0: DSC/CMI, Plugins 2.0, vCMP, TMSH & iApps)_
 -   Guided internal homegrown tool through the initial stages to a
     customer-facing product _(iHealth)_
 -   Pioneered video-based training format, drastically decreasing
@@ -88,10 +83,9 @@ Field Systems Engineer (Technical Sales)
 -   Tripled the customer device count and quadrupled revenue with only
     two additional team members
 -   Supported thousands of devices during the development of public
-    cloud _(GNS/MSN: Azure)_
+    cloud _(Azure)_
 -   Delivered first two production deployments of revolutionary chassis
-    architecture
-    _(VIPRION: Xbox Live & BOSD)_
+    architecture _(Xbox Live)_
 -   Authored comprehensive Integration Guide and training for 3rd party
     development
 -   Cultivated the relationship and supported the technical work
@@ -104,8 +98,6 @@ Product Management Engineer
     templates for deliverables and reports
 -   Created initial analysis, guidance and testing for three successive
     company acquisitions
-    _(FirePass SSL VPN, WebAccelerator Web Optimization & WANJet WAN
-    Optimization)_
 -   Authored Performance Testing Guide, setting the industry standard
     for comprehensive evaluation
 -   Released SSL VPN for UNIX-like Systems, as a Perl Script and Video
@@ -129,13 +121,3 @@ Open Source Projets
 
 -   GaryOS – An entire GNU/Linux system in a single bootable file
 -   Composer – Simple but powerful CMS based on Pandoc and Make
--   Tasks – Taskwarrior & Google Tasks: configuration, automation &
-    reporting
-
-Volunteering
-
--   WILS (Wisconsin Leadership Seminars), 1993-2014
-    -   Received public accolades in 2017 Facebook post
-    -   Authored constitution and bylaws for new organization as first
-        Alumni Board Secretary
--   UWKC (United Way of King County), 2009-2010
