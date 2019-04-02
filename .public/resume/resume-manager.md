@@ -1,10 +1,10 @@
 <!--
 % Gary B. Genett
-% Technologist & Senior Product Manager
+% Pathfinder & Technologist
 % v5.1 (2019-04-02)
 <!-- ############################################################### -->
 
-# Gary B. Genett // Solution Engineer & Product Owner
+# Gary B. Genett // Technologist & Senior Product Manager
 
 Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/Gary_B_Genett-Product_Manager.pdf>
 

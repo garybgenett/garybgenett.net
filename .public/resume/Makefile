@@ -22,7 +22,7 @@ include $(COMPOSER_TEACHER)
 .PHONY: resume_manager
 resume_manager:
 	$(SED) \
-		-e "s|Pathfinder \& Technologist|Technologist \& Senior Product Manager|g" \
+		-e "s|Solution Engineer \& Product Owner|Technologist \& Senior Product Manager|g" \
 		-e "s|Gary_B_Genett-Resume|Gary_B_Genett-Product_Manager|g" \
 		resume.md > resume-manager.md
 	touch --reference resume.md resume-manager.md
