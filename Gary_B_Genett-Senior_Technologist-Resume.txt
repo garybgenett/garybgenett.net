@@ -64,6 +64,8 @@ New Product Introduction Engineer
     development, services and sales
 -   Ensured readiness of sales and services organizations before all new
     releases of products and services
+-   Developed and delivered in-person and web-based training curriculums
+    for each release and new technologies
 -   Performed lead role in milestone release, delivered five innovative
     technologies and deep product rewrite
 -   Guided internal homegrown tool through the initial stages to a
