@@ -16,7 +16,9 @@ http://garybgenett.net/Gary_B_Genett-Product_Manager.pdf
 | information sources                      | – Web/system APIs,              |
 | – GNU/Linux expert, cloud architecture   | REST/JSON/XML, SQL              |
 | and automation                           | – History of learning new       |
-| – Coding, scripting, prototyping, light  | languages on the fly            |
+| – Complete networking and application    | languages on the fly            |
+| scope, OSI L2-L7                         |                                 |
+| – Coding, scripting, prototyping, light  |                                 |
 | development                              |                                 |
 +------------------------------------------+---------------------------------+
 | CONSUMMATE ENGINEER WITH SOLID BUSINESS  | PRODUCT DEVELOPMENT LIFECYCLE   |
