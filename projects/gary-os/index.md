@@ -1,7 +1,7 @@
 # Welcome to GaryOS (gary-os)
 ************************************************************************
 
-![GaryOS Icon](projects/gary-os/icon.png "GaryOS Icon")
+![GaryOS Icon](.artifacts/icon.png "GaryOS Icon")
 "The one file that does it all."
 
 * Latest: GaryOS v3.0 ([64-bit]) ([32-bit]) ([Release Notes]) ([License])
@@ -43,6 +43,10 @@
 
 GaryOS is an entire GNU/Linux system in a single bootable file.
 
+#WORK it is now also a build system...
+#WORK remove references to metro...
+#WORK all the below description and benefits is horribly written...
+
 While most boot/rescue systems use an ISO with SquashFS, GaryOS is
 a single binary file consisting of a Linux kernel and a Funtoo/Gentoo
 initramfs.  The file is generated using a customized Funtoo/Gentoo
@@ -79,9 +83,9 @@ Rescue media is more likely to be available and up-to-date if it is
 convenient to deploy and manage, which is one of the primary aims of
 GaryOS.
 
-![GaryOS CLI Screenshot](projects/gary-os/screenshot_cli.png "GaryOS CLI Screenshot")
+![GaryOS CLI Screenshot](.artifacts/screenshot_cli.png "GaryOS CLI Screenshot")
 
-![GaryOS GUI Screenshot](projects/gary-os/screenshot_gui.png "GaryOS GUI Screenshot")
+![GaryOS GUI Screenshot](.artifacts/screenshot_gui.png "GaryOS GUI Screenshot")
 
 ## Quick Start
 [Quick Start]: #Quick_Start
@@ -130,8 +134,15 @@ a ready-to-go Funtoo/Gentoo installation.
 ## Version History
 [Version History]: #Version_History
 
-WORK add links pointing to the release tags/commits
-WORK holy crap!  stuff is getting big... gcc=x2 python=x3 linux-firmware=x5!=removed (removed surf/wireshark/gvim/gtk...)... no added packages, and still 100mb bigger... rootfs about the same?
+#WORK just before publishing release, make sure .setup/gentoo.gary-os mirrors the final github release directory
+
+#WORK add links pointing to the release tags/commits
+#WORK holy crap!  stuff is getting big... gcc=x2 python=x3 linux-firmware=x5 (removed surf/wireshark/gvim/gtk...)... no added packages, and still XXXmb(?) bigger... rootfs about the same?
+#WORK also, did add meta-repo.tar.xz and linux.tar.xz... is a true live system, but this only added ~130mb... vast majority came from above... check gary-os.packages.txt
+#WORK kernel tmpfs hack to squeeze into 4gb ram... probably want 6gb to do anything beyond the basics... (xorg can still work...)
+
+#WORK random: feature request to funtoo for "ego sync" commit pinning... send funtoo.kits
+#WORK random: feature request to linux kernel for "SHMMAX (/2)" value... create patch!
 
 [Release Notes]: #Version_History
 [64-bit]: http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel
@@ -314,6 +325,8 @@ Top requirements:
   * All-purpose, multi-OS rescue environment
 
 Other objectives:
+
+#WORK no mac os x, won't boot linux
 
   * Widely deployable; support PXE and native dual-booting with other
     popular OSes, such as Windows and Mac OS X
@@ -523,12 +536,12 @@ still fitting in an initramfs.
 
 Both projects are pretty damn awesome.
 
-WORK side note about gentoo family tree; include image into repository (accolates section with sourceforge stats)
-WORK	https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly
-WORK	consistent worldwide downloads through lifetime of the project, with peaks at 1.9k+ in 2018-03 and 500+ in 2019-01
-WORK softpedia review: https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml
-WORK softpedia local: \_IMPORT/.old.2017-09-28/GaryOS_v3.0-Softpedia_103629.html
-WORK link to gentoo family graph
+#WORK side note about gentoo family tree; include image into repository (accolates section with sourceforge stats)
+#WORK	https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly
+#WORK	consistent worldwide downloads through lifetime of the project, with peaks at 1.9k+ in 2018-03 and 500+ in 2019-01
+#WORK softpedia review: https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml
+#WORK softpedia local: \_IMPORT/.old.2017-09-28/GaryOS_v3.0-Softpedia_103629.html
+#WORK link to gentoo family graph
 
 ## Tools
 [Tools]: #Tools
@@ -579,14 +592,14 @@ details for the individual components.
         * This file.  All the documentation for GaryOS.
     * [LICENSE.md](https://github.com/garybgenett/gary-os/blob/master/LICENSE.md)
         * The license GaryOS is distributed under.
-WORK add makefile
-    * [icon.png](https://github.com/garybgenett/gary-os/blob/master/icon.png)
+#WORK add makefile
+    * [icon.png](https://github.com/garybgenett/gary-os/blob/master/.artifacts/icon.png)
         * Creative "hack" to have an icon for the project.  Icons make
           it seem like you are "for real", so I had to have one.
-    * [screenshot_cli.png](https://github.com/garybgenett/gary-os/blob/master/screenshot_cli.png)
+    * [screenshot_cli.png](https://github.com/garybgenett/gary-os/blob/master/.artifacts/screenshot_cli.png)
         * Pretty self-explanatory.  Snapshot of what booting v1.0 looked
           like, for promotion, reference and posterity.
-    * [screenshot_gui.png](https://github.com/garybgenett/gary-os/blob/master/screenshot_gui.png)
+    * [screenshot_gui.png](https://github.com/garybgenett/gary-os/blob/master/.artifacts/screenshot_gui.png)
         * Also self-explanatory.  Snapshot of the what the initial X.Org
           GUI in v2.0 looked like.
   * Release:
@@ -616,7 +629,7 @@ WORK add makefile
         * Contains the entirety of my personal Funtoo/Gentoo
           configuration, including the scripts and files I use to manage
           my Funtoo/Gentoo installations.
-WORK add linux directory
+#WORK add linux directory
     * [scripts](https://github.com/garybgenett/gary-os/blob/master/scripts)
         * All the code used to create GaryOS lives in here.  Exported
           from my personal scripts directory.
@@ -761,6 +774,9 @@ cleaned up and documented properly.
 # Use Cases
 [Use Cases]: #Use_Cases
 
+#WORK build it inside itself
+#WORK support section, GHP (golden happy path) notes
+
 Below are the primary use cases considered for GaryOS.  Each is tested
 every release, and contains validation information.
 
@@ -785,7 +801,7 @@ and interrogation.
 
 It is a stated goal that forensics mode continue being the default.
 
-WORK suspend to ram capability
+#WORK suspend to ram capability
 
 ## Networking Configuration
 [Networking Configuration]: #Networking_Configuration
@@ -801,17 +817,20 @@ networking packages are installed to ease on-the-fly setup.
 For simple DHCP, the `dhcpcd` command can be run directly on the desired
 interface, such as an Ethernet connection:
 
-WORK
-use only `rc-update add dhcpcd default ; rc`
+#WORK ??? use only `rc-update add dhcpcd default ; rc` ??? make this work with wpa_cli
+<!--
+https://wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
+https://wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
+https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
+-->
+#WORK `wpa_password "<ssid>" "<password>" > /etc/wpa_supplicant/wpa_supplicant.conf`
+#WORK Add `ssid_scan=1` to `/etc/wpa_supplicant/wpa_supplicant.conf`
+#WORK `rc-update add wpa_supplicant default ; rc`
 
-`wpa_password "<ssid>" "<password>" > /etc/wpa_supplicant/wpa_supplicant.conf`
-Add `ssid_scan=1` to `/etc/wpa_supplicant/wpa_supplicant.conf`
-`rc-update add wpa_supplicant default ; rc`
+#WORK get rid of "networkmanager" and "nmcli" commands; use "iwconfig/iwlist" instead... nmtui?
+#WORK (ha! all the below text is actually starting to look pretty good... maybe just test it once more...)
 
-get rid of "networkmanager" and "nmcli" commands; use "iwconfig/iwlist" instead... nmtui?
-
-(ha! all the below text is actually starting to look pretty good... maybe just test it once more...)
-WORK
+#WORK commands for wpa_cli, no more networkmanager
 
   * `dhcpcd eth0`
 
@@ -835,9 +854,9 @@ Wireless networks can then be scanned and configured:
     nmcli device status
     ```
 
-For a more user-friendly interface, the `nmtui` utility can also be
-used.  It is part of the NetworkManager package, and "has a very nice
-console-based interface" according to the Funtoo documentation.
+#WORK For a more user-friendly interface, the `nmtui` utility can also be
+#WORK used.  It is part of the NetworkManager package, and "has a very nice
+#WORK console-based interface" according to the Funtoo documentation.
 
 The Funtoo OpenRC scripts have all sorts of advanced networking features
 and options, covered in depth:
@@ -846,7 +865,8 @@ and options, covered in depth:
 ## Minimal X.Org GUI
 [Minimal X.Org GUI]: #Minimal_X-Org_GUI
 
-WORK is just a simple "startx" now
+#WORK is just a simple "startx" now
+#WORK title bar pointer, and elinks menu click
 
   * Definition:
     * Start up and use the X.Org GUI environment
@@ -880,7 +900,7 @@ More information:
   * Read `man urxvt` for help on the terminal emulator.
   * Read `man surf` for help on the web browser.
 
-WORK: not all suckless now!  kudos to the "links" browser...
+#WORK: not all suckless now!  kudos to the "links" browser...
 
 Thanks to the [Suckless](http://suckless.org) team for creating such
 lightweight and useful software.
@@ -888,8 +908,19 @@ lightweight and useful software.
 ## Live Update
 [Live Update]: #Live_Update
 
-WORK: ramfs size kernel option
-WORK: see "gary-os" sets file
+#WORK: ramfs size kernel option, will be 50% up to 4g
+#WORK: see "gary-os" sets file
+#WORK: minimum memory to boot: ???
+#WORK: recommended memory to live update: ???
+
+#WORK: instructions here or in gary-os sets file?  would probably be best to move those to here... ditch the sshfs madness, or keep there as personal insructions (from usb is probably better)?
+#WORK: mount -o remount,size=6g /
+#WORK: following tars may need the files copied if linux.tar.xz is too huge to make the initramfs
+#WORK: tar -vvx -C /var/git -f /var/git/meta-repo.tar.xz
+#WORK: tar -xvv -C /usr/src -f /usr/src/linux.tar.xz
+#WORK: create a "make open" target to do the untars... document both in here and there...
+
+#WORK: seems to work, but only without ccache?
 
   * Definition:
     * Update/install packages using Funtoo/Gentoo tools.
@@ -917,6 +948,7 @@ Instructions for setting up update/install of packages:
        access, and may be simpler to update from since it is at the same
        revision of the tree that was used to build that version of
        GaryOS.
+#WORK: hacks no longer needed...
   2. Perform minor hacks to get working in a RAMdisk environment.  These
      should **NOT** be done if planning to install to disk per the
      [Installation] section below.  They essentially disable available
@@ -978,7 +1010,7 @@ Instructions for installing to disk:
   4. Add necessary partition information to `/etc/fstab`, remembering an
      entry for `/boot` if using a separate partition from #2 above.
      * e.g. `vi /mnt/etc/fstab`
-WORK need "grub" when "boot-update" here?
+#WORK need "grub" when "boot-update" here?
   5. Update and install Grub, to make the new installation bootable.
      * e.g. `for FILE in dev proc sys ; do mount --bind /${FILE} /mnt/${FILE} ; done`
      * e.g. `chroot /mnt grub-install /dev/sda`
@@ -1030,8 +1062,9 @@ Overview of the output:
   * `grub.cfg`
     * Grub menu used by "bootstrap" above.  Can be modified as needed to
       boot other OSes/objects.
-  * WORKING : note about `*.efi` files recently added...
-    * WORKING : add use-case for Mac OSX booting with rEFInd
+#WORK: note about `*.efi` files recently added...
+#WORK: add use-case for Mac OSX booting with rEFInd
+#WORK: no mac os x, won't boot linux
   * `rescue.*`
     * Grub "core.img" rescue environment detailed further in [Grub
       Rescue] section below.
@@ -1078,6 +1111,12 @@ Administrator to remove the unwanted entries:
 
 ## Grub Rescue
 [Grub Rescue]: #Grub_Rescue
+
+#WORK usb drive instructions, using grub.sh (merge with grub section below?)
+#WORK hybrid mbr notes?  automate in grub.sh?  yes... script out creation of a blank usb drive
+#	https://wiki.gentoo.org/wiki/GRUB2#BIOS_with_GPT
+#	http://www.rodsbooks.com/gdisk/hybrid.html
+#WORK
 
   * Definition:
     * Boot into a mostly complete Grub environment directly from the

@@ -21,10 +21,10 @@ Download: https://sourcef">
 Latest: GaryOS v3.0 (64-bit) (32-bit) (Release Notes) (License)
 Homepage: https://github.com/garybgenett/gary-os
 Download: https://sourcef">
-<meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/icon.png">
-<meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/screenshot_cli.png">
-<meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/screenshot_gui.png">
-<meta property="og:updated_time" content="2019-04-02T21:10:38.647Z">
+<meta property="og:image" content="http://www.garybgenett.net/.artifacts/icon.png">
+<meta property="og:image" content="http://www.garybgenett.net/.artifacts/screenshot_cli.png">
+<meta property="og:image" content="http://www.garybgenett.net/.artifacts/screenshot_gui.png">
+<meta property="og:updated_time" content="2019-04-10T18:46:32.413Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Gary B. Genett">
 <meta name="twitter:description" content="Welcome to GaryOS (gary-os)
@@ -103,7 +103,7 @@ ga('send', 'pageview');
         <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/writing/gary-os/index.html" class="article-date">
-  <time datetime="2019-04-02T21:10:39.799Z" itemprop="datePublished">2019-04-02</time>
+  <time datetime="2019-04-10T18:46:33.549Z" itemprop="datePublished">2019-04-10</time>
 </a>
     
   </div>
@@ -113,7 +113,7 @@ ga('send', 'pageview');
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="Welcome_to_GaryOS__28gary-os_29"><a href="#Welcome_to_GaryOS__28gary-os_29" class="headerlink" title="Welcome to GaryOS (gary-os)"></a>Welcome to GaryOS (gary-os)</h1><hr>
-<p><img src="/projects/gary-os/icon.png" alt="GaryOS Icon" title="GaryOS Icon"><br>“The one file that does it all.”</p>
+<p><img src="/.artifacts/icon.png" alt="GaryOS Icon" title="GaryOS Icon"><br>“The one file that does it all.”</p>
 <ul>
 <li>Latest: GaryOS v3.0 (<a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel" target="_blank" rel="external">64-bit</a>) (<a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v3.0.kernel" target="_blank" rel="external">32-bit</a>) (<a href="#Version_History">Release Notes</a>) (<a href="https://github.com/garybgenett/gary-os/blob/master/LICENSE.md" target="_blank" rel="external">License</a>)</li>
 <li>Homepage: <a href="https://github.com/garybgenett/gary-os" target="_blank" rel="external">https://github.com/garybgenett/gary-os</a></li>
@@ -153,6 +153,9 @@ ga('send', 'pageview');
 </ul>
 <hr>
 <h1 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h1><p>GaryOS is an entire GNU/Linux system in a single bootable file.</p>
+<p>#WORK it is now also a build system…</p>
+<p>#WORK remove references to metro…</p>
+<p>#WORK all the below description and benefits is horribly written…</p>
 <p>While most boot/rescue systems use an ISO with SquashFS, GaryOS is<br>a single binary file consisting of a Linux kernel and a Funtoo/Gentoo<br>initramfs.  The file is generated using a customized Funtoo/Gentoo<br>configuration with a default Grml Linux kernel configuration via the<br>Metro automated build tool.</p>
 <p>There are currently no major projects which take this same approach on<br>this scale.  The result is a smaller boot/rescue file that is just as<br>comprehensive, yet easier to deploy and manage.</p>
 <p>A list of the primary advantages:</p>
@@ -172,8 +175,8 @@ ga('send', 'pageview');
 </ul>
 <p>GaryOS enables you to drop a single file on any media, point<br>a bootloader at it and go.  Upgrades are as simple as replacing the<br>file and/or adding another bootloader entry.</p>
 <p>Rescue media is more likely to be available and up-to-date if it is<br>convenient to deploy and manage, which is one of the primary aims of<br>GaryOS.</p>
-<p><img src="/projects/gary-os/screenshot_cli.png" alt="GaryOS CLI Screenshot" title="GaryOS CLI Screenshot"></p>
-<p><img src="/projects/gary-os/screenshot_gui.png" alt="GaryOS GUI Screenshot" title="GaryOS GUI Screenshot"></p>
+<p><img src="/.artifacts/screenshot_cli.png" alt="GaryOS CLI Screenshot" title="GaryOS CLI Screenshot"></p>
+<p><img src="/.artifacts/screenshot_gui.png" alt="GaryOS GUI Screenshot" title="GaryOS GUI Screenshot"></p>
 <h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>If you just want to check it out, you can run it inside any<br>virtualization program that can boot a Linux kernel directly.  On<br>a GNU/Linux system with Qemu installed, this can be as trivial as:</p>
 <ul>
 <li><code>DISPLAY=:0 qemu -m 4096 -kernel gary-os-[...].kernel</code></li>
@@ -194,7 +197,13 @@ ga('send', 'pageview');
 </ul>
 <p>From there, whatever rescue/administrative work that needs to be done<br>can be accomplished, including using <code>emerge</code> to install or upgrade<br>packages.</p>
 <p>The in-memory filesystem is a complete Funtoo/Gentoo installation, and<br>can be copied to a partition just like a standard <code>stage3</code> file.  GaryOS<br>goes one step further, however, since a Linux kernel has already been<br>prepared.  Simply configuring and installing Grub will result in<br>a ready-to-go Funtoo/Gentoo installation.</p>
-<h2 id="Version_History"><a href="#Version_History" class="headerlink" title="Version History"></a>Version History</h2><p>WORK add links pointing to the release tags/commits<br>WORK holy crap!  stuff is getting big… gcc=x2 python=x3 linux-firmware=x5!=removed (removed surf/wireshark/gvim/gtk…)… no added packages, and still 100mb bigger… rootfs about the same?</p>
+<h2 id="Version_History"><a href="#Version_History" class="headerlink" title="Version History"></a>Version History</h2><p>#WORK just before publishing release, make sure .setup/gentoo.gary-os mirrors the final github release directory</p>
+<p>#WORK add links pointing to the release tags/commits</p>
+<p>#WORK holy crap!  stuff is getting big… gcc=x2 python=x3 linux-firmware=x5 (removed surf/wireshark/gvim/gtk…)… no added packages, and still XXXmb(?) bigger… rootfs about the same?</p>
+<p>#WORK also, did add meta-repo.tar.xz and linux.tar.xz… is a true live system, but this only added ~130mb… vast majority came from above… check gary-os.packages.txt</p>
+<p>#WORK kernel tmpfs hack to squeeze into 4gb ram… probably want 6gb to do anything beyond the basics… (xorg can still work…)</p>
+<p>#WORK random: feature request to funtoo for “ego sync” commit pinning… send funtoo.kits</p>
+<p>#WORK random: feature request to linux kernel for “SHMMAX (/2)” value… create patch!</p>
 <h5 id="2015-03-16_v3-0_21811b59a8484b2a6b73e0c5277f23c50a0141dc-0"><a href="#2015-03-16_v3-0_21811b59a8484b2a6b73e0c5277f23c50a0141dc-0" class="headerlink" title="2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0"></a>2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0</h5><ul>
 <li>64-bit: <a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel" target="_blank" rel="external">gary-os-generic_64-funtoo-stable-v3.0.kernel</a></li>
 <li>32-bit: <a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v3.0.kernel" target="_blank" rel="external">gary-os-generic_32-funtoo-stable-v3.0.kernel</a></li>
@@ -341,6 +350,7 @@ ga('send', 'pageview');
 <li>All-purpose, multi-OS rescue environment</li>
 </ul>
 <p>Other objectives:</p>
+<p>#WORK no mac os x, won’t boot linux</p>
 <ul>
 <li>Widely deployable; support PXE and native dual-booting with other<br>popular OSes, such as Windows and Mac OS X</li>
 <li>Learning environment for those new to GNU/Linux or Funtoo/Gentoo</li>
@@ -428,7 +438,12 @@ ga('send', 'pageview');
 </ul>
 <p>GaryOS shares many of the same goals and attributes/features as these<br>projects.  The primary difference being that both these projects strive<br>to be minimalist and/or otherwise purely rescue/development focused.<br>GaryOS instead tries to be as complete an environment as possible while<br>still fitting in an initramfs.</p>
 <p>Both projects are pretty damn awesome.</p>
-<p>WORK side note about gentoo family tree; include image into repository (accolates section with sourceforge stats)<br>WORK    <a href="https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly" target="_blank" rel="external">https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly</a><br>WORK    consistent worldwide downloads through lifetime of the project, with peaks at 1.9k+ in 2018-03 and 500+ in 2019-01<br>WORK softpedia review: <a href="https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml" target="_blank" rel="external">https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml</a><br>WORK softpedia local: _IMPORT/.old.2017-09-28/GaryOS_v3.0-Softpedia_103629.html<br>WORK link to gentoo family graph</p>
+<p>#WORK side note about gentoo family tree; include image into repository (accolates section with sourceforge stats)</p>
+<p>#WORK    <a href="https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly" target="_blank" rel="external">https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly</a></p>
+<p>#WORK    consistent worldwide downloads through lifetime of the project, with peaks at 1.9k+ in 2018-03 and 500+ in 2019-01</p>
+<p>#WORK softpedia review: <a href="https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml" target="_blank" rel="external">https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml</a></p>
+<p>#WORK softpedia local: _IMPORT/.old.2017-09-28/GaryOS_v3.0-Softpedia_103629.html</p>
+<p>#WORK link to gentoo family graph</p>
 <h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><p>All the real heavy-lifting is accomplished using these tools/projects:</p>
 <ul>
 <li>Metro: <a href="http://www.funtoo.org/Metro_Quick_Start_Tutorial" target="_blank" rel="external">http://www.funtoo.org/Metro_Quick_Start_Tutorial</a></li>
@@ -467,18 +482,18 @@ ga('send', 'pageview');
 </ul>
 </li>
 <li><a href="https://github.com/garybgenett/gary-os/blob/master/LICENSE.md" target="_blank" rel="external">LICENSE.md</a><ul>
-<li>The license GaryOS is distributed under.<br>WORK add makefile</li>
+<li>The license GaryOS is distributed under.<br>#WORK add makefile</li>
 </ul>
 </li>
-<li><a href="https://github.com/garybgenett/gary-os/blob/master/icon.png" target="_blank" rel="external">icon.png</a><ul>
+<li><a href="https://github.com/garybgenett/gary-os/blob/master/.artifacts/icon.png" target="_blank" rel="external">icon.png</a><ul>
 <li>Creative “hack” to have an icon for the project.  Icons make<br>it seem like you are “for real”, so I had to have one.</li>
 </ul>
 </li>
-<li><a href="https://github.com/garybgenett/gary-os/blob/master/screenshot_cli.png" target="_blank" rel="external">screenshot_cli.png</a><ul>
+<li><a href="https://github.com/garybgenett/gary-os/blob/master/.artifacts/screenshot_cli.png" target="_blank" rel="external">screenshot_cli.png</a><ul>
 <li>Pretty self-explanatory.  Snapshot of what booting v1.0 looked<br>like, for promotion, reference and posterity.</li>
 </ul>
 </li>
-<li><a href="https://github.com/garybgenett/gary-os/blob/master/screenshot_gui.png" target="_blank" rel="external">screenshot_gui.png</a><ul>
+<li><a href="https://github.com/garybgenett/gary-os/blob/master/.artifacts/screenshot_gui.png" target="_blank" rel="external">screenshot_gui.png</a><ul>
 <li>Also self-explanatory.  Snapshot of the what the initial X.Org<br>GUI in v2.0 looked like.</li>
 </ul>
 </li>
@@ -505,7 +520,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 <li><a href="https://github.com/garybgenett/gary-os/blob/master/gentoo" target="_blank" rel="external">gentoo</a><ul>
-<li>Contains the entirety of my personal Funtoo/Gentoo<br>configuration, including the scripts and files I use to manage<br>my Funtoo/Gentoo installations.<br>WORK add linux directory</li>
+<li>Contains the entirety of my personal Funtoo/Gentoo<br>configuration, including the scripts and files I use to manage<br>my Funtoo/Gentoo installations.<br>#WORK add linux directory</li>
 </ul>
 </li>
 <li><a href="https://github.com/garybgenett/gary-os/blob/master/scripts" target="_blank" rel="external">scripts</a><ul>
@@ -630,7 +645,9 @@ ga('send', 'pageview');
 <p>This is far from comprehensive, but should help map things out for<br>anyone with enough free time and curiosity.</p>
 <p>In a perfect world, this section could be removed after the scripts were<br>cleaned up and documented properly.</p>
 <hr>
-<h1 id="Use_Cases"><a href="#Use_Cases" class="headerlink" title="Use Cases"></a>Use Cases</h1><p>Below are the primary use cases considered for GaryOS.  Each is tested<br>every release, and contains validation information.</p>
+<h1 id="Use_Cases"><a href="#Use_Cases" class="headerlink" title="Use Cases"></a>Use Cases</h1><p>#WORK build it inside itself</p>
+<p>#WORK support section, GHP (golden happy path) notes</p>
+<p>Below are the primary use cases considered for GaryOS.  Each is tested<br>every release, and contains validation information.</p>
 <p>These are also considered the “howto” instructions for each case.</p>
 <h2 id="Forensics_+_Recovery"><a href="#Forensics_+_Recovery" class="headerlink" title="Forensics + Recovery"></a>Forensics + Recovery</h2><ul>
 <li>Definition:<ul>
@@ -645,7 +662,7 @@ ga('send', 'pageview');
 <p>GaryOS is in a forensics mode by default.  Hardware scanning is<br>performed, but the hard drives are not mounted or otherwise touched.<br>All entries in <code>/etc/fstab</code> have been commented out.  As a result, swap<br>is also disabled.</p>
 <p>Linux kernel options can further be used to disable hardware scanning<br>and interrogation.</p>
 <p>It is a stated goal that forensics mode continue being the default.</p>
-<p>WORK suspend to ram capability</p>
+<p>#WORK suspend to ram capability</p>
 <h2 id="Networking_Configuration"><a href="#Networking_Configuration" class="headerlink" title="Networking Configuration"></a>Networking Configuration</h2><ul>
 <li>Definition:<ul>
 <li>Configure networking, either wired or wireless</li>
@@ -658,10 +675,21 @@ ga('send', 'pageview');
 </ul>
 <p>No networking configuration or daemons are run by default, but several<br>networking packages are installed to ease on-the-fly setup.</p>
 <p>For simple DHCP, the <code>dhcpcd</code> command can be run directly on the desired<br>interface, such as an Ethernet connection:</p>
-<p>WORK<br>use only <code>rc-update add dhcpcd default ; rc</code></p>
-<p><code>wpa_password &quot;&lt;ssid&gt;&quot; &quot;&lt;password&gt;&quot; &gt; /etc/wpa_supplicant/wpa_supplicant.conf</code><br>Add <code>ssid_scan=1</code> to <code>/etc/wpa_supplicant/wpa_supplicant.conf</code><br><code>rc-update add wpa_supplicant default ; rc</code></p>
-<p>get rid of “networkmanager” and “nmcli” commands; use “iwconfig/iwlist” instead… nmtui?</p>
-<p>(ha! all the below text is actually starting to look pretty good… maybe just test it once more…)<br>WORK</p>
+<p>#WORK ??? use only <code>rc-update add dhcpcd default ; rc</code> ??? make this work with wpa_cli<br><a href="/!--
+https:/wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
+https:/wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
+https:/wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
+--">!--
+https://wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
+https://wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
+https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
+--</a></p>
+<p>#WORK <code>wpa_password &quot;&lt;ssid&gt;&quot; &quot;&lt;password&gt;&quot; &gt; /etc/wpa_supplicant/wpa_supplicant.conf</code></p>
+<p>#WORK Add <code>ssid_scan=1</code> to <code>/etc/wpa_supplicant/wpa_supplicant.conf</code></p>
+<p>#WORK <code>rc-update add wpa_supplicant default ; rc</code></p>
+<p>#WORK get rid of “networkmanager” and “nmcli” commands; use “iwconfig/iwlist” instead… nmtui?</p>
+<p>#WORK (ha! all the below text is actually starting to look pretty good… maybe just test it once more…)</p>
+<p>#WORK commands for wpa_cli, no more networkmanager</p>
 <ul>
 <li><code>dhcpcd eth0</code></li>
 </ul>
@@ -679,9 +707,12 @@ ga('send', 'pageview');
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">nmcli device wifi rescan</span><br><span class="line">nmcli device wifi list</span><br><span class="line">nmcli device wifi connect [ssid] password [password]</span><br><span class="line">nmcli device status</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<p>For a more user-friendly interface, the <code>nmtui</code> utility can also be<br>used.  It is part of the NetworkManager package, and “has a very nice<br>console-based interface” according to the Funtoo documentation.</p>
+<p>#WORK For a more user-friendly interface, the <code>nmtui</code> utility can also be</p>
+<p>#WORK used.  It is part of the NetworkManager package, and “has a very nice</p>
+<p>#WORK console-based interface” according to the Funtoo documentation.</p>
 <p>The Funtoo OpenRC scripts have all sorts of advanced networking features<br>and options, covered in depth:<br><a href="http://www.funtoo.org/Networking" target="_blank" rel="external">http://www.funtoo.org/Networking</a></p>
-<h2 id="Minimal_X-Org_GUI"><a href="#Minimal_X-Org_GUI" class="headerlink" title="Minimal X.Org GUI"></a>Minimal X.Org GUI</h2><p>WORK is just a simple “startx” now</p>
+<h2 id="Minimal_X-Org_GUI"><a href="#Minimal_X-Org_GUI" class="headerlink" title="Minimal X.Org GUI"></a>Minimal X.Org GUI</h2><p>#WORK is just a simple “startx” now</p>
+<p>#WORK title bar pointer, and elinks menu click</p>
 <ul>
 <li>Definition:<ul>
 <li>Start up and use the X.Org GUI environment</li>
@@ -707,9 +738,19 @@ ga('send', 'pageview');
 <li>Read <code>man urxvt</code> for help on the terminal emulator.</li>
 <li>Read <code>man surf</code> for help on the web browser.</li>
 </ul>
-<p>WORK: not all suckless now!  kudos to the “links” browser…</p>
+<p>#WORK: not all suckless now!  kudos to the “links” browser…</p>
 <p>Thanks to the <a href="http://suckless.org" target="_blank" rel="external">Suckless</a> team for creating such<br>lightweight and useful software.</p>
-<h2 id="Live_Update"><a href="#Live_Update" class="headerlink" title="Live Update"></a>Live Update</h2><p>WORK: ramfs size kernel option<br>WORK: see “gary-os” sets file</p>
+<h2 id="Live_Update"><a href="#Live_Update" class="headerlink" title="Live Update"></a>Live Update</h2><p>#WORK: ramfs size kernel option, will be 50% up to 4g</p>
+<p>#WORK: see “gary-os” sets file</p>
+<p>#WORK: minimum memory to boot: ???</p>
+<p>#WORK: recommended memory to live update: ???</p>
+<p>#WORK: instructions here or in gary-os sets file?  would probably be best to move those to here… ditch the sshfs madness, or keep there as personal insructions (from usb is probably better)?</p>
+<p>#WORK: mount -o remount,size=6g /</p>
+<p>#WORK: following tars may need the files copied if linux.tar.xz is too huge to make the initramfs</p>
+<p>#WORK: tar -vvx -C /var/git -f /var/git/meta-repo.tar.xz</p>
+<p>#WORK: tar -xvv -C /usr/src -f /usr/src/linux.tar.xz</p>
+<p>#WORK: create a “make open” target to do the untars… document both in here and there…</p>
+<p>#WORK: seems to work, but only without ccache?</p>
 <ul>
 <li>Definition:<ul>
 <li>Update/install packages using Funtoo/Gentoo tools.</li>
@@ -732,7 +773,7 @@ ga('send', 'pageview');
 <li><code>tar -pvvxJ -C /usr -f portage-[...].tar.xz</code></li>
 </ul>
 </li>
-<li>Generally speaking, “Option 1” is a smaller/faster download than<br>“Option 2”.  However, “Option 2” has the benefit of offline<br>access, and may be simpler to update from since it is at the same<br>revision of the tree that was used to build that version of<br>GaryOS.</li>
+<li>Generally speaking, “Option 1” is a smaller/faster download than<br>“Option 2”.  However, “Option 2” has the benefit of offline<br>access, and may be simpler to update from since it is at the same<br>revision of the tree that was used to build that version of<br>GaryOS.<br>#WORK: hacks no longer needed…</li>
 </ul>
 </li>
 <li><p>Perform minor hacks to get working in a RAMdisk environment.  These<br>should <strong>NOT</strong> be done if planning to install to disk per the<br><a href="#Installation">Installation</a> section below.  They essentially disable available<br>space checks, since the “portage” scripts expect to be using<br>a physical disk.  Commands to run:</p>
@@ -789,7 +830,7 @@ ga('send', 'pageview');
 </li>
 <li><p>Add necessary partition information to <code>/etc/fstab</code>, remembering an<br>entry for <code>/boot</code> if using a separate partition from #2 above.</p>
 <ul>
-<li>e.g. <code>vi /mnt/etc/fstab</code><br>WORK need “grub” when “boot-update” here?</li>
+<li>e.g. <code>vi /mnt/etc/fstab</code><br>#WORK need “grub” when “boot-update” here?</li>
 </ul>
 </li>
 <li>Update and install Grub, to make the new installation bootable.<ul>
@@ -844,11 +885,7 @@ ga('send', 'pageview');
 </ul>
 </li>
 <li><code>grub.cfg</code><ul>
-<li>Grub menu used by “bootstrap” above.  Can be modified as needed to<br>boot other OSes/objects.</li>
-</ul>
-</li>
-<li>WORKING : note about <code>*.efi</code> files recently added…<ul>
-<li>WORKING : add use-case for Mac OSX booting with rEFInd</li>
+<li>Grub menu used by “bootstrap” above.  Can be modified as needed to<br>boot other OSes/objects.<br>#WORK: note about <code>*.efi</code> files recently added…<br>#WORK: add use-case for Mac OSX booting with rEFInd<br>#WORK: no mac os x, won’t boot linux</li>
 </ul>
 </li>
 <li><code>rescue.*</code><ul>
@@ -884,7 +921,10 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ol>
-<h2 id="Grub_Rescue"><a href="#Grub_Rescue" class="headerlink" title="Grub Rescue"></a>Grub Rescue</h2><ul>
+<h2 id="Grub_Rescue"><a href="#Grub_Rescue" class="headerlink" title="Grub Rescue"></a>Grub Rescue</h2><p>#WORK usb drive instructions, using grub.sh (merge with grub section below?)</p>
+<p>#WORK hybrid mbr notes?  automate in grub.sh?  yes… script out creation of a blank usb drive</p>
+<h1 id="https_3A//wiki-gentoo-org/wiki/GRUB2_23BIOS_with_GPT"><a href="#https_3A//wiki-gentoo-org/wiki/GRUB2_23BIOS_with_GPT" class="headerlink" title="https://wiki.gentoo.org/wiki/GRUB2#BIOS_with_GPT"></a><a href="https://wiki.gentoo.org/wiki/GRUB2#BIOS_with_GPT" target="_blank" rel="external">https://wiki.gentoo.org/wiki/GRUB2#BIOS_with_GPT</a></h1><h1 id="http_3A//www-rodsbooks-com/gdisk/hybrid-html"><a href="#http_3A//www-rodsbooks-com/gdisk/hybrid-html" class="headerlink" title="http://www.rodsbooks.com/gdisk/hybrid.html"></a><a href="http://www.rodsbooks.com/gdisk/hybrid.html" target="_blank" rel="external">http://www.rodsbooks.com/gdisk/hybrid.html</a></h1><p>#WORK</p>
+<ul>
 <li>Definition:<ul>
 <li>Boot into a mostly complete Grub environment directly from the<br>boot record without requiring any additional files from disk.</li>
 <li>Create a Grub “core.img” which can be booted using identical<br>methods and options as GaryOS, such as PXE, Qemu, etc.</li>
@@ -959,7 +999,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.garybgenett.net/writing/gary-os/index.html" data-id="cju0a18cz000afsj5vkrkz02t" class="article-share-link">Share</a>
+      <a data-url="http://www.garybgenett.net/writing/gary-os/index.html" data-id="cjubkey6c000ay6j520x4zr9h" class="article-share-link">Share</a>
       
       
     </footer>
@@ -980,7 +1020,7 @@ ga('send', 'pageview');
       <ul>
         
           <li>
-            <a href="/2019/04/02/README/">(no title)</a>
+            <a href="/2019/04/10/README/">(no title)</a>
           </li>
         
       </ul>

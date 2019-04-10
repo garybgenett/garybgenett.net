@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
-% Pathfinder & Technologist
-% v5.1 (2019-04-02)
+% Technologist & Senior Product Manager
+% v5.2 (2019-04-10)
 <!-- ############################################################### -->
 
 # Gary B. Genett // Technologist & Senior Product Manager
@@ -20,6 +20,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 | -- High-fidelity translation of challenges into solutions      \ |                                                    |
 | -- Data-driven, correlating multiple information sources       \ |                                                    |
 | -- GNU/Linux expert, cloud architecture and automation         \ |                                                    |
+| -- Complete networking and application scope, OSI L2-L7        \ |                                                    |
 | -- Coding, scripting, prototyping, light development           \ |                                                    |
 |                                                                  | **Programming polyglot**                         \ |
 |                                                                  | -- Experience with Node.js, Python, C            \ |
@@ -27,6 +28,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 |                                                                  | -- Basic web development, HTML/CSS/Javascript    \ |
 |                                                                  | -- Web/system APIs, REST/JSON/XML, SQL           \ |
 |                                                                  | -- History of learning new languages on the fly  \ |
+|                                                                  |                                                  \ |
 +------------------------------------------------------------------+----------------------------------------------------+
 | **Consummate engineer with solid business acumen**             \ |                                                    |
 | -- Roles in product management, development, sales, support    \ |                                                    |
