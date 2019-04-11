@@ -1,0 +1,29 @@
+
+\e[1;31m Welcome to GaryOS!
+\e[1;31m ------------------
+
+\e[1;37m Thank you for your support.  Here are the details on this version...
+
+\e[1;34m GaryOS Version:	\e[1;36m v4.0
+\e[1;34m Release Date:		\e[1;36m 2019-04-10
+\e[1;34m Funtoo Commit:		\e[1;36m 776f16598dac814dee59f95a1e21cefe6c612a02
+\e[1;34m Linux Kernel:		\e[1;36m 4.18.6
+
+\e[1;37m For source code, documentation and issues...
+
+\e[1;34m GaryOS:		\e[1;36m https://github.com/garybgenett/gary-os	Gary B. Genett <me@garybgenett.net>
+\e[1;34m Funtoo Linux:		\e[1;36m http://www.funtoo.org			Daniel Robbins <drobbins@funtoo.org>
+\e[1;34m Gentoo Linux:		\e[1;36m http://www.gentoo.org			https://www.gentoo.org/support
+
+\e[1;37m Some helpful notes...
+
+\e[1;33m Login username / password:			\e[1;32m root \e[1;30m/\e[1;32m gary-os
+\e[1;33m Run the Xorg graphical interface:		\e[1;32m startx
+\e[1;33m Additional information and instructions:	\e[1;32m less /.gary-os/README.md
+
+\e[1;37m Happy hacking!
+\e[1;30m
+\d \t
+\s \m \r (\v)
+\n.\O \l, \U
+\e[0;37m
