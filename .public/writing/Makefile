@@ -15,11 +15,13 @@ include $(COMPOSER_TEACHER)
 
 .PHONY: $(COMPOSER_TARGETS)
 $(COMPOSER_TARGETS):
+	$(RSYNC) -L /.g/_data/zactive/coding/$(@)/_artifacts/ $(@)/
 	$(CP) -L /.g/_data/zactive/coding/$(@)/README.md $(@)/index.md
 	$(SED) -i \
 		-e "/^[%][ ]/d" \
 		-e "s%&%+%g" \
 		-e "s%([(])(icon|screenshot)%\1projects/$(@)/\2%g" \
+		-e "s%([(])_artifacts%\1projects/$(@)%g" \
 		\
 		-e "s%^([[])([^]]+)([]][:][ ][#]).+$$%\1\2\3\2%g" \
 		-e  "/^([[])([^]]+)([]][:][ ][#]).+$$/s%[ ]%_%3" \

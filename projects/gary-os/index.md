@@ -1,7 +1,7 @@
 # Welcome to GaryOS (gary-os)
 ************************************************************************
 
-![GaryOS Icon](.artifacts/icon.png "GaryOS Icon")
+![GaryOS Icon](projects/gary-os/icon.png "GaryOS Icon")
 "The one file that does it all."
 
 * Latest: GaryOS v3.0 ([64-bit]) ([32-bit]) ([Release Notes]) ([License])
@@ -83,9 +83,9 @@ Rescue media is more likely to be available and up-to-date if it is
 convenient to deploy and manage, which is one of the primary aims of
 GaryOS.
 
-![GaryOS CLI Screenshot](.artifacts/screenshot_cli.png "GaryOS CLI Screenshot")
+![GaryOS CLI Screenshot](projects/gary-os/screenshot_cli.png "GaryOS CLI Screenshot")
 
-![GaryOS GUI Screenshot](.artifacts/screenshot_gui.png "GaryOS GUI Screenshot")
+![GaryOS GUI Screenshot](projects/gary-os/screenshot_gui.png "GaryOS GUI Screenshot")
 
 ## Quick Start
 [Quick Start]: #Quick_Start
@@ -140,6 +140,28 @@ a ready-to-go Funtoo/Gentoo installation.
 #WORK holy crap!  stuff is getting big... gcc=x2 python=x3 linux-firmware=x5 (removed surf/wireshark/gvim/gtk...)... no added packages, and still XXXmb(?) bigger... rootfs about the same?
 #WORK also, did add meta-repo.tar.xz and linux.tar.xz... is a true live system, but this only added ~130mb... vast majority came from above... check gary-os.packages.txt
 #WORK kernel tmpfs hack to squeeze into 4gb ram... probably want 6gb to do anything beyond the basics... (xorg can still work...)
+#WORK use cases: put in better order, to be tested sequentially...  add details about release validation steps/process...  (this is how to get from windows to linux...)
+#WORK	simple qemu boot test
+#WORK		[Forensics + Recovery]
+#WORK		[Networking Configuration]
+#WORK		[Minimal X.Org GUI]
+#WORK	qemu boot test, using windows.null.qcow2 as a snapshot of base windows
+#WORK		[Windows Dual-Boot]
+#WORK	still in windows.null.qcow2, format disk for usb drive
+#WORK		[Grub Rescue]
+#WORK		(USB INSTALL)
+#WORK	still in windows.null.qcow2, boot from "usb drive" emulation
+#WORK		[Live Update]
+#WORK		(BUILD-WITHIN-THE-BUILD, PART 1 - BUILD)
+#WORK	still in windows.null.qcow2, boot from "usb drive" emulation into build-within-the-build
+#WORK		(BUILD-WITHIN-THE-BUILD, PART 2 - RUN)
+#WORK		[Installation, PART 1 - INSTALL)
+#WORK	still in windows.null.qcow2, boot from "usb drive" emulation into install
+#WORK		[Installation, PART 2 - RUN)
+#WORK	still in windows.null.qcow2, boot from "usb drive" emulation after wiping grub somehow
+#WORK		[PXE Boot, PART 1 - TEST GRUB RESCUE, BOOT INSTALLATION]
+#WORK		[PXE Boot, PART 2 - GARYOS]
+#WORK		(RESCUE INSTALLATION, USING GARYOS, AND BOOT TO RESCUED INSTALLATION
 
 #WORK random: feature request to funtoo for "ego sync" commit pinning... send funtoo.kits
 #WORK random: feature request to linux kernel for "SHMMAX (/2)" value... create patch!
@@ -593,13 +615,13 @@ details for the individual components.
     * [LICENSE.md](https://github.com/garybgenett/gary-os/blob/master/LICENSE.md)
         * The license GaryOS is distributed under.
 #WORK add makefile
-    * [icon.png](https://github.com/garybgenett/gary-os/blob/master/.artifacts/icon.png)
+    * [icon.png](https://github.com/garybgenett/gary-os/blob/master/_artifacts/icon.png)
         * Creative "hack" to have an icon for the project.  Icons make
           it seem like you are "for real", so I had to have one.
-    * [screenshot_cli.png](https://github.com/garybgenett/gary-os/blob/master/.artifacts/screenshot_cli.png)
+    * [screenshot_cli.png](https://github.com/garybgenett/gary-os/blob/master/_artifacts/screenshot_cli.png)
         * Pretty self-explanatory.  Snapshot of what booting v1.0 looked
           like, for promotion, reference and posterity.
-    * [screenshot_gui.png](https://github.com/garybgenett/gary-os/blob/master/.artifacts/screenshot_gui.png)
+    * [screenshot_gui.png](https://github.com/garybgenett/gary-os/blob/master/_artifacts/screenshot_gui.png)
         * Also self-explanatory.  Snapshot of the what the initial X.Org
           GUI in v2.0 looked like.
   * Release:

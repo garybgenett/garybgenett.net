@@ -21,10 +21,10 @@ Download: https://sourcef">
 Latest: GaryOS v3.0 (64-bit) (32-bit) (Release Notes) (License)
 Homepage: https://github.com/garybgenett/gary-os
 Download: https://sourcef">
-<meta property="og:image" content="http://www.garybgenett.net/.artifacts/icon.png">
-<meta property="og:image" content="http://www.garybgenett.net/.artifacts/screenshot_cli.png">
-<meta property="og:image" content="http://www.garybgenett.net/.artifacts/screenshot_gui.png">
-<meta property="og:updated_time" content="2019-04-10T18:46:32.413Z">
+<meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/icon.png">
+<meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/screenshot_cli.png">
+<meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/screenshot_gui.png">
+<meta property="og:updated_time" content="2019-04-11T02:23:56.927Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Gary B. Genett">
 <meta name="twitter:description" content="Welcome to GaryOS (gary-os)
@@ -103,7 +103,7 @@ ga('send', 'pageview');
         <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/writing/gary-os/index.html" class="article-date">
-  <time datetime="2019-04-10T18:46:33.549Z" itemprop="datePublished">2019-04-10</time>
+  <time datetime="2019-04-11T02:23:58.103Z" itemprop="datePublished">2019-04-10</time>
 </a>
     
   </div>
@@ -113,7 +113,7 @@ ga('send', 'pageview');
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="Welcome_to_GaryOS__28gary-os_29"><a href="#Welcome_to_GaryOS__28gary-os_29" class="headerlink" title="Welcome to GaryOS (gary-os)"></a>Welcome to GaryOS (gary-os)</h1><hr>
-<p><img src="/.artifacts/icon.png" alt="GaryOS Icon" title="GaryOS Icon"><br>“The one file that does it all.”</p>
+<p><img src="/projects/gary-os/icon.png" alt="GaryOS Icon" title="GaryOS Icon"><br>“The one file that does it all.”</p>
 <ul>
 <li>Latest: GaryOS v3.0 (<a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel" target="_blank" rel="external">64-bit</a>) (<a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v3.0.kernel" target="_blank" rel="external">32-bit</a>) (<a href="#Version_History">Release Notes</a>) (<a href="https://github.com/garybgenett/gary-os/blob/master/LICENSE.md" target="_blank" rel="external">License</a>)</li>
 <li>Homepage: <a href="https://github.com/garybgenett/gary-os" target="_blank" rel="external">https://github.com/garybgenett/gary-os</a></li>
@@ -175,8 +175,8 @@ ga('send', 'pageview');
 </ul>
 <p>GaryOS enables you to drop a single file on any media, point<br>a bootloader at it and go.  Upgrades are as simple as replacing the<br>file and/or adding another bootloader entry.</p>
 <p>Rescue media is more likely to be available and up-to-date if it is<br>convenient to deploy and manage, which is one of the primary aims of<br>GaryOS.</p>
-<p><img src="/.artifacts/screenshot_cli.png" alt="GaryOS CLI Screenshot" title="GaryOS CLI Screenshot"></p>
-<p><img src="/.artifacts/screenshot_gui.png" alt="GaryOS GUI Screenshot" title="GaryOS GUI Screenshot"></p>
+<p><img src="/projects/gary-os/screenshot_cli.png" alt="GaryOS CLI Screenshot" title="GaryOS CLI Screenshot"></p>
+<p><img src="/projects/gary-os/screenshot_gui.png" alt="GaryOS GUI Screenshot" title="GaryOS GUI Screenshot"></p>
 <h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>If you just want to check it out, you can run it inside any<br>virtualization program that can boot a Linux kernel directly.  On<br>a GNU/Linux system with Qemu installed, this can be as trivial as:</p>
 <ul>
 <li><code>DISPLAY=:0 qemu -m 4096 -kernel gary-os-[...].kernel</code></li>
@@ -202,6 +202,28 @@ ga('send', 'pageview');
 <p>#WORK holy crap!  stuff is getting big… gcc=x2 python=x3 linux-firmware=x5 (removed surf/wireshark/gvim/gtk…)… no added packages, and still XXXmb(?) bigger… rootfs about the same?</p>
 <p>#WORK also, did add meta-repo.tar.xz and linux.tar.xz… is a true live system, but this only added ~130mb… vast majority came from above… check gary-os.packages.txt</p>
 <p>#WORK kernel tmpfs hack to squeeze into 4gb ram… probably want 6gb to do anything beyond the basics… (xorg can still work…)</p>
+<p>#WORK use cases: put in better order, to be tested sequentially…  add details about release validation steps/process…  (this is how to get from windows to linux…)</p>
+<p>#WORK    simple qemu boot test</p>
+<p>#WORK        <a href="#Forensics_+_Recovery">Forensics + Recovery</a></p>
+<p>#WORK        <a href="#Networking_Configuration">Networking Configuration</a></p>
+<p>#WORK        <a href="#Minimal_X-Org_GUI">Minimal X.Org GUI</a></p>
+<p>#WORK    qemu boot test, using windows.null.qcow2 as a snapshot of base windows</p>
+<p>#WORK        <a href="#Windows_Dual-Boot">Windows Dual-Boot</a></p>
+<p>#WORK    still in windows.null.qcow2, format disk for usb drive</p>
+<p>#WORK        <a href="#Grub_Rescue">Grub Rescue</a></p>
+<p>#WORK        (USB INSTALL)</p>
+<p>#WORK    still in windows.null.qcow2, boot from “usb drive” emulation</p>
+<p>#WORK        <a href="#Live_Update">Live Update</a></p>
+<p>#WORK        (BUILD-WITHIN-THE-BUILD, PART 1 - BUILD)</p>
+<p>#WORK    still in windows.null.qcow2, boot from “usb drive” emulation into build-within-the-build</p>
+<p>#WORK        (BUILD-WITHIN-THE-BUILD, PART 2 - RUN)</p>
+<p>#WORK        [Installation, PART 1 - INSTALL)</p>
+<p>#WORK    still in windows.null.qcow2, boot from “usb drive” emulation into install</p>
+<p>#WORK        [Installation, PART 2 - RUN)</p>
+<p>#WORK    still in windows.null.qcow2, boot from “usb drive” emulation after wiping grub somehow</p>
+<p>#WORK        [PXE Boot, PART 1 - TEST GRUB RESCUE, BOOT INSTALLATION]</p>
+<p>#WORK        [PXE Boot, PART 2 - GARYOS]</p>
+<p>#WORK        (RESCUE INSTALLATION, USING GARYOS, AND BOOT TO RESCUED INSTALLATION</p>
 <p>#WORK random: feature request to funtoo for “ego sync” commit pinning… send funtoo.kits</p>
 <p>#WORK random: feature request to linux kernel for “SHMMAX (/2)” value… create patch!</p>
 <h5 id="2015-03-16_v3-0_21811b59a8484b2a6b73e0c5277f23c50a0141dc-0"><a href="#2015-03-16_v3-0_21811b59a8484b2a6b73e0c5277f23c50a0141dc-0" class="headerlink" title="2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0"></a>2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0</h5><ul>
@@ -485,15 +507,15 @@ ga('send', 'pageview');
 <li>The license GaryOS is distributed under.<br>#WORK add makefile</li>
 </ul>
 </li>
-<li><a href="https://github.com/garybgenett/gary-os/blob/master/.artifacts/icon.png" target="_blank" rel="external">icon.png</a><ul>
+<li><a href="https://github.com/garybgenett/gary-os/blob/master/_artifacts/icon.png" target="_blank" rel="external">icon.png</a><ul>
 <li>Creative “hack” to have an icon for the project.  Icons make<br>it seem like you are “for real”, so I had to have one.</li>
 </ul>
 </li>
-<li><a href="https://github.com/garybgenett/gary-os/blob/master/.artifacts/screenshot_cli.png" target="_blank" rel="external">screenshot_cli.png</a><ul>
+<li><a href="https://github.com/garybgenett/gary-os/blob/master/_artifacts/screenshot_cli.png" target="_blank" rel="external">screenshot_cli.png</a><ul>
 <li>Pretty self-explanatory.  Snapshot of what booting v1.0 looked<br>like, for promotion, reference and posterity.</li>
 </ul>
 </li>
-<li><a href="https://github.com/garybgenett/gary-os/blob/master/.artifacts/screenshot_gui.png" target="_blank" rel="external">screenshot_gui.png</a><ul>
+<li><a href="https://github.com/garybgenett/gary-os/blob/master/_artifacts/screenshot_gui.png" target="_blank" rel="external">screenshot_gui.png</a><ul>
 <li>Also self-explanatory.  Snapshot of the what the initial X.Org<br>GUI in v2.0 looked like.</li>
 </ul>
 </li>
@@ -999,7 +1021,7 @@ https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.garybgenett.net/writing/gary-os/index.html" data-id="cjubkey6c000ay6j520x4zr9h" class="article-share-link">Share</a>
+      <a data-url="http://www.garybgenett.net/writing/gary-os/index.html" data-id="cjuc0qylp000c47j58vua4bas" class="article-share-link">Share</a>
       
       
     </footer>
