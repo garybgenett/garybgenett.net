@@ -49,6 +49,18 @@
 
 [resume.md.BAK-5.1]
 * 2019-04-02 GitHub_-_Professional_Services_Program_Architect-1606486.html (Email: Shannon Barbour / Referral by Mike Krasnow)
-* 2019-04-02 Indeed_External_-_WORK_-_WORK-WORK.html
-* 2019-04-02 Indeed_External_-_WORK_-_WORK-WORK.html
-* 2019-04-02 Indeed_External_-_WORK_-_WORK-WORK.html
+
+[resume.md.BAK-5.2]
+* 2019-05-09 Avvo_-_Senior_Product_Manager-o6957fwb.html (Cover Letter == [2019-03-19 Indeed_-_Fresh_Consulting_-_Product_Manager-1123f6038d098412.html])
+* 2019-05-09 Avvo_-_Senior_Product_Manager_-_Contract-ow119fwr.html (Cover Letter == [2019-03-19 Indeed_-_Fresh_Consulting_-_Product_Manager-1123f6038d098412.html])
+* 2019-05-09 Oracle_-_Outbound_Product_Manager_-_Partner_Go-to-Market-190001CT.html
+* 2019-05-09 Oracle_-_Principal_Product_Manager-18000PS2.html
+* 2019-05-09 Oracle_-_Product_Manager-Strategy_5-ProdDev-18001H8D.html
+* 2019-05-09 Oracle_-_Senior_Principal_Product_Manager_-_Cloud_Virtual_Network-19000FVE.html
+* 2019-05-09 Oracle_-_Senior_Principal_Product_Manager_-_Data_Connectivity-18001K3K.html
+* 2019-05-10 REI_-_Senior_Product_Manager-13766.html
+
+[resume.md.BAK-5.3]
+* 2019-05-10 Indeed_External_-_WORK_-_WORK-WORK.html
+* 2019-05-10 Indeed_External_-_WORK_-_WORK-WORK.html
+* 2019-05-10 Indeed_External_-_WORK_-_WORK-WORK.html

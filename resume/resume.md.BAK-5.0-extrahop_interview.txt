@@ -1,0 +1,101 @@
+Recommendations
+----------------------------------------
+
+  * Technical
+    * OSI
+    * API interactions and integrations
+  * Process
+    * Agile development practices
+    * Scrum practices
+    * Jira functionality and hygiene
+  * Skills
+    * Manage information upwards effectively
+    * Effectively estimate story points
+    * Track burned down for projects
+
+Products
+----------------------------------------
+
+  * Security -- Reveal(x)
+  * Performance
+  * Cloud
+
+Leadership
+----------------------------------------
+
+  * Arif Kareem -- CEO and President
+  * Jesse Rothstein -- CTO and Co-Founder
+  * Raja Mukerji -- Chief Customer Officer and Co-Founder
+  * Sheryl Loeffler -- VP of Human Resources
+  * Chris Lehman -- SVP of Worldwide Sales and Channel
+  * Bryce Hein -- SVP of Marketing
+  * John Matthews -- CIO
+
+People
+----------------------------------------
+
+Interview:
+
+  * Damien Lindauer -- Principal Product Manager, Security
+    * 2017-11
+    * 25 years at Microsoft
+    * Reveal(x)
+    * "At a high level, amazing products are Intuitive, Complete, Trustworthy, and Relevant.  This is what I strive for."
+  * Swagat Dasgupta -- Senior Product Manager
+    * 2015-02, 2018-07 promoted to Senior
+    * 7 years at Microsoft
+  * Zachary Garcia -- Product Manager
+    * 2018-07
+    * 3 years at Microsoft
+    * Program Manager until ExtraHop
+  * Mike Kelly -- Senior UX Designer
+    * 2014-06, 2017-07 promoted to Senior
+    * ExtraHop is first career move
+  * Mike Montague -- Director Of Architecture
+    * 2014-05 Engineer, 2015-05 Manager, 2018-01 Director
+    * 1989 started 8 years at Microsoft
+    * Engineer until ExtraHop
+  * Corey Bodzin -- Head of Product
+    * 2019-01
+    * 5 years at Tenable, 2014 VP PM, 2017 VP Product Operations
+    * 1992, 2006 Director PS, 2010 Qaulys Director PM, RSA 2012-2014
+    * "Security professional by day, culinary nerd at mealtime."
+  * Ash Lakshmanan -- Senior Product Manager
+    * 2018
+    * 5 years at Verisign
+    * Program Manager until ExtraHop
+  * Ted Driggs -- Principal Product Manager
+    * 2015-07, 2017-07 Senior, 2018-08 Principal
+    * 5 years at Microsoft
+    * Program Manager until ExtraHop
+  * Shari Fox -- Senior Technical Recruiter
+    * 2018
+    * Since 2012
+
+Recruiting:
+
+  * Beth Kester-Warner -- Recruiting Manager ("Head of Recruiting")
+    * 2015-02 Senior, 2018-04 Manager
+    * 2010-04 Director
+  * Tim Spring -- Recruiting
+    * 2018-05
+
+Role
+----------------------------------------
+
+  * What does PM mean to you, and what skills are critical to the role?
+  * What value does PM provide, and how is that accomplished?
+  * How can someone go wrong in PM?
+
+Environment
+----------------------------------------
+
+  * What do you like most about working here?
+  * What is one thing you wish was different, and what would you like to see done about it?
+  * How do you describe the environment here?
+  * What type of person is going to be most successful at this company?  In this role?
+  * How does the company encourage employees to lead healthy, balanced lives?
+  * When was your last vacation, and where did you go?  Were you able to unplug completely?
+  * What are the collaboration tools that the company uses?  Calendar?  Email?  IM?  Remote access?
+  * What brought you to the company, and what keeps you here?
+  * What is the company mission, in your own words?  Why is that mission important to you?
