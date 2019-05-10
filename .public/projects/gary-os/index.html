@@ -24,7 +24,7 @@ Download: https://sourcef">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/icon.png">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/screenshot_cli.png">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/screenshot_gui.png">
-<meta property="og:updated_time" content="2019-04-11T02:23:56.927Z">
+<meta property="og:updated_time" content="2019-05-10T18:22:10.886Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Gary B. Genett">
 <meta name="twitter:description" content="Welcome to GaryOS (gary-os)
@@ -103,7 +103,7 @@ ga('send', 'pageview');
         <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/projects/gary-os/index.html" class="article-date">
-  <time datetime="2019-04-11T02:23:58.103Z" itemprop="datePublished">2019-04-10</time>
+  <time datetime="2019-05-10T18:22:13.514Z" itemprop="datePublished">2019-05-10</time>
 </a>
     
   </div>
@@ -156,6 +156,10 @@ ga('send', 'pageview');
 <p>#WORK it is now also a build system…</p>
 <p>#WORK remove references to metro…</p>
 <p>#WORK all the below description and benefits is horribly written…</p>
+<p>#WORK add grub.tar.xz to download links…</p>
+<p>#WORK add packages.txt to download links…</p>
+<p>#WORK add a known issues section, for stuff like the “secure boot”? issue and workaround</p>
+<p>#WORK support section, issues system and not email, make help output, _gentoo.log file</p>
 <p>While most boot/rescue systems use an ISO with SquashFS, GaryOS is<br>a single binary file consisting of a Linux kernel and a Funtoo/Gentoo<br>initramfs.  The file is generated using a customized Funtoo/Gentoo<br>configuration with a default Grml Linux kernel configuration via the<br>Metro automated build tool.</p>
 <p>There are currently no major projects which take this same approach on<br>this scale.  The result is a smaller boot/rescue file that is just as<br>comprehensive, yet easier to deploy and manage.</p>
 <p>A list of the primary advantages:</p>
@@ -198,6 +202,10 @@ ga('send', 'pageview');
 <p>From there, whatever rescue/administrative work that needs to be done<br>can be accomplished, including using <code>emerge</code> to install or upgrade<br>packages.</p>
 <p>The in-memory filesystem is a complete Funtoo/Gentoo installation, and<br>can be copied to a partition just like a standard <code>stage3</code> file.  GaryOS<br>goes one step further, however, since a Linux kernel has already been<br>prepared.  Simply configuring and installing Grub will result in<br>a ready-to-go Funtoo/Gentoo installation.</p>
 <h2 id="Version_History"><a href="#Version_History" class="headerlink" title="Version History"></a>Version History</h2><p>#WORK just before publishing release, make sure .setup/gentoo.gary-os mirrors the final github release directory</p>
+<p>#WORK need a “changes from default” section of some sort… there is already a NOTE in _release to update this table (so it should be a table, or that note should be changed)</p>
+<h1 id="list_of_modified_files"><a href="#list_of_modified_files" class="headerlink" title="list of modified files"></a>list of modified files</h1><h1 id="/init__28added_29"><a href="#/init__28added_29" class="headerlink" title="/init                (added)"></a>/init                (added)</h1><h1 id="/etc/issue__28replaced_29"><a href="#/etc/issue__28replaced_29" class="headerlink" title="/etc/issue            (replaced)"></a>/etc/issue            (replaced)</h1><h1 id="/etc/fstab__28modified_29"><a href="#/etc/fstab__28modified_29" class="headerlink" title="/etc/fstab            (modified)"></a>/etc/fstab            (modified)</h1><h1 id="/etc/conf-d/hostname__28modified_29"><a href="#/etc/conf-d/hostname__28modified_29" class="headerlink" title="/etc/conf.d/hostname        (modified)"></a>/etc/conf.d/hostname        (modified)</h1><h1 id="/etc/profile-d/setterm-sh__28added_29"><a href="#/etc/profile-d/setterm-sh__28added_29" class="headerlink" title="/etc/profile.d/setterm.sh    (added)"></a>/etc/profile.d/setterm.sh    (added)</h1><h1 id="/etc/X11/Sessions/dwm__28modified_29"><a href="#/etc/X11/Sessions/dwm__28modified_29" class="headerlink" title="/etc/X11/Sessions/dwm        (modified)"></a>/etc/X11/Sessions/dwm        (modified)</h1><h1 id="/etc/env-d/90xsession__28added_29"><a href="#/etc/env-d/90xsession__28added_29" class="headerlink" title="/etc/env.d/90xsession        (added)"></a>/etc/env.d/90xsession        (added)</h1><h1 id="added_stuff"><a href="#added_stuff" class="headerlink" title="added stuff"></a>added stuff</h1><h1 id="/-gary-os"><a href="#/-gary-os" class="headerlink" title="/.gary-os"></a>/.gary-os</h1><h1 id="/_gentoo"><a href="#/_gentoo" class="headerlink" title="/_gentoo"></a>/_gentoo</h1><h1 id="other_changes"><a href="#other_changes" class="headerlink" title="other changes"></a>other changes</h1><h1 id="rc-update__24_7BRCUPDT_7D"><a href="#rc-update__24_7BRCUPDT_7D" class="headerlink" title="rc-update ${RCUPDT}"></a>rc-update ${RCUPDT}</h1><h1 id="passwd_root"><a href="#passwd_root" class="headerlink" title="passwd root"></a>passwd root</h1><h1 id="28linux_kernel_headers_and_tarball_29"><a href="#28linux_kernel_headers_and_tarball_29" class="headerlink" title="(linux kernel headers and tarball)"></a>(linux kernel headers and tarball)</h1><h1 id="kernel__28update_from_grml_2C_options_file_2C_hostname_2C_ramfs_2C_cmdline/nomodeset_29_-_26gt_3B_test"><a href="#kernel__28update_from_grml_2C_options_file_2C_hostname_2C_ramfs_2C_cmdline/nomodeset_29_-_26gt_3B_test" class="headerlink" title="kernel (update from grml, options file, hostname, ramfs, cmdline/nomodeset) -&gt; test"></a>kernel (update from grml, options file, hostname, ramfs, cmdline/nomodeset) -&gt; test</h1><h1 id="28meta-repo_tarball_29"><a href="#28meta-repo_tarball_29" class="headerlink" title="(meta-repo tarball)"></a>(meta-repo tarball)</h1><p>#WORK</p>
+<p>#WORK change title from “use cases” to “HOWTOs + Validation”</p>
+<p>#WORK build-witin-the build is “Live Rebuild (Build-Within-The-Build)” -&gt; must use same kernel, unpack happens automatically</p>
 <p>#WORK add links pointing to the release tags/commits</p>
 <p>#WORK holy crap!  stuff is getting big… gcc=x2 python=x3 linux-firmware=x5 (removed surf/wireshark/gvim/gtk…)… no added packages, and still XXXmb(?) bigger… rootfs about the same?</p>
 <p>#WORK also, did add meta-repo.tar.xz and linux.tar.xz… is a true live system, but this only added ~130mb… vast majority came from above… check gary-os.packages.txt</p>
@@ -214,7 +222,11 @@ ga('send', 'pageview');
 <p>#WORK        (USB INSTALL)</p>
 <p>#WORK    still in windows.null.qcow2, boot from “usb drive” emulation</p>
 <p>#WORK        <a href="#Live_Update">Live Update</a></p>
-<p>#WORK        (BUILD-WITHIN-THE-BUILD, PART 1 - BUILD)</p>
+<p>#WORK        (BUILD-WITHIN-THE-BUILD, PART 1 - BUILD) == tomsrtbt!</p>
+<p>#WORK            can one “make O=/ doit release” within a running “ramfs”?  tee hee.</p>
+<p>#WORK                yes!  do exactly this, with gary-os.base package set, and this is the minimal 4gb build…</p>
+<p>#WORK            (how much memory does it take to do this?)</p>
+<p>#WORK            may consider removing meta-repo.tar.xz and/or linux.tar.xz to save space, but won’t be able to sub-build after that…</p>
 <p>#WORK    still in windows.null.qcow2, boot from “usb drive” emulation into build-within-the-build</p>
 <p>#WORK        (BUILD-WITHIN-THE-BUILD, PART 2 - RUN)</p>
 <p>#WORK        [Installation, PART 1 - INSTALL)</p>
@@ -224,8 +236,11 @@ ga('send', 'pageview');
 <p>#WORK        [PXE Boot, PART 1 - TEST GRUB RESCUE, BOOT INSTALLATION]</p>
 <p>#WORK        [PXE Boot, PART 2 - GARYOS]</p>
 <p>#WORK        (RESCUE INSTALLATION, USING GARYOS, AND BOOT TO RESCUED INSTALLATION</p>
+<p>#WORK    ld: kernel image bigger than KERNEL_IMAGE_SIZE -&gt; initrd build, supported</p>
+<p>#WORK        not hacking kernel, for good reason… see comments at the bottom of (kernel_source)/arch/x86/include/asm/page_64_types.h</p>
 <p>#WORK random: feature request to funtoo for “ego sync” commit pinning… send funtoo.kits</p>
 <p>#WORK random: feature request to linux kernel for “SHMMAX (/2)” value… create patch!</p>
+<p>#WORK random: todo list: add real argument processing to “system” script someday…</p>
 <h5 id="2015-03-16_v3-0_21811b59a8484b2a6b73e0c5277f23c50a0141dc-0"><a href="#2015-03-16_v3-0_21811b59a8484b2a6b73e0c5277f23c50a0141dc-0" class="headerlink" title="2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0"></a>2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0</h5><ul>
 <li>64-bit: <a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel" target="_blank" rel="external">gary-os-generic_64-funtoo-stable-v3.0.kernel</a></li>
 <li>32-bit: <a href="http://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v3.0.kernel" target="_blank" rel="external">gary-os-generic_32-funtoo-stable-v3.0.kernel</a></li>
@@ -462,6 +477,7 @@ ga('send', 'pageview');
 <p>Both projects are pretty damn awesome.</p>
 <p>#WORK side note about gentoo family tree; include image into repository (accolates section with sourceforge stats)</p>
 <p>#WORK    <a href="https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly" target="_blank" rel="external">https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly</a></p>
+<p>#WORK    <a href="http://without-systemd.org/wiki/index.php/Linux_distributions_without_systemd/unlisted" target="_blank" rel="external">http://without-systemd.org/wiki/index.php/Linux_distributions_without_systemd/unlisted</a></p>
 <p>#WORK    consistent worldwide downloads through lifetime of the project, with peaks at 1.9k+ in 2018-03 and 500+ in 2019-01</p>
 <p>#WORK softpedia review: <a href="https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml" target="_blank" rel="external">https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml</a></p>
 <p>#WORK softpedia local: _IMPORT/.old.2017-09-28/GaryOS_v3.0-Softpedia_103629.html</p>
@@ -570,7 +586,8 @@ ga('send', 'pageview');
 </ul>
 </li>
 </ul>
-<h5 id="Gentoo_directory_and_configuration"><a href="#Gentoo_directory_and_configuration" class="headerlink" title="Gentoo directory and configuration"></a>Gentoo directory and configuration</h5><ul>
+<h5 id="Gentoo_directory_and_configuration"><a href="#Gentoo_directory_and_configuration" class="headerlink" title="Gentoo directory and configuration"></a>Gentoo directory and configuration</h5><p>#WORK prompt -c pipe replacement, gobo linux</p>
+<ul>
 <li>Scripts:<ul>
 <li><a href="https://github.com/garybgenett/gary-os/blob/master/gentoo/.colorize" target="_blank" rel="external">.colorize</a><ul>
 <li>Hackish attempt to add colorization to compile output.  It<br>works, but disrupts the sandbox environment and has caused<br>builds to break.  Not used anymore, but kept for posterity.</li>
@@ -697,7 +714,10 @@ ga('send', 'pageview');
 </ul>
 <p>No networking configuration or daemons are run by default, but several<br>networking packages are installed to ease on-the-fly setup.</p>
 <p>For simple DHCP, the <code>dhcpcd</code> command can be run directly on the desired<br>interface, such as an Ethernet connection:</p>
-<p>#WORK ??? use only <code>rc-update add dhcpcd default ; rc</code> ??? make this work with wpa_cli<br><a href="/!--
+<p>#WORK ??? use only <code>rc-update add dhcpcd default ; rc</code> ??? make this work with wpa_cli</p>
+<p>#WORK now set up by default!  only need instructions for wpa_cli if wireless…  must still do the rc-update adds</p>
+<p>#WORK netmount is disabled… no networking… not even sshd… remove sshd from above!</p>
+<p>#WORK <a href="https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD" target="_blank" rel="external">https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD</a><br><a href="/!--
 https:/wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
 https:/wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
 https:/wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
@@ -733,8 +753,15 @@ https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
 <p>#WORK used.  It is part of the NetworkManager package, and “has a very nice</p>
 <p>#WORK console-based interface” according to the Funtoo documentation.</p>
 <p>The Funtoo OpenRC scripts have all sorts of advanced networking features<br>and options, covered in depth:<br><a href="http://www.funtoo.org/Networking" target="_blank" rel="external">http://www.funtoo.org/Networking</a></p>
-<h2 id="Minimal_X-Org_GUI"><a href="#Minimal_X-Org_GUI" class="headerlink" title="Minimal X.Org GUI"></a>Minimal X.Org GUI</h2><p>#WORK is just a simple “startx” now</p>
+<h2 id="Minimal_X-Org_GUI"><a href="#Minimal_X-Org_GUI" class="headerlink" title="Minimal X.Org GUI"></a>Minimal X.Org GUI</h2><p>#WORK <a href="https://wiki.gentoo.org/wiki/Dwm" target="_blank" rel="external">https://wiki.gentoo.org/wiki/Dwm</a></p>
+<p>#WORK is just a simple “startx” now</p>
 <p>#WORK title bar pointer, and elinks menu click</p>
+<p>#WORK readme = left click or Alt+Left / man dwm = right click or Alt+Right</p>
+<p>#WORK xrandr –query</p>
+<p>#WORK xrandr –output Virtual-0 –mode 1920x1200</p>
+<p>#WORK <a href="https://wiki.archlinux.org/index.php/QEMU#SPICE" target="_blank" rel="external">https://wiki.archlinux.org/index.php/QEMU#SPICE</a></p>
+<p>#WORK    /etc/init.d/spice-vdagent start</p>
+<p>#WORK    spice-vdagent</p>
 <ul>
 <li>Definition:<ul>
 <li>Start up and use the X.Org GUI environment</li>
@@ -1017,11 +1044,115 @@ https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
 <li><code>filename &quot;gary-os-[...].kernel&quot;;</code></li>
 </ul>
 <hr>
-<h6 id="End_Of_File"><a href="#End_Of_File" class="headerlink" title="End Of File"></a>End Of File</h6>
+<h6 id="End_Of_File"><a href="#End_Of_File" class="headerlink" title="End Of File"></a>End Of File</h6><!-- WORK
+#WORK
+# * running list of gary-os service dependencies; automated tests?
+#    * ftp/external
+#    * shell utils
+#    * smbd
+#    * start using "_toor" to validate
+#        * rsync ".runit", "wtmp", etc.
+#WORK
+#    * port "metro.sh" script command(s) into here
+#        * update -2 to be the init/hostname/passwords and add "emerge --depclean --with-bdeps=n"
+#        * use custom kernel, and get rid of grml (readme, acknoledge kernel config and package lists)
+#        * use formal release filenames insteaed of "_ramdisk"
+#        * add ramdisk and release optiosn, so that metro.sh "-/" (now "-2"), "-1" and "-!" are all separate; what to do with "-! -!" option?
+#    * document meta-repo ".git" dir handling
+#    * update ram requiresments to 8b minimum, packages have gotten fat!
+#        * need more room in root filesystem, and memory could easily be just 6gb; need to do some kernel configuration tuning...
+#        * speaking of the kernel and ramdisk, can we get a status/progress indicator in there... "cpio -v"...?
+#        * double-check updates in package list, just to be sure it is normal cruft; compare sizes of openbox/dwm and firefox/surf?
+#            * /lib/modules/4.14.12-2 directory?  get rid of this!
+#        * prompt -d -x ; qemu-minion.bsh /.g/_toor/_ramfs.kernel "" -m 8192 -vga std
+#            * why is "startx" not working?
+#    * did you know that if you run "[chroot]" with no other options it will do an update?  we should kill this or document it...
+#    * Makefile, _system and _release all need to stay in sync...!
+#WORK
+#    * systemrescuecd package list: extract to "sets" directory, and comparison
+#    * EFI commands/notes, and grub.sh
+#        * https://www.kernel.org/doc/Documentation/efi-stub.txt
+#        * https://wiki.archlinux.org/index.php/EFISTUB#Booting_EFISTUB
+#WORK
+#    * release process:
+#        * metro
+#            * ~/setup/gentoo/_system -q -g -y
+#                * ~/setup/gentoo/_system -q -g -y -j {package}
+#            * ~/setup/gentoo/_system -q -g -y -j
+#        * packages
+#            * ~/setup/gentoo/_system -q -x -y -j
+#WORK
+#    * document qemu boot time (and system cpu/memory) each release
+#WORK
+#        * make fetch -> create dynamic fetchlist from _ramfs.packages.txt, $WGET_C from sourceforge
+#            * test/add build instructions using files from sourceforge
+#WORK
+#WORK finalize
+#WORK release process note to do a "make -f /.g/_data/zactive/.setup/gentoo.gary-os/Makefile L=_gary-os doit" run, to get all those packages built in the \_packages directory
+#WORK release process a final pass "make -f /.g/_data/zactive/.setup/gentoo.gary-os/Makefile doit" run, to remove binaries but keep the distfiles and packages
+#WORK release process note or automation to delete *.cpio{,.dir,.txt}
+#WORK do htop -> f5 to verify process tree during test cases validation
+# release checklist:
+#    * build
+#        * [complete all commits in ".setup", ".static" and "coding"]
+#            * rm /.g/_data/_build/_metro/funtoo-*/*/*/*/stage3-*
+#        * metro.sh -! ++ (echo | metro.sh 32 0) ++ (echo | metro.sh 64 0)
+#            * qemu-minion.bsh /.g/_data/_builds/_metro/stage3-generic_32-*.kernel "" -append nomodeset
+#            * qemu-minion.bsh /.g/_data/_builds/_metro/stage3-generic_64-*.kernel "" -append nomodeset
+#        * cd /.g/_data/_builds/_metro ++ cat _commit
+#            * [verify with "git-list" in each repository]
+#        * cd /.g/_data/_builds/.gary-os/.gary-os ; vdiff -g v#.#
+#            * [COMMIT] Added "v#.#" release to "Version History" in "README".
+#            * [COMMIT] Tested/validated/updated "Use Cases" with "v#.#" version.
+#    * commit
+#        * cd /.g/_data/_builds/_metro ++ git-backup <version>
+#        * [update "$RELEASE" and "$CMTHASH" in "metro.sh"]
+#        * metro.sh -! ++ (echo | metro.sh 32 0) ++ (echo | metro.sh 64 0)
+#        * cd /.g/_data/_builds/_metro ++ git-commit --all --amend --no-edit
+#            * [COMMIT] (RELEASE:########################################.#) (tag: v#.#)
+#        * [update/commit "$RELEASE" and "$CMTHASH" in "metro.sh"]
+#            * [COMMIT] Added new release to version tags in "metro.sh".
+#    * release
+#        * ls /.g/_data/_builds/.gary-os/metro.gitlog/cur | tail -n1
+#            * rm /.g/_data/_builds/.gary-os/metro.gitlog/cur | tail -n[<result>
+#        * cd /.g/_data/_builds/.gary-os/.gary-os ++ git-list
+#            * git reset --hard HEAD^1
+#        * metro.sh -! -!
+#WORK
+WORK -->
+<!-- WORK
+
+* readme.md
+#WORK
+    * all work markers
+    * rewrite
+    * test cases
+        * grub efi?
+
+* release
+    * complete run of both
+        * gentoo, comment haskell-updater
+        * gary-os, uncomment haskell-updater, all repositories clean
+    * commit gentoo
+        * _sync _sys _clone _full _setup on spider/shadow
+    * _gary-os set instructions/notes, move to readme instead?
+    * release process for gary-os
+        * remove *.cpio{,.dir,.txt}
+        * commit
+        * _publish, new version and hash
+        * _publish, verify github and sourceforge
+        * update sourceforge download button
+
+* announcement email
+
+* Celebrate!
+
+WORK -->
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.garybgenett.net/projects/gary-os/index.html" data-id="cjuc0qylp000b47j52ipqt0ml" class="article-share-link">Share</a>
+      <a data-url="http://www.garybgenett.net/projects/gary-os/index.html" data-id="cjvier7p6000c03j52pwpqel5" class="article-share-link">Share</a>
       
       
     </footer>
@@ -1042,7 +1173,7 @@ https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
       <ul>
         
           <li>
-            <a href="/2019/04/10/README/">(no title)</a>
+            <a href="/2019/05/10/README/">(no title)</a>
           </li>
         
       </ul>
@@ -1062,7 +1193,7 @@ https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
   <div class="widget-wrap">
     <h3 class="widget-title">History</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li></ul>
     </div>
   </div>
 

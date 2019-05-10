@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Technologist & Senior Product Manager
-% v5.2 (2019-04-10)
+% v5.3 (2019-05-10)
 <!-- ############################################################### -->
 
 # Gary B. Genett // Technologist & Senior Product Manager
@@ -49,7 +49,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 <!-- ############################################################### -->
 <!-- 2019/02-Present -->
 <!--
-### Health & Happiness Expert \
+## Health & Happiness Expert \
     Gary's Future, 2019
 
   * Invested in mental and physical health break, after a two and a half year all-out sprint
@@ -58,7 +58,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 
 <!-- ############################################################### -->
 <!-- 2016/10-2019/01 -->
-### Owner & President \
+## Owner & President \
     Enviro-Master of Seattle, 2016-2019
 
   * Owned and operated a small company with several employees, organizational leadership and growth
@@ -69,7 +69,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 
 <!-- ############################################################### -->
 <!-- 2015/01-2016/10 -->
-### Senior Product Management Engineer \
+## Senior Product Management Engineer \
     F5 Networks, 2014-2016
 
   * Created new, dedicated cloud/orchestration team amid evolving company organizational dynamics
@@ -80,7 +80,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 
 <!-- ############################################################### -->
 <!-- 2009/09-2014/12 -->
-### New Product Introduction Engineer \
+## New Product Introduction Engineer \
     F5 Networks, 2009-2014
 
   * Served as liaison between the major arms of the company: marketing, development, services and sales
@@ -101,7 +101,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 <!-- ############################################################### -->
 <!-- 2009/03-2009/08 -->
 <!--
-### Professional Volunteer \
+## Professional Volunteer \
     Various Non-Profit Organizations, 2009
 
   * Took a six month relief, focused on repairing health while serving others
@@ -115,7 +115,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 
 <!-- ############################################################### -->
 <!-- 2007/01-2009/02 -->
-### Field Systems Engineer (Technical Sales) \
+## Field Systems Engineer (Technical Sales) \
     F5 Networks, 2006-2009
 
   * Increased customer adoption as primary engineering representative on account team *(Microsoft)*
@@ -136,7 +136,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 
 <!-- ############################################################### -->
 <!-- 2005/01-2006/12 -->
-### Product Management Engineer \
+## Product Management Engineer \
     F5 Networks, 2004-2006
 
 <!--  * Provided company vision, product direction and execution guidance to executive team, market research -->
@@ -162,7 +162,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 [Video Demonstration of the Process]: http://www.garybgenett.net/resume/20061024-FPLoginScript-Gary.wmv
 
 <!-- ############################################################### -->
-### Additional Experience
+## Additional Experience
 
   * Network Support Engineer: F5 Networks, 2004 <!-- 2004/02-2004/12 -->
 <!--    * Built first shared lab environment and wrote web-based checkout system for global accessibility -->
@@ -178,13 +178,13 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
   * Hospitality Industry: Various roles at several companies, 1993-2001
 
 <!-- ############################################################### -->
-### Education & Certifications
+## Education & Certifications
 
   * University of Washington: Perl Programming, 2003-2004
   * Seattle Central College: Computer Programming, 2000
 
 <!-- ############################################################### -->
-### Open Source Projets
+## Open Source Projets
 
   * [GaryOS](https://github.com/garybgenett/gary-os) -- An entire GNU/Linux system in a single bootable file
   * [Composer](https://github.com/garybgenett/composer) -- Simple but powerful CMS based on Pandoc and Make
@@ -192,7 +192,7 @@ Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/G
 
 <!-- ############################################################### -->
 <!--
-### Volunteering
+## Volunteering
 
   * [WILS (Wisconsin Leadership Seminars)], 1993-2014
     * Received public accolades in 2017 [Facebook post]

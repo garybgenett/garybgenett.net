@@ -46,6 +46,10 @@ GaryOS is an entire GNU/Linux system in a single bootable file.
 #WORK it is now also a build system...
 #WORK remove references to metro...
 #WORK all the below description and benefits is horribly written...
+#WORK add grub.tar.xz to download links...
+#WORK add packages.txt to download links...
+#WORK add a known issues section, for stuff like the "secure boot"? issue and workaround
+#WORK support section, issues system and not email, make help output, \_gentoo.log file
 
 While most boot/rescue systems use an ISO with SquashFS, GaryOS is
 a single binary file consisting of a Linux kernel and a Funtoo/Gentoo
@@ -136,6 +140,28 @@ a ready-to-go Funtoo/Gentoo installation.
 
 #WORK just before publishing release, make sure .setup/gentoo.gary-os mirrors the final github release directory
 
+#WORK need a "changes from default" section of some sort... there is already a NOTE in \_release to update this table (so it should be a table, or that note should be changed)
+# list of modified files
+#	/init				(added)
+#	/etc/issue			(replaced)
+#	/etc/fstab			(modified)
+#	/etc/conf.d/hostname		(modified)
+#	/etc/profile.d/setterm.sh	(added)
+#	/etc/X11/Sessions/dwm		(modified)
+#	/etc/env.d/90xsession		(added)
+# added stuff
+#	/.gary-os
+#	/_gentoo
+# other changes
+#	rc-update ${RCUPDT}
+#	passwd root
+#	(linux kernel headers and tarball)
+#		kernel (update from grml, options file, hostname, ramfs, cmdline/nomodeset) -> test
+#	(meta-repo tarball)
+#WORK
+
+#WORK change title from "use cases" to "HOWTOs + Validation"
+#WORK build-witin-the build is "Live Rebuild (Build-Within-The-Build)" -> must use same kernel, unpack happens automatically
 #WORK add links pointing to the release tags/commits
 #WORK holy crap!  stuff is getting big... gcc=x2 python=x3 linux-firmware=x5 (removed surf/wireshark/gvim/gtk...)... no added packages, and still XXXmb(?) bigger... rootfs about the same?
 #WORK also, did add meta-repo.tar.xz and linux.tar.xz... is a true live system, but this only added ~130mb... vast majority came from above... check gary-os.packages.txt
@@ -152,7 +178,11 @@ a ready-to-go Funtoo/Gentoo installation.
 #WORK		(USB INSTALL)
 #WORK	still in windows.null.qcow2, boot from "usb drive" emulation
 #WORK		[Live Update]
-#WORK		(BUILD-WITHIN-THE-BUILD, PART 1 - BUILD)
+#WORK		(BUILD-WITHIN-THE-BUILD, PART 1 - BUILD) == tomsrtbt!
+#WORK			can one "make O=/ doit release" within a running "ramfs"?  tee hee.
+#WORK				yes!  do exactly this, with gary-os.base package set, and this is the minimal 4gb build...
+#WORK			(how much memory does it take to do this?)
+#WORK			may consider removing meta-repo.tar.xz and/or linux.tar.xz to save space, but won't be able to sub-build after that...
 #WORK	still in windows.null.qcow2, boot from "usb drive" emulation into build-within-the-build
 #WORK		(BUILD-WITHIN-THE-BUILD, PART 2 - RUN)
 #WORK		[Installation, PART 1 - INSTALL)
@@ -162,9 +192,12 @@ a ready-to-go Funtoo/Gentoo installation.
 #WORK		[PXE Boot, PART 1 - TEST GRUB RESCUE, BOOT INSTALLATION]
 #WORK		[PXE Boot, PART 2 - GARYOS]
 #WORK		(RESCUE INSTALLATION, USING GARYOS, AND BOOT TO RESCUED INSTALLATION
+#WORK	ld: kernel image bigger than KERNEL_IMAGE_SIZE -> initrd build, supported
+#WORK		not hacking kernel, for good reason... see comments at the bottom of (kernel_source)/arch/x86/include/asm/page_64_types.h
 
 #WORK random: feature request to funtoo for "ego sync" commit pinning... send funtoo.kits
 #WORK random: feature request to linux kernel for "SHMMAX (/2)" value... create patch!
+#WORK random: todo list: add real argument processing to "system" script someday...
 
 [Release Notes]: #Version_History
 [64-bit]: http://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel
@@ -560,6 +593,7 @@ Both projects are pretty damn awesome.
 
 #WORK side note about gentoo family tree; include image into repository (accolates section with sourceforge stats)
 #WORK	https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2000-01-01%20to%202038-01-19+period=monthly
+#WORK	http://without-systemd.org/wiki/index.php/Linux_distributions_without_systemd/unlisted
 #WORK	consistent worldwide downloads through lifetime of the project, with peaks at 1.9k+ in 2018-03 and 500+ in 2019-01
 #WORK softpedia review: https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml
 #WORK softpedia local: \_IMPORT/.old.2017-09-28/GaryOS_v3.0-Softpedia_103629.html
@@ -685,6 +719,7 @@ details for the individual components.
 
 ##### Gentoo directory and configuration
 
+#WORK prompt -c pipe replacement, gobo linux
   * Scripts:
     * [.colorize](https://github.com/garybgenett/gary-os/blob/master/gentoo/.colorize)
         * Hackish attempt to add colorization to compile output.  It
@@ -840,6 +875,9 @@ For simple DHCP, the `dhcpcd` command can be run directly on the desired
 interface, such as an Ethernet connection:
 
 #WORK ??? use only `rc-update add dhcpcd default ; rc` ??? make this work with wpa_cli
+#WORK now set up by default!  only need instructions for wpa_cli if wireless...  must still do the rc-update adds
+#WORK netmount is disabled... no networking... not even sshd... remove sshd from above!
+#WORK https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD
 <!--
 https://wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
 https://wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
@@ -887,8 +925,15 @@ and options, covered in depth:
 ## Minimal X.Org GUI
 [Minimal X.Org GUI]: #Minimal_X-Org_GUI
 
+#WORK https://wiki.gentoo.org/wiki/Dwm
 #WORK is just a simple "startx" now
 #WORK title bar pointer, and elinks menu click
+#WORK readme = left click or Alt+Left / man dwm = right click or Alt+Right
+#WORK xrandr --query
+#WORK xrandr --output Virtual-0 --mode 1920x1200
+#WORK https://wiki.archlinux.org/index.php/QEMU#SPICE
+#WORK	/etc/init.d/spice-vdagent start
+#WORK	spice-vdagent
 
   * Definition:
     * Start up and use the X.Org GUI environment
@@ -1207,3 +1252,109 @@ basis add the following configuration option to `dhcpd.conf`:
 
 ************************************************************************
 ###### End Of File
+
+<!-- WORK
+#WORK
+# * running list of gary-os service dependencies; automated tests?
+#	* ftp/external
+#	* shell utils
+#	* smbd
+#	* start using "_toor" to validate
+#		* rsync ".runit", "wtmp", etc.
+#WORK
+#	* port "metro.sh" script command(s) into here
+#		* update -2 to be the init/hostname/passwords and add "emerge --depclean --with-bdeps=n"
+#		* use custom kernel, and get rid of grml (readme, acknoledge kernel config and package lists)
+#		* use formal release filenames insteaed of "_ramdisk"
+#		* add ramdisk and release optiosn, so that metro.sh "-/" (now "-2"), "-1" and "-!" are all separate; what to do with "-! -!" option?
+#	* document meta-repo ".git" dir handling
+#	* update ram requiresments to 8b minimum, packages have gotten fat!
+#		* need more room in root filesystem, and memory could easily be just 6gb; need to do some kernel configuration tuning...
+#		* speaking of the kernel and ramdisk, can we get a status/progress indicator in there... "cpio -v"...?
+#		* double-check updates in package list, just to be sure it is normal cruft; compare sizes of openbox/dwm and firefox/surf?
+#			* /lib/modules/4.14.12-2 directory?  get rid of this!
+#		* prompt -d -x ; qemu-minion.bsh /.g/_toor/_ramfs.kernel "" -m 8192 -vga std
+#			* why is "startx" not working?
+#	* did you know that if you run "[chroot]" with no other options it will do an update?  we should kill this or document it...
+#	* Makefile, _system and _release all need to stay in sync...!
+#WORK
+#	* systemrescuecd package list: extract to "sets" directory, and comparison
+#	* EFI commands/notes, and grub.sh
+#		* https://www.kernel.org/doc/Documentation/efi-stub.txt
+#		* https://wiki.archlinux.org/index.php/EFISTUB#Booting_EFISTUB
+#WORK
+#	* release process:
+#		* metro
+#			* ~/setup/gentoo/_system -q -g -y
+#				* ~/setup/gentoo/_system -q -g -y -j {package}
+#			* ~/setup/gentoo/_system -q -g -y -j
+#		* packages
+#			* ~/setup/gentoo/_system -q -x -y -j
+#WORK
+#	* document qemu boot time (and system cpu/memory) each release
+#WORK
+#        * make fetch -> create dynamic fetchlist from _ramfs.packages.txt, $WGET_C from sourceforge
+#            * test/add build instructions using files from sourceforge
+#WORK
+#WORK finalize
+#WORK release process note to do a "make -f /.g/_data/zactive/.setup/gentoo.gary-os/Makefile L=_gary-os doit" run, to get all those packages built in the \_packages directory
+#WORK release process a final pass "make -f /.g/_data/zactive/.setup/gentoo.gary-os/Makefile doit" run, to remove binaries but keep the distfiles and packages
+#WORK release process note or automation to delete *.cpio{,.dir,.txt}
+#WORK do htop -> f5 to verify process tree during test cases validation
+# release checklist:
+#	* build
+#		* [complete all commits in ".setup", ".static" and "coding"]
+#			* rm /.g/_data/_build/_metro/funtoo-*/*/*/*/stage3-*
+#		* metro.sh -! ++ (echo | metro.sh 32 0) ++ (echo | metro.sh 64 0)
+#			* qemu-minion.bsh /.g/_data/_builds/_metro/stage3-generic_32-*.kernel "" -append nomodeset
+#			* qemu-minion.bsh /.g/_data/_builds/_metro/stage3-generic_64-*.kernel "" -append nomodeset
+#		* cd /.g/_data/_builds/_metro ++ cat _commit
+#			* [verify with "git-list" in each repository]
+#		* cd /.g/_data/_builds/.gary-os/.gary-os ; vdiff -g v#.#
+#			* [COMMIT] Added "v#.#" release to "Version History" in "README".
+#			* [COMMIT] Tested/validated/updated "Use Cases" with "v#.#" version.
+#	* commit
+#		* cd /.g/_data/_builds/_metro ++ git-backup <version>
+#		* [update "$RELEASE" and "$CMTHASH" in "metro.sh"]
+#		* metro.sh -! ++ (echo | metro.sh 32 0) ++ (echo | metro.sh 64 0)
+#		* cd /.g/_data/_builds/_metro ++ git-commit --all --amend --no-edit
+#			* [COMMIT] (RELEASE:########################################.#) (tag: v#.#)
+#		* [update/commit "$RELEASE" and "$CMTHASH" in "metro.sh"]
+#			* [COMMIT] Added new release to version tags in "metro.sh".
+#	* release
+#		* ls /.g/_data/_builds/.gary-os/metro.gitlog/cur | tail -n1
+#			* rm /.g/_data/_builds/.gary-os/metro.gitlog/cur | tail -n[<result>
+#		* cd /.g/_data/_builds/.gary-os/.gary-os ++ git-list
+#			* git reset --hard HEAD^1
+#		* metro.sh -! -!
+#WORK
+WORK -->
+
+<!-- WORK
+
+* readme.md
+#WORK
+	* all work markers
+	* rewrite
+	* test cases
+		* grub efi?
+
+* release
+	* complete run of both
+		* gentoo, comment haskell-updater
+		* gary-os, uncomment haskell-updater, all repositories clean
+	* commit gentoo
+		* _sync _sys _clone _full _setup on spider/shadow
+	* _gary-os set instructions/notes, move to readme instead?
+	* release process for gary-os
+		* remove *.cpio{,.dir,.txt}
+		* commit
+		* _publish, new version and hash
+		* _publish, verify github and sourceforge
+		* update sourceforge download button
+
+* announcement email
+
+* Celebrate!
+
+WORK -->
