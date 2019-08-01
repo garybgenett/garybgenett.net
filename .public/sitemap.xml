@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.garybgenett.net/projects/gary-os/index.html</loc>
-    <lastmod>2019-05-10T18:22:10.886Z</lastmod>
+    <loc>http://www.garybgenett.net/writing/gary-os/index.html</loc>
+    <lastmod>2019-08-01T21:51:16.164Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/gary-os/index.html</loc>
-    <lastmod>2019-05-10T18:22:10.886Z</lastmod>
+    <loc>http://www.garybgenett.net/projects/gary-os/index.html</loc>
+    <lastmod>2019-08-01T21:51:16.164Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/writing/composer/index.html</loc>
-    <lastmod>2019-05-10T18:22:10.766Z</lastmod>
+    <lastmod>2019-08-01T21:51:16.128Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/composer/index.html</loc>
-    <lastmod>2019-05-10T18:22:10.766Z</lastmod>
+    <lastmod>2019-08-01T21:51:16.128Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/projects/README.html</loc>
-    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
+    <loc>http://www.garybgenett.net/projects/composer/revealjs.css</loc>
+    <lastmod>2019-07-25T18:31:59.080Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/README.html</loc>
-    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
+    <loc>http://www.garybgenett.net/writing/composer/revealjs.css</loc>
+    <lastmod>2019-07-25T18:31:59.080Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/2019/05/10/README/</loc>
+    <loc>http://www.garybgenett.net/2019/08/01/README/</loc>
     <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
@@ -42,18 +42,18 @@
   </url>
   
   <url>
+    <loc>http://www.garybgenett.net/projects/README.html</loc>
+    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.garybgenett.net/writing/index.html</loc>
     <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/composer/revealjs.css</loc>
-    <lastmod>2016-01-16T02:51:07.052Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.garybgenett.net/projects/composer/revealjs.css</loc>
-    <lastmod>2016-01-16T02:51:07.052Z</lastmod>
+    <loc>http://www.garybgenett.net/writing/README.html</loc>
+    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
   <url>
