@@ -3,27 +3,62 @@
   
   <url>
     <loc>http://www.garybgenett.net/writing/gary-os/index.html</loc>
-    <lastmod>2019-08-01T21:51:16.164Z</lastmod>
+    <lastmod>2019-11-09T01:10:00.211Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/gary-os/index.html</loc>
-    <lastmod>2019-08-01T21:51:16.164Z</lastmod>
+    <lastmod>2019-11-09T01:10:00.211Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/writing/composer/index.html</loc>
-    <lastmod>2019-08-01T21:51:16.128Z</lastmod>
+    <lastmod>2019-11-09T01:10:00.191Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/composer/index.html</loc>
-    <lastmod>2019-08-01T21:51:16.128Z</lastmod>
+    <lastmod>2019-11-09T01:10:00.191Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/projects/composer/revealjs.css</loc>
-    <lastmod>2019-07-25T18:31:59.080Z</lastmod>
+    <loc>http://www.garybgenett.net/writing/gary-os/archive/sysdfree.wordpress.com-2019-03-09-135.html</loc>
+    <lastmod>2019-10-11T21:14:28.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/projects/gary-os/archive/sysdfree.wordpress.com-2019-03-09-135.html</loc>
+    <lastmod>2019-10-11T21:14:28.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/projects/gary-os/archive/garys-guide-to-ntscript.14759.html</loc>
+    <lastmod>2019-10-08T19:50:28.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/writing/gary-os/archive/garys-guide-to-ntscript.14759.html</loc>
+    <lastmod>2019-10-08T19:50:28.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/projects/gary-os/archive/GaryOS-103629.shtml.html</loc>
+    <lastmod>2019-09-24T20:08:55.184Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/writing/gary-os/archive/GaryOS-103629.shtml.html</loc>
+    <lastmod>2019-09-24T20:08:55.184Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/writing/gary-os/archive/Gentoo_Ecosystem.html</loc>
+    <lastmod>2019-08-08T04:55:53.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/projects/gary-os/archive/Gentoo_Ecosystem.html</loc>
+    <lastmod>2019-08-08T04:55:53.000Z</lastmod>
   </url>
   
   <url>
@@ -32,7 +67,17 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/2019/08/01/README/</loc>
+    <loc>http://www.garybgenett.net/projects/composer/revealjs.css</loc>
+    <lastmod>2019-07-25T18:31:59.080Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/writing/index.html</loc>
+    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/writing/README.html</loc>
     <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
@@ -47,12 +92,7 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/index.html</loc>
-    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.garybgenett.net/writing/README.html</loc>
+    <loc>http://www.garybgenett.net/2019/11/08/README/</loc>
     <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   

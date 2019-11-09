@@ -1,217 +1,163 @@
 <!--
 % Gary B. Genett
-% Technologist & Senior Product Manager
-% v5.3 (2019-05-10)
-<!-- ############################################################### -->
-
-# Gary B. Genett // Technologist & Senior Product Manager
-
-Seattle, WA \| 206-391-6606 \| <me@garybgenett.net> \| <http://garybgenett.net/Gary_B_Genett-Product_Manager.pdf>
-
-<!--
-+-----------------------------------------------------------+-----------------------------------------------------------+
-| -- The quick brown fox jumps over the lazy dog.  Done!! \ | -- The quick brown fox jumps over the lazy dog.  Done!! \ |
-+-----------------------------------------------------------+-----------------------------------------------------------+
--->
-
-+------------------------------------------------------------------+----------------------------------------------------+
-| **Two decades of technology expertise**                        \ |                                                    |
-| -- Cross-functional requirements-to-release specialist         \ |                                                    |
-| -- High-fidelity translation of challenges into solutions      \ |                                                    |
-| -- Data-driven, correlating multiple information sources       \ |                                                    |
-| -- GNU/Linux expert, cloud architecture and automation         \ |                                                    |
-| -- Complete networking and application scope, OSI L2-L7        \ |                                                    |
-| -- Coding, scripting, prototyping, light development           \ |                                                    |
-|                                                                  | **Programming polyglot**                         \ |
-|                                                                  | -- Experience with Node.js, Python, C            \ |
-|                                                                  | -- Expert in Bash, Perl, TCL                     \ |
-|                                                                  | -- Basic web development, HTML/CSS/Javascript    \ |
-|                                                                  | -- Web/system APIs, REST/JSON/XML, SQL           \ |
-|                                                                  | -- History of learning new languages on the fly  \ |
-|                                                                  |                                                  \ |
-+------------------------------------------------------------------+----------------------------------------------------+
-| **Consummate engineer with solid business acumen**             \ |                                                    |
-| -- Roles in product management, development, sales, support    \ |                                                    |
-| -- Excellent written communication, produces publishable work  \ |                                                    |
-| -- Proven leadership and adaptability, sales and marketing     \ |                                                    |
-| -- Operational and process definition and implementation       \ |                                                    |
-| -- Return on investment, process and system optimization       \ |                                                    |
-| -- Applies scientific method to everyday challenges            \ |                                                    |
-|                                                                  | **Product development lifecycle**                \ |
-|                                                                  | -- Program and schedule management, budget       \ |
-|                                                                  | -- Performance and functional testing            \ |
-|                                                                  | -- Requirements, design, release and maintenance \ |
-|                                                                  | -- Source tree management, Git, SVN              \ |
-|                                                                  | -- DevOps, Agile, Waterfall                      \ |
-|                                                                  | -- Scrum familiarity                             \ |
-+------------------------------------------------------------------+----------------------------------------------------+
-
-<!-- ############################################################### -->
-<!-- 2019/02-Present -->
-<!--
-## Health & Happiness Expert \
-    Gary's Future, 2019
-
-  * Invested in mental and physical health break, after a two and a half year all-out sprint
-  * Responsible for rebuilding and refocusing life trajectory and career path
+% Senior Product Manager
+% v6.0 (2019-11-08)
 -->
 
 <!-- ############################################################### -->
-<!-- 2016/10-2019/01 -->
-## Owner & President \
-    Enviro-Master of Seattle, 2016-2019
 
-  * Owned and operated a small company with several employees, organizational leadership and growth
-  * Managed almost a hundred sites throughout the entire Puget Sound region, high customer retention
-<!--  * Successfully acquired languishing operation, converted to updated model *(Swisher Hygiene of EcoLab)* -->
-<!--  * Consistent growth through in-person sales and employee upsells, mentorship and coaching -->
-<!--  * Repaired overall health of the business, increased revenue and improved margins -->
-
-<!-- ############################################################### -->
-<!-- 2015/01-2016/10 -->
-## Senior Product Management Engineer \
-    F5 Networks, 2014-2016
-
-  * Created new, dedicated cloud/orchestration team amid evolving company organizational dynamics
-  * Defined new vision for automation, integrating all existing technologies into a unified suite
-  * Assessed emerging market trends and anticipated customer needs to develop the needed direction
-  * Demonstrated ownership and effective advocacy to executive team to achieve budget and support
-  * Ensured delivery through relationships, influence and expertise, both externally and internally
-
-<!-- ############################################################### -->
-<!-- 2009/09-2014/12 -->
-## New Product Introduction Engineer \
-    F5 Networks, 2009-2014
-
-  * Served as liaison between the major arms of the company: marketing, development, services and sales
-  * Ensured readiness of sales and services organizations before all new releases of products and services
-  * Developed and delivered in-person and web-based training curriculums for each release and new technologies
-  * Performed lead role in milestone release, delivered five innovative technologies and deep product rewrite
-<!-- \ -->
-<!--    *(BIG-IP v11.0.0: DSC/CMI, Plugins 2.0, vCMP, TMSH & iApps)* -->
-  * Guided internal homegrown tool through the initial stages to a customer-facing product *(iHealth)*
-  * Pioneered video-based training format, drastically decreasing production time while increasing retention
-  * Created and presented in-depth product internals sessions at international sales and services conferences
-  * Conducted customer visits with account teams as a corporate representative to close or keep business
-
-<!-- [Operations Guide]: https://support.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/f5-tmos-operations-guide.html -->
-<!-- [Operations Guide]: https://support.f5.com/content/kb/en-us/products/big-ip_ltm/manuals/product/f5-tmos-operations-guide/_jcr_content/pdfAttach/download/file.res/f5-tmos-operations-guide.pdf -->
-[Operations Guide]: http://www.garybgenett.net/resume/f5-tmos-operations-guide.pdf
-
-<!-- ############################################################### -->
-<!-- 2009/03-2009/08 -->
 <!--
-## Professional Volunteer \
-    Various Non-Profit Organizations, 2009
-
-  * Took a six month relief, focused on repairing health while serving others
-  * Spent time investing and supporting several organizations, through time and money donations
-    * [UWKC (United Way of King County)]
-    * [Nature Consortium]
-    * [Circus Contraption]
+[docx]
+  * show special characters
+  * margins
+    * top: 0.6
+    * bottom: 0.5
+    * left: 0.7
+    * right: 0.6
+  * ctrl-a
+    * black (not hyperlinks)
+    * justify
+    * design -> paragraph spacing -> compact
+    * size: 10
+  * titles
+    * center
+    * name = size: 20 + remove space before paragraph
+    * title = size: 16
+    * sub-title = size: 12
+  * table
+    * header = center + underline + italic
+  * horizontal lines
+    * format -> picture = height: 0.1 + use solid color (no shade)
+    * add before each section
+  * headers
+    * sections = size: 12 + center + all capital letters
+    * sections = remove space before paragraph + add space after paragraph
+  * experience
+    * companies = underline + no bold + add space before paragraph
+    * titles = add space before paragraph
+    * dates = no bold (including comma)
+    * final paragraph = add space before paragraph
+  * bottom sections
+    * center
+  * header and footer
+    * design -> options = different first page + different odd and even pages
+    * first page footer = "...continued..."
+    * first page footer = right + italic
+    * second page header = "Gary B. Genett - Page 2"
+    * second page header = copy/paste horizontal line
+    * second page header = size: 14 + center + bold + add space after paragraph
+    * second page header = delete at end of text to pull up horizontal line
+  * other
+    * insert page break, if needed
+    * remove trailing empty lines
+  * hide special characters
+  * (copy to manager resume and update title)
 -->
 
-\pagebreak
-
 <!-- ############################################################### -->
-<!-- 2007/01-2009/02 -->
-## Field Systems Engineer (Technical Sales) \
-    F5 Networks, 2006-2009
 
-  * Increased customer adoption as primary engineering representative on account team *(Microsoft)*
-<!--  * Developed influence through mutual trust, thought leadership, solution development and training -->
-  * Tripled the customer device count and quadrupled revenue with only two additional team members
-  * Supported thousands of devices during the development of public cloud <!-- *(GNS/MSN: Azure)* --> *(Azure)*
-  * Delivered first two production deployments of revolutionary chassis architecture <!-- \ -->
-<!--    *(VIPRION: Xbox Live & BOSD)* -->
-      *(Xbox Live)*
-  * Authored comprehensive [Integration Guide] and training for 3rd party development
-<!--  * Assisted customer teams in implementation of automated compliance validation suites *(PCI & SOX)* -->
-<!--  * Reverse-engineered and automated product installer to provide rapid provisioning -->
-  * Cultivated the relationship and supported the technical work resulting in [MSNBC Case Study]
+# Gary B. Genett
 
-[Integration Guide]: http://www.garybgenett.net/resume/BIG-IP_Integration_Guide.docx
-<!-- [MSNBC Case Study]: http://www.f5.com/pdf/case-studies/msnbc-election-day-cs.pdf -->
-[MSNBC Case Study]: http://www.garybgenett.net/resume/msnbc-election-day-cs.pdf
+Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [www.linkedin.com/in/gary-b-genett](https://www.linkedin.com/in/gary-b-genett)
 
-<!-- ############################################################### -->
-<!-- 2005/01-2006/12 -->
-## Product Management Engineer \
-    F5 Networks, 2004-2006
+<!-- ------------------------------------------------------------------------ -->
 
-<!--  * Provided company vision, product direction and execution guidance to executive team, market research -->
-  * Established new team, defined role and responsibilities, created templates for deliverables and reports
-<!--  * Delivered competitive analysis ranging from high-level market overview to technical differentiation -->
-<!--  * Wrote and maintained detailed briefing materials for executive team, product management and sales -->
-  * Created initial analysis, guidance and testing for three successive company acquisitions <!-- \ -->
-<!--    *(FirePass SSL VPN, WebAccelerator Web Optimization & WANJet WAN Optimization)* -->
-  * Authored [Performance Testing Guide], setting the industry standard for comprehensive evaluation
-  * Released [SSL VPN for UNIX-like Systems], as a [Perl Script] and [Video Demonstration of the Process]
-<!--  * Maintained expertise in product design, architecture and internals, nurtured knowledge culture -->
+## Senior Product Manager
 
-<!-- [Performance Testing Guide]: http://devcentral.f5.com/downloads/f5/creating-performance-test-methodology.pdf -->
-[Performance Testing Guide]: http://www.garybgenett.net/resume/creating-performance-test-methodology.pdf
-<!-- [L4-L7 Performance Testing Report]: http://www.f5.com/pdf/reports/F5-comparative-performance-report-ADC-2013.pdf -->
-[L4-L7 Performance Testing Report]: http://www.garybgenett.net/resume/F5-comparative-performance-report-ADC-2013.pdf
-<!-- [L4-L7 Performance Testing Report]: http://www.garybgenett.net/resume/f5-performance-report-UPDATED.pdf -->
-<!-- [SSL VPN for UNIX-like Systems]: https://devcentral.f5.com/articles/clientless-firepass-login-via-the-command-line -->
-[SSL VPN for UNIX-like Systems]: http://www.garybgenett.net/resume/Clientless_FirePass_Login_via_the_command_line.html
-<!-- [Perl Script]: https://devcentral.f5.com/downloads/icontrol/sdk/sslvpn.public.pl.txt -->
-[Perl Script]: http://www.garybgenett.net/resume/sslvpn.public.pl.txt
-<!-- [Video Demonstration of the Process]: https://devcentral.f5.com/weblogs/dctv/archive/2006/10/30/fploginscript.aspx -->
-[Video Demonstration of the Process]: http://www.garybgenett.net/resume/20061024-FPLoginScript-Gary.wmv
+**Organizational Change \| Project Management \| Product Ownership**
 
-<!-- ############################################################### -->
-## Additional Experience
+Goal-focused professional with 15+ years' success driving all aspects of product ownership, project management, and organizational change to cultivate organizational growth within pressurized environments. Strong ability to build and lead teams that meet and exceed established goals and expectations. Highly adept at developing and implementing controls, processes, and best practices that enhance operational efficiency and mitigate risks. Well-versed in GNU/Linux, cloud architecture, and automation. Demonstrated ability to guide full product and project management lifecycle, from scope definition and initial planning to final delivery, to ensure on-time, on-budget, and on-target results.
 
-  * Network Support Engineer: F5 Networks, 2004 <!-- 2004/02-2004/12 -->
-<!--    * Built first shared lab environment and wrote web-based checkout system for global accessibility -->
-  * Implementation Specialist: MICROS Systems, 2001-2004
-<!--    * Designed and supported mission-critical financial systems in 24/7 customer environments -->
-<!--    * Implemented and supported all the largest point-of-sale deployments in Washington state -->
-<!--    * Operated as sole technician for UNIX-based systems, which processed millions of dollars daily -->
-<!--    * Managed customer expectations and experience from presales to ongoing support -->
-<!--    * Increased revenue and customer loyalty by selling and building custom solutions \ -->
-<!--      *(Shell, Perl, SQL and a proprietary scripting language)* -->
-  * UNIX Tier 3 Support Specialist: HostPro, 2001
-  * Operations and Systems Production Support: VoiceStream Wireless, 2000
-  * Hospitality Industry: Various roles at several companies, 1993-2001
+|:---|:---|:---|
+| | **Core Competencies** | |
+| &#8226; Technical Project Management \ | &#8226; Full Product Development Lifecycle | &#8226; Change Management/Transformation
+| &#8226; Team Building and Leadership \ | &#8226; DevOps / Agile / Waterfall / Scrum | &#8226; Performance & Functional Testing
+| &#8226; Delivery Management          \ | &#8226; Product Support, Sales, & Training | &#8226; Requirements Gathering
+| &#8226; Scope Definition & Planning  \ | &#8226; Source Tree Management             | &#8226; System & Process Optimization
+| &#8226; Release Management           \ | &#8226; Program & Schedule Management      | &#8226; Budget Management
+| &#8226; Stakeholder Engagement       \ | &#8226; Cross-functional Collaboration     | &#8226; Product Strategy & Roadmap
 
-<!-- ############################################################### -->
-## Education & Certifications
+<!-- ------------------------------------------------------------------------ -->
 
-  * University of Washington: Perl Programming, 2003-2004
-  * Seattle Central College: Computer Programming, 2000
+# Professional Experience
 
-<!-- ############################################################### -->
-## Open Source Projets
+## Alaska Airlines, Inc. -- Seattle, WA
 
-  * [GaryOS](https://github.com/garybgenett/gary-os) -- An entire GNU/Linux system in a single bootable file
-  * [Composer](https://github.com/garybgenett/composer) -- Simple but powerful CMS based on Pandoc and Make
-<!--  * [Tasks](https://github.com/garybgenett/tasks) -- Taskwarrior & Google Tasks: configuration, automation & reporting -->
+### Senior Project Manager -- Apps, 2019 to Present
 
-<!-- ############################################################### -->
-<!--
-## Volunteering
+Spearheaded the design, coordination, delivery, and oversight of Integration Program environments to ensure that teams are able to efficiently and effectively complete work in a hybrid agile/waterfall workspace. Collaborated cross-functionally to comprehend requirements and define clear scope for environment usage. Environment planning, Played a key role in project scoping and planning, documentation, systems maintenance and downtime planning, and continuous improvement. Prevented disruptions to project progress by identifying and escalating risks well in advance.
 
-  * [WILS (Wisconsin Leadership Seminars)], 1993-2014
-    * Received public accolades in 2017 [Facebook post]
-    * Authored constitution and bylaws for new organization as first Alumni Board Secretary
-<!--    * Youth Facilitator, 2004-2014
-<!--    * Junior Staff Member, 1994-1997
-<!--    * Alumni Board Secretary, 1994-1995
-<!--    * Seminar Ambassador, 1993
-  * [UWKC (United Way of King County)], 2009-2010
-<!--  * [Nature Consortium], 2009
-<!--  * [Circus Contraption], 2009
--->
+**_Key Contributions:_**
 
-[WILS (Wisconsin Leadership Seminars)]: https://wils.us
-[Facebook post]: https://www.facebook.com/WILeadS/posts/10155511390964644
-[UWKC (United Way of King County)]: https://www.uwkc.org
-[Nature Consortium]: https://dnda.org/dnda-nature
-[Circus Contraption]: https://www.circuscontraption.com
+  * Drove the definition and management of environment requirements and calendar across the VX Integration Program for M&E systems and processes to ensure smooth integration between Alaska Airlines and Virgin America.
+  * Strengthened controls and overall quality of outcomes by establishing and implementing best practices for delivery of high-quality standard, scalable environments.
 
-<!-- ############################################################### -->
-<!--- exit(0); -->
-<!-- ############################################################### -->
+## Enviro-Master -- Seattle, WA
+
+### President, 2016 to 2019
+
+Leveraged strong leadership abilities and strategic thinking to led a high-performing team to deliver all daily operations with attention-to-detail, efficiency, and excellence.
+
+**_Key Contributions:_**
+
+  * Achieved a high level of customer satisfaction, directing nearly 100 sites across the Puget Sound region.
+
+## F5 Networks -- Seattle, WA
+
+### Senior Product Management Engineer, 2014 to 2016
+
+Guided the end-to-end product management lifecycle to completion within budget constraints and deadline. Demonstrated ownership and effective advocacy to the executive team to achieve a high-standard of support and fulfil budget goals. Leveraged external and internal relationships, influence, and expertise to direct product strategy and roadmap to accomplish delivery targets.
+
+**_Key Contributions:_**
+
+  * Built an integral new cloud/orchestration team to ensure smooth operations and optimal productivity amid evolving organizational dynamics.
+  * Established and drove new vision for automation, integrating all existing technologies into a unified suite.
+  * Remained at the forefront of changing market trends and anticipated customer needs to develop direction.
+
+### New Product Introduction Engineer, 2009 to 2014
+
+Guaranteed a high standard of preparation and readiness across sales and services organizations ahead of new product and service releases. Ensured clear communication channels and optimal operational efficiency as a liaison between the company's major departments, including marketing, development, services, and sales functions.  Closed integral deals and optimized retention by performing customer visits with account teams as corporate representative.
+
+**_Key Contributions:_**
+
+  * Established detailed in-person and web-based training for each release and new technology to maximize product knowledge.
+  * Spearheaded the effective milestone release of 5 innovative technologies and deep product rewrite.
+  * Steered the internal homegrown iHealth tool through initial stages to customer-facing product.
+  * Reduced production time and increased retention by pioneering innovative video-based training format.
+  * Designed and presented comprehensive internal product sessions at international sales and services conferences.
+
+### Field Systems Engineer - Technical Sales, 2006 to 2009
+
+Delivered high-quality support to thousands of devices during the development of Azure public cloud. Built and strengthened key professional relationships and provided comprehensive support for technical work, resulting in MSNBC case study.
+
+**_Key Contributions:_**
+
+  * Significantly grew customer adoption as primary engineering representative on Microsoft account team.
+  * Increased customer device count by 300% and revenue by 400% with only 2 additional team members.
+  * Pioneered detailed integration guide and training to aid 3rd party development and improve quality and efficiency.
+  * Initiated and directed 2 successful production deployments of revolutionary chassis architectures for Xbox Live.
+
+### Product Management Engineer, 2004 to 2006
+
+Established a high-caliber new team to perform all key duties within time constraints, including developing roles and responsibilities and creating templates for deliverables and reports. Expertly released SSL VPN for UNIX-like systems, as Perl script and Video Demonstration of Process.
+
+**_Key Contributions:_**
+
+  * Led the initial analysis, guidance, and testing for 3 successive company acquisitions.
+  * Drove the successful development of a Performance Testing Guide, setting industry standard for comprehensive review.
+
+*Additional experience as **Network Support Engineer** for F5 Networks, **Implementation Specialist** for MICROS Systems, **UNIX Tier 3 Support Specialist** for HostPro, and **Operations and Systems Production Support** for VoiceStream Wireless.*
+
+------------------------------------------------------------------------
+
+# Education and Certification
+
+**Perl Programming Course**, University of Washington, Seattle, WA
+
+**Computer Programming Courses**, Seattle Central College, Seattle, WA
+
+------------------------------------------------------------------------
+
+# Technical Proficiencies
+
+Node.js, Python, C, Bash, Perl, TCL, Web Development, HTML/CSS/Javascript, Web/System APIs, REST/JSON/XML, SQL, Git, SVN, DevOps, Agile, Waterfall, Scrum
