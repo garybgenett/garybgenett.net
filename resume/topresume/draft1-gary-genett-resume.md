@@ -1,6 +1,6 @@
 <!--
 % Gary B. Genett
-% Senior Product Manager
+% Pathfinder & Technologist
 % v6.0 (2019-11-08)
 -->
 
@@ -25,7 +25,7 @@
     * title = size: 16
     * sub-title = size: 12
   * table
-    * header = center + underline
+    * header = center + underline + italic
   * horizontal lines
     * format -> picture = height: 0.1 + use solid color (no shade)
     * add before each section
@@ -41,12 +41,15 @@
     * center
   * header and footer
     * design -> options = different first page + different odd and even pages
-    * first page footer = "...continued..." = right + italic
+    * first page footer = "...continued..."
     * first page footer = right + italic
     * second page header = "Gary B. Genett - Page 2"
     * second page header = copy/paste horizontal line
     * second page header = size: 14 + center + bold + add space after paragraph
-  * insert page break, if needed
+    * second page header = delete at end of text to pull up horizontal line
+  * other
+    * insert page break, if needed
+    * remove trailing empty lines
   * hide special characters
   * (copy to manager resume and update title)
 -->
@@ -59,7 +62,7 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [www.linke
 
 <!-- ------------------------------------------------------------------------ -->
 
-## Senior Product Manager
+## Pathfinder & Technologist
 
 **Organizational Change \| Project Management \| Product Ownership**
 
