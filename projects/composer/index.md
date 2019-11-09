@@ -2,7 +2,7 @@
 Composer CMS
 ------------------------------------------------------------------------
 
-![Composer Icon](projects/composer/icon.png "Composer Icon")
+![Composer Icon](_artifacts/icon.png "Composer Icon")
 "Creating Made Simple."
 
 * Homepage: [https://github.com/garybgenett/composer](https://github.com/garybgenett/composer)
@@ -69,7 +69,7 @@ files into richer, more capable document types.
 
 This is the goal of [Composer].
 
-![Composer Screenshot](projects/composer/screenshot.png "Composer Screenshot")
+![Composer Screenshot](_artifacts/screenshot.png "Composer Screenshot")
 
 Quick Start
 ------------------------------------
