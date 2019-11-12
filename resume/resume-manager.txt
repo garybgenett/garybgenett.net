@@ -22,41 +22,41 @@ automation. Demonstrated ability to guide full product and project
 management lifecycle, from scope definition and initial planning to
 final delivery, to ensure on-time, on-budget, and on-target results.
 
-  ---------------------------------- -------------------------------------- ------------------------------------
-                                     CORE COMPETENCIES                      
-  • Technical Project Management     • Full Product Development Lifecycle   • Change Management/Transformation
-  • Team Building and Leadership     • DevOps / Agile / Waterfall / Scrum   • Performance & Functional Testing
-  • Delivery Management              • Product Support, Sales, & Training   • Requirements Gathering
-  • Scope Definition & Planning      • Source Tree Management               • System & Process Optimization
-  • Release Management               • Program & Schedule Management        • Budget Management
-  • Stakeholder Engagement           • Cross-functional Collaboration       • Product Strategy & Roadmap
-  ---------------------------------- -------------------------------------- ------------------------------------
+CORE COMPETENCIES
+
+  -------------------------------- -------------------------------------- ------------------------------------
+  • Technical Project Management   • Full Product Development Lifecycle   • Change Management/Transformation
+  • Team Building and Leadership   • DevOps / Agile / Waterfall / Scrum   • Performance & Functional Testing
+  • Delivery Management            • Product Support, Sales, & Training   • Requirements Gathering
+  • Scope Definition & Planning    • Source Tree Management               • System & Process Optimization
+  • Release Management             • Program & Schedule Management        • Budget Management
+  • Stakeholder Engagement         • Cross-functional Collaboration       • Product Strategy & Roadmap
+  -------------------------------- -------------------------------------- ------------------------------------
 
 
 
 PROFESSIONAL EXPERIENCE
 
 
-Alaska Airlines, Inc. – Seattle, WA
+Alaska Airlines – Seattle, WA
 
-Senior Project Manager – Apps, 2019 to Present
+Senior Technical Project Manager, 2019 to Present
 
 Spearheaded the design, coordination, delivery, and oversight of
 Integration Program environments to ensure that teams are able to
 efficiently and effectively complete work in a hybrid agile/waterfall
 workspace. Collaborated cross-functionally to comprehend requirements
-and define clear scope for environment usage. Environment planning,
-Played a key role in project scoping and planning, documentation,
-systems maintenance and downtime planning, and continuous improvement.
-Prevented disruptions to project progress by identifying and escalating
-risks well in advance.
+and define clear scope for environment usage and planning. Played a key
+role in project scoping and planning, documentation, systems maintenance
+and downtime planning, and continuous improvement. Prevented disruptions
+to project progress by identifying and escalating risks well in advance.
 
 _KEY CONTRIBUTIONS:_
 
 -   Drove the definition and management of environment requirements and
-    calendar across the VX Integration Program for M&E systems and
-    processes to ensure smooth integration between Alaska Airlines and
-    Virgin America.
+    calendar across the Integration Program for systems and processes to
+    ensure smooth integration between Alaska Airlines and Virgin
+    America.
 -   Strengthened controls and overall quality of outcomes by
     establishing and implementing best practices for delivery of
     high-quality standard, scalable environments.
@@ -66,7 +66,7 @@ Enviro-Master – Seattle, WA
 
 President, 2016 to 2019
 
-Leveraged strong leadership abilities and strategic thinking to led a
+Leveraged strong leadership abilities and strategic thinking to lead a
 high-performing team to deliver all daily operations with
 attention-to-detail, efficiency, and excellence.
 
@@ -74,6 +74,10 @@ _KEY CONTRIBUTIONS:_
 
 -   Achieved a high level of customer satisfaction, directing nearly 100
     sites across the Puget Sound region.
+-   Directly doubled sales by increasing sites by 50%, resulting in an
+    additional $100K in revenue.
+-   Reduced operational budget to optimize profitability, following the
+    acquisition of failing Swisher business.
 
 
 F5 Networks – Seattle, WA
@@ -92,7 +96,7 @@ _KEY CONTRIBUTIONS:_
 -   Built an integral new cloud/orchestration team to ensure smooth
     operations and optimal productivity amid evolving organizational
     dynamics.
--   Established and drove new vision for automation, integrating all
+-   Established and drove a new vision for automation, integrating all
     existing technologies into a unified suite.
 -   Remained at the forefront of changing market trends and anticipated
     customer needs to develop direction.
@@ -113,10 +117,12 @@ _KEY CONTRIBUTIONS:_
     release and new technology to maximize product knowledge.
 -   Spearheaded the effective milestone release of 5 innovative
     technologies and deep product rewrite.
--   Steered the internal homegrown iHealth tool through initial stages
-    to customer-facing product.
--   Reduced production time and increased retention by pioneering
-    innovative video-based training format.
+-   Steered the internal homegrown heuristics tool to pre-analyze
+    customer diagnostic files for the support team through initial
+    stages to customer-facing product.
+-   Reduced production time from several weeks to a few days and
+    increased retention by pioneering innovative video-based training
+    format.
 -   Designed and presented comprehensive internal product sessions at
     international sales and services conferences.
 
@@ -142,16 +148,18 @@ Product Management Engineer, 2004 to 2006
 
 Established a high-caliber new team to perform all key duties within
 time constraints, including developing roles and responsibilities and
-creating templates for deliverables and reports. Expertly released SSL
-VPN for UNIX-like systems, as Perl script and Video Demonstration of
-Process.
+creating templates for deliverables and reports. Played a key role in
+steering the overall product strategy and building prototype solutions
+to solve technical challenges.
 
 _KEY CONTRIBUTIONS:_
 
 -   Led the initial analysis, guidance, and testing for 3 successive
     company acquisitions.
 -   Drove the successful development of a Performance Testing Guide,
-    setting industry standard for comprehensive review.
+    setting the industry standard for comprehensive review.
+-   Expertly released SSL VPN for UNIX-like systems, as Perl script and
+    Video Demonstration of Process.
 
 _Additional experience as NETWORK SUPPORT ENGINEER for F5 Networks,
 IMPLEMENTATION SPECIALIST for MICROS Systems, UNIX TIER 3 SUPPORT
