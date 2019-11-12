@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Senior Product Manager
-% v6.2 (2019-11-11)
+% v6.3 (2019-11-12)
 -->
 
 <!-- ############################################################### -->
@@ -27,6 +27,7 @@
     * sub-title = size: 12 + add space after paragraph
   * table
     * header = center + underline + italic
+    * header = remove space before paragraph + remove space after paragraph
   * horizontal lines
     * format -> picture = height: 0.1 + use solid color (no shade)
     * add before each section
@@ -46,10 +47,9 @@
     * first page footer = "...continued..."
     * first page footer = right + italic
     * second page header = "Gary B. Genett - Page 2"
-    * second page header = copy/paste horizontal line + add space after paragraph
+    * second page header = copy/paste horizontal line + remove space before paragraph + add space after paragraph
     * second page header = duplicate titles font
-    * second page header = size: 14 + center + bold + remove space after paragraph
-    * second page header = delete at end of text to pull up horizontal line
+    * second page header = size: 14 + center + bold + remove space before paragraph + remove space after paragraph
   * other
     * insert page break, if needed
     * remove trailing empty lines
@@ -74,12 +74,12 @@ Goal-focused professional with 15+ years' success driving all aspects of product
 **Core Competencies**
 
 |:---|:---|:---|
-| &#8226; Technical Project Management | &#8226; Full Product Development Lifecycle | &#8226; Change Management/Transformation
-| &#8226; Team Building and Leadership | &#8226; DevOps / Agile / Waterfall / Scrum | &#8226; Performance & Functional Testing
-| &#8226; Delivery Management          | &#8226; Product Support, Sales, & Training | &#8226; Requirements Gathering
-| &#8226; Scope Definition & Planning  | &#8226; Source Tree Management             | &#8226; System & Process Optimization
-| &#8226; Release Management           | &#8226; Program & Schedule Management      | &#8226; Budget Management
-| &#8226; Stakeholder Engagement       | &#8226; Cross-functional Collaboration     | &#8226; Product Strategy & Roadmap
+| &#8226; Change Management & Transformation | &#8226; System & Process Optimization      | &#8226; Technical Project Management
+| &#8226; Product Strategy & Roadmap         | &#8226; Cross-functional Collaboration     | &#8226; Stakeholder Engagement
+| &#8226; Scope Definition & Planning        | &#8226; Requirements Gathering             | &#8226; Delivery Management
+| &#8226; Team Building and Leadership       | &#8226; Product Support, Sales & Training  | &#8226; Budget Management
+| &#8226; Full Product Development Lifecycle | &#8226; Program & Schedule Management      | &#8226; Release Management
+| &#8226; DevOps / Agile / Waterfall / Scrum | &#8226; Performance & Functional Testing   | &#8226; Source Tree Management
 
 <!-- ------------------------------------------------------------------------ -->
 
