@@ -6,7 +6,8 @@ override COMPOSER_TEACHER := $(abspath $(COMPOSER_ABSPATH)/../Makefile)
 override COMPOSER_TARGETS ?= \
 	resume_manager \
 	$(foreach FILE,html pdf docx txt,resume.$(FILE)) \
-	$(foreach FILE,html pdf docx txt,resume-manager.$(FILE))
+	$(foreach FILE,html pdf docx txt,resume-manager.$(FILE)) \
+	$(foreach FILE,html pdf docx txt,resume-cover.$(FILE))
 override COMPOSER_SUBDIRS ?=
 override COMPOSER_DEPENDS ?=
 
