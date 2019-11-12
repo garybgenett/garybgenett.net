@@ -39,7 +39,7 @@ override SITE_TIMEZONE			:= US/Pacific
 
 override SITE_GOOGLEPLUS		:=
 override SITE_FACEBOOK			:= https://www.facebook.com/gary.b.genett
-override SITE_LINKEDIN			:= https://www.linkedin.com/pub/gary-b-genett/a5/a87/178
+override SITE_LINKEDIN			:= https://www.linkedin.com/in/gary-b-genett
 override SITE_TWITTER			:=
 override SITE_GITHUB			:= https://github.com/garybgenett
 
