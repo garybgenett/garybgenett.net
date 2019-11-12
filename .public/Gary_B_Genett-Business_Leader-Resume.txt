@@ -24,14 +24,14 @@ final delivery, to ensure on-time, on-budget, and on-target results.
 
 CORE COMPETENCIES
 
-  -------------------------------- -------------------------------------- ------------------------------------
-  • Technical Project Management   • Full Product Development Lifecycle   • Change Management/Transformation
-  • Team Building and Leadership   • DevOps / Agile / Waterfall / Scrum   • Performance & Functional Testing
-  • Delivery Management            • Product Support, Sales, & Training   • Requirements Gathering
-  • Scope Definition & Planning    • Source Tree Management               • System & Process Optimization
-  • Release Management             • Program & Schedule Management        • Budget Management
-  • Stakeholder Engagement         • Cross-functional Collaboration       • Product Strategy & Roadmap
-  -------------------------------- -------------------------------------- ------------------------------------
+  -------------------------------------- ------------------------------------- --------------------------------
+  • Change Management & Transformation   • System & Process Optimization       • Technical Project Management
+  • Product Strategy & Roadmap           • Cross-functional Collaboration      • Stakeholder Engagement
+  • Scope Definition & Planning          • Requirements Gathering              • Delivery Management
+  • Team Building and Leadership         • Product Support, Sales & Training   • Budget Management
+  • Full Product Development Lifecycle   • Program & Schedule Management       • Release Management
+  • DevOps / Agile / Waterfall / Scrum   • Performance & Functional Testing    • Source Tree Management
+  -------------------------------------- ------------------------------------- --------------------------------
 
 
 
