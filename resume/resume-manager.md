@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Senior Product Manager
-% v6.3 (2019-11-12)
+% v6.4 (2019-11-13)
 -->
 
 <!-- ############################################################### -->
@@ -10,23 +10,23 @@
 [docx]
   * show special characters
   * margins
-    * top: 0.6
+    * top: 0.5
     * bottom: 0.5
     * left: 0.7
     * right: 0.6
   * ctrl-a
-    * black (not hyperlinks)
+    * black
     * justify
     * design -> paragraph spacing -> compact
     * size: 10
   * titles
     * center
-    * name = size: 20 + remove space before paragraph
+    * name = size: 20 + remove space before paragraph + remove space after paragraph
     * information = remove space before paragraph + remove space after paragraph
     * title = size: 16 + add space before paragraph + remove space after paragraph
     * sub-title = size: 12 + add space after paragraph
   * table
-    * header = center + underline + italic
+    * header = center + bold + underline + italic
     * header = remove space before paragraph + remove space after paragraph
   * horizontal lines
     * format -> picture = height: 0.1 + use solid color (no shade)
@@ -39,17 +39,19 @@
     * first company = remove space before paragraph
     * titles = add space before paragraph
     * dates = no bold (including comma)
-    * final paragraph = center + add space before paragraph
+    * final paragraph = center + add space before paragraph + add space after paragraph
   * bottom sections
     * center
   * header and footer
     * design -> options = different first page + different odd and even pages
     * first page footer = "...continued..."
     * first page footer = right + italic
-    * second page header = "Gary B. Genett - Page 2"
+    * second page header = "Gary B. Genett -- Page 2"
+    * second page header = replace " -- " with "[3 spaces] [insert -> symbol -> bullet] [3 spaces]"
+    * second page header = duplicate titles font + size: 14 [name] + size: 12 [spaces + bullet + page]
+    * second page header = center + bold + remove space before paragraph + remove space after paragraph
     * second page header = copy/paste horizontal line + remove space before paragraph + add space after paragraph
-    * second page header = duplicate titles font
-    * second page header = size: 14 + center + bold + remove space before paragraph + remove space after paragraph
+    * second page header = horizontal line -> format -> picture = height: 1
   * other
     * insert page break, if needed
     * remove trailing empty lines
@@ -89,12 +91,12 @@ Goal-focused professional with 15+ years' success driving all aspects of product
 
 ### Senior Technical Project Manager, 2019 to Present
 
-Spearheaded the design, coordination, delivery, and oversight of Integration Program environments to ensure that teams are able to efficiently and effectively complete work in a hybrid agile/waterfall workspace.  Collaborated cross-functionally to comprehend requirements and define clear scope for environment usage and planning.  Played a key role in project scoping and planning, documentation, systems maintenance and downtime planning, and continuous improvement.  Prevented disruptions to project progress by identifying and escalating risks well in advance.
+Established design patterns for new and existing document types to develop a usable and maintainable library of all resources needed for executive, management, developer, and support audiences.  Collaborated cross-functionally to gather and comprehend requirements and define clear scope.  Developed document creation and management processes for company use for foreseeable future, to facilitate migration from on-premises to Azure cloud-based model.  Contributed to project scoping and planning, documentation, systems maintenance and downtime planning, and continuous improvement.  Prevented disruptions to project progress by identifying and escalating risks well in advance.
 
 **_Key Contributions:_**
 
-  * Drove the definition and management of environment requirements and calendar across the Integration Program for systems and processes to ensure smooth integration between Alaska Airlines and Virgin America.
-  * Strengthened controls and overall quality of outcomes by establishing and implementing best practices for delivery of high-quality standard, scalable environments.
+  * As a part of a $40M integration program, pioneered a centralized documentation management system and ongoing maintenance processes aimed at helping Alaska Airlines become the first airline to succeed in pulling off a full M&E system integration post-merger with Virgin America.
+  * Strengthened controls and overall quality of outcomes by creating and implementing best practices to ensure smooth transition to cloud-based DevOps model.
 
 ## Enviro-Master -- Seattle, WA
 

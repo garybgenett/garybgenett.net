@@ -43,10 +43,11 @@ deliver similar results for [COMPANY NAME].
 Over the course of my professional history, I have achieved the
 following career highlights:
 
--   Led the definition and management of environment requirements and
-    calendar across the VX Integration Program for M&E systems and
-    processes to ensure smooth integration between Alaska Airlines and
-    Virgin America.
+-   As a part of a $40M integration program, pioneered a centralized
+    documentation management system and ongoing maintenance processes
+    aimed at helping Alaska Airlines become the first airline to succeed
+    in pulling off a full M&E system integration post-merger with Virgin
+    America.
 -   Built an integral new cloud/orchestration team to ensure smooth
     operations and optimal productivity amid evolving organizational
     dynamics at F5 Networks.
