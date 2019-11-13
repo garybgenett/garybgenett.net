@@ -42,24 +42,27 @@ Alaska Airlines – Seattle, WA
 
 Senior Technical Project Manager, 2019 to Present
 
-Spearheaded the design, coordination, delivery, and oversight of
-Integration Program environments to ensure that teams are able to
-efficiently and effectively complete work in a hybrid agile/waterfall
-workspace. Collaborated cross-functionally to comprehend requirements
-and define clear scope for environment usage and planning. Played a key
-role in project scoping and planning, documentation, systems maintenance
-and downtime planning, and continuous improvement. Prevented disruptions
-to project progress by identifying and escalating risks well in advance.
+Established design patterns for new and existing document types to
+develop a usable and maintainable library of all resources needed for
+executive, management, developer, and support audiences. Collaborated
+cross-functionally to gather and comprehend requirements and define
+clear scope. Developed document creation and management processes for
+company use for foreseeable future, to facilitate migration from
+on-premises to Azure cloud-based model. Contributed to project scoping
+and planning, documentation, systems maintenance and downtime planning,
+and continuous improvement. Prevented disruptions to project progress by
+identifying and escalating risks well in advance.
 
 _KEY CONTRIBUTIONS:_
 
--   Drove the definition and management of environment requirements and
-    calendar across the Integration Program for systems and processes to
-    ensure smooth integration between Alaska Airlines and Virgin
+-   As a part of a $40M integration program, pioneered a centralized
+    documentation management system and ongoing maintenance processes
+    aimed at helping Alaska Airlines become the first airline to succeed
+    in pulling off a full M&E system integration post-merger with Virgin
     America.
--   Strengthened controls and overall quality of outcomes by
-    establishing and implementing best practices for delivery of
-    high-quality standard, scalable environments.
+-   Strengthened controls and overall quality of outcomes by creating
+    and implementing best practices to ensure smooth transition to
+    cloud-based DevOps model.
 
 
 Enviro-Master – Seattle, WA
