@@ -25,7 +25,7 @@ Download: https://source">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/images/screenshot_cli.png">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/images/screenshot_gui.png">
 <meta property="og:image" content="http://www.garybgenett.net/projects/gary-os/archive/gentoo-18_01_svg.png">
-<meta property="og:updated_time" content="2019-11-15T16:48:29.295Z">
+<meta property="og:updated_time" content="2019-11-21T18:27:37.117Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Gary B. Genett">
 <meta name="twitter:description" content="Welcome to GaryOS (gary-os)
@@ -104,7 +104,7 @@ ga('send', 'pageview');
         <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/projects/gary-os/index.html" class="article-date">
-  <time datetime="2019-11-15T16:48:32.959Z" itemprop="datePublished">2019-11-15</time>
+  <time datetime="2019-11-21T18:27:40.213Z" itemprop="datePublished">2019-11-21</time>
 </a>
     
   </div>
@@ -478,6 +478,10 @@ ga('send', 'pageview');
 <td style="text-align:left">–</td>
 </tr>
 <tr>
+<td style="text-align:left">[.vimrc]</td>
+<td style="text-align:left">Vim is a pretty critical tool for the author, and this is just to keep a copy of the configuration file handy.  This is also the only place it is published online, and hopefully it is useful to somebody.</td>
+</tr>
+<tr>
 <td style="text-align:left"><a href="https://github.com/garybgenett/gary-os/blob/master/gentoo/_overlay/x11-plugins/gkrellaclock/files/xclock_size_hack.patch" target="_blank" rel="external">xclock_size_hack.patch</a></td>
 <td style="text-align:left">The author wanted “<a href="https://github.com/garybgenett/gary-os/blob/master/gentoo/_overlay/x11-plugins/gkrellaclock" target="_blank" rel="external">gkrellaclock</a>“ to look more like a genuine “xclock”, so he did it.  First real experience coding in C.  Created in early 2014 and still in active use.</td>
 </tr>
@@ -749,15 +753,29 @@ null kernel = was that just a fluke?  test laptop again...
 #WORK now set up by default!  only need instructions for wpa_cli if wireless...  must still do the rc-update adds
 #WORK netmount is disabled... no networking... not even sshd... remove sshd from above!
 #WORK https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD
-</code></pre><a href="/!--
-https:/wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
-https:/wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
-https:/wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
---">!--
+</code></pre><!--
 https://wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
 https://wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
 https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
---</a>
+
+rc-update add wpa_supplicant default
+rc-update add dhcpcd default
+openrc
+
+wpa_cli
+#ap_scan 1
+scan
+scan_results
+add_network
+list_networks
+set_network 0 scan_ssid 1
+set_network 0 ssid "Unknown Network"
+set_network 0 psk "onthenetwork"
+enable_network 0
+#select_network 0
+#status
+#save_config
+-->
 <pre><code>#WORK `wpa_password &quot;&lt;ssid&gt;&quot; &quot;&lt;password&gt;&quot; &gt; /etc/wpa_supplicant/wpa_supplicant.conf`
 #WORK Add `ssid_scan=1` to `/etc/wpa_supplicant/wpa_supplicant.conf`
 #WORK `rc-update add wpa_supplicant default ; rc`
@@ -868,8 +886,10 @@ https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
 <li><p>…</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sed -i &quot;s%has_space = False%has_space = True%g&quot; \</span><br><span class="line">    /usr/lib/portage/pym/portage/package/ebuild/fetch.py</span><br></pre></td></tr></table></figure>
 </li>
-<li><p><code>alias emerge=&quot;I_KNOW_WHAT_I_AM_DOING=true emerge&quot;</code></p>
+</ul>
+<p>#WORK: first is no longer needed, but keep this one as a fallback for packages like firefox or thunderbird…</p>
 <ul>
+<li><code>alias emerge=&quot;I_KNOW_WHAT_I_AM_DOING=true emerge&quot;</code><ul>
 <li>For details, see <code>&quot;There is NOT at least&quot;</code> in<br><code>/usr/portage/eclass/check-reqs.eclass</code></li>
 </ul>
 </li>
@@ -1410,8 +1430,12 @@ WORK -->
         * updated screenshots
         * release process for gary-os
             * make clean release
+            * verify root filesystem contents
             * remove *.cpio{,.dir} = keep only *.{txt,xz}
-            * commit
+            * remove /tmp/.ccache
+            * rsync working -> production
+            * verify gitignore -> commit
+            * update gary-os.boot symlink
             * _publish, new version and hash
             * _publish, verify github and sourceforge (links are all working)
             * update sourceforge download button
@@ -1425,7 +1449,7 @@ WORK -->
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.garybgenett.net/projects/gary-os/index.html" data-id="ck30dmtrr000frpj5kemxqklk" class="article-share-link">Share</a>
+      <a data-url="http://www.garybgenett.net/projects/gary-os/index.html" data-id="ck391te7u000funj584e9mwr4" class="article-share-link">Share</a>
       
       
     </footer>
@@ -1446,7 +1470,7 @@ WORK -->
       <ul>
         
           <li>
-            <a href="/2019/11/11/README/">(no title)</a>
+            <a href="/2019/11/21/README/">(no title)</a>
           </li>
         
       </ul>

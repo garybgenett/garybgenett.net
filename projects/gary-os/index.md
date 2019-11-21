@@ -666,6 +666,7 @@ Here is an overview of the repository contents, in order of relative importance:
 | [gentoo/sets/\_gary-os]    | Additional packages list, along with scripting instructions/commands for accomplishing various tasks and testing GaryOS.
 | [shmem\_size\_hack.patch]  | Kernel code changes to set the initramfs size in memory and add the "shmem_size" parameter.  Both of these changes were understandably rejected by Linux development team, and are therefore custom to GaryOS.  *(See the [Contributions] and [Live Update] sections for details.)*
 | **Just for fun:**          | --
+| [.vimrc]                   | Vim is a pretty critical tool for the author, and this is just to keep a copy of the configuration file handy.  This is also the only place it is published online, and hopefully it is useful to somebody.
 | [xclock\_size\_hack.patch] | The author wanted "[gkrellaclock]" to look more like a genuine "xclock", so he did it.  First real experience coding in C.  Created in early 2014 and still in active use.
 
 [README.md]: https://github.com/garybgenett/gary-os/blob/master/README.md
@@ -1044,6 +1045,24 @@ interface, such as an Ethernet connection:
 https://wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
 https://wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
 https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
+
+rc-update add wpa_supplicant default
+rc-update add dhcpcd default
+openrc
+
+wpa_cli
+#ap_scan 1
+scan
+scan_results
+add_network
+list_networks
+set_network 0 scan_ssid 1
+set_network 0 ssid "Unknown Network"
+set_network 0 psk "onthenetwork"
+enable_network 0
+#select_network 0
+#status
+#save_config
 -->
 	#WORK `wpa_password "<ssid>" "<password>" > /etc/wpa_supplicant/wpa_supplicant.conf`
 	#WORK Add `ssid_scan=1` to `/etc/wpa_supplicant/wpa_supplicant.conf`
@@ -1198,6 +1217,7 @@ Instructions for setting up update/install of packages:
         sed -i "s%has_space = False%has_space = True%g" \
             /usr/lib/portage/pym/portage/package/ebuild/fetch.py
         ```
+	#WORK: first is no longer needed, but keep this one as a fallback for packages like firefox or thunderbird...
      * `alias emerge="I_KNOW_WHAT_I_AM_DOING=true emerge"`
          * For details, see `"There is NOT at least"` in
            `/usr/portage/eclass/check-reqs.eclass`
@@ -1687,8 +1707,12 @@ WORK -->
 		* updated screenshots
 		* release process for gary-os
 			* make clean release
+			* verify root filesystem contents
 			* remove *.cpio{,.dir} = keep only *.{txt,xz}
-			* commit
+			* remove /tmp/.ccache
+			* rsync working -> production
+			* verify gitignore -> commit
+			* update gary-os.boot symlink
 			* _publish, new version and hash
 			* _publish, verify github and sourceforge (links are all working)
 			* update sourceforge download button
