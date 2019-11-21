@@ -66,6 +66,35 @@ Reminders: Zillow
     * Homepage performance using HTTPArchive.org and SpeedCurve
     * Splunk user group hosting
 
+Amazon: Go & Just Walk Out
+----------------------------------------
+
+  * Prepare
+    * Tell me about a time when you were faced with a problem that had a number of possible solutions.  What was the problem and how did you determine the course of action?  What was the outcome of that choice?
+        * S-PME & cloud strategy
+    * When did you take a risk, make a mistake, or fail?  How did you respond, and how did you grow from that experience?
+        * Business, trim expenses and employees, cut customers, shipping challenges and overstock, wrong business partners, stayed too long.
+        * No more rose-colored glasses, fail early, don't settle.
+    * Describe a time you took the lead on a project.
+        * S-PME & cloud strategy
+    * What did you do when you needed to motivate a group of individuals or promote collaboration on a particular project?
+        * S-PME & cloud strategy
+    * How have you leveraged data to develop a strategy?
+        * Strategic response to iApps feedback
+  * Questions (Them)
+    * Is this team/role also focused on the brick-and-mortar location side?
+    * What stage in the technology/project is this at?
+    * Relationship to Walmart Scan & Go?  Theft?  How will this succeed where that failed?
+        * Chicago as the starting point?  (Also in Seattle, apparently.)
+        * How is the proof-of-concept working?  (Obviously pretty good.)
+    * What "variety of tools" does Amazon, or this team, currently use?
+  * Questions (Me)
+    * I have over 15+ years of full product lifecycle experience; does this come through?
+        * What is the limiting factor to Principle versus just Senior?
+    * How soon is the need for Senior roles?
+    * This call was to measure culture fit; how have I done, and do you have any final questions or concerns?
+    * What is the next step towards an in-person visit?
+
 Program Management
 ----------------------------------------
 
