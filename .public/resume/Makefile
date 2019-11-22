@@ -4,10 +4,10 @@ override COMPOSER_TEACHER := $(abspath $(COMPOSER_ABSPATH)/../Makefile)
 
 # >> DEFINITIONS
 override COMPOSER_TARGETS ?= \
-	resume_manager \
+	resume_hacks \
+	$(foreach FILE,html pdf docx txt,resume-cover.$(FILE)) \
 	$(foreach FILE,html pdf docx txt,resume.$(FILE)) \
-	$(foreach FILE,html pdf docx txt,resume-manager.$(FILE)) \
-	$(foreach FILE,html pdf docx txt,resume-cover.$(FILE))
+	$(foreach TYPE,ocm pjm pdm,$(foreach FILE,html pdf docx txt,resume-$(TYPE).$(FILE)))
 override COMPOSER_SUBDIRS ?=
 override COMPOSER_DEPENDS ?=
 
@@ -20,10 +20,9 @@ override OPT ?= --reference-docx="./resume.template.docx"
 include $(COMPOSER_TEACHER)
 .DEFAULT_GOAL := all
 
-.PHONY: resume_manager
-resume_manager:
-	$(SED) \
-		-e "s|Pathfinder \& Technologist|Senior Product Manager|g" \
-		-e "s|Gary_B_Genett-Resume|Gary_B_Genett-Product_Manager|g" \
-		resume.md > resume-manager.md
-	touch --reference resume.md resume-manager.md
+.PHONY: resume_hacks
+resume_hacks:
+	$(SED) -e "s|Pathfinder \& Technologist|Organizational Change Manager|g"	resume.md > resume-ocm.md
+	$(SED) -e "s|Pathfinder \& Technologist|Senior Project Manager|g"		resume.md > resume-pjm.md
+	$(SED) -e "s|Pathfinder \& Technologist|Senior Product Manager|g"		resume.md > resume-pdm.md
+	touch --reference resume.md resume-{ocm,pjm,pdm}.md
