@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Senior Product Manager
-% v6.5 (2019-11-20)
+% v6.6 (2019-11-22)
 -->
 
 <!-- ############################################################### -->
@@ -95,7 +95,7 @@ Established design patterns for new and existing document types to develop a usa
 
 **_Key Contributions:_**
 
-  * As a part of a $40M integration program, pioneered a centralized documentation management system and ongoing maintenance processes aimed at helping Alaska Airlines become the first airline to succeed in pulling off a full M&E system integration post-merger with Virgin America.
+  * As a part of a $40M integration program, pioneered a centralized documentation management system and ongoing maintenance processes aimed at helping Alaska Airlines become the first airline to succeed in pulling off FCC certification of full M&E system alignment post-merger with Virgin America.
   * Strengthened controls and overall quality of outcomes by creating and implementing best practices to ensure smooth transition to cloud-based DevOps model.
 
 ## Enviro-Master -- Seattle, WA
