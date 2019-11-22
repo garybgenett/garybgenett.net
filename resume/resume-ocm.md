@@ -1,6 +1,6 @@
 <!--
 % Gary B. Genett
-% Pathfinder & Technologist
+% Organizational Change Manager
 % v6.6 (2019-11-22)
 -->
 
@@ -68,7 +68,7 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [www.linke
 
 ------------------------------------------------------------------------
 
-## Pathfinder & Technologist
+## Organizational Change Manager
 
 **Organizational Change \| Project Management \| Product Ownership**
 
