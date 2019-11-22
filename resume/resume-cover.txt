@@ -46,7 +46,7 @@ following career highlights:
 -   As a part of a $40M integration program, pioneered a centralized
     documentation management system and ongoing maintenance processes
     aimed at helping Alaska Airlines become the first airline to succeed
-    in pulling off a full M&E system integration post-merger with Virgin
+    in pulling off full M&E system alignment post-merger with Virgin
     America.
 -   Built an integral new cloud/orchestration team to ensure smooth
     operations and optimal productivity amid evolving organizational
