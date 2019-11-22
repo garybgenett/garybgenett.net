@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Pathfinder & Technologist :: Cover Letter
-% v6.5 (2019-11-22)
+% v6.6 (2019-11-22)
 -->
 
 <!-- ############################################################### -->
@@ -48,7 +48,7 @@ Throughout my career, I have established a reputation as a transformational lead
 
 Over the course of my professional history, I have achieved the following career highlights:
 
-  * As a part of a $40M integration program, pioneered a centralized documentation management system and ongoing maintenance processes aimed at helping Alaska Airlines become the first airline to succeed in pulling off full M&E system alignment post-merger with Virgin America.
+  * As a part of a $40M integration program, pioneered a centralized documentation management system and ongoing maintenance processes aimed at helping Alaska Airlines become the first airline to succeed in pulling off FCC certification of full M&E system alignment post-merger with Virgin America.
   * Built an integral new cloud/orchestration team to ensure smooth operations and optimal productivity amid evolving organizational dynamics at F5 Networks.
   * Drove the successful milestone release of 5 innovative technologies and deep product rewrite at F5 Networks.
 

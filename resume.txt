@@ -58,8 +58,8 @@ _KEY CONTRIBUTIONS:_
 -   As a part of a $40M integration program, pioneered a centralized
     documentation management system and ongoing maintenance processes
     aimed at helping Alaska Airlines become the first airline to succeed
-    in pulling off a full M&E system integration post-merger with Virgin
-    America.
+    in pulling off FCC certification of full M&E system alignment
+    post-merger with Virgin America.
 -   Strengthened controls and overall quality of outcomes by creating
     and implementing best practices to ensure smooth transition to
     cloud-based DevOps model.
