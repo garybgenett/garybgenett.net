@@ -1,0 +1,182 @@
+  * About: https://www.amazon.jobs/en/landing_pages/about-amazon
+    * Customer-centricity (Jeff Wilke, CEO Worldwide Consumer, explain the meaning of the virtuous cycle)
+        * (Growth) -> Lower Cost Structure -> Lower Prices -> Customer Experience
+        * Customer Experience -> Traffic -> Sellers -> Selection -> Customer Experience
+    * Amazonians and business teams
+        * Amazon Devices and Services
+        * Amazon Marketplace
+        * Amazon Web Services (AWS)
+        * Business Development
+        * eCommerce
+        * Kindle, Digital Content and Publishing
+        * Retail
+        * Worldwide Operations and Customer Service
+    * What makes us peculiar?
+        * We "focus on hiring and retaining versatile and talented employees [...]
+        * We believe "some decisions are consequential and irreversible or nearly irreversible [...]
+        * "We want to be a large company that's also an invention machine [...]
+        * A "one-size-fits-all thinking can turn out to be only one of the pitfalls [...]
+        * When it comes to obsessing over customers, we're in it for the long haul [...]
+        * Every day is Day 1 at Amazon [...]
+        * "We don't do PowerPoint (or any other slide-oriented) presentations [...]
+        * We "believe in building a culture of high standards [...]
+    * Officers
+        * Jeffrey P. Bezos -- President, Chief Executive Officer and Chairman of the Board
+        * Brian T. Olsavsky -- Senior Vice President and Chief Financial Officer
+        * Jeffrey M. Blackburn -- Senior Vice President, Business Development
+        * Andrew R. Jassy -- Chief Executive Officer, Amazon Web Services
+        * Shelley L. Reynolds -- Vice President, Worldwide Controller
+        * Jeffrey A. Wilke -- CEO Worldwide Consumer
+        * David A. Zapolsky -- Senior Vice President, General Counsel and Secretary
+
+  * Why Amazon?
+    * Culture
+        * Written paper decision meeting format
+        * Genuinely interested in hiring good people; hiring and interviewing process
+        * Demonstrable commitment to the customer, innovation and transparency; honesty
+    * Reputation
+        * Multiple friends and professional colleagues
+        * Real-world results, leading in every market, including creating new ones
+        * Lyft driver; spoke with many employees on their way to work
+    * Equality
+        * Observed diversity of the workplace; position-based compensation plans
+        * Female friends who described their experience of the culture
+        * Objective "bar raiser" interviewers from other teams, and growth opportunities for interviewers
+        * Accommodations during every stage of the interview process
+
+  * Principles
+    * Customer Obsession
+    * Ownership
+    * Invent and Simplify
+    * Are Right, A Lot
+    * Learn and Be Curious
+    * Hire and Develop the Best
+    * Insist on the Highest Standards
+    * Think Big
+    * Bias for Action
+    * Frugality
+    * Earn Trust
+    * Dive Deep
+    * Have Backbone; Disagree and Commit
+    * Deliver Results
+
+  * STAR
+    * (Ensure each answer has a beginning, middle, and end.  Describe the situation or problem, the actions you took, and the outcome.)
+    * Situation
+    * Task
+    * Action
+    * Result
+
+  * SWOT
+    * Strengths
+    * Weaknesses
+    * Opportunities
+    * Threats
+
+  * Behavioral-based interviewing
+    * Tell me about a time when you were faced with a problem that had a number of possible solutions.  What was the problem and how did you determine the course of action?  What was the outcome of that choice?
+        * Integration of programmability suite; polyglot project
+    * When did you take a risk, make a mistake, or fail?  How did you respond, and how did you grow from that experience?
+        * Business, trim expenses and employees, cut customers, shipping challenges and overstock, wrong business partners, stayed too long.
+        * No more rose-colored glasses, fail early, don't settle.
+    * Describe a time you took the lead on a project.
+        * Cloud strategy
+        * S-PME & cloud strategy
+    * What did you do when you needed to motivate a group of individuals or promote collaboration on a particular project?
+        * Firepass; identify their strengths and personal drives, tap into those to convince the to release the reigns
+    * How have you leveraged data to develop a strategy?
+        * Strategic response to iApps feedback
+        * Formulation of business case for programmability and cloud
+    * (Keep in mind, Amazon is a data-driven company [...])
+
+  * STAR-based interviews
+    * Describe a situation in which you were able to use persuasion to successfully convince someone to see things your way.
+        * iApp team and Moshe
+        * Firepass team
+    * Describe a time when you were faced with a stressful situation that demonstrated your coping skills.
+        * Early business, acquisition, capital disappearing precipitously, difficulty closing sales
+    * Give me a specific example of a time when you used good judgment and logic in solving a problem.
+        * EM soap dispensers
+        * WORK
+    * Give me an example of a time when you set a goal and were able to meet or achieve it.
+        * Doubling sales in the second year of business, targeted a few large customers, worked towards ultimate decision-makers
+    * Tell me about a time when you had to use your presentation skills to influence someone's opinion.
+        * Polyglot, entire PM organization
+        * iRules LX, solution architecture team
+        * DSC, entire support team
+        * TMSH, Karl, used lieutenants and affinity towards moving hardware
+    * Give me a specific example of a time when you had to conform to a policy with which you did not agree.
+        * NPI, Don, time reporting for project management
+    * Please discuss an important written document you were required to complete.
+        * Microsoft, 3rd party development monitoring integration (available on LinkedIn)
+        * PME, performance testing guide (available on LinkedIn)
+    * Tell me about a time when you had to go above and beyond the call of duty in order to get a job done.
+        * Polyglot, RFC-style legacy support to inform new technology
+        * DSC, designed automated testing to demonstrate flaws and replicate bugs
+    * Tell me about a time when you had too many things to do and you were required to prioritize your tasks.
+        * Microsoft, customer explicitly told me I had to do it all
+        * DSC, final stages of release, working with PMM, PM, PD and support, training materials
+    * Give me an example of a time when you had to make a split second decision.
+        * Polyglot, Karl and Indrajit, to speak or not to speak
+        * Solstice review, correct Don in front of Julian
+    * What is your typical way of dealing with conflict? Give me an example.
+        * Try to use logic and reasoning, then influence based on personal motivations, then whatever authority available (myself or others)
+        * Polyglot, Karl presentation/argument
+        * Solstice, Don results review
+        * TMSH, Karl presentation/argument
+        * Mike/Brian, optimal lightweight, rapidly-deployable, cross-environment sleeping system
+    * Tell me about a time you were able to successfully deal with another person even when that individual may not have personally liked you (or vice versa).
+        * Alaska, Marie
+        * iApps, Ty(?) releases/training
+        * RA, Marty/LoriAnn
+    * Tell me about a difficult decision you've made in the last year.
+        * Closing the business
+    * Give me an example of a time when something you tried to accomplish and failed.
+        * Business
+    * Give me an example of when you showed initiative and took the lead.
+        * Polyglot
+        * DSC
+    * Tell me about a recent situation in which you had to deal with a very upset customer or co-worker.
+        * EM soap dispensers
+        * Pike paper dispensers
+    * Give me an example of a time when you motivated others.
+        * Polyglot, PD teams
+    * Tell me about a time when you delegated a project effectively.
+        * Alaska, Vismaint and MEL data gathering
+        * EM soap dispensers
+    * Give me an example of a time when you used your fact-finding skills to solve a problem.
+        * EM soap dispensers
+        * Polyglot, API
+        * iApp issues
+    * Tell me about a time when you missed an obvious solution to a problem.
+        * DSC, Ryan(?), failed message, dual primaries, WORK
+        * TMSH API rewrite, trying to use an MCPd subscriber instead of leveraging TMSH library
+        * GaryOS, limiting size, GCC debug files and Vim features (minimal flag versus selective packages)
+    * Describe a time when you anticipated potential problems and developed preventive measures.
+        * EM delivery disruptions
+        * DSC customer issues, limited expectations for marketing and sales, informed support teams
+    * Tell me about a time when you were forced to make an unpopular decision.
+        * EM, closing furniture customer
+    * Please tell me about a time you had to fire a friend.
+        * Rathany
+    * Describe a time when you set your sights too high (or too low).
+        * Business, underestimated capital (high)
+        * WORK low?
+
+  * Questions (Him)
+    * Personal management style?
+
+  * Questions (Them)
+    * Is this team/role also focused on the brick-and-mortar location side?
+    * What stage in the technology/project is this at?
+    * Relationship to Walmart Scan & Go?  Theft?  How will this succeed where that failed?
+        * Chicago as the starting point?  (Also in Seattle, apparently.)
+        * How is the proof-of-concept working?  (Obviously pretty good.)
+    * What "variety of tools" does Amazon, or this team, currently use?
+
+  * Questions (Me)
+    * I have over 15+ years of full product lifecycle experience; does this come through?
+        * What is the limiting factor to Principle versus just Senior?
+    * How soon is the need for Senior roles?
+    * This call was to measure culture fit; how have I done, and do you have any final questions or concerns?
+    * What is the next step towards an in-person visit?

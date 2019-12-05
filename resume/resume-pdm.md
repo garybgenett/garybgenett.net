@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Senior Product Manager
-% v6.6 (2019-11-22)
+% v6.7 (2019-12-05)
 -->
 
 <!-- ############################################################### -->
@@ -31,14 +31,12 @@
     * header = remove space before paragraph + remove space after paragraph
   * horizontal lines
     * format -> picture = height: 0.1 + use solid color (no shade)
-    * add before each section
   * headers
     * sections = size: 12 + center + all capital letters
     * sections = remove space before paragraph + remove space after paragraph
   * experience
-    * companies = underline + no bold + add space before paragraph
     * first company = remove space before paragraph
-    * titles = add space before paragraph
+    * companies = underline + no bold
     * dates = no bold (including comma)
     * final paragraph = center + add space before paragraph + add space after paragraph
   * bottom sections
@@ -57,7 +55,7 @@
     * insert page break, if needed
     * remove trailing empty lines
   * hide special characters
-  * (copy to manager resume and update title)
+  * (copy to manager resumes and update titles)
 -->
 
 <!-- ############################################################### -->
@@ -120,7 +118,7 @@ Guided the end-to-end product management lifecycle to completion within budget c
 **_Key Contributions:_**
 
   * Built an integral new cloud/orchestration team to ensure smooth operations and optimal productivity amid evolving organizational dynamics.
-  * Established and drove a new vision for automation, integrating all existing technologies into a unified suite.
+  * Established and drove a new vision for automation, integrating all existing technologies into a unified suite across 5 disparate teams with different knowledge domains, technology areas and development models.
   * Remained at the forefront of changing market trends and anticipated customer needs to develop direction.
 
 ### New Product Introduction Engineer, 2009 to 2014
@@ -144,7 +142,7 @@ Delivered high-quality support to thousands of devices during the development of
   * Significantly grew customer adoption as primary engineering representative on Microsoft account team.
   * Increased customer device count by 300% and revenue by 400% with only 2 additional team members.
   * Pioneered detailed integration guide and training to aid 3rd party development and improve quality and efficiency.
-  * Initiated and directed 2 successful production deployments of revolutionary chassis architectures for Xbox Live.
+  * Initiated and directed 2 successful production deployments of revolutionary chassis architecture for Xbox Live.
 
 ### Product Management Engineer, 2004 to 2006
 
@@ -153,7 +151,7 @@ Established a high-caliber new team to perform all key duties within time constr
 **_Key Contributions:_**
 
   * Led the initial analysis, guidance, and testing for 3 successive company acquisitions.
-  * Drove the successful development of a Performance Testing Guide, setting the industry standard for comprehensive review.
+  * Successfully developed a Performance Testing Guide, setting the industry standard for comprehensive evaluation.
   * Expertly released SSL VPN for UNIX-like systems, as Perl script and Video Demonstration of Process.
 
 *Additional experience as **Network Support Engineer** for F5 Networks, **Implementation Specialist** for MICROS Systems, **UNIX Tier 3 Support Specialist** for HostPro, and **Operations and Systems Production Support** for VoiceStream Wireless.*
