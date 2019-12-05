@@ -7,7 +7,8 @@ override COMPOSER_TARGETS ?= \
 	resume_hacks \
 	$(foreach FILE,html pdf docx txt,resume-cover.$(FILE)) \
 	$(foreach FILE,html pdf docx txt,resume.$(FILE)) \
-	$(foreach TYPE,ocm pjm pdm,$(foreach FILE,html pdf docx txt,resume-$(TYPE).$(FILE)))
+	$(foreach TYPE,ocm pjm pdm,$(foreach FILE,html pdf docx txt,resume-$(TYPE).$(FILE))) \
+	resume_docx
 override COMPOSER_SUBDIRS ?=
 override COMPOSER_DEPENDS ?=
 
@@ -26,3 +27,11 @@ resume_hacks:
 	$(SED) -e "s|Pathfinder \& Technologist|Senior Project Manager|g"		resume.md > resume-pjm.md
 	$(SED) -e "s|Pathfinder \& Technologist|Senior Product Manager|g"		resume.md > resume-pdm.md
 	touch --reference resume.md resume-{ocm,pjm,pdm}.md
+
+override DOCX_TARGETS := $(foreach TYPE,ocm pjm pdm,resume-$(TYPE).docx)
+
+.PHONY: resume_docx
+resume_docx: $(DOCX_TARGETS)
+
+$(DOCX_TARGETS): resume.docx
+	$(CP) resume.docx $(@)
