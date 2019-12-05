@@ -195,12 +195,12 @@ GaryOS has maintained a [steady stream of overall downloads] since its
 inception in 2014.  Activity is concentrated in the U.S. and Europe, but there
 is clearly a worldwide audience, with interest coming from [countries all over
 the world].  Current [v4.0 downloads] are being tracked since [v4.0] was
-released in October 2019.  As of September 2019, GaryOS maintained an average
-of 10-15 [v3.0 downloads] a month since the [v3.0] release in March 2015.
-There are notable spikes in the overall downloads of ~2K, ~0.6K and ~1.5K in
-March 2018, January 2019 and September 2019, respectively, which were most
-likely fetches of supporting files.  The SourceForge statistics are not
-granular enough to investigate.
+released in December 2019.  As of November 2019, GaryOS maintained an average
+of 10-15 (WORK:CURRENT_NUMBER) [v3.0 downloads] a month since the [v3.0]
+release in March 2015.  There are notable spikes in the overall downloads of
+~2K, ~0.6K and ~1.5K in March 2018, January 2019 and September 2019,
+respectively, which were most likely fetches of supporting files.  The
+SourceForge statistics are not granular enough to investigate.
 
 Despite the relatively small user base, modest infrastructure, and infrequent
 release schedule, GaryOS has managed to receive some official acknowledgment.
@@ -212,7 +212,7 @@ the [Funtoo ecosystem page].
 
 No entries in the [Wikipedia list of Linux distributions] or on [DistroWatch] yet...
 
-There is a [Softpedia review] of [v3.0] from a few years ago (written the day
+There is a [Softpedia review of v3.0] from a few years ago (written the day
 after it was released), which is interesting because they took the time to boot
 it up and play with it, and make some comments of their own beyond doing
 a copy/paste of the README text.
@@ -243,7 +243,7 @@ this far.
 [Funtoo ecosystem page]: https://funtoo.org/Gentoo_Ecosystem
 [Wikipedia list of Linux distributions]: https://en.wikipedia.org/wiki/List_of_Linux_distributions
 [DistroWatch]: https://distrowatch.com/table.php?distribution=funtoo
-[Softpedia review]: https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml
+[Softpedia review of v3.0]: https://linux.softpedia.com/get/Linux-Distributions/GaryOS-103629.shtml
 [Internet search for "GaryOS"]: https://duckduckgo.com/?q=GaryOS
 [Wikipedia list of Gentoo-derived distributions]: https://en.wikipedia.org/wiki/Gentoo_Linux#Derived_distributions
 [non-systemd distributions]: https://sysdfree.wordpress.com/2019/03/09/135
@@ -263,12 +263,12 @@ manifested as a few tiny patches to upstream projects.
 The "shmem" subsystem in the Linux kernel is what manages the "tmpfs"
 infrastructure used for in-memory filesystems, including initramfs.  Initial
 creation of the shmem filesystem reserves half of the available memory.  On
-a 4GB system, this is not enough room for GaryOS to boot.  In the [early
-history of the "gentoo/\_release" script], there was a minor hack to the kernel
-source to make this work the way that was needed.  For the completion of the
-[v4.0] release, this was formalized as a kernel patch which also added
-a configuration option and a boot parameter.  This was submitted to the Linux
-"mm" development team in the following mailing list threads:
+a 4GB system, this is not enough room for GaryOS to boot.  In the early history
+of the "[gentoo/\_release]" script, there was a minor hack to the kernel source
+to make this work the way that was needed.  For the completion of the [v4.0]
+release, this was formalized as a kernel patch which also added a configuration
+option and a boot parameter.  This was submitted to the Linux "mm" development
+team in the following mailing list threads:
 
   * [Initial complete patch] -- [shmem-add-shmem_size-option-set-filesystem-size.v5.4-rc2.patch]
   * [Secondary patch, configuration option only] -- [shmem-add-shmem_size-option-for-full-filesystem.v5.4-rc2.patch]
@@ -282,8 +282,8 @@ functionality, and is mentioned in the [Structure] and [Live Update] sections.
 
 Ego is the tool used by Funtoo to keep the "meta-repo" Portage tree up to date.
 While Portage uses a monolithic directory tree, Ego uses a collection of Git
-repositories pulled together using a "kits" infrastructure.  The
-[gentoo/funtoo.kits] script was written to properly "pin" the final tree to
+repositories pulled together using the [Funtoo Kits] infrastructure.  The
+[gentoo/\_funtoo.kits] script was written to properly "pin" the final tree to
 a particular commit, for stability and reproducibility.  Also for the [v4.0]
 release, this hack was coded directly into the Ego tool:
 
@@ -291,16 +291,16 @@ release, this hack was coded directly into the Ego tool:
 
 This was submitted upstream, but was not usable in [v4.0] because of
 a mis-match in the filesystem and Ego versions.  Thus, the
-[ego\_commit\_hack.patch] is in the GaryOS "\_overlay" directory, but is not
-yet in production use.  This will hopefully change in [v5.0], with the updated
-Portage commit.
+[ego\_commit\_hack.patch] is in the GaryOS "[gentoo/overlay]" directory, but is
+not yet in production use.  This will hopefully change in [v5.0], with the
+updated Portage commit.
 
 **Suckless DWM**
 
 Tangentially related to GaryOS are the [DWM multimon patches] that the author
 created to make multiple monitors easier to use in the DWM window manager.  The
 [Suckless] team accepts these patches on their website, but due to their
-minimalist philosophy, contributions of this type are not committed into the
+minimalist philosophy contributions of this type are not committed into the
 main repository, leaving users to use whatever set of patches suits them.
 
 GaryOS does use DWM as the window manager for the [Graphical Interface], and
@@ -313,6 +313,7 @@ otherwise unmodified, and no patches are used.
 [Initial complete patch]: https://marc.info/?l=linux-mm+m=157048756423988
 [Secondary patch, configuration option only]: https://marc.info/?l=linux-mm+m=157056583814243
 [Final patch, default global variable only]: https://marc.info/?l=linux-mm+m=157064677005638
+[Funtoo Kits]: https://www.funtoo.org/Funtoo_Kits
 [DWM multimon patches]: http://dwm.suckless.org/patches/historical/multimon
 
 <!-- https://kernel.org/doc/html/latest/process/submitting-patches.html -->
@@ -637,7 +638,7 @@ configuration files will also line up with major version numbers.
 Here is an overview of the repository contents, in order of relative importance:
 
 | Directory / File           | Purpose
-| :---                       | :---
+|:---                        |:---
 | [README.md]                | This file.  All the documentation for GaryOS.
 | [LICENSE.md]               | The license GaryOS is distributed under.
 | [Makefile]                 | Primary starting point for using the build system using the `make` command.
@@ -646,7 +647,7 @@ Here is an overview of the repository contents, in order of relative importance:
 | **Key directories:**       | --
 | [linux]                    | Archive of Linux kernel configuration files.
 | [gentoo]                   | Entirety of the Funtoo configuration, including the scripts used to build and manage installations.
-| [gentoo/\_overlay]         | Funtoo overlay directory.  Used very sparingly, and mostly for fixing broken packages.
+| [gentoo/overlay]           | Funtoo overlay directory.  Used very sparingly, and mostly for fixing broken packages.
 | [scripts]                  | Ancillary scripts relevant to GaryOS, such as "[scripts/grub.sh]".
 | [artifacts]                | Storage for miscellaneous files used in the initramfs build.
 | [artifacts/patches]        | Archive of patch files for preparing initramfs images.
@@ -657,8 +658,8 @@ Here is an overview of the repository contents, in order of relative importance:
 | [scripts/grub.sh]          | Generates the [Grub] archive, which contains BIOS and EFI rescue bootloaders, along with a prepared disk image.
 | [gentoo/\_system]          | Heart and soul of the build engine.  Creates new installations, and provides maintenance and inspection tooling.
 | [gentoo/\_release]         | Does all the initramfs work, customizing and packaging the root filesystem and building the kernel.  Also performs the entire release and publishing process.
-| [gentoo/funtoo]            | Contains the commit ID that the Funtoo Portage repository should be "pinned" to.  Ties the Funtoo configuration to a particular version of the Portage tree, which ensures repeatability and stability.
-| [gentoo/funtoo.kits]       | Hackish wrapper to the `meta-repo` Portage repository, to ensure proper "pinning".  *(The [ego\_commit\_hack.patch] is a replacement, but currently usused due to a version conflict.  See [Contributions] section.)*
+| [gentoo/\_funtoo]          | Contains the commit ID that the Funtoo Portage repository should be "pinned" to.  Ties the Funtoo configuration to a particular version of the Portage tree, which ensures repeatability and stability.
+| [gentoo/\_funtoo.kits]     | Hackish wrapper to the `meta-repo` Portage repository, to ensure proper "pinning".  *(The [ego\_commit\_hack.patch] is a replacement, but currently usused due to a version conflict.  See [Contributions] section.)*
 | [gentoo.config]            | Example script for post-build customization of an initramfs.
 | [gentoo/.emergent]         | Audit script which validates current Funtoo configuration against Portage tools/output.  Also extracts useful information from the `meta-repo` Portage repository.
 | [dwm]                      | Slightly modified DWM configuration file, to make `startx` more usable.
@@ -677,7 +678,7 @@ Here is an overview of the repository contents, in order of relative importance:
 
 [linux]: https://github.com/garybgenett/gary-os/blob/master/linux
 [gentoo]: https://github.com/garybgenett/gary-os/blob/master/gentoo
-[gentoo/\_overlay]: https://github.com/garybgenett/gary-os/blob/master/gentoo/_overlay
+[gentoo/overlay]: https://github.com/garybgenett/gary-os/blob/master/gentoo/overlay
 [scripts]: https://github.com/garybgenett/gary-os/blob/master/scripts
 [artifacts]: https://github.com/garybgenett/gary-os/blob/master/artifacts
 [artifacts/patches]: https://github.com/garybgenett/gary-os/blob/master/artifacts/patches
@@ -688,15 +689,15 @@ Here is an overview of the repository contents, in order of relative importance:
 [scripts/grub.sh]: https://github.com/garybgenett/gary-os/blob/master/scripts/grub.sh
 [gentoo/\_system]: https://github.com/garybgenett/gary-os/blob/master/gentoo/_system
 [gentoo/\_release]: https://github.com/garybgenett/gary-os/blob/master/gentoo/_release
-[gentoo/funtoo]: https://github.com/garybgenett/gary-os/blob/master/gentoo/funtoo
-[gentoo/funtoo.kits]: https://github.com/garybgenett/gary-os/blob/master/gentoo/funtoo.kits
+[gentoo/\_funtoo]: https://github.com/garybgenett/gary-os/blob/master/gentoo/\_funtoo
+[gentoo/\_funtoo.kits]: https://github.com/garybgenett/gary-os/blob/master/gentoo/\_funtoo.kits
 [gentoo.config]: https://github.com/garybgenett/gary-os/blob/master/gentoo.config
 [gentoo/.emergent]: https://github.com/garybgenett/gary-os/blob/master/gentoo/.emergent
 [dwm]: https://github.com/garybgenett/gary-os/blob/master/gentoo/savedconfig/x11-wm/dwm
 [gentoo/sets/gary-os]: https://github.com/garybgenett/gary-os/blob/master/gentoo/sets/gary-os
 [gentoo/sets/\_gary-os]: https://github.com/garybgenett/gary-os/blob/master/gentoo/sets/_gary-os
 
-[ego\_commit\_hack.patch]: https://github.com/garybgenett/gary-os/blob/master/gentoo/_overlay/app-admin/ego/files/add-commit-option-to-ego-sync.2.7.4-r1.patch
+[ego\_commit\_hack.patch]: https://github.com/garybgenett/gary-os/blob/master/gentoo/overlay/app-admin/ego/files/add-commit-option-to-ego-sync.2.7.4-r1.patch
 [Ego "commit" patch]: https://github.com/garybgenett/gary-os/blob/master/artifacts/patches/add-commit-option-to-ego-sync.2.7.4-r1.patch
 [add-commit-option-to-ego-sync.2.7.4-r1.patch]: https://github.com/garybgenett/gary-os/blob/master/artifacts/patches/add-commit-option-to-ego-sync.2.7.4-r1.patch
 
@@ -706,8 +707,9 @@ Here is an overview of the repository contents, in order of relative importance:
 [shmem-add-shmem_size-option-for-full-filesystem.v5.4-rc2.patch]: https://github.com/garybgenett/gary-os/blob/master/artifacts/patches/shmem-add-shmem_size-option-for-full-filesystem.v5.4-rc2.patch
 [shmem-make-shmem-default-size-a-define-value.v5.4-rc2.patch]: https://github.com/garybgenett/gary-os/blob/master/artifacts/patches/shmem-make-shmem-default-size-a-define-value.v5.4-rc2.patch
 
-[gkrellaclock]: https://github.com/garybgenett/gary-os/blob/master/gentoo/_overlay/x11-plugins/gkrellaclock
-[xclock\_size\_hack.patch]: https://github.com/garybgenett/gary-os/blob/master/gentoo/_overlay/x11-plugins/gkrellaclock/files/xclock_size_hack.patch
+[.vimrc]: https://github.com/garybgenett/gary-os/blob/master/.vimrc
+[gkrellaclock]: https://github.com/garybgenett/gary-os/blob/master/gentoo/overlay/x11-plugins/gkrellaclock
+[xclock\_size\_hack.patch]: https://github.com/garybgenett/gary-os/blob/master/gentoo/overlay/x11-plugins/gkrellaclock/files/xclock_size_hack.patch
 
 ### Tools ######################################################################
 [Tools]: #Tools
@@ -829,7 +831,8 @@ further information about the testing done.
 		gary-os/gary-os.kernel
 		ready to go!
 	https://github.com/pbatard/rufus
-	https://github.com/pbatard/rufus/releases/download/v3.7/rufus-3.7p.exe
+		https://github.com/pbatard/rufus/releases/download/v3.7/rufus-3.7p.exe
+		https://www.balena.io/etcher
 	git://github.com/pbatard/rufus.git -> wsl -> sudo apt-get install build-essential
 	add to tools section
 	version update to release checklist
@@ -1486,7 +1489,7 @@ Instructions for installing to disk:
     * Updated to new Portage commit
     * Complete review/revamp of USE flags
     * Added `LDFLAGS` variable options specific to Metro
-    * Cleaned up "\_overlay" directory
+    * Cleaned up "overlay" directory
     * Improvements to audit/review scripting
     * Minor configuration updates/improvements
     * Localized failed package commenting to 32-bit
