@@ -3,22 +3,22 @@
   
   <url>
     <loc>http://www.garybgenett.net/writing/gary-os/index.html</loc>
-    <lastmod>2019-12-05T19:44:30.276Z</lastmod>
+    <lastmod>2020-01-08T21:59:47.112Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/gary-os/index.html</loc>
-    <lastmod>2019-12-05T19:44:30.276Z</lastmod>
+    <lastmod>2020-01-08T21:59:47.112Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/writing/composer/index.html</loc>
-    <lastmod>2019-12-05T19:44:30.196Z</lastmod>
+    <lastmod>2020-01-08T21:59:44.204Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/composer/index.html</loc>
-    <lastmod>2019-12-05T19:44:30.196Z</lastmod>
+    <lastmod>2020-01-08T21:59:44.204Z</lastmod>
   </url>
   
   <url>
@@ -52,18 +52,13 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/projects/gary-os/archive/Gentoo_Ecosystem.html</loc>
-    <lastmod>2019-08-08T04:55:53.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.garybgenett.net/writing/gary-os/archive/Gentoo_Ecosystem.html</loc>
     <lastmod>2019-08-08T04:55:53.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/projects/composer/revealjs.css</loc>
-    <lastmod>2019-07-25T18:31:59.080Z</lastmod>
+    <loc>http://www.garybgenett.net/projects/gary-os/archive/Gentoo_Ecosystem.html</loc>
+    <lastmod>2019-08-08T04:55:53.000Z</lastmod>
   </url>
   
   <url>
@@ -72,8 +67,8 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/README.html</loc>
-    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
+    <loc>http://www.garybgenett.net/projects/composer/revealjs.css</loc>
+    <lastmod>2019-07-25T18:31:59.080Z</lastmod>
   </url>
   
   <url>
@@ -82,7 +77,7 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/projects/README.html</loc>
+    <loc>http://www.garybgenett.net/writing/README.html</loc>
     <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
@@ -92,17 +87,22 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/2019/12/05/README/</loc>
+    <loc>http://www.garybgenett.net/projects/README.html</loc>
     <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/README.html</loc>
-    <lastmod>2015-12-08T11:43:28.466Z</lastmod>
+    <loc>http://www.garybgenett.net/2020/01/08/README/</loc>
+    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/404.html</loc>
+    <lastmod>2015-12-08T11:43:28.466Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/README.html</loc>
     <lastmod>2015-12-08T11:43:28.466Z</lastmod>
   </url>
   
