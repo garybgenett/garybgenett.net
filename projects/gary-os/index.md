@@ -196,11 +196,11 @@ inception in 2014.  Activity is concentrated in the U.S. and Europe, but there
 is clearly a worldwide audience, with interest coming from [countries all over
 the world].  Current [v4.0 downloads] are being tracked since [v4.0] was
 released in December 2019.  As of November 2019, GaryOS maintained an average
-of 10-15 (WORK:CURRENT_NUMBER) [v3.0 downloads] a month since the [v3.0]
-release in March 2015.  There are notable spikes in the overall downloads of
-~2K, ~0.6K and ~1.5K in March 2018, January 2019 and September 2019,
-respectively, which were most likely fetches of supporting files.  The
-SourceForge statistics are not granular enough to investigate.
+of 10-15 [v3.0 downloads] a month since the [v3.0] release in March 2015.
+There are notable spikes in the overall downloads of ~2K, ~0.6K and ~1.9K in
+March 2018, January 2019 and September 2019, respectively, which were most
+likely fetches of supporting files.  The SourceForge statistics are not
+granular enough to investigate.
 
 Despite the relatively small user base, modest infrastructure, and infrequent
 release schedule, GaryOS has managed to receive some official acknowledgment.
@@ -309,7 +309,6 @@ default DWM color scheme to the URxvt terminal and Links web browser, and also
 makes Links the browser that is launched.  The default configuration is
 otherwise unmodified, and no patches are used.
 
-[early history of the "gentoo/\_release" script]: https://github.com/garybgenett/gary-os/commits/master/gentoo/_release
 [Initial complete patch]: https://marc.info/?l=linux-mm+m=157048756423988
 [Secondary patch, configuration option only]: https://marc.info/?l=linux-mm+m=157056583814243
 [Final patch, default global variable only]: https://marc.info/?l=linux-mm+m=157064677005638
@@ -798,64 +797,51 @@ The following sections are intended to be the HOWTO documentation for using
 various aspects of GaryOS.  They are the primary use cases that have been
 considered and tested.
 
-These are fully supported, and are verified each release.  Each section contains
-the validation details, and the [Release Process + Checklist] section has
-further information about the testing done.
+These are fully supported, and are verified each release.  Each section
+contains the validation details, and the [Release Process + Checklist] section
+has further information about the testing done.
 
 ## Booting #####################################################################
 [Booting]: #Booting
 
-	#WORKING
+These sections cover the various ways of booting GaryOS into a running system.
 
 ### USB Drive + Grub Rescue ####################################################
 [USB Drive +_Grub Rescue]: #USB Drive + Grub Rescue
 
-	#WORK
-	https://linux.org/threads/understanding-the-various-grub-modules.11142
-	#WORK usb drive instructions, using grub.sh (merge with grub section below?)
-	#WORK new options/help and menu search feature...
-	#WORK hybrid mbr notes?  automate in grub.sh?  yes... script out creation of a blank usb drive
-	https://wiki.gentoo.org/wiki/GRUB2#BIOS_with_GPT
-	http://rodsbooks.com/gdisk/hybrid.html
-	#WORK
-	rufus instructions || ctrl+r = compmgmt.msc / diskmgmt.msc -> ctrl+x = Disk Management -> search box = disk management = "Create and format hard disk partitions"
-		anything 4gb or greater
-		right click zip -> extract all (select same folder it is in, such as desktop)
-		rufus (yes, allow, if it asks)
-		skip the update
-		select usb drive (may need advanced drive options -> List USB Hard Drives) -> screenshot?
-		select loopfile.img image
-		start (yes, destroy! = careful!)
-		diskmgmt -> erase last partition and create new
-		gary-os/gary-os.grub.cfg
-		gary-os/gary-os.kernel
-		ready to go!
-	https://github.com/pbatard/rufus
-		https://github.com/pbatard/rufus/releases/download/v3.7/rufus-3.7p.exe
-		https://www.balena.io/etcher
-	git://github.com/pbatard/rufus.git -> wsl -> sudo apt-get install build-essential
-	add to tools section
-	version update to release checklist
-	last tested = version
-	custom menu gary-os.grub.cfg
-	secure boot
-	null kernel = was that just a fluke?  test laptop again...
-	#WORK
+#WORKING
 
-  * Definition:
-    * Boot into a mostly complete Grub environment directly from the
-      boot record without requiring any additional files from disk
-    * Create a Grub "core.img" which can be booted using identical
-      methods and options as GaryOS, such as PXE, Qemu, etc.
-  * Last tested with:
-    * Tested in place of GaryOS with both Qemu and PXE
-        * For details on PXE, see the [PXE Boot] section below
-    * Grub: sys-boot/grub-2.02_beta2-r3
-  * Research and development:
+| Description  | GaryOS requires some form of bootable media to load from, and this will most likely be a hard disk or USB drive.
+| Method #1    | Install Grub and prepared partitions to a USB drive from either Linux or Windows.
+| Method #2    | Boot into a mostly complete Grub environment directly from the boot record without requiring any additional files from disk
+| Method #3    | Create a Grub "core.img" which can be booted using identical methods and options as GaryOS, such as PXE, Qemu, etc.
+| Method #4    | WORK: Tested in place of GaryOS with both Qemu and PXE -- For details on PXE, see the [PXE Boot] section below
+
+**Grub Rescue**
+**USB Drive (Linux)**
+**USB Drive (Windows)**
+
+| Grub Version | sys-boot/grub-2.02_beta2-r3
+
+Research and development:
+
     * <https://gnu.org/software/grub/manual/grub.html#BIOS-installation>
         * <https://gnu.org/software/grub/manual/grub.html#Images>
     * <http://lukeluo.blogspot.com/2013/06/grub-how-to-4-memdisk-and-loopback.html>
     * <http://wiki.osdev.org/GRUB_2#Disk_image_instructions>
+
+**Grub Rescue**
+
+	https://linux.org/threads/understanding-the-various-grub-modules.11142
+	#WORK usb drive instructions, using grub.sh (merge with grub section below?)
+	#WORK new options/help and menu search feature... add to version history highlights
+	#WORK hybrid mbr notes?  automate in grub.sh?  yes... script out creation of a blank usb drive
+	https://wiki.gentoo.org/wiki/GRUB2#BIOS_with_GPT
+	http://rodsbooks.com/gdisk/hybrid.html
+	#WORK
+	custom menu gary-os.grub.cfg
+	secure boot
+	null kernel = was that just a fluke?  test laptop again...
 
 For convenience and supportability, this case has also been automated in
 the `grub.sh` script.  The `gary-os.grub.*` file in the root download
@@ -882,8 +868,54 @@ Instructions for Grub "rescue" image installation to hard disk:
   6. To remove, simply re-install Grub using `grub-install` as usual, or
      install another bootloader.
 
+	#WORK validate this table looks good in composer/github
+
+| Partition | Start Sector | End Sector | Size       | Code | Name
+|---:       |---:          |---:        |---:        |---:  |:---
+|  1        | 2363392      | 7275923    |    2.3 GiB | 0700 | Microsoft basic data
+| 98        |  266240      | 2363391    | 1024.0 MiB | EF00 | EFI System
+| 99        |    4096      |  266239    |  128.0 MiB | EF02 | BIOS boot partition
+
+**USB Drive (Linux)**
+
+	#WORK
+	usage: grub.sh {directory} [options]
+	{directory}             target directory to use for building grub files (must already exist)
+	[-d || -d<0-9+>]        show debug information || number of objects to list (default: 10)
+	[-f || -fx]             format the target block device || use ext4 instead of vfat/exfat
+	[block device]          use target device instead of the example loopfile
+	        (loopfile):     [...]/loopfile.img
+	        grub<0-9+>      alternate partition number for example loopfile (default: 1)
+	        /dev/sda        use specified device with standard data partition (default: 1)
+	        /dev/sda<0-9+>  custom data partition number
+	[kernel options]        additional custom options to pass to the kernel at boot
+
+**USB Drive (Windows)**
+
+	rufus instructions || ctrl+r = compmgmt.msc / diskmgmt.msc -> ctrl+x = Disk Management -> search box = disk management = "Create and format hard disk partitions"
+		anything 4gb or greater
+		right click zip -> extract all (select same folder it is in, such as desktop)
+		rufus (yes, allow, if it asks)
+		skip the update
+		select usb drive (may need advanced drive options -> List USB Hard Drives) -> screenshot?
+		select loopfile.img image
+		start (yes, destroy! = careful!)
+		diskmgmt -> erase last partition and create new
+		gary-os/gary-os.grub.cfg
+		gary-os/gary-os.kernel
+		ready to go!
+	https://github.com/pbatard/rufus
+		https://github.com/pbatard/rufus/releases/download/v3.7/rufus-3.7p.exe
+		https://www.balena.io/etcher
+	git://github.com/pbatard/rufus.git -> wsl -> sudo apt-get install build-essential
+	add to tools section
+	version update to release checklist
+	last tested = version
+
 ### Windows Dual-Boot ##########################################################
 [Windows Dual-Boot]: #Windows_Dual-Boot
+
+	#WORKING
 
   * Definition:
     * Boot using the native Windows bootloader
@@ -975,6 +1007,7 @@ Administrator to remove the unwanted entries:
 ### PXE Boot ###################################################################
 [PXE Boot]: #PXE_Boot
 
+	#WORKING
 	#WORK: http://ondatechnology.org/wiki/index.php?title=Booting_the_Linux_Kernel_without_a_bootloader
 
   * Definition:
@@ -998,11 +1031,13 @@ basis add the following configuration option to `dhcpd.conf`:
 ## Running #####################################################################
 [Running]: #Running
 
-	#WORKING
+There are few tasks you may wish to perform once GaryOS is booted and running.
+Some examples are setting up networking or running the graphical interface.
 
 ### Forensics + Recovery #######################################################
 [Forensics + Recovery]: #Forensics_+_Recovery
 
+	#WORKING
 	* #WORK: eliminate
 
   * Definition:
@@ -1029,6 +1064,7 @@ It is a stated goal that forensics mode continue being the default.
 ### Networking Configuration ###################################################
 [Networking Configuration]: #Networking_Configuration
 
+	#WORKING
   * Definition:
     * Configure networking, either wired or wireless
   * Last tested with:
@@ -1044,29 +1080,11 @@ interface, such as an Ethernet connection:
 	#WORK now set up by default!  only need instructions for wpa_cli if wireless...  must still do the rc-update adds
 	#WORK netmount is disabled... no networking... not even sshd... remove sshd from above!
 	#WORK https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD
-<!--
+
 https://wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
 https://wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
 https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
 
-rc-update add wpa_supplicant default
-rc-update add dhcpcd default
-openrc
-
-wpa_cli
-#ap_scan 1
-scan
-scan_results
-add_network
-list_networks
-set_network 0 scan_ssid 1
-set_network 0 ssid "Unknown Network"
-set_network 0 psk "onthenetwork"
-enable_network 0
-#select_network 0
-#status
-#save_config
--->
 	#WORK `wpa_password "<ssid>" "<password>" > /etc/wpa_supplicant/wpa_supplicant.conf`
 	#WORK Add `ssid_scan=1` to `/etc/wpa_supplicant/wpa_supplicant.conf`
 	#WORK `rc-update add wpa_supplicant default ; rc`
@@ -1085,30 +1103,39 @@ A more formal way of doing this would be to use the OpenRC scripts:
 For wireless networking, the NetworkManager package is available to
 simplify the configuration:
 
-  * `rc-update add NetworkManager default ; rc`
+	rc-update add wpa_supplicant default
+	rc-update add dhcpcd default
+	openrc
 
 Wireless networks can then be scanned and configured:
 
-  * e.g. ...
+#WORK: automate this in a script or make command? == ./script.sh (parsed list) = number select = read -s(?) psk
 
-    ```
-    nmcli device wifi rescan
-    nmcli device wifi list
-    nmcli device wifi connect [ssid] password [password]
-    nmcli device status
-    ```
+	wpa_cli
 
-	#WORK For a more user-friendly interface, the `nmtui` utility can also be
-	#WORK used.  It is part of the NetworkManager package, and "has a very nice
-	#WORK console-based interface" according to the Funtoo documentation.
+	ap_scan 1
+	scan
+	scan_results
+	add_network
+	list_networks
+	set_network 0 scan_ssid 1
+	set_network 0 ssid "Unknown Network"
+	set_network 0 psk "onthenetwork"
+	enable_network 0
 
-The Funtoo OpenRC scripts have all sorts of advanced networking features
-and options, covered in depth:
+	select_network 0
+	status
+	save_config
+
+The Funtoo OpenRC scripts have all sorts of advanced networking features and
+options, covered in depth:
+#WORK: verify link
 <https://funtoo.org/Networking>
 
 ### Graphical Interface ########################################################
 [Graphical Interface]: #Graphical_Interface
 
+	#WORKING
 	#WORK standardize the name (X.Org/Xorg) and details (GUI/graphical) here and in /etc/issue
 	#WORK https://wiki.gentoo.org/wiki/Dwm
 	#WORK is just a simple "startx" now
@@ -1157,17 +1184,24 @@ More information:
 	#WORK: not all suckless now!  kudos to the "links" browser...
 	#WORK: dwm patches in [Contributions] section
 
+#WORK: still need this?
 Thanks to the [Suckless] team for creating such lightweight and useful
 software.
 
 ## Building ####################################################################
 [Building]: #Building
 
-	#WORKING
+In addition to being a live GNU/Linux system, GaryOS is also the build system
+used to produce itself.  The system can also be used to create new installations
+from scratch, or install GaryOS directly from memory to disk.
+
+Another important feature is the ability to update the system while it is
+running live, including installing new packages.
 
 ### Live Update ################################################################
 [Live Update]: #Live_Update
 
+	#WORKING
 	#WORK: ramfs size kernel option (shmem_size=), will be 50% up to 4g
 	#WORK: see "gary-os" sets file
 	#WORK: minimum memory to boot: ???
@@ -1216,10 +1250,10 @@ Instructions for setting up update/install of packages:
      a physical disk.  Commands to run:
      * ...
 
-        ```
-        sed -i "s%has_space = False%has_space = True%g" \
+       ```
+       sed -i "s%has_space = False%has_space = True%g" \
             /usr/lib/portage/pym/portage/package/ebuild/fetch.py
-        ```
+       ```
 	#WORK: first is no longer needed, but keep this one as a fallback for packages like firefox or thunderbird...
      * `alias emerge="I_KNOW_WHAT_I_AM_DOING=true emerge"`
          * For details, see `"There is NOT at least"` in
@@ -1239,6 +1273,7 @@ Instructions for setting up update/install of packages:
 ### Custom Builds ##############################################################
 [Custom Builds]: #Custom_Builds
 
+	#WORKING
 	* #WORK NEW build-within-the-build = on-disk and in-system
 	* #WORK: https://downloads.sourceforge.net/project/gary-os/v3.0/stage3-core2_64-funtoo-stable-2015-01-27.tar.xz
 	* #WORK: does not install expect, so may need to hit enter a few times...
@@ -1246,6 +1281,7 @@ Instructions for setting up update/install of packages:
 ### Hard Drive Install #########################################################
 [Hard Drive Install]: #Hard_Drive_Install
 
+	#WORKING
   * Definition:
     * Install GaryOS to disk
   * Last tested with:
@@ -1263,9 +1299,10 @@ modified or removed to create a particular look and feel for GaryOS.  These
 modifications are kept to an absolute minimum, and are listed here:
 
 	#WORK validate this table looks good in composer/github
+	#WORK: double-check against _prepare_config
 
 | File                                      | Release Modification | Install Action
-| :---                                      | :---                 | :---
+|:---                                       |:---                  |:---
 | /.gary-os                                 | Added                | Remove
 | /.gary-os.packages.txt                    | Added                | Remove
 | --                                        | --                   | --
@@ -1287,25 +1324,20 @@ modifications are kept to an absolute minimum, and are listed here:
 | /etc/env.d/90xsession                     | Added                | ~~Remove~~ = Keep
 | /etc/X11/Sessions/dwm                     | Modified             | ~~Restore~~ = Keep
 
-	#WORK: all the "sets" variables like RCUPDT
-	#WORK: FSSKIP variable, add list here, add note to variable, just like in \_release for table
-	#WORK: double-check against _prepare_config
-
 Some other important changes, which must all be reset manually:
 
   * Linux kernel configuration, sourced from `linux` directory
   * Funtoo system configuration, sourced from `gentoo` directory
+	#WORK: FSSKIP variable, add list here, add note to variable, just like in \_release for table
   * The `#{RCUPDT}` commands in the `gary-os` package file, sourced from the
     `gentoo/sets` directory
+	#WORK: all the "sets" variables like RCUPDT
   * Root password set to `gary-os`
-
-	#WORKING:NOW: test make unpack when linux -> linux-4.18.6-gentoo
-	#WORK actually, got a reset to defaults, now... only the \*.tar.xz files remain...
-
 
 	#WORKING : validate
 	create/document "reset" option in "\_release"... manual changes are up to the reader...
 	need gpt/mbr partitions for below... maybe use the "grub.sh" script... otherwise, suggest the proper partitions...
+		add partition table to grub section, and reference here...
 
 	#WORKING : document somewhere a mounted chroot build as a form of install... (man, am i getting too nuts, here?)
 	#WORKING : make install --reset == \_prepare\_config --reset || \_prepare\_config
@@ -1313,37 +1345,32 @@ Some other important changes, which must all be reset manually:
 Instructions for installing to disk:
 
 	#WORKING : or use "grub.sh"
+
+	#WORK: does this format correctly, or does it need an empty line... make consistent throughout file...
+
   1. Mount formatted disk/partition.
-     * e.g. `mke2fs -t ext4 -jv /dev/sda2`
-     * e.g. `mount /dev/sda2 /mnt`
+
+     ```
+     `mke2fs -t ext4 -jv /dev/sda2`
+     `mkdir /.install`
+     `mount /dev/sda2 /.install`
+     ```
   2. If you wish for `/boot` to be on a separate partition, mount that
      location in the target.
-     * e.g. `mkdir /mnt/boot`
-     * e.g. `mount /dev/sda1 /mnt/boot`
-	#WORKING : now we have "make install"... warning, though, because it resets the configs on the live system... (the only way around this is horrifying)
-  3. Copy in-memory filesystem to installation target.
-     * e.g. ...
-
-        ```
-        rsync -avv \
-            --filter=-_/dev/** \
-            --filter=-_/mnt/** \
-            --filter=-_/proc/** \
-            --filter=-_/run/** \
-            --filter=-_/sys/** \
-            / /mnt
-        ```
+     * e.g. `mkdir /.install/boot`
+     * e.g. `mount /dev/sda1 /.install/boot`
+  3. #WORKING : now we have "make install"... warning, though, because it resets the configs on the live system... (the only way around this is horrifying)
   4. Add necessary partition information to `/etc/fstab`, remembering an
      entry for `/boot` if using a separate partition from #2 above.
-     * e.g. `vi /mnt/etc/fstab`
+     * e.g. `vi /.install/etc/fstab`
 	#WORKING : use "grub.sh", now...
 	#WORK need "grub" when "boot-update" here?
   5. Update and install Grub, to make the new installation bootable.
-     * e.g. `for FILE in dev proc sys ; do mount --bind /${FILE} /mnt/${FILE} ; done`
+     * e.g. `for FILE in dev proc sys ; do mount --bind /${FILE} /.install/${FILE} ; done`
 	#WORK efi: neet to mount efi partition to "/boot" for this to work...
-     * e.g. `chroot /mnt grub-install --target=x86_64-efi --efi-directory=/boot /dev/sda`
-     * e.g. `chroot /mnt grub-install --target=i386-pc /dev/sda`
-     * e.g. `chroot /mnt boot-update`
+     * e.g. `chroot /.install grub-install --target=x86_64-efi --efi-directory=/boot /dev/sda`
+     * e.g. `chroot /.install grub-install --target=i386-pc /dev/sda`
+     * e.g. `chroot /.install boot-update`
   6. Reboot into new installation, update `/etc/portage` configuration,
      install Portage tree and update/install packages as desired.
   7. **Don't forget to change `/etc/conf.d/hostname` and update the `root`
@@ -1353,8 +1380,6 @@ Instructions for installing to disk:
 
 # Version History ##############################################################
 [Version History]: #Version_History
-
-	#WORK just before publishing release, make sure .setup/gentoo.gary-os mirrors the final github release directory
 
 	#WORKING
 
@@ -1706,13 +1731,15 @@ WORK -->
 			* _sync _sys _clone _full _setup on spider/shadow
 		* [\_gary-os] package set instructions/notes, move to readme instead?
 		* _publish git
-			* .validate
+			* gentoo.gary-os -> .validate
 		* updated screenshots
 		* release process for gary-os
 			* make clean release
 			* verify root filesystem contents
-			* remove *.cpio{,.dir} = keep only *.{txt,xz}
-			* remove /tmp/.ccache
+			* publish_prep
+				* remove *.cpio{,.dir} = keep only *.{txt,xz}
+				* remove /tmp/.ccache
+				* etc.
 			* rsync working -> production
 			* verify gitignore -> commit
 			* update gary-os.boot symlink
