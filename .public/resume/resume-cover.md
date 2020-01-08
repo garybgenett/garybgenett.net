@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Pathfinder & Technologist :: Cover Letter
-% v6.7 (2019-12-05)
+% v6.7 (2020-01-08)
 -->
 
 <!-- ############################################################### -->
@@ -28,7 +28,7 @@
 
 # Gary B. Genett
 
-Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [www.linkedin.com/in/gary-b-genett](https://www.linkedin.com/in/gary-b-genett)
+Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.com/in/gary-b-genett](https://www.linkedin.com/in/gary-b-genett)
 
 ------------------------------------------------------------------------
 
@@ -48,17 +48,17 @@ Throughout my career, I have established a reputation as a transformational lead
 
 Over the course of my professional history, I have achieved the following career highlights:
 
-  * As a part of a $40M integration program, pioneered a centralized documentation management system and ongoing maintenance processes aimed at helping Alaska Airlines become the first airline to succeed in pulling off FCC certification of full M&E system alignment post-merger with Virgin America.
-    * **Strengthened controls and overall quality of outcomes by creating and implementing best practices to ensure smooth transition to cloud-based DevOps model at Alaska Airlines as part of a $40M integration program to become the first airline to succeed in pulling off FCC certification of full M&E system alignment post-merger with Virgin America.**
-  * Built an integral new cloud/orchestration team at F5 Networks, establishing and bringing to market a new vision for automation, integrating all existing technologies into a unified suite across 5 disparate teams with different knowledge domains, technology areas and development models.
-  * Drove the successful milestone release of 5 innovative technologies and deep product rewrite at F5 Networks.
-    * **Steered the internal homegrown heuristics tool to pre-analyze customer diagnostic files for the F5 Networks support team through initial stages to customer-facing product.**
-    * **Pioneered detailed integration guide and training to aid 3rd party development for Microsoft as a F5 Networks technology leader.**
-    * **Initiated and directed 2 successful production deployments of revolutionary F5 Networks chassis architecture for Xbox Live.**
+  * As a part of a $40M integration program, pioneered a centralized documentation management system and ongoing maintenance processes aimed at helping Alaska Airlines become the first airline to succeed in pulling off FCC certification of full M&E system alignment post-merger with Virgin America
+    * **Strengthened controls and overall quality of outcomes by creating and implementing best practices to ensure smooth transition to cloud-based DevOps model at Alaska Airlines as part of a $40M integration program to become the first airline to succeed in pulling off FCC certification of full M&E system alignment post-merger with Virgin America**
+  * Built an integral new cloud/orchestration team at F5 Networks, establishing and bringing to market a new vision for automation, integrating all existing technologies into a unified suite across 5 disparate teams with different knowledge domains, technology areas and development models
+  * Drove the successful milestone release of 5 innovative technologies and deep product rewrite at F5 Networks
+    * **Steered the internal homegrown heuristics tool to pre-analyze customer diagnostic files for the F5 Networks support team through initial stages to customer-facing product**
+    * **Pioneered detailed integration guide and training to aid 3rd party development for Microsoft as a F5 Networks technology leader**
+    * **Initiated and directed 2 successful production deployments of revolutionary F5 Networks chassis architecture for Xbox Live**
 
 In me, **[COMPANY]** will gain a diligent, goal-oriented professional with the agility, dedication, and focus required to successfully fill the role of **[POSITION]**.  As such, I would welcome the opportunity to meet in person and discuss this opening in detail.
 
-Thank you for your consideration.  I look forward to hearing from you!
+Thank you for your consideration.  I look forward to hearing from you.
 
 Sincerely,
 

@@ -3,8 +3,7 @@
 GARY B. GENETT
 
 
-Seattle, WA • 206-391-6606 • me@garybgenett.net •
-www.linkedin.com/in/gary-b-genett
+Seattle, WA • 206-391-6606 • me@garybgenett.net • linkedin.com/in/gary-b-genett
 
 --------------------------------------------------------------------------------
 
@@ -44,32 +43,32 @@ highlights:
     documentation management system and ongoing maintenance processes aimed at
     helping Alaska Airlines become the first airline to succeed in pulling off
     FCC certification of full M&E system alignment post-merger with Virgin
-    America.
+    America
     -   STRENGTHENED CONTROLS AND OVERALL QUALITY OF OUTCOMES BY CREATING AND
         IMPLEMENTING BEST PRACTICES TO ENSURE SMOOTH TRANSITION TO CLOUD-BASED
         DEVOPS MODEL AT ALASKA AIRLINES AS PART OF A $40M INTEGRATION PROGRAM TO
         BECOME THE FIRST AIRLINE TO SUCCEED IN PULLING OFF FCC CERTIFICATION OF
-        FULL M&E SYSTEM ALIGNMENT POST-MERGER WITH VIRGIN AMERICA.
+        FULL M&E SYSTEM ALIGNMENT POST-MERGER WITH VIRGIN AMERICA
 -   Built an integral new cloud/orchestration team at F5 Networks, establishing
     and bringing to market a new vision for automation, integrating all existing
     technologies into a unified suite across 5 disparate teams with different
-    knowledge domains, technology areas and development models.
+    knowledge domains, technology areas and development models
 -   Drove the successful milestone release of 5 innovative technologies and deep
-    product rewrite at F5 Networks.
+    product rewrite at F5 Networks
     -   STEERED THE INTERNAL HOMEGROWN HEURISTICS TOOL TO PRE-ANALYZE CUSTOMER
         DIAGNOSTIC FILES FOR THE F5 NETWORKS SUPPORT TEAM THROUGH INITIAL STAGES
-        TO CUSTOMER-FACING PRODUCT.
+        TO CUSTOMER-FACING PRODUCT
     -   PIONEERED DETAILED INTEGRATION GUIDE AND TRAINING TO AID 3RD PARTY
-        DEVELOPMENT FOR MICROSOFT AS A F5 NETWORKS TECHNOLOGY LEADER.
+        DEVELOPMENT FOR MICROSOFT AS A F5 NETWORKS TECHNOLOGY LEADER
     -   INITIATED AND DIRECTED 2 SUCCESSFUL PRODUCTION DEPLOYMENTS OF
-        REVOLUTIONARY F5 NETWORKS CHASSIS ARCHITECTURE FOR XBOX LIVE.
+        REVOLUTIONARY F5 NETWORKS CHASSIS ARCHITECTURE FOR XBOX LIVE
 
 In me, [COMPANY] will gain a diligent, goal-oriented professional with the
 agility, dedication, and focus required to successfully fill the role of
 [POSITION]. As such, I would welcome the opportunity to meet in person and
 discuss this opening in detail.
 
-Thank you for your consideration. I look forward to hearing from you!
+Thank you for your consideration. I look forward to hearing from you.
 
 Sincerely,
 
