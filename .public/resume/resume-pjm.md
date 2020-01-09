@@ -1,6 +1,6 @@
 <!--
 % Gary B. Genett
-% Senior Project Manager
+% Senior Technical Project Manager
 % v6.7 (2020-01-08)
 -->
 
@@ -66,7 +66,7 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 
 ------------------------------------------------------------------------
 
-## Senior Project Manager
+## Senior Technical Project Manager
 
 **Organizational Change \| Project Management \| Product Ownership**
 
