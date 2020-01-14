@@ -68,7 +68,7 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 
 **Organizational Change \| Project Management \| Cloud Integration**
 
-Goal-focused professional with 15+ years' success driving all aspects of product ownership, project management, and organizational change to cultivate growth within pressurized environments.  Strong ability to build and lead teams that meet and exceed established goals and expectations.  Highly adept at developing and implementing controls, processes, and best practices that enhance operational efficiency and mitigate risks.  Well-versed in mergers and acquisionns, and technically proficient with cloud architecture and automation.  Demonstrated ability to guide full product and project management lifecycle, from scope definition and initial planning to final delivery, to ensure on-time, on-budget, and on-target results.
+Goal-focused professional with 15+ years' success driving all aspects of product ownership, project management, and organizational change to cultivate growth within pressurized environments.  Strong ability to build and lead teams that meet and exceed established goals and expectations.  Highly adept at developing and implementing controls, processes, and best practices that enhance operational efficiency and mitigate risks.  Well-versed in mergers and acquisitions, and technically proficient with cloud architecture and automation.  Demonstrated ability to guide full product and project management lifecycle, from scope definition and initial planning to final delivery, to ensure on-time, on-budget, and on-target results.
 
 **Core Competencies**
 
@@ -171,4 +171,4 @@ Established a high-caliber new team to perform all key duties within time constr
 
 # Technical Proficiencies
 
-Node.js, Python, C, Bash, Perl, TCL, Web Development, HTML/CSS/Javascript, Web/System APIs, REST/JSON/XML, SQL, Git, SVN, DevOps, Agile, Waterfall, Scrum
+Cloud, Node.js, Python, C, Bash, Perl, TCL, Web Development, HTML/CSS/Javascript, Web/System APIs, REST/JSON/XML, SQL, Git, SVN, DevOps, Agile, Waterfall, Scrum
