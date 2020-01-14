@@ -76,13 +76,13 @@ Over the course of my professional history, I have achieved the following career
   * Drove the successful milestone release of 5 innovative technologies and deep product rewrite at F5 Networks
     * Steered the internal homegrown heuristics tool to pre-analyze customer diagnostic files for the F5 Networks support team through initial stages to customer-facing product
     * Pioneered detailed integration guide and training to aid 3rd party development for Microsoft as a F5 Networks technology leader
-    * Initiated and directed 2 successful production deployments of revolutionary F5 Networks chassis architecture for Xbox Live
+    * Initiated and directed first 2 successful production deployments of revolutionary F5 Networks chassis architecture for Xbox Live
 
 Over the course of my professional history, I have achieved the following sales highlights:
 
   * Significantly grew customer adoption as primary engineering representative on Microsoft account team at F5 Networks, delivering $30M in revenue and increasing customer device count by 300% and revenue by 400% with only 2 additional team members
   * Through the development of strong professional relationships and high-quality support of the customer's environment, obtained an invitation to support the development of Azure public cloud and achieved a public MSNBC case study
-  * Directly sold and directed 2 successful production deployments of revolutionary chassis architecture for Xbox Live
+  * Directly sold and directed first 2 successful production deployments of revolutionary chassis architecture for Xbox Live
 
 In me, [COMPANY] will gain a diligent, goal-oriented professional with the agility, dedication, and focus required to successfully fill the role of [POSITION].  As such, I would welcome the opportunity to meet in person and discuss this opening in detail.
 
