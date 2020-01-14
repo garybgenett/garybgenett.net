@@ -77,7 +77,7 @@ Goal-focused professional with 15+ years' success driving all aspects of product
 | &#8226; Product Strategy & Roadmap         | &#8226; Cross-functional Collaboration     | &#8226; Technical Project Management       |
 | &#8226; Scope Definition & Planning        | &#8226; Stakeholder Engagement             | &#8226; Requirements Gathering             |
 | &#8226; Team Building and Leadership       | &#8226; Sales, Consulting & Training       | &#8226; Public & Internal Documentation    |
-| &#8226; Cloud Migrations & Operations      | &#8226; Complete Product Lifecycle         | &#8226; DevOps / Agile / Waterfall / Scrum |
+| &#8226; Cloud Migrations & Operations      | &#8226; Complete Product Lifecycle         | &#8226; DevOps, Agile, Waterfall & Scrum   |
 
 <!-- [Indeed Work Style Assessment](https://beseen.indeed.com/assessment-results/18021f2812a5d0ec) -->
 <!-- [Indeed Work Style Assessment](http://www.garybgenett.net/resume/beseen.indeed.com-assessment_results-18021f2812a5d0ec-2019-11.html) -->
