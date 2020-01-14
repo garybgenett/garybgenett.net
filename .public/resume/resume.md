@@ -69,6 +69,7 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 <!-- Previous Sales Engineer (With Additional Relevant Experience) -->
 
 **Organizational Change \| Project Management \| Cloud Integration**
+<!-- Innovative Thinking | Product Strategy | Cloud Solutions -->
 <!-- Technical Sales Delivery \| Project Management \| Cloud Integration -->
 
 Goal-focused professional with 15+ years' success driving all aspects of product ownership, project management, and organizational change to cultivate growth within pressurized environments.  Strong ability to build and lead teams that meet and exceed established goals and expectations.  Highly adept at developing and implementing controls, processes, and best practices that enhance operational efficiency and mitigate risks.  Well-versed in mergers and acquisitions, and technically proficient with cloud architecture and automation.  Demonstrated ability to guide full product and project management lifecycle, from scope definition and initial planning to final delivery, to ensure on-time, on-budget, and on-target results.
