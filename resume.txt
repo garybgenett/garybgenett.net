@@ -134,17 +134,17 @@ _KEY CONTRIBUTIONS:_
 -   Designed and presented comprehensive internal product sessions at
     international sales and services conferences
 
-Field Systems Engineer - Technical Sales, 2006 to 2009
+Field Systems Engineer – Technical Sales, 2006 to 2009
 
 Delivered high-quality support to thousands of devices during the development of
 Azure public cloud. Built and strengthened key professional relationships and
-provided comprehensive support for technical work, resulting in MSNBC case
-study.
+provided comprehensive support for technical work, resulting in a public MSNBC
+case study.
 
 _KEY CONTRIBUTIONS:_
 
--   Significantly grew customer adoption as primary engineering representative
-    on Microsoft account team
+-   Delivered $30M in annual revenue as primary engineering representative on
+    Microsoft account team
 -   Increased customer device count by 300% and revenue by 400% with only 2
     additional team members
 -   Pioneered detailed integration guide and training to aid 3rd party
