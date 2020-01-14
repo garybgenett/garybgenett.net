@@ -32,6 +32,26 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 
 ------------------------------------------------------------------------
 
+**TAGLINE:**
+
+Goal-orientated leader with 15+ years' success in change & project management
+
+**GOALS:**
+
+Move towards high-level organizational change management in the technology industry (mergers & acquisitions / market pivots / cloud migrations / etc.)
+
+**SUMMARY:**
+
+Over the course of my 15+ year career, I have established a reputation as an accomplished leader who is skilled at steering organizational change, project management, and product ownership to cultivate growth and maximize profitability.  Furthermore, I am adept at building and leading high-caliber teams to exceed targets and encouraging professional development at all levels.  My expertise encompasses the full product and project management lifecycle, from scope definition and initial planning to final delivery, to ensure on-time, on-budget, and on-target results.  Additionally, I possess experience in mergers and acquisionns, with technical proficiency in cloud architecture and automation.
+
+A few highlights from my profile include:
+
+  * As a part of a $40M integration program, pioneered a centralized documentation management system and ongoing maintenance processes aimed at helping Alaska Airlines become the first airline to succeed in pulling off FCC certification of full M&E system alignment post-merger with Virgin America
+  * Built an integral new cloud/orchestration team at F5 Networks, establishing and bringing to market a new vision for automation, integrating all existing technologies into a unified suite across 5 disparate teams with different knowledge domains, technology areas and development models
+  * Drove the successful milestone release of 5 innovative technologies and deep product rewrite at F5 Networks
+
+------------------------------------------------------------------------
+
 | **[DATE]**
 |
 | **[NAME]**
@@ -42,9 +62,9 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 
 Dear **[NAME]**: || Dear Director of Human Resources:
 
-In my search for a new challenge where I can leverage my extensive product and project management experience, I was pleased to find **[COMPANY]**'s opening for a **[POSITION]**.  Eager to learn more about this exciting opportunity, I have enclosed my resume for your review.
+In my search for a new challenge where I can leverage my extensive organizational change and project management experience, I was pleased to find **[COMPANY]**'s opening for a **[POSITION]**.  Eager to learn more about this exciting opportunity, I have enclosed my resume for your review.
 
-Throughout my career, I have established a reputation as a transformational leader who is driven by challenge, undeterred by obstacles, and committed to exceeding expectations.  My expertise encompasses all aspects of the product management lifecycle, from ideation and scope definition through to the final delivery, according to stakeholder requirements.  My ability to build cross-functional consensus to promote transparency and influence positive change has been repeatedly proven.  Furthermore, I possess advanced expertise in mergers and acquisionns, with technical proficiency with cloud architecture and automation.  My track record of success has been reinforced by establishing top-performing staff teams and encouraging professional growth at all levels.  Through sound decision making and leadership, I have aided past employers, including Alaska Airlines, Enviro-Master, and F5 Networks in achieving short- and long-range goals.  If given the opportunity, I will work tirelessly to deliver similar results for **[COMPANY]**.
+Throughout my career, I have established a reputation as a transformational leader who is driven by challenge, undeterred by obstacles, and committed to exceeding expectations.  My expertise encompasses all aspects of the product management lifecycle, from ideation and scope definition through to the final delivery, according to stakeholder requirements.  My ability to build cross-functional consensus to promote transparency and influence positive change has been repeatedly proven.  Furthermore, I possess experience in mergers and acquisionns, with technical proficiency in cloud architecture and automation.  My track record of success has been reinforced by establishing top-performing staff teams and encouraging professional growth at all levels.  Through sound decision making and leadership, I have aided past employers, including Alaska Airlines, Enviro-Master, and F5 Networks in achieving short- and long-range goals.  If given the opportunity, I will work tirelessly to deliver similar results for **[COMPANY]**.
 
 Over the course of my professional history, I have achieved the following career highlights:
 
