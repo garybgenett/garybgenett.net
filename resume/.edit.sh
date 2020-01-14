@@ -41,13 +41,15 @@ function update {
 	declare OLD=
 	declare NEW=
 	declare EXT=
+	declare REV=
 	declare VER=
-	if [[ ${1} == -r ]]; then OLD="${RES_NEW}"; NEW="${DIR}/${RESUME}"; EXT="${RES}"; shift; fi
-	if [[ ${1} == -c ]]; then OLD="${CVR_NEW}"; NEW="${DIR}/${_COVER}"; EXT="${CVR}"; shift; fi
+	if [[ ${1} == -r ]]; then OLD="${RES_NEW}"; NEW="${DIR}/${RESUME}"; EXT="${RES}"; REV="${RES_MAJ}.${RES_MIN}"; shift; fi
+	if [[ ${1} == -c ]]; then OLD="${CVR_NEW}"; NEW="${DIR}/${_COVER}"; EXT="${CVR}"; REV="${CVR_MAJ}.${CVR_MIN}"; shift; fi
 	if [[ ${1} == -n ]]; then VER="${NEW_MIN}"; shift; fi
 	if [[ ${1} == -m ]]; then VER="${NEW_MAJ}"; shift; fi
-	echo "${RSYNC_U}	${OLD}			${BAS}-${VER}${EXT}"
-	echo "${LN}		${BAS}-${VER}${EXT}	${NEW}"
+	${RSYNC_U}	${OLD}				${BAS}-${VER}${EXT}
+	${SED} -i	"s|^([%][ ]v)${REV}|\1${VER}|g"	${BAS}-${VER}${EXT}
+	${LN}		$(basename ${BAS})-${VER}${EXT}	${NEW}
 }
 
 if [[ -n ${1} ]]; then
@@ -63,11 +65,11 @@ if [[ -n ${1} ]]; then
 			update -c -m
 		fi
 	fi
+else
+	view ${RES_NEW} ${CVR_NEW}
+	vdiff ${RES_OLD} ${RES_NEW}
+	vdiff ${CVR_OLD} ${CVR_NEW}
 fi
-
-view ${RES_NEW} ${CVR_NEW}
-vdiff ${RES_OLD} ${RES_NEW}
-vdiff ${CVR_OLD} ${CVR_NEW}
 
 (cd $(dirname ${DIR}) && git-perms root)
 
