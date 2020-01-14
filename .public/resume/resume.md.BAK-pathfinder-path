@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
-% Organizational Change Manager
-% v6.7 (2020-01-08)
+% Pathfinder & Technologist
+% v7.0 (2020-01-13)
 -->
 
 <!-- ############################################################### -->
@@ -12,7 +12,7 @@
   * margins
     * top: 0.5
     * bottom: 0.5
-    * left: 0.7
+    * left: 0.6
     * right: 0.6
   * ctrl-a
     * black
@@ -22,12 +22,11 @@
   * titles
     * center
     * all = remove space before paragraph + remove space after paragraph
-    * horizontal line = remove space before paragraph + add space after paragraph
     * name = size: 20
     * title = size: 16 + add space before paragraph
     * sub-title = size: 12 + add space after paragraph
   * table
-    * header = center + bold + underline + italic
+    * header = center + bold + italic + underline
     * header = remove space before paragraph + remove space after paragraph
   * horizontal lines
     * format -> picture = height: 0.1 + use solid color (no shade)
@@ -55,7 +54,6 @@
     * insert page break, if needed
     * remove trailing empty lines
   * hide special characters
-  * (copy to manager resumes and update titles)
 -->
 
 <!-- ############################################################### -->
@@ -66,21 +64,20 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 
 ------------------------------------------------------------------------
 
-## Organizational Change Manager
+## Pathfinder & Technologist
 
-**Organizational Change \| Project Management \| Product Ownership**
+**Organizational Change \| Project Management \| Cloud Integration**
 
 Goal-focused professional with 15+ years' success driving all aspects of product ownership, project management, and organizational change to cultivate growth within pressurized environments.  Strong ability to build and lead teams that meet and exceed established goals and expectations.  Highly adept at developing and implementing controls, processes, and best practices that enhance operational efficiency and mitigate risks.  Well-versed in GNU/Linux, cloud architecture, and automation.  Demonstrated ability to guide full product and project management lifecycle, from scope definition and initial planning to final delivery, to ensure on-time, on-budget, and on-target results.
 
 **Core Competencies**
 
-|:---|:---|:---|
-| &#8226; Change Management & Transformation | &#8226; System & Process Optimization      | &#8226; Technical Project Management
-| &#8226; Product Strategy & Roadmap         | &#8226; Cross-functional Collaboration     | &#8226; Stakeholder Engagement
-| &#8226; Scope Definition & Planning        | &#8226; Requirements Gathering             | &#8226; Delivery Management
-| &#8226; Team Building and Leadership       | &#8226; Product Support, Sales & Training  | &#8226; Budget Management
-| &#8226; Full Product Development Lifecycle | &#8226; Program & Schedule Management      | &#8226; Release Management
-| &#8226; DevOps / Agile / Waterfall / Scrum | &#8226; Performance & Functional Testing   | &#8226; Source Tree Management
+|:---                                        |:---                                        |:---                                        |
+| &#8226; Change Management & Transformation | &#8226; Process Development & Optimization | &#8226; Mergers & Acquisitions             |
+| &#8226; Product Strategy & Roadmap         | &#8226; Cross-functional Collaboration     | &#8226; Technical Project Management       |
+| &#8226; Scope Definition & Planning        | &#8226; Stakeholder Engagement             | &#8226; Requirements Gathering             |
+| &#8226; Team Building and Leadership       | &#8226; Sales, Consulting & Training       | &#8226; Public & Internal Documentation    |
+| &#8226; Cloud Migrations & Operations      | &#8226; Complete Product Lifecycle         | &#8226; DevOps / Agile / Waterfall / Scrum |
 
 <!-- [Indeed Work Style Assessment](https://beseen.indeed.com/assessment-results/18021f2812a5d0ec) -->
 <!-- [Indeed Work Style Assessment](http://www.garybgenett.net/resume/beseen.indeed.com-assessment_results-18021f2812a5d0ec-2019-11.html) -->
