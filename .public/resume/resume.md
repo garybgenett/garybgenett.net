@@ -147,7 +147,7 @@ Delivered high-quality support to thousands of devices during the development of
   * Delivered $30M in annual revenue as primary engineering representative on Microsoft account team
   * Increased customer device count by 300% and revenue by 400% with only 2 additional team members
   * Pioneered detailed integration guide and training to aid 3rd party development and improve quality and efficiency
-  * Initiated and directed 2 successful production deployments of revolutionary chassis architecture for Xbox Live
+  * Initiated and directed first 2 successful production deployments of revolutionary chassis architecture for Xbox Live
 
 ### Product Management Engineer, 2004 to 2006
 

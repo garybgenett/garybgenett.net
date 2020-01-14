@@ -103,7 +103,7 @@ highlights:
         to customer-facing product
     -   Pioneered detailed integration guide and training to aid 3rd party
         development for Microsoft as a F5 Networks technology leader
-    -   Initiated and directed 2 successful production deployments of
+    -   Initiated and directed first 2 successful production deployments of
         revolutionary F5 Networks chassis architecture for Xbox Live
 
 Over the course of my professional history, I have achieved the following sales
@@ -117,7 +117,7 @@ highlights:
     high-quality support of the customer’s environment, obtained an invitation
     to support the development of Azure public cloud and achieved a public MSNBC
     case study
--   Directly sold and directed 2 successful production deployments of
+-   Directly sold and directed first 2 successful production deployments of
     revolutionary chassis architecture for Xbox Live
 
 In me, [COMPANY] will gain a diligent, goal-oriented professional with the
