@@ -34,7 +34,7 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 
 **TAGLINE:**
 
-Goal-orientated leader with 15+ years' success in change & project management, with a focus on mergers/acquisitions and cloud migration
+Goal-orientated leader with 15+ years' success in change/project management, mergers/acquisitions & cloud migration
 
 **GOALS:**
 
