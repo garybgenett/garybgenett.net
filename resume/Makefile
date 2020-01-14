@@ -3,14 +3,16 @@ override COMPOSER_ABSPATH := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 override COMPOSER_TEACHER := $(abspath $(COMPOSER_ABSPATH)/../Makefile)
 
 override FILE_TARGETS := html pdf docx txt
+override TYPE_TARGETS := ocm pjm pdm
+override DOCX_TARGETS := $(foreach TYPE,$(TYPE_TARGETS),resume-$(TYPE).docx)
 
 # >> DEFINITIONS
+#>>>	resume_hacks
+#>>>	$(foreach FILE,$(FILE_TARGETS),$(foreach TYPE,$(TYPE_TARGETS),resume-$(TYPE).$(FILE)))
+#>>>	resume_docx
 override COMPOSER_TARGETS ?= \
-	resume_hacks \
-	$(foreach FILE,$(FILE_TARGETS),resume-cover.$(FILE)) \
 	$(foreach FILE,$(FILE_TARGETS),resume.$(FILE)) \
-	$(foreach TYPE,ocm pjm pdm,$(foreach FILE,$(FILE_TARGETS),resume-$(TYPE).$(FILE))) \
-	resume_docx
+	$(foreach FILE,$(FILE_TARGETS),resume-cover.$(FILE))
 override COMPOSER_SUBDIRS ?=
 override COMPOSER_DEPENDS ?=
 
@@ -26,11 +28,9 @@ include $(COMPOSER_TEACHER)
 .PHONY: resume_hacks
 resume_hacks:
 	$(SED) -e "s|Pathfinder \& Technologist|Organizational Change Manager|g"	resume.md > resume-ocm.md
-	$(SED) -e "s|Pathfinder \& Technologist|Senior Technical Project Manager|g"	resume.md > resume-pjm.md
-	$(SED) -e "s|Pathfinder \& Technologist|Senior Technical Product Manager|g"	resume.md > resume-pdm.md
-#	touch --reference resume.md resume-{ocm,pjm,pdm}.md
-
-override DOCX_TARGETS := $(foreach TYPE,ocm pjm pdm,resume-$(TYPE).docx)
+	$(SED) -e "s|Pathfinder \& Technologist|Senior Project Manager|g"		resume.md > resume-pjm.md
+	$(SED) -e "s|Pathfinder \& Technologist|Senior Product Manager|g"		resume.md > resume-pdm.md
+	touch --reference resume.md resume-{ocm,pjm,pdm}.md
 
 .PHONY: resume_docx
 resume_docx: $(DOCX_TARGETS)

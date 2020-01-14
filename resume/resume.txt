@@ -10,7 +10,7 @@ Seattle, WA • 206-391-6606 • me@garybgenett.net • linkedin.com/in/gary-b-g
 
 Pathfinder & Technologist
 
-ORGANIZATIONAL CHANGE | PROJECT MANAGEMENT | PRODUCT OWNERSHIP
+ORGANIZATIONAL CHANGE | PROJECT MANAGEMENT | CLOUD INTEGRATION
 
 Goal-focused professional with 15+ years’ success driving all aspects of product
 ownership, project management, and organizational change to cultivate growth
@@ -24,14 +24,13 @@ final delivery, to ensure on-time, on-budget, and on-target results.
 
 CORE COMPETENCIES
 
-  -------------------------------------- ------------------------------------- --------------------------------
-  • Change Management & Transformation   • System & Process Optimization       • Technical Project Management
-  • Product Strategy & Roadmap           • Cross-functional Collaboration      • Stakeholder Engagement
-  • Scope Definition & Planning          • Requirements Gathering              • Delivery Management
-  • Team Building and Leadership         • Product Support, Sales & Training   • Budget Management
-  • Full Product Development Lifecycle   • Program & Schedule Management       • Release Management
-  • DevOps / Agile / Waterfall / Scrum   • Performance & Functional Testing    • Source Tree Management
-  -------------------------------------- ------------------------------------- --------------------------------
+  -------------------------------------- -------------------------------------- --------------------------------------
+  • Change Management & Transformation   • Process Development & Optimization   • Mergers & Acquisitions
+  • Product Strategy & Roadmap           • Cross-functional Collaboration       • Technical Project Management
+  • Scope Definition & Planning          • Stakeholder Engagement               • Requirements Gathering
+  • Team Building and Leadership         • Sales, Consulting & Training         • Public & Internal Documentation
+  • Cloud Migrations & Operations        • Complete Product Lifecycle           • DevOps / Agile / Waterfall / Scrum
+  -------------------------------------- -------------------------------------- --------------------------------------
 
 --------------------------------------------------------------------------------
 
