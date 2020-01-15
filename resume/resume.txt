@@ -29,7 +29,7 @@ CORE COMPETENCIES
   • Change Management & Transformation   • Process Development & Optimization   • Mergers & Acquisitions
   • Product Strategy & Roadmap           • Cross-functional Collaboration       • Technical Project Management
   • Scope Definition & Planning          • Stakeholder Engagement               • Requirements Gathering
-  • Team Building and Leadership         • Sales, Consulting & Training         • Public & Internal Documentation
+  • Team Building & Leadership           • Sales, Consulting & Training         • Public & Internal Documentation
   • Cloud Migrations & Operations        • Complete Product Lifecycle           • DevOps, Agile, Waterfall & Scrum
   -------------------------------------- -------------------------------------- ------------------------------------
 
