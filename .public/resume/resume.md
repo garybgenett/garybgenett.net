@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Pathfinder & Technologist
-% v7.1 (2020-01-14)
+% v7.1 (2020-01-15)
 -->
 
 <!-- ############################################################### -->
@@ -69,6 +69,7 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 <!-- Previous Sales Engineer (With Additional Relevant Experience) -->
 
 **Organizational Change \| Project Management \| Cloud Integration**
+<!-- Innovative Thinking | Strategic Delivery | Cloud Solutions -->
 <!-- Innovative Thinking | Product Strategy | Cloud Solutions -->
 <!-- Technical Sales Delivery \| Project Management \| Cloud Integration -->
 
@@ -80,7 +81,7 @@ Goal-focused professional with 15+ years' success driving all aspects of product
 | &#8226; Change Management & Transformation | &#8226; Process Development & Optimization | &#8226; Mergers & Acquisitions             |
 | &#8226; Product Strategy & Roadmap         | &#8226; Cross-functional Collaboration     | &#8226; Technical Project Management       |
 | &#8226; Scope Definition & Planning        | &#8226; Stakeholder Engagement             | &#8226; Requirements Gathering             |
-| &#8226; Team Building and Leadership       | &#8226; Sales, Consulting & Training       | &#8226; Public & Internal Documentation    |
+| &#8226; Team Building & Leadership         | &#8226; Sales, Consulting & Training       | &#8226; Public & Internal Documentation    |
 | &#8226; Cloud Migrations & Operations      | &#8226; Complete Product Lifecycle         | &#8226; DevOps, Agile, Waterfall & Scrum   |
 
 <!-- [Indeed Work Style Assessment](https://beseen.indeed.com/assessment-results/18021f2812a5d0ec) -->
