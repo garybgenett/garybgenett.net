@@ -123,6 +123,8 @@ Leveraged strong leadership abilities and strategic thinking to lead a high-perf
 
 ## F5 Networks -- Seattle, WA
 
+<!-- Strategic Leader & Team Builder, 2004 to 2016 -->
+
 Intentionally performed 5 cross-functional positions over 12 years, from 2004 to 2016, spanning the full product lifecycle through market analysis, business strategy, product management, customer requirements, architecture, design, program management, product development, release, go-to-market, competitive analysis, pre-sales, close-of-deal, implementation, deployment, and migration, with support and consulting through the entire process.
 
 ### Senior Product Management Engineer, 2014 to 2016
