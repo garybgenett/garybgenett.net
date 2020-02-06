@@ -9,7 +9,7 @@ override COMPOSER_TARGETS ?=
 override COMPOSER_SUBDIRS ?= resume projects
 override COMPOSER_DEPENDS ?=
 
-override CSS ?= $(MDVIEWER_CSS_ALT)
+#>>>override CSS ?= $(MDVIEWER_CSS_ALT)
 
 ########################################
 
