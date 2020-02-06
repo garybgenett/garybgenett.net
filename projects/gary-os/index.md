@@ -27,8 +27,8 @@
     * [Design]: [Goals], [Advantages], [Limitations], [History]
     * [Details]: [Versioning], [Structure], [Tools], [Ecosystem]
   * [Instructions]
-    * [Booting]: [USB Drive + Grub Rescue], [Windows Dual-Boot], [PXE Boot]
-    * [Running]: [Forensics + Recovery], [Networking Configuration], [Graphical Interface]
+    * [Booting]: [Boot Methods], [Grub Rescue], [Using Linux], [Using Windows], [EFI], [PXE]
+    * [Running]: [Primary Uses], [Networking Configuration], [Graphical Interface]
     * [Building]: [Live Update], [Custom Builds], [Hard Drive Install]
   * [Version History]
     * [2019-XX-XX v4.0 776f16598dac814dee59f95a1e21cefe6c612a02.0]
@@ -74,6 +74,13 @@ Primary features:
   * Complete: bootloader and direct-to-disk install of a ready-to-use system
   * Fast: everything lives in memory, so all operations happen very rapidly
 
+Designed for several specific uses (details in [Primary Uses]):
+
+  * Forensics, Rescue + Recovery
+  * Anonymous + Secure Workstation
+  * GNU/Linux Training + Learning
+  * Gentoo + Funtoo Installation
+
 The goal of GaryOS is to provide a single, simple file which can be
 conveniently used for system rescue or installation, or as a temporary
 workstation for productivity or learning.  In parallel with this is the
@@ -99,9 +106,9 @@ directly using something like:
 
   * `qemu-system-x86_64 -m 4096 -kernel [...]/gary-os-[...].kernel`
 
-To use it "for real", follow the brief instructions in the [USB Drive + Grub
-Rescue] or [Windows Dual-Boot] sections, depending on whether your current
-platform is Linux or Windows.  Apple platforms are not supported.
+To use it "for real", follow the brief instructions in the [Using Linux] or
+[Using Windows] sections, depending on your platform.  Apple platforms are not
+supported.
 
 For advanced users with an existing bootloader (such as Grub), you can add an
 entry pointing to the file on disk.  In Grub, this looks something like:
@@ -728,7 +735,7 @@ All the real heavy-lifting is accomplished using these tools/projects:
   * Funtoo + Ego: <https://funtoo.org> -- <https://funtoo.org/Package:Ego>
   * Gentoo + Portage: <https://gentoo.org> -- <https://wiki.gentoo.org/wiki/Portage>
   * Linux initramfs: <https://kernel.org/doc/Documentation/filesystems/ramfs-rootfs-initramfs.txt>
-  * Grub: <https://gnu.org/software/grub>
+  * GNU Grub: <https://gnu.org/software/grub>
 
 Kernel configuration, package lists and acknowledgments to:
 
@@ -769,19 +776,19 @@ Inspiration was provided by:
 There are also a few projects which are relied on for critical tasks or highly
 visible components, and deserve mention:
 
+  * Rufus: <https://rufus.ie>
   * Vim: <https://www.vim.org>
   * Git: <https://git-scm.com>
   * Qemu: <https://qemu.org>
   * Suckless: <https://suckless.org>
   * Links: <http://links.twibright.com>
-  * Rufus: <https://rufus.ie>
 
+[Rufus]: https://rufus.ie
 [Vim]: https://www.vim.org
 [Git]: https://git-scm.com
 [Qemu]: https://qemu.org
 [Suckless]: https://suckless.org
 [Links]: http://links.twibright.com
-[Rufus]: https://rufus.ie
 
 It should be noted, with additional emphasis, the critical role tomsrtbt played
 in the course of the author's career, and his sustained mentality towards the
@@ -806,42 +813,117 @@ has further information about the testing done.
 
 These sections cover the various ways of booting GaryOS into a running system.
 
-### USB Drive + Grub Rescue ####################################################
-[USB Drive +_Grub Rescue]: #USB Drive + Grub Rescue
+### Boot Methods ###############################################################
+[Boot Methods]: #Boot_Methods
 
 #WORKING
 
-| Description  | GaryOS requires some form of bootable media to load from, and this will most likely be a hard disk or USB drive.
-| Method #1    | Install Grub and prepared partitions to a USB drive from either Linux or Windows.
-| Method #2    | Boot into a mostly complete Grub environment directly from the boot record without requiring any additional files from disk
-| Method #3    | Create a Grub "core.img" which can be booted using identical methods and options as GaryOS, such as PXE, Qemu, etc.
-| Method #4    | WORK: Tested in place of GaryOS with both Qemu and PXE -- For details on PXE, see the [PXE Boot] section below
+[Grub Rescue]
 
-**Grub Rescue**
-**USB Drive (Linux)**
-**USB Drive (Windows)**
+[Using Linux]
 
-| Grub Version | sys-boot/grub-2.02_beta2-r3
+[Using Windows]
 
-Research and development:
+[EFI]
 
-    * <https://gnu.org/software/grub/manual/grub.html#BIOS-installation>
-        * <https://gnu.org/software/grub/manual/grub.html#Images>
-    * <http://lukeluo.blogspot.com/2013/06/grub-how-to-4-memdisk-and-loopback.html>
-    * <http://wiki.osdev.org/GRUB_2#Disk_image_instructions>
+[PXE]
 
-**Grub Rescue**
+#WORKING
 
-	https://linux.org/threads/understanding-the-various-grub-modules.11142
-	#WORK usb drive instructions, using grub.sh (merge with grub section below?)
-	#WORK new options/help and menu search feature... add to version history highlights
-	#WORK hybrid mbr notes?  automate in grub.sh?  yes... script out creation of a blank usb drive
-	https://wiki.gentoo.org/wiki/GRUB2#BIOS_with_GPT
-	http://rodsbooks.com/gdisk/hybrid.html
+### Grub Rescue ################################################################
+[Grub Rescue]: #Grub_Rescue
+
+|:---|:---|
+| **Description** | -- GaryOS requires some form of bootable media to load from, such as a hard disk or USB drive. \
+                    -- To support this, a custom Grub bootloader image is created by the "[scripts/grub.sh]" script.  This image is a near-complete Grub rescue environment that can be loaded without requiring any additional files from disk.
+| **Resources**   | -- List of Grub modules and what they are: <https://linux.org/threads/understanding-the-various-grub-modules.11142> \
+                    -- #WORK usb drive instructions, using grub.sh (merge with grub section below?) \
+                    -- #WORK new options/help and menu search feature... add to version history highlights \
+                    -- #WORK hybrid mbr notes?  automate in grub.sh?  yes... script out creation of a blank usb drive \
+                    -- *More about hybrid partition tables: <http://rodsbooks.com/gdisk/hybrid.html>* \
+                    -- #WORK \
+                    -- custom menu gary-os.grub.cfg \
+                    -- secure boot \
+                    -- null kernel = was that just a fluke?  test laptop again...
+| **Versions**    | -- Grub: sys-boot/grub-2.02-r1 \
+                    -- Rufus: v3.7
+
+There are three supported methods for getting this image installed to a USB
+drive or hard disk, in order of preference and supportability:
+
+  1. Use an existing Linux-compatible bootloader on a USB drive or hard disk
+  2. From Windows or Linux, use the prepared disk image to overwrite and format
+     a USB drive
+  3. From Linux, use the "[scripts/grub.sh]" script to overwrite and format
+     a USB drive
+  4. From Linux, use the "[scripts/grub.sh]" script to install the bootloader
+     to an already formatted USB drive or hard disk
+
+The second option is the only way to prepare a USB drive from within Windows,
+and is for cases where you want to create a rescue USB drive and/or dual-boot
+Linux without having to reformat your hard drive and reinstall Windows.
+
+**1. Existing Bootloader**
+
+If you already have a Linux-compatible bootloader installed, all you need to do is point to the [Kernel] on whatever hard disk or USB drive is being used whatever hard disk or USB drive is being used.  Reference it as a normal Linux kernel, and no kernel options or initrd files are needed.
+
+If you are using Grub as your bootloader, it is as simple as something like this:
+
+	#WORK: boot.kernel?
+	menuentry "GaryOS" {
+		linux  (hd0,1)/gary-os/gary-os.boot.kernel
+		linux  (hd0,1)/gary-os/gary-os.kernel
+	}
+
+Setting this up for other bootloaders is left as an exercise for the reader.
+
+#WORKING
+
+#WORK: use the "grub.cfg" file?
+#WORK: manual, direct "linux" entry (gary-os.boot.kernel, too?)
+
+| Partition | Start Sector | End Sector | Size       | Code | Name
+|---:       |---:          |---:        |---:        |---:  |:---
+|  1        | 2363392      | 7275923    |    2.3 GiB | 0700 | Microsoft basic data
+| 98        |  266240      | 2363391    | 1024.0 MiB | EF00 | EFI System
+| 99        |    4096      |  266239    |  128.0 MiB | EF02 | BIOS boot partition
+
+**2.a. Prepared Image (Windows)**
+
+	rufus instructions || ctrl+r = compmgmt.msc / diskmgmt.msc -> ctrl+x = Disk Management -> search box = disk management = "Create and format hard disk partitions"
+		anything 4gb or greater
+		right click zip -> extract all (select same folder it is in, such as desktop)
+		rufus (yes, allow, if it asks)
+		skip the update
+		select usb drive (may need advanced drive options -> List USB Hard Drives) -> screenshot?
+		select loopfile.img image
+		start (yes, destroy! = careful!)
+		diskmgmt -> erase last partition and create new
+		gary-os/gary-os.grub.cfg
+		gary-os/gary-os.kernel
+		ready to go!
+
+**2.b. Prepared Image (Linux)**
+
 	#WORK
-	custom menu gary-os.grub.cfg
-	secure boot
-	null kernel = was that just a fluke?  test laptop again...
+	usage: grub.sh {directory} [options]
+	{directory}             target directory to use for building grub files (must already exist)
+	[-d || -d<0-9+>]        show debug information || number of objects to list (default: 10)
+	[-f || -fx]             format the target block device || use ext4 instead of vfat/exfat
+	[block device]          use target device instead of the example loopfile
+	        (loopfile):     [...]/loopfile.img
+	        grub<0-9+>      alternate partition number for example loopfile (default: 1)
+	        /dev/sda        use specified device with standard data partition (default: 1)
+	        /dev/sda<0-9+>  custom data partition number
+	[kernel options]        additional custom options to pass to the kernel at boot
+
+  * [Release Process + Checklist]
+
+**3. Format With Script**
+
+**4. Install With Script**
+
+**Grub Rescue**
 
 For convenience and supportability, this case has also been automated in
 the `grub.sh` script.  The `gary-os.grub.*` file in the root download
@@ -868,52 +950,13 @@ Instructions for Grub "rescue" image installation to hard disk:
   6. To remove, simply re-install Grub using `grub-install` as usual, or
      install another bootloader.
 
-	#WORK validate this table looks good in composer/github
+### Using Linux ################################################################
+[Using Linux]: #Using_Linux
 
-| Partition | Start Sector | End Sector | Size       | Code | Name
-|---:       |---:          |---:        |---:        |---:  |:---
-|  1        | 2363392      | 7275923    |    2.3 GiB | 0700 | Microsoft basic data
-| 98        |  266240      | 2363391    | 1024.0 MiB | EF00 | EFI System
-| 99        |    4096      |  266239    |  128.0 MiB | EF02 | BIOS boot partition
+	#WORKING
 
-**USB Drive (Linux)**
-
-	#WORK
-	usage: grub.sh {directory} [options]
-	{directory}             target directory to use for building grub files (must already exist)
-	[-d || -d<0-9+>]        show debug information || number of objects to list (default: 10)
-	[-f || -fx]             format the target block device || use ext4 instead of vfat/exfat
-	[block device]          use target device instead of the example loopfile
-	        (loopfile):     [...]/loopfile.img
-	        grub<0-9+>      alternate partition number for example loopfile (default: 1)
-	        /dev/sda        use specified device with standard data partition (default: 1)
-	        /dev/sda<0-9+>  custom data partition number
-	[kernel options]        additional custom options to pass to the kernel at boot
-
-**USB Drive (Windows)**
-
-	rufus instructions || ctrl+r = compmgmt.msc / diskmgmt.msc -> ctrl+x = Disk Management -> search box = disk management = "Create and format hard disk partitions"
-		anything 4gb or greater
-		right click zip -> extract all (select same folder it is in, such as desktop)
-		rufus (yes, allow, if it asks)
-		skip the update
-		select usb drive (may need advanced drive options -> List USB Hard Drives) -> screenshot?
-		select loopfile.img image
-		start (yes, destroy! = careful!)
-		diskmgmt -> erase last partition and create new
-		gary-os/gary-os.grub.cfg
-		gary-os/gary-os.kernel
-		ready to go!
-	https://github.com/pbatard/rufus
-		https://github.com/pbatard/rufus/releases/download/v3.7/rufus-3.7p.exe
-		https://www.balena.io/etcher
-	git://github.com/pbatard/rufus.git -> wsl -> sudo apt-get install build-essential
-	add to tools section
-	version update to release checklist
-	last tested = version
-
-### Windows Dual-Boot ##########################################################
-[Windows Dual-Boot]: #Windows_Dual-Boot
+### Using Windows ##############################################################
+[Using Windows]: #Using_Windows
 
 	#WORKING
 
@@ -1004,29 +1047,47 @@ Administrator to remove the unwanted entries:
      * e.g. `bcdedit /delete {02a0fce9-68f5-11e3-aa07-e94d28b95f82}
        /cleanup`
 
-### PXE Boot ###################################################################
-[PXE Boot]: #PXE_Boot
+### EFI ########################################################################
+[EFI]: #EFI
 
-	#WORKING
-	#WORK: http://ondatechnology.org/wiki/index.php?title=Booting_the_Linux_Kernel_without_a_bootloader
+|:---|:---|
+| **Description** | -- Use the Linux EFI stub to boot GaryOS directly as an EFI application, without the need for a bootloader.
+| **Resources**   | -- <https://wiki.archlinux.org/index.php/EFISTUB#Booting_EFISTUB>
+| **Versions**    | -- (This is a Linux kernel native feature, and has been enabled in GaryOS) \
+                    -- EFI Boot Manager: sys-boot/efibootmgr-15
 
-  * Definition:
-    * Boot from a PXE environment
-    * With some modification of the Funtoo configuration and package list, the
-      build system can be used to create a lab workstation or other automated
-      environment where a reboot completely resets each machine involved
-  * Last tested with:
-    * GaryOS v3.0
-    * DHCPd: net-misc/dhcp-4.2.5_p1-r2
-    * TFTPd: net-misc/iputils-20121221-r2
-    * iPXE: sys-firmware/ipxe-1.0.0_p20130624-r2
-  * Research and development:
-    * <https://wiki.archlinux.org/index.php/archboot#PXE_booting_.2F_Rescue_system>
+#WORK: needs testing
 
-Once you have a functioning PXE environment, on a global or per-host
-basis add the following configuration option to `dhcpd.conf`:
+#WORKING
+
+With some modification of the Funtoo configuration and package list, the build
+system can be used to create a lab workstation or other automated environment
+where machines can be spontaneously set up and then completely wiped and reset
+with a simple reboot.
+
+### PXE ########################################################################
+[PXE]: #PXE
+
+|:---|:---|
+| **Description** | -- Boot directly from a network card using a PXE server hosting GaryOS.
+| **Resources**   | -- <https://linuxconfig.org/network-booting-with-linux-pxe>
+| **Versions**    | -- DHCPd: net-misc/dhcp-4.3.6_p1 \
+                  | -- TFTPd: net-ftp/tftp-hpa-5.2-r1 \
+                  | -- Qemu: app-emulation/qemu-3.0.0 \
+                  | -- iPXE: sys-firmware/ipxe-1.0.0_p20180211
+
+With some modification of the Funtoo configuration and package list, the build
+system can be used to create a lab workstation or other automated environment
+where machines can be spontaneously set up and then completely wiped and reset
+with a simple reboot.
+
+Once you have a functioning PXE environment, on a global or per-host basis add
+the following configuration option to `dhcpd.conf`:
 
   * `filename "gary-os-[...].kernel";`
+
+The "Resources" links in the table above have further instructions on
+configuring a PXE environment suitable for booting Linux.
 
 ## Running #####################################################################
 [Running]: #Running
@@ -1034,8 +1095,17 @@ basis add the following configuration option to `dhcpd.conf`:
 There are few tasks you may wish to perform once GaryOS is booted and running.
 Some examples are setting up networking or running the graphical interface.
 
-### Forensics + Recovery #######################################################
-[Forensics + Recovery]: #Forensics_+_Recovery
+### Primary Uses ###############################################################
+[Primary Uses]: #Primary_Uses
+
+#WORKING
+
+|:---|:---|
+| **Description** | -- Use GaryOS to examine a system and hard drives from a completely read-only "clean room" environment
+                  | -- Repair failed systems or recover data from failed hard drives
+                    -- To support this, a custom Grub bootloader image is created by the "[scripts/grub.sh]" script.  This image is a near-complete Grub rescue environment that can be loaded without requiring any additional files from disk.
+| **Resources**   | -- List of all the kernel parameters: <https://www.kernel.org/doc/html/v4.18/admin-guide/kernel-parameters.html> \
+| **Versions**    | -- (The options are native to the Linux kernel native feature, and has been enabled in GaryOS) \
 
 	#WORKING
 	* #WORK: eliminate
@@ -1060,6 +1130,7 @@ and interrogation.
 It is a stated goal that forensics mode continue being the default.
 
 	#WORK suspend to ram capability
+	#WORK packages.txt
 
 ### Networking Configuration ###################################################
 [Networking Configuration]: #Networking_Configuration
@@ -1456,6 +1527,7 @@ Instructions for installing to disk:
     * #WORKING: Increased memory requirements
     * #WORKING: Added "minimal" binary?
 	#WORKING
+    * #WORKING: Completely disabled swap in Linux kernel configuration
   * Funtoo configuration
 	#WORKING
   * Build system
@@ -1691,6 +1763,7 @@ Instructions for installing to disk:
 #		* metro.sh -! ++ (echo | metro.sh 32 0) ++ (echo | metro.sh 64 0)
 #			* qemu-minion.bsh /.g/_data/_builds/_metro/stage3-generic_32-*.kernel "" -append nomodeset
 #			* qemu-minion.bsh /.g/_data/_builds/_metro/stage3-generic_64-*.kernel "" -append nomodeset
+#			* (test grub.sh install/boot on secondary disk)
 #		* cd /.g/_data/_builds/_metro ++ cat _commit
 #			* [verify with "git-list" in each repository]
 #		* cd /.g/_data/_builds/.gary-os/.gary-os ; vdiff -g v#.#
@@ -1734,6 +1807,7 @@ WORK -->
 			* gentoo.gary-os -> .validate
 		* updated screenshots
 		* release process for gary-os
+			* https://github.com/pbatard/rufus/releases/download/v3.7/rufus-3.7p.exe
 			* make clean release
 			* verify root filesystem contents
 			* publish_prep
