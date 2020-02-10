@@ -36,7 +36,7 @@ Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.
 
 LinkedIn:
 <!-- 6789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456 -->
-Strategic leader with 20+ years’ success in change/project management, mergers/acquisitions & cloud/systems integration
+Strategic leader with 20+ years' success in change/project management, mergers/acquisitions & cloud/systems integration
 
 ZipRecruiter:
 <!-- 6789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456 -->
