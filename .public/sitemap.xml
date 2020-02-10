@@ -3,22 +3,22 @@
   
   <url>
     <loc>http://www.garybgenett.net/writing/gary-os/index.html</loc>
-    <lastmod>2020-02-07T19:54:01.197Z</lastmod>
+    <lastmod>2020-02-10T19:52:30.222Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/gary-os/index.html</loc>
-    <lastmod>2020-02-07T19:54:01.197Z</lastmod>
+    <lastmod>2020-02-10T19:52:30.222Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/writing/composer/index.html</loc>
-    <lastmod>2020-02-07T19:54:01.173Z</lastmod>
+    <lastmod>2020-02-10T19:52:30.162Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/composer/index.html</loc>
-    <lastmod>2020-02-07T19:54:01.173Z</lastmod>
+    <lastmod>2020-02-10T19:52:30.162Z</lastmod>
   </url>
   
   <url>
@@ -42,18 +42,13 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/gary-os/archive/GaryOS-103629.shtml.html</loc>
-    <lastmod>2019-09-24T20:08:55.184Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.garybgenett.net/projects/gary-os/archive/GaryOS-103629.shtml.html</loc>
     <lastmod>2019-09-24T20:08:55.184Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/projects/gary-os/archive/Gentoo_Ecosystem.html</loc>
-    <lastmod>2019-08-08T04:55:53.000Z</lastmod>
+    <loc>http://www.garybgenett.net/writing/gary-os/archive/GaryOS-103629.shtml.html</loc>
+    <lastmod>2019-09-24T20:08:55.184Z</lastmod>
   </url>
   
   <url>
@@ -62,8 +57,8 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/composer/revealjs.css</loc>
-    <lastmod>2019-07-25T18:31:59.080Z</lastmod>
+    <loc>http://www.garybgenett.net/projects/gary-os/archive/Gentoo_Ecosystem.html</loc>
+    <lastmod>2019-08-08T04:55:53.000Z</lastmod>
   </url>
   
   <url>
@@ -72,12 +67,17 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/README.html</loc>
-    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
+    <loc>http://www.garybgenett.net/writing/composer/revealjs.css</loc>
+    <lastmod>2019-07-25T18:31:59.080Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/writing/index.html</loc>
+    <lastmod>2019-03-11T22:13:33.537Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/writing/README.html</loc>
     <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/2020/02/06/README/</loc>
+    <loc>http://www.garybgenett.net/2020/02/10/README/</loc>
     <lastmod>2019-03-11T22:13:33.537Z</lastmod>
   </url>
   
