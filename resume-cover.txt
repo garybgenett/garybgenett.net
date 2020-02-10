@@ -64,6 +64,11 @@ organizational change and project management experience, I was pleased to find
 [COMPANY]’s opening for a [POSITION]. Eager to learn more about this exciting
 opportunity, I have enclosed my resume for your review.
 
+– In my search for a new challenge where I can leverage my extensive product
+strategy and management experience, I was pleased to find [COMPANY]’s opening
+for a [POSITION]. Eager to learn more about this exciting opportunity, I have
+enclosed my resume for your review.
+
 Throughout my career, I have established a reputation as a transformational
 leader who is driven by challenge, undeterred by obstacles, and committed to
 exceeding expectations. My expertise encompasses all aspects of the product
@@ -93,18 +98,28 @@ highlights:
         become the first airline to succeed in pulling off FCC certification of
         full M&E system alignment post-merger with Virgin America
 -   Built an integral new cloud/orchestration team at F5 Networks, establishing
-    and bringing to market a new vision for automation, integrating all existing
-    technologies into a unified suite across 5 disparate teams with different
-    knowledge domains, technology areas and development models
+    and bringing to market a new vision for automation of products in the cloud,
+    and integrating all existing technologies into a unified suite across 5
+    disparate engineering teams with different knowledge domains, technology
+    areas and development models
+    -   Built an integral new cloud/orchestration team at F5 Networks,
+        establishing and bringing to market a new vision for automation,
+        integrating all existing technologies into a unified suite across 5
+        disparate teams with different knowledge domains, technology areas and
+        development models
 -   Drove the successful milestone release of 5 innovative technologies and deep
     product rewrite at F5 Networks
     -   Steered the internal homegrown heuristics tool to pre-analyze customer
         diagnostic files for the F5 Networks support team through initial stages
         to customer-facing product
-    -   Pioneered detailed integration guide and training to aid 3rd party
-        development for Microsoft as a F5 Networks technology leader
+-   Expanded the Microsoft GNS infrastructure to thousands of devices during the
+    development of Azure public cloud, and initiated and directed the first 2
+    successful production deployments of F5’s revolutionary chassis architecture
+    in Xbox Live
     -   Initiated and directed first 2 successful production deployments of
         revolutionary F5 Networks chassis architecture for Xbox Live
+    -   Pioneered detailed integration guide and training to aid 3rd party
+        development for Microsoft as a F5 Networks technology leader
 
 Over the course of my professional history, I have achieved the following
 acquisition highlights:
