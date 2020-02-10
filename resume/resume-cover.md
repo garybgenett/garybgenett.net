@@ -83,6 +83,7 @@ Over the course of my professional history, I have achieved the following career
   * Drove the successful milestone release of 5 innovative technologies and deep product rewrite at F5 Networks
     * Steered the internal homegrown heuristics tool to pre-analyze customer diagnostic files for the F5 Networks support team through initial stages to customer-facing product
   * Expanded the Microsoft GNS infrastructure to thousands of devices during the development of Azure public cloud, and initiated and directed the first 2 successful production deployments of F5's revolutionary chassis architecture in Xbox Live
+    * Delivered $30M in revenue expanding the Microsoft GNS infrastructure to thousands of devices during the development of Azure public cloud, and initiated and directed the first 2 successful production deployments of F5's revolutionary chassis architecture in Xbox Live
     * Initiated and directed first 2 successful production deployments of revolutionary F5 Networks chassis architecture for Xbox Live
     * Pioneered detailed integration guide and training to aid 3rd party development for Microsoft as a F5 Networks technology leader
 
