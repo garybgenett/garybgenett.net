@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.garybgenett.net/projects/gary-os/index.html</loc>
-    <lastmod>2020-02-19T22:06:11.331Z</lastmod>
+    <loc>http://www.garybgenett.net/writing/gary-os/index.html</loc>
+    <lastmod>2020-02-19T22:17:43.514Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/gary-os/index.html</loc>
-    <lastmod>2020-02-19T22:06:11.331Z</lastmod>
+    <loc>http://www.garybgenett.net/projects/gary-os/index.html</loc>
+    <lastmod>2020-02-19T22:17:43.514Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/writing/composer/index.html</loc>
-    <lastmod>2020-02-19T22:06:11.311Z</lastmod>
+    <lastmod>2020-02-19T22:17:43.486Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/composer/index.html</loc>
-    <lastmod>2020-02-19T22:06:11.311Z</lastmod>
+    <lastmod>2020-02-19T22:17:43.486Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/index.html</loc>
-    <lastmod>2020-02-18T23:48:32.790Z</lastmod>
+    <lastmod>2020-02-19T22:15:20.464Z</lastmod>
   </url>
   
   <url>
@@ -47,22 +47,22 @@
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/projects/gary-os/archive/GaryOS-103629.shtml.html</loc>
-    <lastmod>2019-09-24T20:08:55.184Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.garybgenett.net/writing/gary-os/archive/GaryOS-103629.shtml.html</loc>
     <lastmod>2019-09-24T20:08:55.184Z</lastmod>
   </url>
   
   <url>
-    <loc>http://www.garybgenett.net/writing/gary-os/archive/Gentoo_Ecosystem.html</loc>
-    <lastmod>2019-08-08T04:55:53.000Z</lastmod>
+    <loc>http://www.garybgenett.net/projects/gary-os/archive/GaryOS-103629.shtml.html</loc>
+    <lastmod>2019-09-24T20:08:55.184Z</lastmod>
   </url>
   
   <url>
     <loc>http://www.garybgenett.net/projects/gary-os/archive/Gentoo_Ecosystem.html</loc>
+    <lastmod>2019-08-08T04:55:53.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.garybgenett.net/writing/gary-os/archive/Gentoo_Ecosystem.html</loc>
     <lastmod>2019-08-08T04:55:53.000Z</lastmod>
   </url>
   

@@ -1,7 +1,7 @@
 <!--
 % Gary B. Genett
 % Pathfinder & Technologist
-% v7.5 (2020-02-18)
+% v7.5 (2020-02-19)
 -->
 
 <!-- ############################################################### -->
@@ -61,7 +61,7 @@
 
 # Gary B. Genett
 
-Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [linkedin.com/in/gary-b-genett](https://www.linkedin.com/in/gary-b-genett)
+Seattle, WA &#8226; 206-391-6606 &#8226; <me@garybgenett.net> &#8226; [garybgenett.net](http://www.garybgenett.net) &#8226; [linkedin.com/in/gary-b-genett](https://www.linkedin.com/in/gary-b-genett)
 
 ------------------------------------------------------------------------
 
