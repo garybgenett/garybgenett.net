@@ -71,6 +71,7 @@ else
 	vdiff ${CVR_OLD} ${CVR_NEW}
 fi
 
+(cd $(dirname ${DIR}) && vdiff -g)
 (cd $(dirname ${DIR}) && git-perms root)
 
 exit 0
