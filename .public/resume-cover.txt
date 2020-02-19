@@ -97,6 +97,13 @@ highlights:
         DevOps model at Alaska Airlines as part of a $40M integration program to
         become the first airline to succeed in pulling off FCC certification of
         full M&E system alignment post-merger with Virgin America
+    -   Strengthened controls and overall quality of outcomes by creating and
+        implementing best practices to ensure smooth transition to cloud-based
+        DevOps model and migration of legacy software applications and systems
+        to newly developed platforms at Alaska Airlines as part of a $40M
+        integration program to become the first airline to succeed in pulling
+        off FCC certification of full M&E system alignment post-merger with
+        Virgin America
 -   Built an integral new cloud/orchestration team at F5 Networks, establishing
     and bringing to market a new vision for automation of products in the cloud,
     and integrating all existing technologies into a unified suite across 5
@@ -107,6 +114,9 @@ highlights:
         integrating all existing technologies into a unified suite across 5
         disparate teams with different knowledge domains, technology areas and
         development models
+    -   Consulted and guided customers in their migrations from on-site software
+        solutions to SaaS cloud-based equivalents using our cloud/orchestration
+        solutions at F5 Networks
 -   Drove the successful milestone release of 5 innovative technologies and deep
     product rewrite at F5 Networks
     -   Steered the internal homegrown heuristics tool to pre-analyze customer
@@ -116,6 +126,10 @@ highlights:
     development of Azure public cloud, and initiated and directed the first 2
     successful production deployments of F5’s revolutionary chassis architecture
     in Xbox Live
+    -   Expanded the Microsoft GNS infrastructure to thousands of devices during
+        the transition to Azure public cloud, and initiated and directed the
+        first 2 successful production deployments of F5’s revolutionary chassis
+        architecture in Xbox Live
     -   Delivered $30M in revenue expanding the Microsoft GNS infrastructure to
         thousands of devices during the development of Azure public cloud, and
         initiated and directed the first 2 successful production deployments of
