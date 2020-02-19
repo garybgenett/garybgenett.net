@@ -126,6 +126,8 @@ endef
 .PHONY: generate
 generate: subdirs
 generate: HEXO_WORK_DONE
+generate:
+	$(RSYNC) --copy-links $(COMPOSER_FULLDIR)/resume.html $(COMPOSER_FULLDIR)/.public/index.html
 
 .PHONY: server
 server: HEXO_WORK_server
