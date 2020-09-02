@@ -1,0 +1,75 @@
+About Highspot
+
+  * Highspot is a leading SaaS provider of modern sales enablement solutions. Using Highspot, sales teams have content and guidance in one place, preparing them for every sales conversation. Advanced analytics help marketing and sales gain a deep understanding of how content is performing so they can optimize content investment and amplify best practices. Highspot helps companies achieve their revenue goals faster through tighter alignment and coordination between sales, marketing, and the entire go-to-market team.
+
+About the Role
+
+  * We're looking for a self-motivated, growth-minded, and unabashedly detail-obsessed Technical Project Manager to join our rapidly-growing Product Engineering Team. This person will fill a pivotal role in the broader Highspot Product Team, operating at the confluence of Product Management, Engineering, Design, and Customer Service. The right candidate is a seasoned agile practitioner who fluently speaks the language of SaaS products and technologies (though not necessarily a developer), and who knows how to apply and adapt process commensurate with the company's size, culture, challenges, and strategic objectives.
+
+What You'll Do
+
+  * Work closely with product management and engineering leadership to understand new features and product enhancements, ensuring that they are effectively documented and communicated, efficiently shepherded through the engineering process, and thoroughly tested.
+  * Partner with QA to help suffuse quality and effective testing through every stage of the SDLC.
+  * Optimize cross-functional development processes to meet the scaling organization's needs.
+  * Teach and model agile processes.
+  * Write and manage technical documentation.
+  * Anticipate and resolve risks and roadblocks to ensure projects are completed on time.
+  * Lead a variety of projects that intersect with product engineering; for example, initiatives related to compliance, business intelligence, reporting, and selection of technology and vendors.
+
+Your Background
+
+  * Proven success as a project manager for software teams in B2B SaaS companies.
+  * Deep practical experience employing and teaching a variety of agile methodologies.
+  * Experience with agile software development methodologies and productivity tools.
+  * Experience selecting, deploying, and using application/system monitoring and reporting tools.
+  * Ability to identify, prioritize, and successfully execute multiple competing priorities with minimal oversight.
+  * Excellent written and verbal communication skills across both technical and non-technical audiences.
+  * Strong problem solving and organizational skills.
+  * Software development experience is a plus, but not required.
+  * Entrepreneurial spirit, priding yourself on getting things done with a high level of quality.
+
+Benefits
+
+  * Exceptional medical, dental, and vision benefits
+  * Flexible work and vacation schedules
+  * Transportation benefits
+  * Competitive compensation
+  * Fully-stocked kitchen with healthy snacks and drinks
+  * Free catered lunches every Friday
+  * Company bonding events throughout the year
+  * Open and spacious office located in the heart of Seattle
+  * Great views of the city and Puget Sound
+  * Meaningfully contribute to a compelling vision
+  * Environment to do your best work
+
+---
+
+Leadership
+
+  * Robert Wahbe -- CEO
+  * Oliber Sharp -- Chief Solution Architect
+  * David Wortendyke -- Chief Product Officer
+  * John White -- VP Product
+
+---
+
+Organization
+
+  * What is the company mission, in your own words?  Why is that mission important to you?
+  * What type of person is going to be most successful at this company?  In this role?
+  * Organizational structure?  Matrixed?  Who reports to who?
+
+Role
+
+  * What does PJM mean to you, and what skills are critical to the role?
+  * What value does PJM provide, and how is that accomplished?
+  * What will it take to be successful as a PJM?
+
+Environment
+
+  * What do you like most about working here?
+  * How do you describe the environment here?
+  * What brought you to the company, and what keeps you here?
+  * What is one thing you wish was different, and what would you like to see done about it?
+  * What are the collaboration tools that the company uses?  Calendar?  Email?  IM?  Remote access?
+  * How does the company encourage employees to lead healthy, balanced lives?
