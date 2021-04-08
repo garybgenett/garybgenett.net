@@ -66,7 +66,7 @@ if [[ -n ${1} ]]; then
 		fi
 	fi
 else
-	view ${RES_NEW} ${CVR_NEW}
+	${EDITOR} ${RES_NEW} ${CVR_NEW} Makefile
 	vdiff ${RES_OLD} ${RES_NEW}
 	vdiff ${CVR_OLD} ${CVR_NEW}
 fi
