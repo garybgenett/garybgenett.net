@@ -1,21 +1,293 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
 <head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Gary B. Genett</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <style type="text/css">body {
+font-family: Helvetica, arial, sans-serif;
+font-size: 14px;
+line-height: 1.6;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: white;
+padding: 30px; }
+body > *:first-child {
+margin-top: 0 !important; }
+body > *:last-child {
+margin-bottom: 0 !important; }
+a {
+color: #4183C4; }
+a.absent {
+color: #cc0000; }
+a.anchor {
+display: block;
+padding-left: 30px;
+margin-left: -30px;
+cursor: pointer;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0; }
+h1, h2, h3, h4, h5, h6 {
+margin: 20px 0 10px;
+padding: 0;
+font-weight: bold;
+-webkit-font-smoothing: antialiased;
+cursor: text;
+position: relative; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+text-decoration: none; }
+h1 tt, h1 code {
+font-size: inherit; }
+h2 tt, h2 code {
+font-size: inherit; }
+h3 tt, h3 code {
+font-size: inherit; }
+h4 tt, h4 code {
+font-size: inherit; }
+h5 tt, h5 code {
+font-size: inherit; }
+h6 tt, h6 code {
+font-size: inherit; }
+h1 {
+font-size: 28px;
+color: black; }
+h2 {
+font-size: 24px;
+border-bottom: 1px solid #cccccc;
+color: black; }
+h3 {
+font-size: 18px; }
+h4 {
+font-size: 16px; }
+h5 {
+font-size: 14px; }
+h6 {
+color: #777777;
+font-size: 14px; }
+p, blockquote, ul, ol, dl, li, table, pre {
+margin: 15px 0; }
+hr {
+border: 0 none;
+color: #cccccc;
+height: 4px;
+padding: 0;
+}
+body > h2:first-child {
+margin-top: 0;
+padding-top: 0; }
+body > h1:first-child {
+margin-top: 0;
+padding-top: 0; }
+body > h1:first-child + h2 {
+margin-top: 0;
+padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+margin-top: 0;
+padding-top: 0; }
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+margin-top: 0;
+padding-top: 0; }
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+margin-top: 0; }
+li p.first {
+display: inline-block; }
+li {
+margin: 0; }
+ul, ol {
+padding-left: 30px; }
+ul :first-child, ol :first-child {
+margin-top: 0; }
+dl {
+padding: 0; }
+dl dt {
+font-size: 14px;
+font-weight: bold;
+font-style: italic;
+padding: 0;
+margin: 15px 0 5px; }
+dl dt:first-child {
+padding: 0; }
+dl dt > :first-child {
+margin-top: 0; }
+dl dt > :last-child {
+margin-bottom: 0; }
+dl dd {
+margin: 0 0 15px;
+padding: 0 15px; }
+dl dd > :first-child {
+margin-top: 0; }
+dl dd > :last-child {
+margin-bottom: 0; }
+blockquote {
+border-left: 4px solid #dddddd;
+padding: 0 15px;
+color: #777777; }
+blockquote > :first-child {
+margin-top: 0; }
+blockquote > :last-child {
+margin-bottom: 0; }
+table {
+padding: 0;border-collapse: collapse; }
+table tr {
+border-top: 1px solid #cccccc;
+background-color: white;
+margin: 0;
+padding: 0; }
+table tr:nth-child(2n) {
+background-color: #f8f8f8; }
+table tr th {
+font-weight: bold;
+border: 1px solid #cccccc;
+margin: 0;
+padding: 6px 13px; }
+table tr td {
+border: 1px solid #cccccc;
+margin: 0;
+padding: 6px 13px; }
+table tr th :first-child, table tr td :first-child {
+margin-top: 0; }
+table tr th :last-child, table tr td :last-child {
+margin-bottom: 0; }
+img {
+max-width: 100%; }
+span.frame {
+display: block;
+overflow: hidden; }
+span.frame > span {
+border: 1px solid #dddddd;
+display: block;
+float: left;
+overflow: hidden;
+margin: 13px 0 0;
+padding: 7px;
+width: auto; }
+span.frame span img {
+display: block;
+float: left; }
+span.frame span span {
+clear: both;
+color: #333333;
+display: block;
+padding: 5px 0 0; }
+span.align-center {
+display: block;
+overflow: hidden;
+clear: both; }
+span.align-center > span {
+display: block;
+overflow: hidden;
+margin: 13px auto 0;
+text-align: center; }
+span.align-center span img {
+margin: 0 auto;
+text-align: center; }
+span.align-right {
+display: block;
+overflow: hidden;
+clear: both; }
+span.align-right > span {
+display: block;
+overflow: hidden;
+margin: 13px 0 0;
+text-align: right; }
+span.align-right span img {
+margin: 0;
+text-align: right; }
+span.float-left {
+display: block;
+margin-right: 13px;
+overflow: hidden;
+float: left; }
+span.float-left span {
+margin: 13px 0 0; }
+span.float-right {
+display: block;
+margin-left: 13px;
+overflow: hidden;
+float: right; }
+span.float-right > span {
+display: block;
+overflow: hidden;
+margin: 13px auto 0;
+text-align: right; }
+code, tt {
+margin: 0 2px;
+padding: 0 5px;
+white-space: nowrap;
+border: 1px solid #eaeaea;
+background-color: #f8f8f8;
+border-radius: 3px; }
+pre code {
+margin: 0;
+padding: 0;
+white-space: pre;
+border: none;
+background: transparent; }
+.highlight pre {
+background-color: #f8f8f8;
+border: 1px solid #cccccc;
+font-size: 13px;
+line-height: 19px;
+overflow: auto;
+padding: 6px 10px;
+border-radius: 3px; }
+pre {
+background-color: #f8f8f8;
+border: 1px solid #cccccc;
+font-size: 13px;
+line-height: 19px;
+overflow: auto;
+padding: 6px 10px;
+border-radius: 3px; }
+pre code, pre tt {
+background-color: transparent;
+border: none; }
+sup {
+font-size: 0.83em;
+vertical-align: super;
+line-height: 0;
+}
+* {
+-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+body {
+width: 854px;
+margin:0 auto;
+}
+}
+@media print {
+table, pre {
+page-break-inside: avoid;
+}
+pre {
+word-wrap: break-word;
+}
+}
+</style>
   <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <link href="data:text/css,body%20%7B%0A%20%20%20font%2Dfamily%3A%20Helvetica%2C%20arial%2C%20sans%2Dserif%3B%0A%20%20%20font%2Dsize%3A%2014px%3B%0A%20%20%20line%2Dheight%3A%201%2E6%3B%0A%20%20%20padding%2Dtop%3A%2010px%3B%0A%20%20%20padding%2Dbottom%3A%2010px%3B%0A%20%20%20background%2Dcolor%3A%20white%3B%0A%20%20%20padding%3A%2030px%3B%20%7D%0A%0Abody%20%3E%20%2A%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%20%21important%3B%20%7D%0Abody%20%3E%20%2A%3Alast%2Dchild%20%7B%0A%20%20%20margin%2Dbottom%3A%200%20%21important%3B%20%7D%0A%0Aa%20%7B%0A%20%20%20color%3A%20%234183C4%3B%20%7D%0Aa%2Eabsent%20%7B%0A%20%20%20color%3A%20%23cc0000%3B%20%7D%0Aa%2Eanchor%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20padding%2Dleft%3A%2030px%3B%0A%20%20%20margin%2Dleft%3A%20%2D30px%3B%0A%20%20%20cursor%3A%20pointer%3B%0A%20%20%20position%3A%20absolute%3B%0A%20%20%20top%3A%200%3B%0A%20%20%20left%3A%200%3B%0A%20%20%20bottom%3A%200%3B%20%7D%0A%0Ah1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%20%7B%0A%20%20%20margin%3A%2020px%200%2010px%3B%0A%20%20%20padding%3A%200%3B%0A%20%20%20font%2Dweight%3A%20bold%3B%0A%20%20%20%2Dwebkit%2Dfont%2Dsmoothing%3A%20antialiased%3B%0A%20%20%20cursor%3A%20text%3B%0A%20%20%20position%3A%20relative%3B%20%7D%0A%0Ah1%3Ahover%20a%2Eanchor%2C%20h2%3Ahover%20a%2Eanchor%2C%20h3%3Ahover%20a%2Eanchor%2C%20h4%3Ahover%20a%2Eanchor%2C%20h5%3Ahover%20a%2Eanchor%2C%20h6%3Ahover%20a%2Eanchor%20%7B%0A%20%20%20text%2Ddecoration%3A%20none%3B%20%7D%0A%0Ah1%20tt%2C%20h1%20code%20%7B%0A%20%20%20font%2Dsize%3A%20inherit%3B%20%7D%0A%0Ah2%20tt%2C%20h2%20code%20%7B%0A%20%20%20font%2Dsize%3A%20inherit%3B%20%7D%0A%0Ah3%20tt%2C%20h3%20code%20%7B%0A%20%20%20font%2Dsize%3A%20inherit%3B%20%7D%0A%0Ah4%20tt%2C%20h4%20code%20%7B%0A%20%20%20font%2Dsize%3A%20inherit%3B%20%7D%0A%0Ah5%20tt%2C%20h5%20code%20%7B%0A%20%20%20font%2Dsize%3A%20inherit%3B%20%7D%0A%0Ah6%20tt%2C%20h6%20code%20%7B%0A%20%20%20font%2Dsize%3A%20inherit%3B%20%7D%0A%0Ah1%20%7B%0A%20%20%20font%2Dsize%3A%2028px%3B%0A%20%20%20color%3A%20black%3B%20%7D%0A%0Ah2%20%7B%0A%20%20%20font%2Dsize%3A%2024px%3B%0A%20%20%20border%2Dbottom%3A%201px%20solid%20%23cccccc%3B%0A%20%20%20color%3A%20black%3B%20%7D%0A%0Ah3%20%7B%0A%20%20%20font%2Dsize%3A%2018px%3B%20%7D%0A%0Ah4%20%7B%0A%20%20%20font%2Dsize%3A%2016px%3B%20%7D%0A%0Ah5%20%7B%0A%20%20%20font%2Dsize%3A%2014px%3B%20%7D%0A%0Ah6%20%7B%0A%20%20%20color%3A%20%23777777%3B%0A%20%20%20font%2Dsize%3A%2014px%3B%20%7D%0A%0Ap%2C%20blockquote%2C%20ul%2C%20ol%2C%20dl%2C%20li%2C%20table%2C%20pre%20%7B%0A%20%20%20margin%3A%2015px%200%3B%20%7D%0A%0Ahr%20%7B%0A%20%20%20border%3A%200%20none%3B%0A%20%20%20color%3A%20%23cccccc%3B%0A%20%20%20height%3A%204px%3B%0A%20%20%20padding%3A%200%3B%0A%7D%0A%0Abody%20%3E%20h2%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%0A%20%20%20padding%2Dtop%3A%200%3B%20%7D%0Abody%20%3E%20h1%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%0A%20%20%20padding%2Dtop%3A%200%3B%20%7D%0Abody%20%3E%20h1%3Afirst%2Dchild%20%2B%20h2%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%0A%20%20%20padding%2Dtop%3A%200%3B%20%7D%0Abody%20%3E%20h3%3Afirst%2Dchild%2C%20body%20%3E%20h4%3Afirst%2Dchild%2C%20body%20%3E%20h5%3Afirst%2Dchild%2C%20body%20%3E%20h6%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%0A%20%20%20padding%2Dtop%3A%200%3B%20%7D%0A%0Aa%3Afirst%2Dchild%20h1%2C%20a%3Afirst%2Dchild%20h2%2C%20a%3Afirst%2Dchild%20h3%2C%20a%3Afirst%2Dchild%20h4%2C%20a%3Afirst%2Dchild%20h5%2C%20a%3Afirst%2Dchild%20h6%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%0A%20%20%20padding%2Dtop%3A%200%3B%20%7D%0A%0Ah1%20p%2C%20h2%20p%2C%20h3%20p%2C%20h4%20p%2C%20h5%20p%2C%20h6%20p%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%20%7D%0A%0Ali%20p%2Efirst%20%7B%0A%20%20%20display%3A%20inline%2Dblock%3B%20%7D%0Ali%20%7B%0A%20%20%20margin%3A%200%3B%20%7D%0Aul%2C%20ol%20%7B%0A%20%20%20padding%2Dleft%3A%2030px%3B%20%7D%0A%0Aul%20%3Afirst%2Dchild%2C%20ol%20%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%20%7D%0A%0Adl%20%7B%0A%20%20%20padding%3A%200%3B%20%7D%0Adl%20dt%20%7B%0A%20%20%20font%2Dsize%3A%2014px%3B%0A%20%20%20font%2Dweight%3A%20bold%3B%0A%20%20%20font%2Dstyle%3A%20italic%3B%0A%20%20%20padding%3A%200%3B%0A%20%20%20margin%3A%2015px%200%205px%3B%20%7D%0Adl%20dt%3Afirst%2Dchild%20%7B%0A%20%20%20padding%3A%200%3B%20%7D%0Adl%20dt%20%3E%20%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%20%7D%0Adl%20dt%20%3E%20%3Alast%2Dchild%20%7B%0A%20%20%20margin%2Dbottom%3A%200%3B%20%7D%0Adl%20dd%20%7B%0A%20%20%20margin%3A%200%200%2015px%3B%0A%20%20%20padding%3A%200%2015px%3B%20%7D%0Adl%20dd%20%3E%20%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%20%7D%0Adl%20dd%20%3E%20%3Alast%2Dchild%20%7B%0A%20%20%20margin%2Dbottom%3A%200%3B%20%7D%0A%0Ablockquote%20%7B%0A%20%20%20border%2Dleft%3A%204px%20solid%20%23dddddd%3B%0A%20%20%20padding%3A%200%2015px%3B%0A%20%20%20color%3A%20%23777777%3B%20%7D%0Ablockquote%20%3E%20%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%20%7D%0Ablockquote%20%3E%20%3Alast%2Dchild%20%7B%0A%20%20%20margin%2Dbottom%3A%200%3B%20%7D%0A%0Atable%20%7B%0A%20%20%20padding%3A%200%3Bborder%2Dcollapse%3A%20collapse%3B%20%7D%0Atable%20tr%20%7B%0A%20%20%20border%2Dtop%3A%201px%20solid%20%23cccccc%3B%0A%20%20%20background%2Dcolor%3A%20white%3B%0A%20%20%20margin%3A%200%3B%0A%20%20%20padding%3A%200%3B%20%7D%0Atable%20tr%3Anth%2Dchild%282n%29%20%7B%0A%20%20%20background%2Dcolor%3A%20%23f8f8f8%3B%20%7D%0Atable%20tr%20th%20%7B%0A%20%20%20font%2Dweight%3A%20bold%3B%0A%20%20%20border%3A%201px%20solid%20%23cccccc%3B%0A%20%20%20margin%3A%200%3B%0A%20%20%20padding%3A%206px%2013px%3B%20%7D%0Atable%20tr%20td%20%7B%0A%20%20%20border%3A%201px%20solid%20%23cccccc%3B%0A%20%20%20margin%3A%200%3B%0A%20%20%20padding%3A%206px%2013px%3B%20%7D%0Atable%20tr%20th%20%3Afirst%2Dchild%2C%20table%20tr%20td%20%3Afirst%2Dchild%20%7B%0A%20%20%20margin%2Dtop%3A%200%3B%20%7D%0Atable%20tr%20th%20%3Alast%2Dchild%2C%20table%20tr%20td%20%3Alast%2Dchild%20%7B%0A%20%20%20margin%2Dbottom%3A%200%3B%20%7D%0A%0Aimg%20%7B%0A%20%20%20max%2Dwidth%3A%20100%25%3B%20%7D%0A%0Aspan%2Eframe%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20overflow%3A%20hidden%3B%20%7D%0Aspan%2Eframe%20%3E%20span%20%7B%0A%20%20%20border%3A%201px%20solid%20%23dddddd%3B%0A%20%20%20display%3A%20block%3B%0A%20%20%20float%3A%20left%3B%0A%20%20%20overflow%3A%20hidden%3B%0A%20%20%20margin%3A%2013px%200%200%3B%0A%20%20%20padding%3A%207px%3B%0A%20%20%20width%3A%20auto%3B%20%7D%0Aspan%2Eframe%20span%20img%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20float%3A%20left%3B%20%7D%0Aspan%2Eframe%20span%20span%20%7B%0A%20%20%20clear%3A%20both%3B%0A%20%20%20color%3A%20%23333333%3B%0A%20%20%20display%3A%20block%3B%0A%20%20%20padding%3A%205px%200%200%3B%20%7D%0Aspan%2Ealign%2Dcenter%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20overflow%3A%20hidden%3B%0A%20%20%20clear%3A%20both%3B%20%7D%0Aspan%2Ealign%2Dcenter%20%3E%20span%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20overflow%3A%20hidden%3B%0A%20%20%20margin%3A%2013px%20auto%200%3B%0A%20%20%20text%2Dalign%3A%20center%3B%20%7D%0Aspan%2Ealign%2Dcenter%20span%20img%20%7B%0A%20%20%20margin%3A%200%20auto%3B%0A%20%20%20text%2Dalign%3A%20center%3B%20%7D%0Aspan%2Ealign%2Dright%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20overflow%3A%20hidden%3B%0A%20%20%20clear%3A%20both%3B%20%7D%0Aspan%2Ealign%2Dright%20%3E%20span%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20overflow%3A%20hidden%3B%0A%20%20%20margin%3A%2013px%200%200%3B%0A%20%20%20text%2Dalign%3A%20right%3B%20%7D%0Aspan%2Ealign%2Dright%20span%20img%20%7B%0A%20%20%20margin%3A%200%3B%0A%20%20%20text%2Dalign%3A%20right%3B%20%7D%0Aspan%2Efloat%2Dleft%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20margin%2Dright%3A%2013px%3B%0A%20%20%20overflow%3A%20hidden%3B%0A%20%20%20float%3A%20left%3B%20%7D%0Aspan%2Efloat%2Dleft%20span%20%7B%0A%20%20%20margin%3A%2013px%200%200%3B%20%7D%0Aspan%2Efloat%2Dright%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20margin%2Dleft%3A%2013px%3B%0A%20%20%20overflow%3A%20hidden%3B%0A%20%20%20float%3A%20right%3B%20%7D%0Aspan%2Efloat%2Dright%20%3E%20span%20%7B%0A%20%20%20display%3A%20block%3B%0A%20%20%20overflow%3A%20hidden%3B%0A%20%20%20margin%3A%2013px%20auto%200%3B%0A%20%20%20text%2Dalign%3A%20right%3B%20%7D%0A%0Acode%2C%20tt%20%7B%0A%20%20%20margin%3A%200%202px%3B%0A%20%20%20padding%3A%200%205px%3B%0A%20%20%20white%2Dspace%3A%20nowrap%3B%0A%20%20%20border%3A%201px%20solid%20%23eaeaea%3B%0A%20%20%20background%2Dcolor%3A%20%23f8f8f8%3B%0A%20%20%20border%2Dradius%3A%203px%3B%20%7D%0A%0Apre%20code%20%7B%0A%20%20%20margin%3A%200%3B%0A%20%20%20padding%3A%200%3B%0A%20%20%20white%2Dspace%3A%20pre%3B%0A%20%20%20border%3A%20none%3B%0A%20%20%20background%3A%20transparent%3B%20%7D%0A%0A%2Ehighlight%20pre%20%7B%0A%20%20%20background%2Dcolor%3A%20%23f8f8f8%3B%0A%20%20%20border%3A%201px%20solid%20%23cccccc%3B%0A%20%20%20font%2Dsize%3A%2013px%3B%0A%20%20%20line%2Dheight%3A%2019px%3B%0A%20%20%20overflow%3A%20auto%3B%0A%20%20%20padding%3A%206px%2010px%3B%0A%20%20%20border%2Dradius%3A%203px%3B%20%7D%0A%0Apre%20%7B%0A%20%20%20background%2Dcolor%3A%20%23f8f8f8%3B%0A%20%20%20border%3A%201px%20solid%20%23cccccc%3B%0A%20%20%20font%2Dsize%3A%2013px%3B%0A%20%20%20line%2Dheight%3A%2019px%3B%0A%20%20%20overflow%3A%20auto%3B%0A%20%20%20padding%3A%206px%2010px%3B%0A%20%20%20border%2Dradius%3A%203px%3B%20%7D%0Apre%20code%2C%20pre%20tt%20%7B%0A%20%20%20background%2Dcolor%3A%20transparent%3B%0A%20%20%20border%3A%20none%3B%20%7D%0A%0Asup%20%7B%0A%20%20%20font%2Dsize%3A%200%2E83em%3B%0A%20%20%20vertical%2Dalign%3A%20super%3B%0A%20%20%20line%2Dheight%3A%200%3B%0A%7D%0A%2A%20%7B%0A%20%20%20%20%20%2Dwebkit%2Dprint%2Dcolor%2Dadjust%3A%20exact%3B%0A%7D%0A%40media%20screen%20and%20%28min%2Dwidth%3A%20914px%29%20%7B%0A%20%20%20body%20%7B%0A%20%20%20%20%20%20width%3A%20854px%3B%0A%20%20%20%20%20%20margin%3A0%20auto%3B%0A%20%20%20%7D%0A%7D%0A%40media%20print%20%7B%0A%20%20%20%20%20table%2C%20pre%20%7B%0A%20%20%20%20%20%20%20%20%20%20page%2Dbreak%2Dinside%3A%20avoid%3B%0A%20%20%20%20%20%7D%0A%20%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20%20%20%20%20word%2Dwrap%3A%20break%2Dword%3B%0A%20%20%20%20%20%7D%0A%7D%0A" rel="stylesheet">
 </head>
 <body>
+<header id="title-block-header">
+<h1 class="title">Gary B. Genett</h1>
+</header>
 <!--
 % Gary B. Genett
 % Pathfinder & Technologist
-% v7.5 (2020-02-19)
+% v8.0 (2020-02-19)
 -->
 <!-- ############################################################### -->
 <!--
@@ -69,13 +341,8 @@
   * hide special characters
 -->
 <!-- ############################################################### -->
-<h1 id="gary-b.-genett">Gary B. Genett</h1>
-<p>Seattle, WA • 206-391-6606 • <script type="text/javascript">
-<!--
-h='&#x67;&#x61;&#114;&#x79;&#98;&#x67;&#x65;&#110;&#x65;&#116;&#116;&#46;&#110;&#x65;&#116;';a='&#64;';n='&#x6d;&#x65;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>me at garybgenett dot net</noscript> • <a href="http://www.garybgenett.net">garybgenett.net</a> • <a href="https://www.linkedin.com/in/gary-b-genett">linkedin.com/in/gary-b-genett</a></p>
+<!-- # Gary B. Genett -->
+<p>Seattle, WA • 206-391-6606 • <a href="mailto:me@garybgenett.net" class="email">me@garybgenett.net</a> • <a href="http://www.garybgenett.net">garybgenett.net</a> • <a href="https://www.linkedin.com/in/gary-b-genett">linkedin.com/in/gary-b-genett</a></p>
 <hr />
 <h2 id="pathfinder-technologist">Pathfinder &amp; Technologist</h2>
 <!--
@@ -99,6 +366,11 @@ Technology Transitions
 <p>Goal-focused professional with 20+ years’ success driving all aspects of product ownership, project management, and organizational change to cultivate growth within pressurized environments. Strong ability to build and lead teams that meet and exceed established goals and expectations. Highly adept at developing and implementing controls, processes, and best practices that enhance operational efficiency and mitigate risks. Well-versed in mergers and acquisitions, and technically proficient with cloud architecture and automation. Demonstrated ability to guide full product and project management lifecycle, from scope definition and initial planning to final delivery, to ensure on-time, on-budget, and on-target results.</p>
 <p><strong>Core Competencies</strong></p>
 <table>
+<colgroup>
+<col style="width: 33%"></col>
+<col style="width: 33%"></col>
+<col style="width: 33%"></col>
+</colgroup>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">• Change Management &amp; Transformation</td>
