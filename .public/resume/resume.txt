@@ -1,17 +1,13 @@
-
-
-GARY B. GENETT
-
+Gary B. Genett
 
 Seattle, WA • 206-391-6606 • me@garybgenett.net • garybgenett.net •
 linkedin.com/in/gary-b-genett
 
 --------------------------------------------------------------------------------
 
-
 Pathfinder & Technologist
 
-STRATEGIC DELIVERY | ORGANIZATIONAL CHANGE | SYSTEMS INTEGRATION
+Strategic Delivery | Organizational Change | Systems Integration
 
 Goal-focused professional with 20+ years’ success driving all aspects of product
 ownership, project management, and organizational change to cultivate growth
@@ -24,22 +20,28 @@ Demonstrated ability to guide full product and project management lifecycle,
 from scope definition and initial planning to final delivery, to ensure on-time,
 on-budget, and on-target results.
 
-CORE COMPETENCIES
+Core Competencies
 
-  -------------------------------------- -------------------------------------- ------------------------------------
-  • Change Management & Transformation   • Process Development & Optimization   • Mergers & Acquisitions
-  • Product Strategy & Roadmap           • Cross-functional Collaboration       • Technical Project Management
-  • Scope Definition & Planning          • Stakeholder Engagement               • Requirements Gathering
-  • Team Building & Leadership           • Sales, Consulting & Training         • Public & Internal Documentation
-  • Cloud Migrations & Operations        • Complete Product Lifecycle           • DevOps, Agile, Waterfall & Scrum
-  -------------------------------------- -------------------------------------- ------------------------------------
+  -------------------------- -------------------------- --------------------------
+  • Change Management &      • Process Development &    • Mergers & Acquisitions
+  Transformation             Optimization               
+
+  • Product Strategy &       • Cross-functional         • Technical Project
+  Roadmap                    Collaboration              Management
+
+  • Scope Definition &       • Stakeholder Engagement   • Requirements Gathering
+  Planning                                              
+
+  • Team Building &          • Sales, Consulting &      • Public & Internal
+  Leadership                 Training                   Documentation
+
+  • Cloud Migrations &       • Complete Product         • DevOps, Agile, Waterfall
+  Operations                 Lifecycle                  & Scrum
+  -------------------------- -------------------------- --------------------------
 
 --------------------------------------------------------------------------------
 
-
-
-PROFESSIONAL EXPERIENCE
-
+Professional Experience
 
 Alaska Airlines – Seattle, WA
 
@@ -55,7 +57,7 @@ project scoping and planning, documentation, systems maintenance and downtime
 planning, and continuous improvement. Prevented disruptions to project progress
 by identifying and escalating risks well in advance.
 
-_KEY CONTRIBUTIONS:_
+Key Contributions:
 
 -   As a part of a $40M integration program, pioneered a centralized
     documentation management system and ongoing maintenance processes aimed at
@@ -66,7 +68,6 @@ _KEY CONTRIBUTIONS:_
     implementing best practices to ensure smooth transition to cloud-based
     DevOps model
 
-
 Enviro-Master – Seattle, WA
 
 President, 2016 to 2019
@@ -75,7 +76,7 @@ Leveraged strong leadership abilities and strategic thinking to lead a
 high-performing team to deliver all daily operations with attention-to-detail,
 efficiency, and excellence.
 
-_KEY CONTRIBUTIONS:_
+Key Contributions:
 
 -   Achieved a high level of customer satisfaction, directing nearly 100 sites
     across the Puget Sound region
@@ -83,7 +84,6 @@ _KEY CONTRIBUTIONS:_
     additional $100K in revenue
 -   Reduced operational budget to optimize profitability, following the
     acquisition of failing Swisher business
-
 
 F5 Networks – Seattle, WA
 
@@ -102,7 +102,7 @@ executive team to achieve a high-standard of support and fulfil budget goals.
 Leveraged external and internal relationships, influence, and expertise to
 direct product strategy and roadmap to accomplish delivery targets.
 
-_KEY CONTRIBUTIONS:_
+Key Contributions:
 
 -   Built an integral new cloud/orchestration team to ensure smooth operations
     and optimal productivity amid evolving organizational dynamics
@@ -121,7 +121,7 @@ the company’s major departments, including marketing, development, services, a
 sales functions. Closed integral deals and optimized retention by performing
 customer visits with account teams as corporate representative.
 
-_KEY CONTRIBUTIONS:_
+Key Contributions:
 
 -   Established detailed in-person and web-based release and new technology
     training to maximize product knowledge
@@ -142,7 +142,7 @@ Azure public cloud. Built and strengthened key professional relationships and
 provided comprehensive support for technical work, resulting in a public MSNBC
 case study.
 
-_KEY CONTRIBUTIONS:_
+Key Contributions:
 
 -   Delivered $30M in annual revenue as primary engineering representative on
     Microsoft account team
@@ -161,7 +161,7 @@ templates for deliverables and reports. Played a key role in steering the
 overall product strategy and building prototype solutions to solve technical
 challenges.
 
-_KEY CONTRIBUTIONS:_
+Key Contributions:
 
 -   Led the initial analysis, guidance, and testing for 3 successive company
     acquisitions
@@ -172,21 +172,15 @@ _KEY CONTRIBUTIONS:_
 
 --------------------------------------------------------------------------------
 
+Education and Certification
 
+Perl Programming Course, University of Washington, Seattle, WA
 
-EDUCATION AND CERTIFICATION
-
-
-PERL PROGRAMMING COURSE, University of Washington, Seattle, WA
-
-COMPUTER PROGRAMMING COURSES, Seattle Central College, Seattle, WA
+Computer Programming Courses, Seattle Central College, Seattle, WA
 
 --------------------------------------------------------------------------------
 
-
-
-TECHNICAL PROFICIENCIES
-
+Technical Proficiencies
 
 Cloud, Node.js, Python, C, Bash, Perl, TCL, Web Development,
 HTML/CSS/Javascript, Web/System APIs, REST/JSON/XML, SQL, Git, SVN, DevOps,

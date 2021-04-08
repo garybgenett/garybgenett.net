@@ -1,53 +1,49 @@
 # Welcome to GaryOS (gary-os)
 
-********************************************************************************
+--------------------------------------------------------------------------------
 
 ![GaryOS Icon](projects/gary-os/images/icon.png "GaryOS Icon")
 "The one file that does it all."
 
-  * Latest: GaryOS v4.0 ([Kernel]) ([Grub]) ([Packages]) ([Notes]) ([License])
+  * Latest: GaryOS v4.0 ([Kernel]) ([Rootfs]) ([Grub]) ([Notes]) ([License])
   * Homepage: <https://github.com/garybgenett/gary-os>
   * Download: <https://sourceforge.net/projects/gary-os>
 
 [Homepage]: https://github.com/garybgenett/gary-os
 [Download]: https://sourceforge.net/projects/gary-os
-[Readme]: https://github.com/garybgenett/gary-os/blob/master/README.md
-[License]: https://github.com/garybgenett/gary-os/blob/master/LICENSE.md
 
-[Gary B. Genett]: http://www.garybgenett.net/resume.html
+[Gary B. Genett]: http://www.garybgenett.net
 [gary-os@garybgenett.net]: mailto:gary-os@garybgenett.net?subject=GaryOS%20Submission+body=Why%20I%20love%20GaryOS%20so%20much...
 
-********************************************************************************
+<!-- [![GaryOS Download Button](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/gary-os/files/latest/download) -->
+[![GaryOS Download Counts](https://img.shields.io/sourceforge/dm/gary-os.svg)](https://sourceforge.net/projects/gary-os/files/latest/download)
+
+--------------------------------------------------------------------------------
 
   * [Introduction]
     * [Overview]
-    * [Release]: [Quick Start], [Requirements], [Contact + Support]
-    * [Project]: [Acknowledgements + Reviews], [Contributions], [Contributing], [Licensing + Disclaimer]
+    * [Release] -- [Quick Start] / [Requirements] / [Contact + Support]
+    * [Project] -- [Acknowledgements + Reviews] / [Contributions] / [Contributing] / [Licensing + Disclaimer]
   * [Information]
-    * [Design]: [Goals], [Advantages], [Limitations], [History]
-    * [Details]: [Versioning], [Structure], [Tools], [Ecosystem]
+    * [Design] -- [Goals] / [Advantages] / [Limitations] / [History]
+    * [Details] -- [Versioning] / [Structure] / [Tools] / [Ecosystem]
   * [Instructions]
-    * [Booting]: [Boot Methods], [Grub Rescue], [Using Linux], [Using Windows], [EFI], [PXE]
-    * [Running]: [Primary Uses], [Networking Configuration], [Graphical Interface]
-    * [Building]: [Live Update], [Custom Builds], [Hard Drive Install]
+    * [Booting] -- [Boot Methods] / [Grub Rescue] / [Using Linux] / [Using Windows] / [EFI] / [PXE]
+    * [Running] -- [Primary Uses] / [Networking Configuration] / [Graphical Interface]
+    * [Building] -- [Live Update] / [Custom Builds] / [Hard Drive Install]
   * [Version History]
-    * [2019-XX-XX v4.0 776f16598dac814dee59f95a1e21cefe6c612a02.0]
-    * [2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0]
-    * [2014-06-19 v2.0 873ca4a3a4e6ff41e510dbcf2e0fe549fb23474d.0]
-    * [2014-03-13 v1.1 95ad4fd257697618bae7402d4bc3a27499035d30.4]
-    * [2014-02-28 v1.0 95ad4fd257697618bae7402d4bc3a27499035d30.3]
-    * [2014-02-24 v0.3 95ad4fd257697618bae7402d4bc3a27499035d30.2]
-    * [2014-02-13 v0.2 95ad4fd257697618bae7402d4bc3a27499035d30.1]
-    * [2014-02-09 v0.1 95ad4fd257697618bae7402d4bc3a27499035d30.0]
+    * [v4.0 2020-XX-XX] / [v3.0 2015-03-16] / [v2.0 2014-06-19] / [v1.1 2014-03-13] / [v1.0 2014-02-28] / [v0.3 2014-02-24] / [v0.2 2014-02-13] / [v0.1 2014-02-09]
   * [Release Process + Checklist]
 
-********************************************************************************
+--------------------------------------------------------------------------------
 
 # Introduction #################################################################
 [Introduction]: #Introduction
 
 ## Overview ####################################################################
 [Overview]: #Overview
+
+<!-- #WORK: FINAL REVIEW -->
 
 GaryOS is an entire GNU/Linux system in a single bootable file.  It is also
 a build system to produce both the bootable file and entire installations.
@@ -140,6 +136,18 @@ platforms are not supported.
 The booted system requires at least 4GB of RAM.  Some of the advanced features
 and uses require additional memory, and 8GB is recommended.
 
+<!--
+#WORK : this is no longer completely true... yay!
+#WORK ~350m grub (\<250m?) limit for size, and keeping under ~4gb ram
+#WORK fspack=~350m(kernel) keepdirs=~3g(4g) fsarch=~6g(8g)
+
+#WORK : other rationale
+#	stability
+#	distfiles go missing or checksums fail -> provide archive
+#	lots of build dependencies and conflicting use flags -> overlay and gentoo configs
+#WORK : boot stages: 1 -> 2a/2b -> 3
+-->
+
 The GaryOS kernel is roughly ~750MB in size, and at least 1GB of storage is
 recommended.  All efforts have been made to make GaryOS as compact as possible,
 but required Linux packages continue to grow over time, such as these:
@@ -152,6 +160,8 @@ but required Linux packages continue to grow over time, such as these:
 
 This list is not meant to be critical, and is only provided for transparency.
 The work necessary to keep the distribution compact is ongoing.
+
+<!-- #WORK : this is no longer true... yay! -->
 
 Twice during boot, at initial kernel load and initramfs decompression, GaryOS
 can appear to hang as the kernel and initramfs are loaded into memory.  This is
@@ -240,11 +250,11 @@ this far.
 
 [steady stream of overall downloads]: https://sourceforge.net/projects/gary-os/files/stats/timeline?dates=2014-02-28+to+2038-01-19
 [countries all over the world]: https://sourceforge.net/projects/gary-os/files/stats/map?dates=2014-02-28+to+2038-01-19
-[v4.0 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-v4.0.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
-[v3.0 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
-[v2.0 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v2.0.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
-[v1.1 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v1.1.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
-[v1.0 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v1.0.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
+[v4.0 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-v4.0-generic_64.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
+[v3.0 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-v3.0-generic_64.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
+[v2.0 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-v2.0-generic_64.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
+[v1.1 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-v1.1-generic_64.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
+[v1.0 downloads]: https://sourceforge.net/projects/gary-os/files/gary-os-v1.0-generic_64.kernel/stats/timeline?dates=2014-02-28+to+2038-01-19
 
 [Gentoo family tree]: https://github.com/gentoo/gentoo-ecosystem
 [Funtoo ecosystem page]: https://funtoo.org/Gentoo_Ecosystem
@@ -410,7 +420,7 @@ for documents and statements like these someday.
 [GNU GPL v3.0]: https://www.gnu.org/licenses/gpl-3.0.html
 [BSD-style license]: http://opensource.org/licenses/BSD-3-Clause
 
-********************************************************************************
+--------------------------------------------------------------------------------
 
 # Information ##################################################################
 [Information]: #Information
@@ -648,7 +658,7 @@ Here is an overview of the repository contents, in order of relative importance:
 | [README.md]                | This file.  All the documentation for GaryOS.
 | [LICENSE.md]               | The license GaryOS is distributed under.
 | [Makefile]                 | Primary starting point for using the build system using the `make` command.
-| [\_packages]               | Final package list, including sizes and markers for what is installed versus packaged for the build.
+| [packages.txt]             | Final package list, including sizes and markers for what is installed versus packaged for the build.
 | [\_commit]                 | Solely for author tracking.  Records commit IDs for each of the repositories relevant to the building of GaryOS.
 | **Key directories:**       | --
 | [linux]                    | Archive of Linux kernel configuration files.
@@ -674,12 +684,12 @@ Here is an overview of the repository contents, in order of relative importance:
 | [shmem\_size\_hack.patch]  | Kernel code changes to set the initramfs size in memory and add the "shmem_size" parameter.  Both of these changes were understandably rejected by Linux development team, and are therefore custom to GaryOS.  *(See the [Contributions] and [Live Update] sections for details.)*
 | **Just for fun:**          | --
 | [.vimrc]                   | Vim is a pretty critical tool for the author, and this is just to keep a copy of the configuration file handy.  This is also the only place it is published online, and hopefully it is useful to somebody.
-| [xclock\_size\_hack.patch] | The author wanted "[gkrellaclock]" to look more like a genuine "xclock", so he did it.  First real experience coding in C.  Created in early 2014 and still in active use.
+| [xclock\_size\_hack.patch] | The author wanted "[gkrellaclock]" to look more like a genuine "xclock", so he did it.  First real experience coding in C.  Created in early 2012 and still in active use.
 
 [README.md]: https://github.com/garybgenett/gary-os/blob/master/README.md
 [LICENSE.md]: https://github.com/garybgenett/gary-os/blob/master/LICENSE.md
 [Makefile]: https://github.com/garybgenett/gary-os/blob/master/Makefile
-[\_packages]: https://github.com/garybgenett/gary-os/blob/master/_packages
+[packages.txt]: https://github.com/garybgenett/gary-os/blob/master/packages.txt
 [\_commit]: https://github.com/garybgenett/gary-os/blob/master/_commit
 
 [linux]: https://github.com/garybgenett/gary-os/blob/master/linux
@@ -768,6 +778,11 @@ in 1998):
 
 Inspiration was provided by:
 
+<!--
+#WORK: busybox is now also a core component
+#WORK: same with squashfs
+-->
+
   * Metro: <https://funtoo.org/Metro_Quick_Start_Tutorial>
   * Buildroot: <https://buildroot.org>
   * BusyBox: <https://busybox.net>
@@ -795,7 +810,7 @@ in the course of the author's career, and his sustained mentality towards the
 malleability of GNU/Linux and its power and flexibility as a "run anywhere,
 anyhow" computing environment.
 
-********************************************************************************
+--------------------------------------------------------------------------------
 
 # Instructions #################################################################
 [Instructions]: #Instructions
@@ -816,7 +831,10 @@ These sections cover the various ways of booting GaryOS into a running system.
 ### Boot Methods ###############################################################
 [Boot Methods]: #Boot_Methods
 
+<!--
 #WORKING
+#WORK : packdirs notes in intro/size section; new limit on the size of the kernel in grub? == ~350mb
+-->
 
 [Grub Rescue]
 
@@ -828,7 +846,10 @@ These sections cover the various ways of booting GaryOS into a running system.
 
 [PXE]
 
+<!--
 #WORKING
+#WORK : shmem\_size= + groot= -> /.groot/.groot -> /.overlay
+-->
 
 ### Grub Rescue ################################################################
 [Grub Rescue]: #Grub_Rescue
@@ -847,6 +868,8 @@ These sections cover the various ways of booting GaryOS into a running system.
                     -- null kernel = was that just a fluke?  test laptop again...
 | **Versions**    | -- Grub: sys-boot/grub-2.02-r1 \
                     -- Rufus: v3.7
+
+<!--	#WORK ~350m grub limit for size, and keeping under ~4gb ram -->
 
 There are three supported methods for getting this image installed to a USB
 drive or hard disk, in order of preference and supportability:
@@ -869,7 +892,7 @@ If you already have a Linux-compatible bootloader installed, all you need to do 
 
 If you are using Grub as your bootloader, it is as simple as something like this:
 
-	#WORK: boot.kernel?
+<!--	#WORK: boot.kernel? -->
 	menuentry "GaryOS" {
 		linux  (hd0,1)/gary-os/gary-os.boot.kernel
 		linux  (hd0,1)/gary-os/gary-os.kernel
@@ -877,10 +900,12 @@ If you are using Grub as your bootloader, it is as simple as something like this
 
 Setting this up for other bootloaders is left as an exercise for the reader.
 
+<!--
 #WORKING
 
 #WORK: use the "grub.cfg" file?
 #WORK: manual, direct "linux" entry (gary-os.boot.kernel, too?)
+-->
 
 | Partition | Start Sector | End Sector | Size       | Code | Name
 |---:       |---:          |---:        |---:        |---:  |:---
@@ -905,7 +930,7 @@ Setting this up for other bootloaders is left as an exercise for the reader.
 
 **2.b. Prepared Image (Linux)**
 
-	#WORK
+<!--	#WORK -->
 	usage: grub.sh {directory} [options]
 	{directory}             target directory to use for building grub files (must already exist)
 	[-d || -d<0-9+>]        show debug information || number of objects to list (default: 10)
@@ -953,12 +978,12 @@ Instructions for Grub "rescue" image installation to hard disk:
 ### Using Linux ################################################################
 [Using Linux]: #Using_Linux
 
-	#WORKING
+<!--	#WORKING -->
 
 ### Using Windows ##############################################################
 [Using Windows]: #Using_Windows
 
-	#WORKING
+<!--	#WORKING -->
 
   * Definition:
     * Boot using the native Windows bootloader
@@ -1000,9 +1025,11 @@ Overview of the output:
   * `grub.cfg`
     * Grub menu used by "bootstrap" above.  Can be modified as needed to
       boot other OSes/objects.
+<!--
 	#WORK: note about `*.efi` files recently added...
 	#WORK: add use-case for Mac OSX booting with rEFInd
 	#WORK: no mac os x, won't boot linux
+-->
   * `rescue.*`
     * Grub "core.img" rescue environment detailed further in [Grub
       Rescue] section below.
@@ -1056,9 +1083,11 @@ Administrator to remove the unwanted entries:
 | **Versions**    | -- (This is a Linux kernel native feature, and has been enabled in GaryOS) \
                     -- EFI Boot Manager: sys-boot/efibootmgr-15
 
+<!--
 #WORK: needs testing
 
 #WORKING
+-->
 
 With some modification of the Funtoo configuration and package list, the build
 system can be used to create a lab workstation or other automated environment
@@ -1089,6 +1118,11 @@ the following configuration option to `dhcpd.conf`:
 The "Resources" links in the table above have further instructions on
 configuring a PXE environment suitable for booting Linux.
 
+<!--
+#WORK now supports options and the whole rootfs infrastructure
+#WORK documented example in dhcpd.conf+spider
+-->
+
 ## Running #####################################################################
 [Running]: #Running
 
@@ -1098,7 +1132,7 @@ Some examples are setting up networking or running the graphical interface.
 ### Primary Uses ###############################################################
 [Primary Uses]: #Primary_Uses
 
-#WORKING
+<!-- #WORKING -->
 
 |:---|:---|
 | **Description** | -- Use GaryOS to examine a system and hard drives from a completely read-only "clean room" environment
@@ -1107,8 +1141,10 @@ Some examples are setting up networking or running the graphical interface.
 | **Resources**   | -- List of all the kernel parameters: <https://www.kernel.org/doc/html/v4.18/admin-guide/kernel-parameters.html> \
 | **Versions**    | -- (The options are native to the Linux kernel native feature, and has been enabled in GaryOS) \
 
+<!--
 	#WORKING
 	* #WORK: eliminate
+-->
 
   * Definition:
     * Boot into a completely "clean" environment, so that diagnostics
@@ -1116,8 +1152,10 @@ Some examples are setting up networking or running the graphical interface.
   * Last tested with:
     * GaryOS v3.0
 
+<!--
 	#WORK only two daemons running (Udev and SSH)
 	#WORK Once booted, the entire system resides in memory.
+-->
 
 GaryOS is in a forensics mode by default.  Hardware scanning is
 performed, but the hard drives are not mounted or otherwise touched.
@@ -1129,13 +1167,17 @@ and interrogation.
 
 It is a stated goal that forensics mode continue being the default.
 
+<!--
 	#WORK suspend to ram capability
 	#WORK packages.txt
+	#WORK make unpack : supports packs within packs, but packs within packs within packs will not work as expected
+	#WORK ~350m grub limit for size, and keeping under ~4gb ram
+-->
 
 ### Networking Configuration ###################################################
 [Networking Configuration]: #Networking_Configuration
 
-	#WORKING
+<!--	#WORKING -->
   * Definition:
     * Configure networking, either wired or wireless
   * Last tested with:
@@ -1147,15 +1189,19 @@ networking packages are installed to ease on-the-fly setup.
 For simple DHCP, the `dhcpcd` command can be run directly on the desired
 interface, such as an Ethernet connection:
 
+<!--
 	#WORK ??? use only `rc-update add dhcpcd default ; rc` ??? make this work with wpa_cli
 	#WORK now set up by default!  only need instructions for wpa_cli if wireless...  must still do the rc-update adds
 	#WORK netmount is disabled... no networking... not even sshd... remove sshd from above!
 	#WORK https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD
+-->
 
 https://wiki.gentoo.org/wiki/Wpa_supplicant#Using_wpa_cli
 https://wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_cli
 https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
 
+<!--
+	#WORK vi /etc/wpa_supplicant/wpa_supplicant.conf
 	#WORK `wpa_password "<ssid>" "<password>" > /etc/wpa_supplicant/wpa_supplicant.conf`
 	#WORK Add `ssid_scan=1` to `/etc/wpa_supplicant/wpa_supplicant.conf`
 	#WORK `rc-update add wpa_supplicant default ; rc`
@@ -1164,6 +1210,7 @@ https://wireless.wiki.kernel.org/en/users/drivers/mac80211_hwsim
 	#WORK (ha! all the below text is actually starting to look pretty good... maybe just test it once more...)
 
 	#WORK commands for wpa_cli, no more networkmanager
+-->
 
   * `dhcpcd eth0`
 
@@ -1180,7 +1227,7 @@ simplify the configuration:
 
 Wireless networks can then be scanned and configured:
 
-#WORK: automate this in a script or make command? == ./script.sh (parsed list) = number select = read -s(?) psk
+<!-- #WORK: automate this in a script or make command? == ./script.sh (parsed list) = number select = read -s(?) psk -->
 
 	wpa_cli
 
@@ -1200,12 +1247,13 @@ Wireless networks can then be scanned and configured:
 
 The Funtoo OpenRC scripts have all sorts of advanced networking features and
 options, covered in depth:
-#WORK: verify link
+<!-- #WORK: verify link -->
 <https://funtoo.org/Networking>
 
 ### Graphical Interface ########################################################
 [Graphical Interface]: #Graphical_Interface
 
+<!--
 	#WORKING
 	#WORK standardize the name (X.Org/Xorg) and details (GUI/graphical) here and in /etc/issue
 	#WORK https://wiki.gentoo.org/wiki/Dwm
@@ -1217,6 +1265,9 @@ options, covered in depth:
 	#WORK https://wiki.archlinux.org/index.php/QEMU#SPICE
 	#WORK	/etc/init.d/spice-vdagent start
 	#WORK	spice-vdagent
+	#WORK	running arandr
+	#WORK	running netsurf
+-->
 
   * Definition:
     * Start up and use the X.Org GUI environment
@@ -1226,7 +1277,7 @@ options, covered in depth:
 GaryOS boots to CLI (Command-Line Interface) by default.  To enter the
 graphical interface, run `startx`.
 
-	#WORK nomodeset is not required anymore
+<!--	#WORK nomodeset is not required anymore -->
 The Linux kernel includes driver modules for many common video cards,
 but to keep the size of GaryOS down the X.Org installation only includes
 the VESA driver (which almost all modern video cards support).  If the
@@ -1251,11 +1302,13 @@ More information:
   * Read `man urxvt` for help on the terminal emulator.
   * Read `man surf` for help on the web browser.
 
+<!--
 	#WORK: not all suckless now!  note the "netsurf-fb" browser as an option...
 	#WORK: not all suckless now!  kudos to the "links" browser...
 	#WORK: dwm patches in [Contributions] section
+-->
 
-#WORK: still need this?
+<!-- #WORK: still need this? -->
 Thanks to the [Suckless] team for creating such lightweight and useful
 software.
 
@@ -1272,6 +1325,7 @@ running live, including installing new packages.
 ### Live Update ################################################################
 [Live Update]: #Live_Update
 
+<!--
 	#WORKING
 	#WORK: ramfs size kernel option (shmem_size=), will be 50% up to 4g
 	#WORK: see "gary-os" sets file
@@ -1284,8 +1338,19 @@ running live, including installing new packages.
 	#WORK: tar -vvx -C /var/git -f /var/git/meta-repo.tar.xz
 	#WORK: tar -xvv -C /usr/src -f /usr/src/linux.tar.xz
 	#WORK: create a "make open" target to do the untars... document both in here and there...
+	#WORK: unpack -> PACK_DIRS! --> touchfile or mkdir or symlink[unbroken] (need to outline the difference, and the "edit" option <with "="> for a touchfile)
+	#WORK: note about firmware files (others?) and keeping handy on usb drive (make fetch)
+	#WORK ~350m grub limit for size, and keeping under ~4gb ram
 
 	#WORK: seems to work, but only without ccache?
+	#WORK: mount -o remount,size=3g /.overlay
+	#WORK
+	# cat /proc/meminfo
+	# MemTotal:       32886576 kB
+	# MemFree:          328308 kB
+	# MemAvailable:   30031552 kB
+	#WORK
+-->
 
   * Definition:
     * Update/install packages using Funtoo tools
@@ -1313,7 +1378,7 @@ Instructions for setting up update/install of packages:
        access, and may be simpler to update from since it is at the same
        revision of the tree that was used to build that version of
        GaryOS.
-	#WORK: hacks no longer needed...
+<!--	#WORK: hacks no longer needed... -->
   2. Perform minor hacks to get working in a RAMdisk environment.  These
      should **NOT** be done if planning to install to disk per the
      [Installation] section below.  They essentially disable available
@@ -1325,7 +1390,7 @@ Instructions for setting up update/install of packages:
        sed -i "s%has_space = False%has_space = True%g" \
             /usr/lib/portage/pym/portage/package/ebuild/fetch.py
        ```
-	#WORK: first is no longer needed, but keep this one as a fallback for packages like firefox or thunderbird...
+<!--	#WORK: first is no longer needed, but keep this one as a fallback for packages like firefox or thunderbird... -->
      * `alias emerge="I_KNOW_WHAT_I_AM_DOING=true emerge"`
          * For details, see `"There is NOT at least"` in
            `/usr/portage/eclass/check-reqs.eclass`
@@ -1333,7 +1398,7 @@ Instructions for setting up update/install of packages:
      * In particular, to complete configuration of the X.Org GUI the
        `INPUT_DEVICES` and `VIDEO_CARDS` variables should be properly
        configured.
-	#WORK: this is now done by just using the [\_gary-os] package set, or a new, custom one... also, no more metro...
+<!--	#WORK: this is now done by just using the [\_gary-os] package set, or a new, custom one... also, no more metro... -->
      * Starting with `bindist`, there is a list of negated `-*` options
        at the end of the `USE` list which are necessary to build GaryOS
        via Metro.  All of these can/should be removed to get the full
@@ -1344,22 +1409,46 @@ Instructions for setting up update/install of packages:
 ### Custom Builds ##############################################################
 [Custom Builds]: #Custom_Builds
 
-	#WORKING
+<!--
+	* #WORKING
+	* [Rootfs]
 	* #WORK NEW build-within-the-build = on-disk and in-system
 	* #WORK: https://downloads.sourceforge.net/project/gary-os/v3.0/stage3-core2_64-funtoo-stable-2015-01-27.tar.xz
 	* #WORK: does not install expect, so may need to hit enter a few times...
+	* #WORK: compilation is pretty!
+	* #WORK: make all ++ make rootfs = use default kernel
+	* #WORK: make all ++ make release = completely new kernel, size limit
+	* #WORK: make rootfs can be used on any chroot filesystem, as long as /.gary-os and modules.tar.xz are included
+	* #WORK: rootfs = exec sh /initrc rootfs
+	* #WORK: document "$dofast" and "$domods"...?  in the script/makefile, or just the docs?  pointers to "readme"?
+	* #WORK: document "$rootfs" and "$fstest"...?  in the script/makefile, or just the docs?  pointers to "readme"?
+	* #WORK: document "$doredo"...?  in the script/makefile, or just the docs?  pointers to "readme"?
+	* #WORK: make $greset variable...?  same as above...
+	* #WORK: migrate "/.install" link hacking, and other instructions, and remove from "\_gary-os"
+	* #WORK ~350m grub limit for size, and keeping under ~4gb ram
+	* #WORK somewhere in here: rootfs can be any loopback with an /init [and lib/modules packdir?] -- module detection and loading will be done by gary-os kernel
+-->
 
 ### Hard Drive Install #########################################################
 [Hard Drive Install]: #Hard_Drive_Install
 
+<!--
+#WORK: find all "system installation" references in scripts and this file, and fix
+#WORK: cross-reference with "prepare\_config" function in "\_release" script
+#WORK: config_protect in make.conf / expect wrapping -> configuration files
+
 	#WORKING
+-->
   * Definition:
     * Install GaryOS to disk
   * Last tested with:
     * GaryOS v3.0
 
+<!--
 	#WORK validation steps: verify table against "\_system" and "\_release"... in "\_release", also validate the "\_prepare\_config" table
 	#WORK https://funtoo.org/Install
+	#WORK completely default, all configs reset, hostname, wireless, root password
+-->
 
 The in-memory environment is a complete Funtoo installation, as shown in the
 [Live Update] section above.  It can be copied directly to a new disk/partition
@@ -1369,8 +1458,11 @@ As part of the release build process, several files are added, replaced,
 modified or removed to create a particular look and feel for GaryOS.  These
 modifications are kept to an absolute minimum, and are listed here:
 
+<!--
 	#WORK validate this table looks good in composer/github
 	#WORK: double-check against _prepare_config
+	#WORK: unpack -> PACK_DIRS! --> touchfile
+-->
 
 | File                                      | Release Modification | Install Action
 |:---                                       |:---                  |:---
@@ -1399,12 +1491,19 @@ Some other important changes, which must all be reset manually:
 
   * Linux kernel configuration, sourced from `linux` directory
   * Funtoo system configuration, sourced from `gentoo` directory
+<!--
+	#WORK: FSPACK variable, add list here, add note to variable, just like in \_release for table
 	#WORK: FSSKIP variable, add list here, add note to variable, just like in \_release for table
+	#WORK: FSPKRC variable, add list here, add note to variable, just like in \_release for table
+-->
   * The `#{RCUPDT}` commands in the `gary-os` package file, sourced from the
     `gentoo/sets` directory
+<!--
 	#WORK: all the "sets" variables like RCUPDT
+-->
   * Root password set to `gary-os`
 
+<!--
 	#WORKING : validate
 	create/document "reset" option in "\_release"... manual changes are up to the reader...
 	need gpt/mbr partitions for below... maybe use the "grub.sh" script... otherwise, suggest the proper partitions...
@@ -1412,12 +1511,15 @@ Some other important changes, which must all be reset manually:
 
 	#WORKING : document somewhere a mounted chroot build as a form of install... (man, am i getting too nuts, here?)
 	#WORKING : make install --reset == \_prepare\_config --reset || \_prepare\_config
+-->
 
 Instructions for installing to disk:
 
+<!--
 	#WORKING : or use "grub.sh"
 
 	#WORK: does this format correctly, or does it need an empty line... make consistent throughout file...
+-->
 
   1. Mount formatted disk/partition.
 
@@ -1434,11 +1536,15 @@ Instructions for installing to disk:
   4. Add necessary partition information to `/etc/fstab`, remembering an
      entry for `/boot` if using a separate partition from #2 above.
      * e.g. `vi /.install/etc/fstab`
+<!--
 	#WORKING : use "grub.sh", now...
 	#WORK need "grub" when "boot-update" here?
+-->
   5. Update and install Grub, to make the new installation bootable.
      * e.g. `for FILE in dev proc sys ; do mount --bind /${FILE} /.install/${FILE} ; done`
+<!--
 	#WORK efi: neet to mount efi partition to "/boot" for this to work...
+-->
      * e.g. `chroot /.install grub-install --target=x86_64-efi --efi-directory=/boot /dev/sda`
      * e.g. `chroot /.install grub-install --target=i386-pc /dev/sda`
      * e.g. `chroot /.install boot-update`
@@ -1447,11 +1553,12 @@ Instructions for installing to disk:
   7. **Don't forget to change `/etc/conf.d/hostname` and update the `root`
      password!**
 
-********************************************************************************
+--------------------------------------------------------------------------------
 
 # Version History ##############################################################
 [Version History]: #Version_History
 
+<!--
 	#WORKING
 
 	#WORK versioning scheme = 4.x is new commit, x.1 is update to existing commmit (rare)
@@ -1497,30 +1604,35 @@ Instructions for installing to disk:
 	#WORK random: feature request to funtoo for "ego sync" commit pinning... send funtoo.kits
 	#WORK random: feature request to linux kernel for "SHMMAX (/2)" value... create patch!
 	#WORK random: todo list: add real argument processing to "system" script someday...
-
-[Kernel]: https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-v4.0.kernel
-[Grub]: https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-v4.0.grub.zip
-[Packages]: https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-v4.0.packages.txt
-	#WORKING: XX-XX, here, title, and table of contents
-[Notes]: #Notes
-
-	#WORKING: where do these links go?
+-->
 
 [Distfiles Directory]: https://sourceforge.net/projects/gary-os/files/_distfiles
 [Packages Directory]: https://sourceforge.net/projects/gary-os/files/_packages
 
+[Kernel]: https://sourceforge.net/projects/gary-os/files/gary-os-v4.0-generic_64.kernel
+[Rootfs]: https://sourceforge.net/projects/gary-os/files/gary-os-v4.0-generic_64.rootfs
+[Grub]: https://sourceforge.net/projects/gary-os/files/gary-os-v4.0-generic_64.grub.zip
+<!--	#WORKING: XX-XX, here, title, and table of contents -->
+[Notes]: https://github.com/garybgenett/gary-os/blob/v4.0/README.md#v40-2020-XX-XX
+[License]: https://github.com/garybgenett/gary-os/blob/v4.0/LICENSE.md
+
 [v5.0]: https://github.com/garybgenett/gary-os/commits/master
 
-## 2019-XX-XX v4.0 776f16598dac814dee59f95a1e21cefe6c612a02.0 ##################
-[2019-XX-XX v4.0 776f16598dac814dee59f95a1e21cefe6c612a02.0]: #2019-XX-XX_v4.0_776f16598dac814dee59f95a1e21cefe6c612a02.0
+## v4.0 2020-XX-XX #############################################################
+[v4.0 2020-XX-XX]: #v4.0_2020-XX-XX
 [v4.0]: #v4.0
 
-  * Files: [Readme](https://github.com/garybgenett/gary-os/blob/v4.0/README.md), [License](https://github.com/garybgenett/gary-os/blob/v4.0/LICENSE.md), [Packages](https://github.com/garybgenett/gary-os/blob/v4.0/_packages)
-    * Kernel: [gary-os-generic_64-v4.0.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-v4.0.kernel)
-    * Grub: [gary-os-generic_64-v4.0.grub.zip](https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-v4.0.grub.zip)
+  * Files -- [Readme](https://github.com/garybgenett/gary-os/blob/v4.0/README.md)
+    / [License](https://github.com/garybgenett/gary-os/blob/v4.0/LICENSE.md)
+    / [Packages (Kernel)](https://github.com/garybgenett/gary-os/blob/v4.0/packages.txt)
+    / [Packages (Rootfs)](https://github.com/garybgenett/gary-os/blob/v4.0/packages.rootfs.txt)
+    * Kernel: [gary-os-v4.0-generic_64.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v4.0-generic_64.kernel)
+    * Rootfs: [gary-os-v4.0-generic_64.rootfs](https://sourceforge.net/projects/gary-os/files/gary-os-v4.0-generic_64.rootfs)
+    * Grub: [gary-os-v4.0-generic_64.grub.zip](https://sourceforge.net/projects/gary-os/files/gary-os-v4.0-generic_64.grub.zip)
     * Source Stage3: [stage3-core2_64-funtoo-current-2018-08-27.tar.xz](https://sourceforge.net/projects/gary-os/files/v4.0/stage3-core2_64-funtoo-current-2018-08-27.tar.xz)
-    * Source Portage: [gary-os-generic_64-v4.0.meta-repo.tar.xz](https://sourceforge.net/projects/gary-os/files/v4.0/gary-os-generic_64-v4.0.meta-repo.tar.xz)
+    * Source Portage: [gary-os-v4.0-generic_64.meta-repo.tar.xz](https://sourceforge.net/projects/gary-os/files/v4.0/gary-os-v4.0-generic_64.meta-repo.tar.xz)
   * Major changes
+<!--
     * #WORKING: Replaced Metro with the same build system as the one for full installations
     * #WORKING: Completely switched to personal configuration
     * #WORKING: Removed 32-bit support (fewer builds)
@@ -1528,20 +1640,24 @@ Instructions for installing to disk:
     * #WORKING: Added "minimal" binary?
 	#WORKING
     * #WORKING: Completely disabled swap in Linux kernel configuration
+-->
   * Funtoo configuration
-	#WORKING
+<!--	#WORKING -->
   * Build system
-	#WORKING
+<!--	#WORKING -->
   * Grub script
-	#WORKING
+<!--	#WORKING -->
 
-## 2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0 ##################
-[2015-03-16 v3.0 21811b59a8484b2a6b73e0c5277f23c50a0141dc.0]: #2015-03-16_v3.0_21811b59a8484b2a6b73e0c5277f23c50a0141dc.0
+## v3.0 2015-03-16 #############################################################
+[v3.0 2015-03-16]: #v3.0_2015-03-16
 [v3.0]: #v3.0
 
-  * Files: [Readme](https://github.com/garybgenett/gary-os/blob/v3.0/README.md), [License](https://github.com/garybgenett/gary-os/blob/v3.0/LICENSE.md), [Packages (64-bit)](https://github.com/garybgenett/gary-os/blob/v3.0/_packages.64), [Packages (32-bit)](https://github.com/garybgenett/gary-os/blob/v3.0/_packages.32)
-    * Kernel (64-bit): [gary-os-generic_64-funtoo-stable-v3.0.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v3.0.kernel)
-    * Kernel (32-bit): [gary-os-generic_32-funtoo-stable-v3.0.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v3.0.kernel)
+  * Files -- [Readme](https://github.com/garybgenett/gary-os/blob/v3.0/README.md)
+    / [License](https://github.com/garybgenett/gary-os/blob/v3.0/LICENSE.md)
+    / [Packages (64-bit)](https://github.com/garybgenett/gary-os/blob/v3.0/_packages.64)
+    / [Packages (32-bit)](https://github.com/garybgenett/gary-os/blob/v3.0/_packages.32)
+    * Kernel (64-bit): [gary-os-v3.0-generic_64.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v3.0-generic_64.kernel)
+    * Kernel (32-bit): [gary-os-v3.0-generic_32.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v3.0-generic_32.kernel)
     * Grub: [grub.sh](https://github.com/garybgenett/gary-os/blob/v3.0/scripts/grub.sh)
     * Source Stage3: [stage3-core2_64-funtoo-stable-2015-01-27.tar.xz](https://sourceforge.net/projects/gary-os/files/v3.0/stage3-core2_64-funtoo-stable-2015-01-27.tar.xz)
     * Source Portage: [portage-21811b59a8484b2a6b73e0c5277f23c50a0141dc.0.tar.xz](https://sourceforge.net/projects/gary-os/files/v3.0/portage-21811b59a8484b2a6b73e0c5277f23c50a0141dc.0.tar.xz)
@@ -1562,13 +1678,16 @@ Instructions for installing to disk:
     * Added additional input drivers, for touch devices
     * Added helper packages for networking and basic X.Org GUI scripting
 
-## 2014-06-19 v2.0 873ca4a3a4e6ff41e510dbcf2e0fe549fb23474d.0 ##################
-[2014-06-19 v2.0 873ca4a3a4e6ff41e510dbcf2e0fe549fb23474d.0]: #2014-06-19_v2.0_873ca4a3a4e6ff41e510dbcf2e0fe549fb23474d.0
+## v2.0 2014-06-19 #############################################################
+[v2.0 2014-06-19]: #v2.0_2014-06-19
 [v2.0]: #v2.0
 
-  * Files: [Readme](https://github.com/garybgenett/gary-os/blob/v2.0/README.md), [License](https://github.com/garybgenett/gary-os/blob/v2.0/LICENSE.md) , [Packages (64-bit)](https://github.com/garybgenett/gary-os/blob/v2.0/_packages.64), [Packages (32-bit)](https://github.com/garybgenett/gary-os/blob/v2.0/_packages.32)
-    * 64-bit kernel: [gary-os-generic_64-funtoo-stable-v2.0.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v2.0.kernel)
-    * 32-bit kernel: [gary-os-generic_32-funtoo-stable-v2.0.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v2.0.kernel)
+  * Files -- [Readme](https://github.com/garybgenett/gary-os/blob/v2.0/README.md)
+    / [License](https://github.com/garybgenett/gary-os/blob/v2.0/LICENSE.md)
+    / [Packages (64-bit)](https://github.com/garybgenett/gary-os/blob/v2.0/_packages.64)
+    / [Packages (32-bit)](https://github.com/garybgenett/gary-os/blob/v2.0/_packages.32)
+    * 64-bit kernel: [gary-os-v2.0-generic_64.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v2.0-generic_64.kernel)
+    * 32-bit kernel: [gary-os-v2.0-generic_32.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v2.0-generic_32.kernel)
     * Grub: [grub.sh](https://github.com/garybgenett/gary-os/blob/v2.0/scripts/grub.sh)
     * Source Stage3: [stage3-core2_64-funtoo-stable-2014-01-13.tar.xz](https://sourceforge.net/projects/gary-os/files/v2.0/stage3-core2_64-funtoo-stable-2014-01-13.tar.xz)
     * Source Portage: [portage-873ca4a3a4e6ff41e510dbcf2e0fe549fb23474d.0.tar.xz](https://sourceforge.net/projects/gary-os/files/v2.0/portage-873ca4a3a4e6ff41e510dbcf2e0fe549fb23474d.0.tar.xz)
@@ -1586,7 +1705,7 @@ Instructions for installing to disk:
     * Updated to new Portage commit
     * Complete review/revamp of USE flags
     * Added `LDFLAGS` variable options specific to Metro
-    * Cleaned up "overlay" directory
+    * Cleaned up "\_overlay" directory
     * Improvements to audit/review scripting
     * Minor configuration updates/improvements
     * Localized failed package commenting to 32-bit
@@ -1607,13 +1726,14 @@ Instructions for installing to disk:
         section for information on loading up and using the graphical
         environment).
 
-## 2014-03-13 v1.1 95ad4fd257697618bae7402d4bc3a27499035d30.4 ##################
-[2014-03-13 v1.1 95ad4fd257697618bae7402d4bc3a27499035d30.4]: #2014-03-13_v1.1_95ad4fd257697618bae7402d4bc3a27499035d30.4
+## v1.1 2014-03-13 #############################################################
+[v1.1 2014-03-13]: #v1.1_2014-03-13
 [v1.1]: #v1.1
 
-  * Files: [Readme](https://github.com/garybgenett/gary-os/blob/v1.1/README), [License](https://github.com/garybgenett/gary-os/blob/v1.1/LICENSE)
-    * 64-bit kernel: [gary-os-generic_64-funtoo-stable-v1.1.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v1.1.kernel)
-    * 32-bit kernel: [gary-os-generic_32-funtoo-stable-v1.1.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v1.1.kernel)
+  * Files -- [Readme](https://github.com/garybgenett/gary-os/blob/v1.1/README)
+    / [License](https://github.com/garybgenett/gary-os/blob/v1.1/LICENSE)
+    * 64-bit kernel: [gary-os-v1.1-generic_64.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v1.1-generic_64.kernel)
+    * 32-bit kernel: [gary-os-v1.1-generic_32.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v1.1-generic_32.kernel)
     * Grub: [grub.sh](https://github.com/garybgenett/gary-os/blob/v1.1/scripts/grub.sh)
     * Source Stage3: [stage3-core2_64-funtoo-stable-2014-01-13.tar.xz](https://sourceforge.net/projects/gary-os/files/v1.1/stage3-core2_64-funtoo-stable-2014-01-13.tar.xz)
     * Source Portage: [portage-95ad4fd257697618bae7402d4bc3a27499035d30.4.tar.xz](https://sourceforge.net/projects/gary-os/files/v1.1/portage-95ad4fd257697618bae7402d4bc3a27499035d30.4.tar.xz)
@@ -1625,13 +1745,13 @@ Instructions for installing to disk:
   * Funtoo configuration
     * Miscellaneous package changes
 
-## 2014-02-28 v1.0 95ad4fd257697618bae7402d4bc3a27499035d30.3 ##################
-[2014-02-28 v1.0 95ad4fd257697618bae7402d4bc3a27499035d30.3]: #2014-02-28_v1.0_95ad4fd257697618bae7402d4bc3a27499035d30.3
+## v1.0 2014-02-28 #############################################################
+[v1.0 2014-02-28]: #v1.0_2014-02-28
 [v1.0]: #v1.0
 
-  * Files: [Readme](https://github.com/garybgenett/gary-os/blob/v1.0/README)
-    * 64-bit kernel: [gary-os-generic_64-funtoo-stable-v1.0.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_64-funtoo-stable-v1.0.kernel)
-    * 32-bit kernel: [gary-os-generic_32-funtoo-stable-v1.0.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-generic_32-funtoo-stable-v1.0.kernel)
+  * Files -- [Readme](https://github.com/garybgenett/gary-os/blob/v1.0/README)
+    * 64-bit kernel: [gary-os-v1.0-generic_64.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v1.0-generic_64.kernel)
+    * 32-bit kernel: [gary-os-v1.0-generic_32.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v1.0-generic_32.kernel)
     * Source Stage3: [stage3-core2_64-funtoo-stable-2014-01-13.tar.xz](https://sourceforge.net/projects/gary-os/files/v1.0/stage3-core2_64-funtoo-stable-2014-01-13.tar.xz)
     * Source Portage: [portage-95ad4fd257697618bae7402d4bc3a27499035d30.3.tar.xz](https://sourceforge.net/projects/gary-os/files/v1.0/portage-95ad4fd257697618bae7402d4bc3a27499035d30.3.tar.xz)
   * Metro script
@@ -1645,12 +1765,12 @@ Instructions for installing to disk:
   * Funtoo configuration
     * Commented packages that broke during 32-bit build
 
-## 2014-02-24 v0.3 95ad4fd257697618bae7402d4bc3a27499035d30.2 ##################
-[2014-02-24 v0.3 95ad4fd257697618bae7402d4bc3a27499035d30.2]: #2014-02-24_v0.3_95ad4fd257697618bae7402d4bc3a27499035d30.2
+## v0.3 2014-02-24 #############################################################
+[v0.3 2014-02-24]: #v0.3_2014-02-24
 [v0.3]: #v0.3
 
   * Files
-    * 64-bit kernel: [gary-os-core2_64-funtoo-stable-v0.3.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-core2_64-funtoo-stable-v0.3.kernel)
+    * 64-bit kernel: [gary-os-v0.3-core2_64.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v0.3-core2_64.kernel)
     * Source Stage3: [stage3-core2_64-funtoo-stable-2014-01-13.tar.xz](https://sourceforge.net/projects/gary-os/files/v0.3/stage3-core2_64-funtoo-stable-2014-01-13.tar.xz)
     * Source Portage: [portage-95ad4fd257697618bae7402d4bc3a27499035d30.2.tar.xz](https://sourceforge.net/projects/gary-os/files/v0.3/portage-95ad4fd257697618bae7402d4bc3a27499035d30.2.tar.xz)
   * Metro script
@@ -1664,13 +1784,13 @@ Instructions for installing to disk:
     * Completely removed X, Java and TeX Live / LaTeX
     * Added sound and miscellaneous media packages
 
-## 2014-02-13 v0.2 95ad4fd257697618bae7402d4bc3a27499035d30.1 ##################
-[2014-02-13 v0.2 95ad4fd257697618bae7402d4bc3a27499035d30.1]: #2014-02-13_v0.2_95ad4fd257697618bae7402d4bc3a27499035d30.1
+## v0.2 2014-02-13 #############################################################
+[v0.2 2014-02-13]: #v0.2_2014-02-13
 [v0.2]: #v0.2
 
   * Files
-    * 64-bit kernel: [gary-os-core2_64-funtoo-stable-v0.2.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-core2_64-funtoo-stable-v0.2.kernel)
-    * 64-bit initrd: [gary-os-core2_64-funtoo-stable-v0.2.initrd](https://sourceforge.net/projects/gary-os/files/gary-os-core2_64-funtoo-stable-v0.2.initrd)
+    * 64-bit kernel: [gary-os-v0.2-core2_64.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v0.2-core2_64.kernel)
+    * 64-bit initrd: [gary-os-v0.2-core2_64.initrd](https://sourceforge.net/projects/gary-os/files/gary-os-v0.2-core2_64.initrd)
     * Source Stage3: [stage3-core2_64-funtoo-stable-2014-01-13.tar.xz](https://sourceforge.net/projects/gary-os/files/v0.2/stage3-core2_64-funtoo-stable-2014-01-13.tar.xz)
     * Source Portage: [portage-95ad4fd257697618bae7402d4bc3a27499035d30.1.tar.xz](https://sourceforge.net/projects/gary-os/files/v0.2/portage-95ad4fd257697618bae7402d4bc3a27499035d30.1.tar.xz)
   * Metro script
@@ -1679,13 +1799,13 @@ Instructions for installing to disk:
     * Added packages from Grml and SystemRescueCD package lists
     * Enabled `gpm` USE flag
 
-## 2014-02-09 v0.1 95ad4fd257697618bae7402d4bc3a27499035d30.0 ##################
-[2014-02-09 v0.1 95ad4fd257697618bae7402d4bc3a27499035d30.0]: #2014-02-09_v0.1_95ad4fd257697618bae7402d4bc3a27499035d30.0
+## v0.1 2014-02-09 #############################################################
+[v0.1 2014-02-09]: #v0.1_2014-02-09
 [v0.1]: #v0.1
 
   * Files
-    * 64-bit kernel: [gary-os-core2_64-funtoo-stable-v0.1.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-core2_64-funtoo-stable-v0.1.kernel)
-    * 32-bit initrd: [gary-os-core2_64-funtoo-stable-v0.1.initrd](https://sourceforge.net/projects/gary-os/files/gary-os-core2_64-funtoo-stable-v0.1.initrd)
+    * 64-bit kernel: [gary-os-v0.1-core2_64.kernel](https://sourceforge.net/projects/gary-os/files/gary-os-v0.1-core2_64.kernel)
+    * 32-bit initrd: [gary-os-v0.1-core2_64.initrd](https://sourceforge.net/projects/gary-os/files/gary-os-v0.1-core2_64.initrd)
     * Source Stage3: [stage3-core2_64-funtoo-stable-2014-01-13.tar.xz](https://sourceforge.net/projects/gary-os/files/v0.1/stage3-core2_64-funtoo-stable-2014-01-13.tar.xz)
     * Source Portage: [portage-95ad4fd257697618bae7402d4bc3a27499035d30.0.tar.xz](https://sourceforge.net/projects/gary-os/files/v0.1/portage-95ad4fd257697618bae7402d4bc3a27499035d30.0.tar.xz)
   * Metro script
@@ -1694,17 +1814,17 @@ Instructions for installing to disk:
     * Active personal configuration at time of build
     * Commented packages that broke
 
-********************************************************************************
+--------------------------------------------------------------------------------
 
 # Release Process + Checklist ##################################################
 [Release Process +_Checklist]: #Release Process + Checklist
 
-	#WORKING
+<!--	#WORKING -->
 
-********************************************************************************
+--------------------------------------------------------------------------------
 *End Of File*
 
-<!-- WORK
+<!--
 	#WORK
 # * final run to standardize https/http
 # * running list of gary-os service dependencies; automated tests?
@@ -1795,6 +1915,8 @@ WORK -->
 		* review/edit, spell check and "f11/gq" formatting
 		* verify composer/pandoc (toc=6) and github
 
+#WORK somewhere in here there needs to be a "ln ../[...] reldir/v#.#" step, probably at the beginning of testing, to verify unpack downloads...
+#WORK ncdu and ln ... /.install and rm build/.unpack commands, to verify sizes and test unpacking (if tested locally, does network fetch really need to be tested?
 	* release
 		* complete run of both
 			* gentoo, comment haskell-updater
@@ -1825,4 +1947,4 @@ WORK -->
 
 	* Celebrate!
 
-WORK -->
+-->

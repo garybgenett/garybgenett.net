@@ -2,9 +2,12 @@
 override COMPOSER_ABSPATH := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 override COMPOSER_TEACHER := $(abspath $(COMPOSER_ABSPATH)/../Makefile)
 
-override FILE_TARGETS := html pdf docx txt
+#>>> override FILE_TARGETS := html pdf docx txt
+override FILE_TARGETS := title.html pdf docx txt
 override TYPE_TARGETS := ocm pjm pdm
 override DOCX_TARGETS := $(foreach TYPE,$(TYPE_TARGETS),resume-$(TYPE).docx)
+
+#>>> export COMPOSER_DEBUGIT := 1
 
 # >> DEFINITIONS
 #>>>	resume_hacks
@@ -18,12 +21,21 @@ override COMPOSER_DEPENDS ?=
 
 # >> VARIABLES
 override LVL ?=
-override MGN ?= 0.8in
-override OPT ?= --reference-docx="./resume.template.docx"
+override MGN ?= 0.6in
+override OPT ?= --reference-doc="./resume.template.docx"
 
 # >> INCLUDE
 include $(COMPOSER_TEACHER)
 .DEFAULT_GOAL := all
+
+%.title.html: %.md
+	@$(SED) "s|^(# Gary B. Genett)$\|<\!-- \1 -->|g" $(shell realpath $(*).md) >.$(*).title.md
+	@$(COMPOSE) \
+		OPT="--metadata title=\"Gary B. Genett\" $(OPT)" \
+		LIST=".$(*).title.md" \
+		BASE="$(*)" \
+		TYPE="html"
+	@$(RM) .$(*).title.md >/dev/null
 
 .PHONY: resume_hacks
 resume_hacks:

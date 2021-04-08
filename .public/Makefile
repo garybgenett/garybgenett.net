@@ -105,7 +105,7 @@ include $(COMPOSER_TEACHER)
 .DEFAULT_GOAL := generate
 
 .PHONY: read fire
-read: generate server
+read: generate #WORK server
 fire: publish deploy
 
 ################################################################################
@@ -125,12 +125,17 @@ endef
 
 .PHONY: generate
 generate: subdirs
-generate: HEXO_WORK_DONE
+#WORK generate: HEXO_WORK_DONE
 generate:
+	$(RSYNC) \
+		--delete-excluded \
+		--filter="-_/.public" \
+		--filter="-_/**.md" \
+		--copy-links $(COMPOSER_FULLDIR)/ $(COMPOSER_FULLDIR)/.public
 	$(RSYNC) --copy-links $(COMPOSER_FULLDIR)/resume.html $(COMPOSER_FULLDIR)/.public/index.html
 
-.PHONY: server
-server: HEXO_WORK_server
+#WORK .PHONY: server
+#WORK server: HEXO_WORK_server
 
 .PHONY: publish
 publish:
@@ -140,14 +145,14 @@ publish:
 	$(call GIT_DIR_END)
 
 .PHONY: deploy
-ifneq ($(MIRROR),)
+#WORK ifneq ($(MIRROR),)
 deploy:
 	$(call GIT_DIR_BEGIN)
 	git push --mirror "$(MIRROR)"
 	$(call GIT_DIR_END)
-else
-deploy: HEXO_WORK_deploy
-endif
+#WORK else
+#WORK deploy: HEXO_WORK_deploy
+#WORK endif
 
 ################################################################################
 # end of file

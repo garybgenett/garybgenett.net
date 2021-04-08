@@ -1,0 +1,11 @@
+* local
+  * workspace
+  * website
+* social
+  * linkedin
+  * linkedin (seen) -- <https://beseen.indeed.com/assessment-results/18021f2812a5d0ec>
+  * teksystems
+* search
+  * ziprecruiter
+  * indeed
+  * glassdoor
