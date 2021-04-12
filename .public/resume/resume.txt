@@ -5,7 +5,7 @@ linkedin.com/in/gary-b-genett
 
 --------------------------------------------------------------------------------
 
-Pathfinder & Technologist
+Senior Technical Project Manager
 
 Strategic Delivery | Organizational Change | Systems Integration
 
@@ -23,11 +23,11 @@ on-budget, and on-target results.
 Core Competencies
 
   -------------------------- -------------------------- --------------------------
-  • Change Management &      • Process Development &    • Mergers & Acquisitions
+  • Change Management,       • Process Development,     • Mergers & Acquisitions
   Transformation             Optimization               
 
-  • Product Strategy &       • Cross-functional         • Technical Project
-  Roadmap                    Collaboration              Management
+  • Product Strategy &       • Cross-functional         • Large-Scale & Quick-Turn
+  Roadmap                    Collaboration              Projects
 
   • Scope Definition &       • Stakeholder Engagement   • Requirements Gathering
   Planning                                              
@@ -42,6 +42,40 @@ Core Competencies
 --------------------------------------------------------------------------------
 
 Professional Experience
+
+Highspot – Seattle, WA
+
+Senior Technical Project Manager, 2020 to 2021
+
+Pivotal role on the Content Integration, Management and Consumption teams,
+operating at the confluence of Product Management, Engineering, Design, and
+Customer Service. Drove integrations with third-party content management and
+creation systems like Google Drive, Sharepoint and Dropbox, enabling customers
+to import and organize their vast content libraries. Provided a variety of
+compelling data-driven customer experiences, managing the complete lifecycle of
+sales collateral. Developed hybrid Agile models to deliver SaaS products and
+technologies, applying and adapting processes commensurate with the company’s
+strategic objectives, size and challenges. Worked closely with Product
+Management and Engineering to understand new features and product enhancements,
+ensuring that they were effectively documented and communicated, thoughtfully
+implemented, and thoroughly tested. Collaborated with Product Management,
+Engineering, Design and QA to develop release plans and track progress to
+success. Created development processes and tools to meet the scaling
+organization’s needs and create predictable results.
+
+Key Contributions:
+
+-   Grew the initial team through two organizational restructures, including
+    dividing the group into 4 teams focused on different SaaS disciplines
+-   Authored multiple documents and developed custom Jira configurations,
+    establishing processes which operationalized independent development teams
+    with individual needs, increasing feature delivery by 400% over the course
+    of just 6 months
+-   Delivered 4 frontend and 3 backend integrations with Salesforce, Quip,
+    HigherLogic, Widen, and OpenText, all of which drove new business, including
+    Salesfoce, Facebook, Fortinet and Gojo
+-   Secured a recurring $2M Salesforce deal through delivery of critical
+    required product integration advancements over 4 releases
 
 Alaska Airlines – Seattle, WA
 
@@ -123,65 +157,23 @@ customer visits with account teams as corporate representative.
 
 Key Contributions:
 
--   Established detailed in-person and web-based release and new technology
-    training to maximize product knowledge
 -   Spearheaded the effective milestone release of 5 innovative technologies and
     deep product rewrite
 -   Steered the internal homegrown heuristics tool to pre-analyze customer
     diagnostic files for the support team through initial stages to
     customer-facing product
--   Reduced production time from weeks to just days, with increased retention,
-    by pioneering a new training format
--   Designed and presented comprehensive internal product sessions at
-    international sales and services conferences
-
-Field Systems Engineer – Technical Sales, 2006 to 2009
-
-Delivered high-quality support to thousands of devices during the development of
-Azure public cloud. Built and strengthened key professional relationships and
-provided comprehensive support for technical work, resulting in a public MSNBC
-case study.
-
-Key Contributions:
-
--   Delivered $30M in annual revenue as primary engineering representative on
-    Microsoft account team
--   Increased customer device count by 300% and revenue by 400% with only 2
-    additional team members
--   Pioneered detailed integration guide and training to aid 3rd party
-    development and improve quality and efficiency
--   Initiated and directed first 2 successful production deployments of
-    revolutionary chassis architecture for Xbox Live
-
-Product Management Engineer, 2004 to 2006
-
-Established a high-caliber new team to perform all key duties within time
-constraints, including developing roles and responsibilities and creating
-templates for deliverables and reports. Played a key role in steering the
-overall product strategy and building prototype solutions to solve technical
-challenges.
-
-Key Contributions:
-
--   Led the initial analysis, guidance, and testing for 3 successive company
-    acquisitions
--   Successfully developed a Performance Testing Guide, setting the industry
-    standard for comprehensive evaluation
--   Expertly released SSL VPN for UNIX-like systems, as Perl script and Video
-    Demonstration of Process
 
 --------------------------------------------------------------------------------
 
 Education and Certification
 
-Perl Programming Course, University of Washington, Seattle, WA
+Programming Course, University of Washington, Seattle, WA
 
-Computer Programming Courses, Seattle Central College, Seattle, WA
+Programming Courses, Seattle Central College, Seattle, WA
 
 --------------------------------------------------------------------------------
 
 Technical Proficiencies
 
-Cloud, Node.js, Python, C, Bash, Perl, TCL, Web Development,
-HTML/CSS/Javascript, Web/System APIs, REST/JSON/XML, SQL, Git, SVN, DevOps,
-Agile, Waterfall, Scrum
+Cloud/SaaS/Paas/IaaS, Node.js, Python, Web Development, HTML/CSS/Javascript,
+Web/System APIs, REST/JSON/XML, SQL, Git, SVN, DevOps, Agile, Waterfall, Scrum
