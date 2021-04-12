@@ -124,7 +124,7 @@ override define GIT_DIR_END =
 endef
 
 .PHONY: generate
-generate: subdirs
+#WORK generate: subdirs
 #WORK generate: HEXO_WORK_DONE
 generate:
 	$(RSYNC) \

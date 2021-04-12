@@ -21,16 +21,23 @@ override COMPOSER_DEPENDS ?=
 
 # >> VARIABLES
 override LVL ?=
-override MGN ?= 0.4in
+override MGN ?= 0.6in
 override FNT ?= 10pt
 override OPT ?= --reference-doc="./resume.template.docx"
+
+override MGN_TOP := $(MGN)
+override MGN_BOT := 0.2in
+override MGN_LFT := 0.3in
+override MGN_RGT := 0.2in
 
 # >> INCLUDE
 include $(COMPOSER_TEACHER)
 .DEFAULT_GOAL := all
 
 %.mod.html: %.md
-	@$(SED) "s|^(# Gary B. Genett)$$|<\!-- \1 -->|g" $(shell realpath $(*).md) >.$(*).mod.md
+	@$(SED) \
+		-e "s|^(# Gary B. Genett)$$|<\!-- \1 -->|g" \
+		$(shell realpath $(*).md) >.$(*).mod.md
 	@$(COMPOSE) \
 		OPT=" \
 			--metadata title=\"Gary B. Genett\" \
@@ -42,8 +49,17 @@ include $(COMPOSER_TEACHER)
 	@$(RM) .$(*).mod.md >/dev/null
 
 %.mod.pdf: %.md
-	@$(SED) "s|^([-]+)$$|<\!-- \1 -->|g" $(shell realpath $(*).md) >.$(*).mod.md
+	@$(SED) \
+		-e "s|^([-]+)$$|<\!-- \1 -->|g" \
+		-e "s|^<\!-- \\\\ -->$$| \\\\|g" \
+		$(shell realpath $(*).md) >.$(*).mod.md
 	@$(COMPOSE) \
+		OPT=" \
+			--variable=\"geometry=top=$(MGN_TOP)\" \
+			--variable=\"geometry=bottom=$(MGN_BOT)\" \
+			--variable=\"geometry=left=$(MGN_LFT)\" \
+			--variable=\"geometry=right=$(MGN_RGT)\" \
+		" \
 		LIST=".$(*).mod.md" \
 		BASE="$(*)" \
 		TYPE="pdf"
