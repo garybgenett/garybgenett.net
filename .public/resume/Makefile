@@ -2,8 +2,7 @@
 override COMPOSER_ABSPATH := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 override COMPOSER_TEACHER := $(abspath $(COMPOSER_ABSPATH)/../Makefile)
 
-#>>> override FILE_TARGETS := html pdf docx txt
-override FILE_TARGETS := mod.html mod.pdf docx txt
+override FILE_TARGETS := html docx pdf txt
 override TYPE_TARGETS := ocm pjm pdm
 override DOCX_TARGETS := $(foreach TYPE,$(TYPE_TARGETS),resume-$(TYPE).docx)
 
@@ -34,9 +33,13 @@ override MGN_RGT := 0.2in
 include $(COMPOSER_TEACHER)
 .DEFAULT_GOAL := all
 
+%.html: %.md
+	@$(RUNMAKE) $(*).mod.html
+
 %.mod.html: %.md
 	@$(SED) \
 		-e "s|^(# Gary B. Genett)$$|<\!-- \1 -->|g" \
+		-e "s|^<\!-- link: (.+) -->$$| \1|g" \
 		$(shell realpath $(*).md) >.$(*).mod.md
 	@$(COMPOSE) \
 		OPT=" \
@@ -48,10 +51,13 @@ include $(COMPOSER_TEACHER)
 		TYPE="html"
 	@$(RM) .$(*).mod.md >/dev/null
 
+%.pdf: %.md
+	@$(RUNMAKE) $(*).mod.pdf
+
 %.mod.pdf: %.md
 	@$(SED) \
 		-e "s|^([-]+)$$|<\!-- \1 -->|g" \
-		-e "s|^<\!-- \\\\ -->$$| \\\\|g" \
+		-e "s|^<\!-- (\\\\) -->$$| \1|g" \
 		$(shell realpath $(*).md) >.$(*).mod.md
 	@$(COMPOSE) \
 		OPT=" \
