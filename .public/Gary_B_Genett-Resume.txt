@@ -19,7 +19,7 @@ Demonstrated ability to guide full product and project management lifecycle,
 from scope definition and initial planning to final delivery, to ensure on-time,
 on-budget, and on-target results.
 
-Core Competencies
+Areas of Expertise
 
   -------------------------- -------------------------- --------------------------
   • Change Management,       • Process Development,     • Mergers & Acquisitions
@@ -71,10 +71,10 @@ Key Contributions:
     with individual needs, increasing feature delivery by 400% over the course
     of just 6 months
 -   Delivered 4 frontend and 3 backend integrations with Salesforce, Quip,
-    HigherLogic, Widen, and OpenText, all of which drove new business, including
-    Salesfoce, Facebook, Fortinet and Gojo
--   Secured a recurring $2M Salesforce deal through delivery of critical
-    required product integration advancements over 4 releases
+    HigherLogic, Widen, and OpenText, driving new business with Salesforce,
+    Facebook, Fortinet and Gojo
+-   Secured recurring $2M Salesforce deal through delivery of critical required
+    product integration advancements over 4 releases
 
 Alaska Airlines – Seattle, WA
 

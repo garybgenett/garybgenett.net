@@ -1,0 +1,18 @@
+* fixes
+	* updated picture
+	* all-caps titles with above/below spacing
+
+* profile summary
+	* power statement
+	* contact information
+	* why should i hire you?
+	* core competencies
+	* accomplishments
+
+* networking
+	* connection requests = simple, one sentence, establish commonality
+	* profile views in last 90 days = 300 "good views" before offer = 300 / 28 = 10.7
+
+* resume formatting
+	* tables?
+	* hrs?
