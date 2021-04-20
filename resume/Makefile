@@ -20,14 +20,14 @@ override COMPOSER_DEPENDS ?=
 
 # >> VARIABLES
 override LVL ?=
-override MGN ?= 0.6in
+override MGN ?= 0.8in
 override FNT ?= 10pt
 override OPT ?= --reference-doc="./resume.template.docx"
 
 override MGN_TOP := $(MGN)
-override MGN_BOT := 0.2in
-override MGN_LFT := 0.3in
-override MGN_RGT := 0.2in
+override MGN_BOT := $(MGN)
+override MGN_LFT := $(MGN)
+override MGN_RGT := $(MGN)
 
 # >> INCLUDE
 include $(COMPOSER_TEACHER)
@@ -57,6 +57,7 @@ include $(COMPOSER_TEACHER)
 %.mod.pdf: %.md
 	@$(SED) \
 		-e "s|^([-]+)$$|<\!-- \1 -->|g" \
+		-e "s|^<\!-- (----) -->$$| \1|g" \
 		-e "s|^<\!-- (\\\\) -->$$| \1|g" \
 		$(shell realpath $(*).md) >.$(*).mod.md
 	@$(COMPOSE) \
