@@ -19,7 +19,7 @@ results that equal or exceed stated goals. Consummate team player, collaborating
 with various departmental members and senior management to ensure open channels
 are established and maintained so all relevant parties are well informed and
 problem resolution can be addressed quickly and efficiently. Approachable,
-personable, and is sought out for expertise and advice on a continuum basis.
+personable, and is sought out for expertise and advice on a continual basis.
 Proficient in Cloud, SaaS, Paas, laaS, Nodel.js, Python, Web Development, HTML,
 CSS, JavaScript, Web/System APIs, REST/JSON/XML, SQL, Git, SVN, DevOps, Agile,
 Waterfall, and Scrum.
@@ -55,28 +55,28 @@ were documented, implemented, and tested properly.
     individual needs, resulting in a 400% increase in delivery of features over
     a six-month period.
 -   Created and implemented four front end and three back-end integrations
-    utilizing Salesforce, Quip, HigherLogic, Widen, and Open Text that provided
+    utilizing Salesforce, Quip, HigherLogic, Widen, and OpenText that provided
     for growth in new business.
 -   Effectively led and mentored the team which resulted in the award of an
-    annual recurring $2M Salesforce transaction by providing a critical
-    necessary product integration advancements through four releases.
+    annual recurring $2M Salesforce contract by providing critical necessary
+    product integration and advancements through four releases.
 
 Alaska Airlines – Seattle, WA
 
 Senior Technical Project Manager, June 2019 - December 2019
 
-Designed new and/or existing types of standardized templates for written
-documentation and network/application diagrams required for executive,
+Designed new and evolved existing types of standardized templates for written
+documentation and application/network diagrams required for executive,
 management, developers, and support personnel. Enabled the development team for
-processes utilized in the real time and the future to facilitate the migration
-from inhouse to an Azure based model. Identified any potential risks that would
+processes utilized in real time and the future to facilitate the migration from
+inhouse to an Azure based model. Identified any potential risks that would
 mitigate project processes.
 
 -   Championed a centralized documentation management library as part of a $40M
     integration with planned maintenance for the FCC certification of a full
-    Maintenance and Engineering (M & E) system alignment after merger with
-    Virgin America.
--   Judiciously improved and quality of controls of outcomes with the creation
+    Maintenance and Engineering (M&E) system alignment after merger with Virgin
+    America.
+-   Judiciously improved the quality of controls and outcomes with the creation
     and implementation of best practices for the transition to a cloud based
     DevOps model.
 
@@ -88,12 +88,12 @@ Founded and operated this firm focused on commercial restroom hygiene and led a
 team in all aspects of daily operations.
 
 -   Achieved a doubling of sales with the addition of a 50% increase in new
-    sites that contributed $100K in revenue.
+    sites that contributed $100K in yearly recurring revenue.
 -   Attained a high level of customer satisfaction for 100 sites in the Puget
     Sound area, with attainment of 100% customer retention.
 -   Dramatically reduced the operational budget by 20% following the acquisition
-    of Swisher from Ecolab and was able to provide a 15% increase in employee
-    wages resulted in increased morale and retention.
+    of Swisher from Ecolab and able to provide a 15% increase in employee wages
+    that resulted in increased morale and retention.
 
 F5 Networks – Seattle, WA
 
@@ -137,6 +137,6 @@ and sales departments.
 
 Education
 
-Programming Course, University of Washington
+Programming Course, University of Washington, Seattle, WA
 
-Programming Courses, Seattle Central College
+Programming Courses, Seattle Central College, Seattle, WA
