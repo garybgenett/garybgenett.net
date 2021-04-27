@@ -69,7 +69,7 @@ Designed new and evolved existing types of standardized templates for written
 documentation and application/network diagrams required for executive,
 management, developers, and support personnel. Enabled the development team for
 processes utilized in real time and the future to facilitate the migration from
-inhouse to an Azure based model. Identified any potential risks that would
+in-house to an Azure-based model. Identified any potential risks that would
 mitigate project processes.
 
 -   Championed a centralized documentation management library as part of a $40M
@@ -77,7 +77,7 @@ mitigate project processes.
     Maintenance and Engineering (M&E) system alignment after merger with Virgin
     America.
 -   Judiciously improved the quality of controls and outcomes with the creation
-    and implementation of best practices for the transition to a cloud based
+    and implementation of best practices for the transition to a cloud-based
     DevOps model.
 
 Enviro-Master – Seattle, WA
@@ -124,11 +124,11 @@ New Product Introduction Engineer, September 2009 - December 2014
 
 Consistently interfaced with sales and service organizations to ensure a high
 level of preparation for future product and service releases by establishing a
-clear communication standard. Liaisoned with marketing, development, services,
-and sales departments.
+clear communication standard. Liaised with marketing, development, services, and
+sales departments.
 
 -   Orchestrated the release of five innovative technology platforms with
-    completion of comprehensive and succint product rewrites.
+    completion of comprehensive and succinct product rewrites.
 -   Coordinated with team members in the use of the firm’s heuristics tool to
     pre-analyze client’s diagnostics files from initial staging through to
     introduction of the product to the client.
