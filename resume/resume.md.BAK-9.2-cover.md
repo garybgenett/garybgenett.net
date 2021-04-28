@@ -90,7 +90,7 @@ A few highlights from my profile include:
 
 Dear [NAME]: || Dear Hiring Manager:
 
-Ready to further my career in partnership with a cutting-edge and future-facing organization, [COMPANY]'s need for a [POSITION] immediately caught my attention.  As an innovative and insightful leader, your needs and my talents appear to be a perfect match.
+Ready to further my career in partnership with a cutting-edge and future-facing organization, [COMPANY]'s need for a [POSITION] immediately caught my attention.  As an innovative and insightful leader, your needs and my talents appear to be a perfect match.  ~~I see [COMPANY] paving the way in [MARKET], and share that passion.~~
 
 Keenly focused on driving company success through proactive change management and comprehensive, strategic initiatives, I am able to promote exceptional across-the-board performance by revitalizing underperforming areas and capturing new opportunities for growth.  My track record of success has been reinforced by encouraging professional growth at all levels.  Confident I can deliver the same results with your organization; I invite you to review my resume in detail.
 
