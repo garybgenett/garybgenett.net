@@ -96,8 +96,8 @@ Keenly focused on driving company success through proactive change management an
 
 Highlights of the qualifications and background I offer include...
 
-  * Utilized numerous technology platforms to create and complete four front end and three back-end integrations.
-  * Assisted team members by the completion of a product integration advancement for a client that resulted in a recurring revenue stream of $2M per year.
+  * Utilized numerous SaaS technology platforms to create and complete four front-end and three back-end integrations.
+  * Assisted team members with the completion of a product integration advancement for a client that resulted in a recurring revenue stream of $2M per year.
   * Pioneered a centralized documentation management system for Alaska Airlines as part of a $40M integration project.
   * ~~Authored all presentation materials and documentation that led to an increase in daily operations and productivity for an application services firm.~~
 
