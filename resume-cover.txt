@@ -63,7 +63,8 @@ Dear [NAME]: || Dear Hiring Manager:
 Ready to further my career in partnership with a cutting-edge and future-facing
 organization, [COMPANY]’s need for a [POSITION] immediately caught my attention.
 As an innovative and insightful leader, your needs and my talents appear to be a
-perfect match.
+perfect match. ~~I see [COMPANY] paving the way in [MARKET], and share that
+passion.~~
 
 Keenly focused on driving company success through proactive change management
 and comprehensive, strategic initiatives, I am able to promote exceptional
