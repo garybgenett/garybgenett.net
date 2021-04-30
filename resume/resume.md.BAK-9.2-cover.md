@@ -33,6 +33,8 @@
         * add space before paragraph
         * add space after paragraph
         * 1.5, use solid color, black
+  * date and address
+    * left justify
   * document
     * line breaks
         * one before date
