@@ -115,3 +115,19 @@ Environment
   * What are the collaboration tools that the company uses?  Calendar?  Email?  IM?  Remote access?
   * What brought you to the company, and what keeps you here?
   * What is the company mission, in your own words?  Why is that mission important to you?
+
+F5 SE
+----------------------------------------
+
+  * Personality
+    * History at F5
+    * Management style
+    * Quota management
+  * Position
+    * Vision for the role
+    * Qualities that will be most important
+    * Goals for the next year
+  * Company
+    * Current and projected size of the team
+    * AE/SE relationship/ratio
+    * Product suite
